@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url("/res/font/PFDinDisplayPro-Normal.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url("/res/font/PFDinDisplayPro-Tiny.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url("/res/font/PFDinDisplayPro-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+#smartbanner {
+  position: absolute;
+  left: 0;
+  top: -102px;
+  width: 100%;
+  height: 78px;
+  border: 0px;
+  font-family: 'PFDinDisplayPro';
+  background: #333333;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  -webkit-text-size-adjust: none;
+}
+#smartbanner .sb-container {
+  margin: 0 auto;
+}
+#smartbanner .sb-close {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  display: block;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}
+#smartbanner .sb-icon {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  display: block;
+  width: 57px;
+  height: 57px;
+  background-size: cover;
+  border-radius: 10px;
+}
+#smartbanner .sb-info {
+  position: absolute;
+  left: 105px;
+  top: 12px;
+  color: #fff;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 18px;
+}
+#smartbanner .sb-info strong {
+  display: block;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+#smartbanner .sb-info > span {
+  display: block;
+}
+#smartbanner .sb-info > span.free {
+  text-transform: lowercase;
+}
+#smartbanner .sb-button {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  border: 2px solid #484848;
+  padding: 0 10px;
+  min-width: 10%;
+  height: 40px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#smartbanner .sb-button:active,
+#smartbanner .sb-button:hover {
+  background: #666;
+}
+.mobile-page #smartbanner .sb-icon {
+  transform: scale(0.8, 0.8);
+  left: 33px;
+}
+.mobile-page #smartbanner .sb-info {
+  left: 90px;
+  top: 19px;
+  font-size: 11px;
+  line-height: 13px;
+}
+.mobile-page #smartbanner .sb-info strong {
+  font-size: 12px;
+  line-height: 15px;
+}
+.mobile-page #smartbanner .sb-button {
+  top: 25px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+#smartbanner .sb-icon {
+  transform: scale(0.8, 0.8);
+  left: 33px;
+}
+#smartbanner .sb-info {
+  left: 90px;
+  top: 19px;
+  font-size: 11px;
+  line-height: 13px;
+}
+#smartbanner .sb-info strong {
+  font-size: 12px;
+  line-height: 15px;
+}
+#smartbanner .sb-button {
+  top: 25px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.non-responsive [class*="banx-responsive"] {
+  display: none;
+}
+.responsive.responsive [class*="banx-responsive"] {
+  position: fixed;
+  padding: 12px 0 0 0 !important;
+  bottom: 0;
+  z-index: 9;
+  width: 100% !important;
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+  left: 0;
+}
+.responsive.responsive [class*="banx-responsive"] > div {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+.responsive.responsive [class*="banx-responsive"] .adsgraphhori {
+  margin-top: -12px;
+  position: absolute;
+  right: 0;
+}
+.responsive.responsive [class*="banx-responsive"] .adsghori {
+  background-image: url(../../res/_fs/build/icon-adverth-right.7081bcd.png);
+  background-position-x: calc(100% - 10px);
+}
+.responsive.responsive [class*="fixed_bottom_mobile"] > div {
+  width: 320px;
+}
+.responsive.responsive [class*="fixed_bottom_tablet"] > div {
+  width: 728px;
+}
+.responsive.detail-experimental [class*="fixed_bottom_mobile"] {
+  max-width: 660px;
+}
+@media only screen and (max-width: 999px) {
+  .responsive.mobile_ad {
+    padding-bottom: 63px;
+  }
+  .responsive.tablet_ad {
+    padding-bottom: 103px;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .responsive.scrollLock [class*="banx-responsive"] {
+    display: none;
+  }
+}
+

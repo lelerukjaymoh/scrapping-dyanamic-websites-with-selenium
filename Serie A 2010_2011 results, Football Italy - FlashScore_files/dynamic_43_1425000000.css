@@ -1,0 +1,240 @@
+.win_lose_icon,
+.stats-table .form a,
+.last_5 a,
+.winLoseIcon a
+{
+    background-image: url(/res/image/standings/form.en-ke.png);
+}
+
+
+table.last-matches-table tbody tr td.winLose .winLoseIcon a {
+    background-image: url(/res/image/standings/form.en-ke.png);
+}
+
+.detail-experimental .detail-header-wrapper .logo-detail-wrapper .project-logo-detail,
+.logo .flashscore-co-ke {
+    background-image: url(/res/_fs/image/logo/svg/light/flashscore_co_ke.svg);
+}
+
+/* Nasleduje advert */
+/* Nasleduje advert */
+/* Nasleduje advert */
+/* Common {{{ */
+
+.adsenvelope {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.adsenvelope iframe, .adsenvelope div  {
+	width: 100%;
+	height: 100%;
+}
+
+.ban_envelope {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.ban_envelope iframe, .ban_envelope div  {
+	width: 100%;
+	height: 100%;
+}
+
+.adstext {
+  height: auto !important;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  text-align: center;
+  color: #B0B0B0;
+  font-size: 10px;
+}
+
+.adstextpad {
+padding-bottom: 20px !important;
+}
+
+.adstextvpad {
+    padding-right: 12px !important;
+    padding-bottom: 0;
+    margin-left: 0;
+    float: left;
+}
+
+.adsclear {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    height: 1px;
+}
+
+.adsclick {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 9;
+    left: 0; top: 0;
+    background: white;
+    opacity: 0; -moz-opacity: 0; -khtml-opacity: 0; filter: alpha(opacity=0);
+}
+
+.adsclick img {
+    display: none;
+}
+
+.adsinline
+{
+    text-align: center;
+}
+
+.adsinline-left,
+.adsinline-right
+{
+    position: absolute;
+    width: 120px;
+    top: 0;
+}
+
+.adsinline-left {
+    left: 0;
+}
+
+.adsinline-right {
+    right: 0;
+}
+
+/* }}} */
+
+/* Zone styles {{{ */
+
+#detail .adsenvelope,
+#detail .ban_envelope {
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+#lc .adsenvelope, #lc .ban_envelope {
+    margin: 0 auto;
+}
+
+.banx-content_bottom {
+    margin-top: 10px;
+}
+
+.banx-traffic_code {
+    width: 760px;
+    margin-left: 0;
+}
+
+.banx-detail_strip_soccer {
+    padding-top: 0px !important;
+}
+
+.adsgraphhori {
+    position: absolute;
+    width: 100%;
+        height: 10px !important;
+        margin-top: 3px;
+    text-align: center;
+    left: 0;
+    }
+
+.adsgraphhori a {
+    display: block;
+    width: 100%; height: 100%;
+}
+
+.adsghori {
+    width: 100%;
+    height: 100%;
+    background: url(/res/image/advert/icon-adverth.png) no-repeat 50% 0;
+    background-size: 61px;
+}
+
+.adsgraphvert {
+    position: absolute;
+    top: 50%;
+    transform-origin: top right;
+    transform: rotate(-90deg) translate(50%, -100%);
+        right: 0;
+    height: 10px !important;
+    }
+
+.adsgraphvert-small {
+    position: absolute;
+    right: 20px; /* [x] hack ... odecitam od banneru s pravym white spacem, ktery byl urceny pro napis reklama */
+    bottom: -12px;
+    height: 10px !important;
+    z-index: 50;
+    background: url(/res/image/advert/icon-adverth-right.png) no-repeat 100% 0;
+    background-size: 61px;
+}
+
+.adsgraphvert a,
+.adsgraphvert-small {
+    display: block;
+    width: 100%; height: 100%;
+}
+
+.adsgvert {
+    width: 100%;
+    height: 100%;
+    background: url(/res/image/advert/icon-adverth.png) no-repeat 50% 0;
+    background-size: 61px;
+}
+
+.ath-cs, .ath-sk, .ath-pl, .ath-lt, .ath-sr,
+.atv-cs, .atv-sk, .atv-pl, .atv-lt, .atv-sr
+{ background-position: 50% -17px }
+.ath-de, .atv-de { background-position: 50% -37px }
+.ath-it, .atv-it { background-position: 50% -55px }
+.ath-da, .atv-da { background-position: 50% -72px }
+.ath-ro, .atv-ro { background-position: 50% -91px }
+.ath-tr, .ath-sv,
+.atv-tr, .atv-sv
+{ background-position: 50% -108px }
+.ath-ru, .atv-ru { background-position: 50% -128px }
+.ath-es, .atv-es { background-position: 50% -144px }
+.ath-hr, .atv-hr { background-position: 50% -163px }
+.ath-hu, .atv-hu { background-position: 50% -180px }
+.ath-fr, .atv-fr { background-position: 50% -198px }
+.ath-fi, .atv-fi { background-position: 50% -217px }
+.ath-el, .atv-el { background-position: 50% -234px }
+.ath-pt, .ath-pt-br,
+.atv-pt, .atv-pt-br
+{ background-position: 50% -253px }
+.ath-nl, .atv-nl { background-position: 50% -269px }
+.ath-et, .atv-et { background-position: 50% -287px }
+.ath-no, .atv-no { background-position: 50% -306px }
+.ath-sl, .atv-sl { background-position: 50% -325px }
+.ath-en-uk, .atv-en-uk { background-position: 50% -342px }
+
+.ath-r-de { background-position: 100% -37px }
+.ath-r-it { background-position: 100% -55px }
+.ath-r-da { background-position: 100% -72px }
+.ath-r-ro { background-position: 100% -91px }
+.ath-r-tr, .ath-r-sv  { background-position: 100% -108px }
+.ath-r-ru { background-position: 100% -128px }
+.ath-r-es { background-position: 100% -144px }
+.ath-r-hr { background-position: 100% -163px }
+.ath-r-hu { background-position: 100% -180px }
+.ath-r-fr { background-position: 100% -198px }
+.ath-r-fi { background-position: 100% -217px }
+.ath-r-el { background-position: 100% -234px }
+.ath-r-pt, .ath-r-pt-br { background-position: 100% -253px }
+.ath-r-nl { background-position: 100% -269px }
+.ath-r-et { background-position: 100% -287px }
+.ath-r-no { background-position: 100% -306px }
+.ath-r-sl { background-position: 100% -325px }
+.ath-r-en-uk { background-position: 100% -342px }
+
+
+.banx-content_top {
+    margin-top: 10px;
+}
+
+
+/* }}} */

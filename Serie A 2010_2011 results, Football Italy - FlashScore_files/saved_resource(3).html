@@ -1,0 +1,85 @@
+
+<!-- saved from url=(0062)https://www.flashscore.co.ke/football/italy/serie-a-2010-2011/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./prebid-1.34.0.js"></script></head><body style="margin:0;padding:0;">
+
+	
+		<script>
+    var adUnitSizes = [[300,250]];
+
+    var adUnitBids = [
+        {
+            bidder: 'appnexus',
+            params: {
+               placementId: '14085046'
+            }
+        },
+ {
+            bidder: 'ix',
+            params: {
+               siteId: '304138',
+             size: [300,250]
+            }
+        },
+        {
+            bidder: 'rubicon',
+            params: {
+                accountId: '12554',
+                siteId: '157478',
+                zoneId: '1121118',
+                sizes:[15]
+            }
+        }
+    ]
+
+    var passbackTagHtml = '<A href="https://imstore.bet365affiliates.com/Tracker.aspx?AffiliateId=9899&AffiliateCode=365_735798&CID=694&DID=72&TID=1&PID=149&LNG=1" target="_blank"><img src="https://imstore.bet365affiliates.com/?AffiliateCode=365_735798&amp;CID=694&amp;DID=72&amp;TID=1&amp;PID=149&amp;LNG=1" border="0" /></A>';
+
+    // ======= DO NOT EDIT BELOW THIS LINE =========== //
+    
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+    (function() {
+        var pbjsEl = document.createElement("script"); pbjsEl.type = "text/javascript";
+        pbjsEl.async = true; var isHttps = 'https:' === document.location.protocol;
+        pbjsEl.src = "https://www.flashscore.co.ke/x/js/prebid-1.34.0.js";
+        var pbjsTargetEl = document.getElementsByTagName("head")[0];
+        pbjsTargetEl.insertBefore(pbjsEl, pbjsTargetEl.firstChild);
+    })();
+
+    var doNotChange = 'doNotChange';
+
+    pbjs.que.push(function() {
+
+        var adUnits = [{
+            code: doNotChange,
+              mediaTypes: {
+            banner: {
+                sizes: [[300,250]]
+            }},
+            bids: adUnitBids
+        }];
+               pbjs.addAdUnits(adUnits);
+        pbjs.requestBids({
+            timeout: 1000,
+            bidsBackHandler: function() {
+                var iframe = document.getElementById('postbid_if_btf');
+                var iframeDoc = iframe.contentWindow.document;
+                var params = pbjs.getAdserverTargetingForAdUnitCode(doNotChange);
+
+                if(params && params['hb_adid']){
+                    pbjs.renderAd(iframeDoc, params['hb_adid']);
+                } else {
+                    iframe.width = adUnitSizes[0][0];
+                    iframe.height = adUnitSizes[0][1];
+                    iframeDoc.write(passbackTagHtml);
+                    iframeDoc.close();
+                }
+            }
+        });
+    });  
+		</script>
+
+		<iframe id="postbid_if_btf" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" width="300" height="250" src="./saved_resource(8).html"></iframe>
+
+	
+</body></html>

@@ -1,0 +1,3952 @@
+#fsbody > #fscon > .fs-table > .table-main tr.league.primary-top,
+.my-leagues .head,
+ul.menu.my-leagues li.head,
+.fs-table .odds-content tr.league.primary-top {
+  background: #741414;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #741414), color-stop(100%, #5A0E0E));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* W3C */
+}
+.toggleMyLeague {
+  display: inline-block;
+  vertical-align: text-top;
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: url(../../res/_fs/build/my-leagues-sprite.ab28b45.png);
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  -moz-transition-property: opacity;
+  /* Firefox 4 */
+  -moz-transition-duration: 0.5s;
+  /* Firefox 4 */
+  -webkit-transition-property: opacity;
+  /* Safari and Chrome */
+  -webkit-transition-duration: 0.5s;
+  /* Safari and Chrome */
+  -o-transition-property: opacity;
+  /* Opera */
+  -o-transition-duration: 0.5s;
+  /* Opera */
+}
+.toggleMyLeague,
+.fs-table .toggleMyLeague.active,
+.menu ul .toggleMyLeague.active {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  opacity: 0.5;
+}
+.fs-table .toggleMyLeague,
+.menu ul .toggleMyLeague,
+#my-leagues-list .toggleMyLeague.active {
+  filter: alpha(opacity=30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  opacity: 0.3;
+}
+.toggleMyLeague:hover,
+.fs-table .toggleMyLeague:hover,
+.menu ul .toggleMyLeague:hover,
+#my-leagues-list .toggleMyLeague.active:hover,
+.my-leagues .head .toggleMyLeague,
+#my-leagues-list .myLeagueInfo .toggleMyLeague {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
+}
+#my-leagues-list .myLeagueInfo {
+  padding: 3px 10px;
+}
+.my-leagues .head .toggleMyLeague,
+#my-leagues-list .myLeagueInfo .toggleMyLeague {
+  margin-left: 0;
+  margin-right: 0;
+  cursor: default;
+  position: static;
+}
+.my-leagues .head .toggleMyLeague {
+  margin-right: 5px;
+}
+#my-leagues-list .toggleMyLeague.active {
+  background-position: 4px -78px;
+}
+#my-leagues-list li.banner {
+  background-color: white;
+  padding-top: 10px;
+  min-height: 0;
+  margin: 0;
+}
+#my-leagues-list li.banner.empty-banner {
+  padding: 0;
+  border: 0;
+}
+#my-leagues-list li.banner.last-item-banner {
+  margin-bottom: -11px;
+}
+#my-leagues-list li.banner.empty-banner.last-item-banner {
+  margin-bottom: 0;
+}
+.menu.country-list ul li,
+.menu ul li {
+  position: relative;
+}
+.menu ul .toggleMyLeague {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  height: 13px;
+  width: 13px;
+  background-position: 0px -59px;
+}
+.menu ul .toggleMyLeague.active {
+  background-position: 0px -99px;
+}
+.toggleMyLeague.active,
+.my-leagues .head .toggleMyLeague {
+  margin-left: 6px;
+  background-position: 0 -99px;
+}
+#fsbody > #fscon > .fs-table > .table-main .toggleMyLeague.active,
+#fsbody > #fscon > .fs-table > .table-main .my-leagues .head .toggleMyLeague,
+.fs-table .odds-content .toggleMyLeague.active,
+.menu > .head > .toggleMyLeague {
+  background-position: 0 -40px;
+  margin-left: 5px;
+}
+.menu > .head > .toggleMyLeague {
+  margin-left: 0;
+}
+#tomyteams {
+  display: inline;
+}
+.fs-table tr.team.primary-top,
+ul.menu.my-teams li.head,
+.my-teams .head {
+  background: #741414;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #741414), color-stop(100%, #5A0E0E));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #741414 30%, #5A0E0E 100%);
+  /* W3C */
+}
+.toggleMyTeam {
+  display: inline-block;
+  vertical-align: text-top;
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: url(../../res/_fs/build/my-leagues-sprite.ab28b45.png);
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  -moz-transition-property: opacity;
+  /* Firefox 4 */
+  -moz-transition-duration: 0.5s;
+  /* Firefox 4 */
+  -webkit-transition-property: opacity;
+  /* Safari and Chrome */
+  -webkit-transition-duration: 0.5s;
+  /* Safari and Chrome */
+  -o-transition-property: opacity;
+  /* Opera */
+  -o-transition-duration: 0.5s;
+  /* Opera */
+}
+.toggleMyTeam,
+.fs-table .toggleMyTeam.active,
+.menu ul .toggleMyTeam.active {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  opacity: 0.5;
+}
+.fs-table .toggleMyTeam,
+.menu ul .toggleMyTeam,
+#my-teams-list .toggleMyTeam.active {
+  filter: alpha(opacity=30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  opacity: 0.3;
+}
+.toggleMyTeam:hover,
+.fs-table .toggleMyTeam:hover,
+.menu ul .toggleMyTeam:hover,
+#my-teams-list .toggleMyTeam.active:hover,
+.my-teams .head .toggleMyTeam,
+#my-teams-list .myTeamInfo .toggleMyTeam {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
+}
+.toggleMyTeam.active,
+.my-teams .head .toggleMyTeam {
+  background-position: 0px -40px;
+}
+.menu > .head > .toggleMyTeam {
+  margin-left: 0;
+}
+#my-teams .tomyteams .toggleMyTeam {
+  background-position: 0px -99px;
+}
+#my-teams-list .myTeamInfo {
+  padding: 3px 10px;
+}
+.my-teams .head .toggleMyTeam,
+#my-teams-list .myTeamInfo .toggleMyTeam {
+  margin-left: 0;
+  margin-right: 0;
+  cursor: default;
+  position: static;
+}
+.my-teams .head .toggleMyTeam {
+  margin-right: 5px;
+}
+#my-teams-list .toggleMyTeam.active {
+  background-position: 4px -78px;
+}
+.menu.country-list ul li,
+.menu ul li {
+  position: relative;
+}
+.menu ul .toggleMyTeam {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  height: 13px;
+  width: 13px;
+  background-position: 0px -59px;
+}
+#my-teams .no-match-found .toggleMyTeam {
+  background-position: 0px -59px;
+  height: 13px;
+  width: 13px;
+  margin: 0;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  cursor: default;
+}
+.menu ul .toggleMyTeam.active {
+  background-position: 0px -99px;
+}
+span.team-logo {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+}
+#my-teams table.golf.no-duel tbody td {
+  border-top: none;
+}
+#lsid-content a[role=button] {
+  cursor: pointer;
+}
+#lsid-content .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: text-top;
+  background: url(../../res/_fs/build/icon-user.f079153.png) no-repeat;
+}
+#lsid-content .user {
+  color: white;
+  position: relative;
+}
+#lsid-content .user.lsid-rounded-box {
+  padding-left: 5px;
+  padding-right: 0;
+  height: 19px;
+  display: flex;
+  align-items: center;
+}
+#lsid-content .user.lsid-rounded-box .lsid-dropdown {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.flat #lsid-content .user.lsid-rounded-box .lsid-dropdown {
+  flex: 0 1 auto;
+}
+#lsid-content .user.lsid-rounded-box .lsid-dropdown .wrapperArrow {
+  height: 24px;
+  width: 24px;
+  border-left: 1px solid #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+#lsid-content .user.lsid-rounded-box .lsid-dropdown .wrapperArrow #arrow.icon {
+  background: url(../../res/_fs/build/icon-arrow-gray.52bfdb2.png) no-repeat;
+  width: 15px;
+}
+#lsid-content .user.lsid-rounded-box .lsid-dropdown .wrapperArrow .arrow-rotation {
+  transform: rotate(180deg);
+}
+#lsid-content .user.lsid-rounded-box .lsid-dropdown:hover #arrow.icon {
+  background: url(../../res/_fs/build/icon-arrow-white.87c5f2f.png) no-repeat;
+}
+#lsid-content .user .button {
+  display: flex;
+  height: 24px;
+  width: 24px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #222;
+  cursor: pointer;
+}
+#lsid-content .user #signOut.icon {
+  background: url(../../res/_fs/build/icon-logout-gray.bf68555.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+}
+#lsid-content .user #signOut.icon:hover {
+  background: url(../../res/_fs/build/icon-logout-white.010aec9.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+}
+#lsid-content .user .email {
+  display: inline-block;
+  margin-left: 5px;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#lsid-content .user .lsidSpacer {
+  flex: 1;
+}
+#lsid-content {
+  position: relative;
+  cursor: pointer;
+}
+#lsid-content .settings-list {
+  display: none;
+  width: calc(100% - 24px);
+  margin-left: 0;
+  list-style-type: none;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  top: 14px;
+  left: 0;
+  position: absolute;
+}
+#lsid-content .settings-list li {
+  display: block;
+  height: 29px;
+  line-height: 29px;
+  border-bottom: 1px solid #858585;
+}
+#lsid-content .settings-list a {
+  display: block;
+  height: 100%;
+  padding-left: 4px;
+  font-size: 100%;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+#lsid-content .settings-list a.icon-change-password:hover span {
+  background-image: url(../../res/_fs/build/icon-change-password-white.250ddb6.png);
+}
+#lsid-content .settings-list a.icon-delete-account:hover span {
+  background-image: url(../../res/_fs/build/icon-delete-account-white.38fd165.png);
+}
+#lsid-content .settings-list .icon-change-password > span {
+  background: url(../../res/_fs/build/icon-change-password-gray.bd301b8.png) no-repeat;
+}
+#lsid-content .settings-list .icon-delete-account > span {
+  background: url(../../res/_fs/build/icon-delete-account-gray.e2b6c53.png) no-repeat;
+}
+#lsid-content .settings-list .icon {
+  margin-top: -3px;
+  padding-right: 5px;
+}
+.buttons .lsid-rounded-box {
+  float: left;
+  margin-right: 10px;
+  max-width: 140px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.buttons .lsid-rounded-box:hover {
+  text-decoration: underline;
+}
+.lsid-rounded-box {
+  margin-bottom: 3px;
+  padding: 1px 8px 2px;
+  line-height: 19px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  border: 1px solid #550000;
+  background: #d40000;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #d40000 0%, #940000 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d40000), color-stop(100%, #940000));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #d40000 0%, #940000 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #d40000 0%, #940000 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #d40000 0%, #940000 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #d40000 0%, #940000 100%);
+  /* W3C */
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lsid-rounded-box#signIn,
+.lsid-rounded-box#registration {
+  max-width: 192px;
+  margin-bottom: 8px;
+}
+.lsid-rounded-box.black {
+  border-color: #222;
+  background: #464546;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #464546 0%, #1e191f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #464546), color-stop(100%, #1e191f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #464546 0%, #1e191f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #464546 0%, #1e191f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #464546 0%, #1e191f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #464546 0%, #1e191f 100%);
+  /* W3C */
+}
+.lsid-rounded-box.blue {
+  border-color: #002e55;
+  background: #324b86;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #4262a7 0%, #283b70 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4262a7), color-stop(100%, #283b70));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #4262a7 0%, #283b70 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #4262a7 0%, #283b70 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #4262a7 0%, #283b70 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4262a7 0%, #283b70 100%);
+  /* W3C */
+}
+.lsid-rounded-box.twitter-blue {
+  border-color: #1c748d;
+  background: #03a9de;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #06bcf3 0%, #089ecf);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #06bcf3), color-stop(100%, #089ecf));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #06bcf3 0%, #089ecf);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #06bcf3 0%, #089ecf);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #06bcf3 0%, #089ecf);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #06bcf3 0%, #089ecf);
+  /* W3C */
+}
+.lsid-rounded-box.google-red {
+  border-color: #722112;
+  background: #cc3625;
+  /* Old browsers */
+  background: linear-gradient(to bottom, #e74723 0%, #b82d26);
+  /* W3C */
+}
+.lsid-rounded-box#signInFB,
+.lsid-rounded-box#signInGoogle,
+.lsid-rounded-box#signInTwitter {
+  max-width: none;
+  width: 192px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.signInFB .icon,
+.signInGoogle .icon,
+.signInTwitter .icon,
+#signInFB .icon,
+#signInGoogle .icon,
+#signInTwitter .icon {
+  margin: -5px 8px -5px -8px;
+  display: inline-block;
+  width: 25px;
+  height: 24px;
+  line-height: 24px;
+  vertical-align: text-top;
+  background: url(../../res/_fs/build/icons-lsid-social.956ace8.png) -1px -1px no-repeat;
+}
+.signInTwitter .icon,
+#signInTwitter .icon {
+  background-position: -1px -26px;
+}
+.signInGoogle .icon,
+#signInGoogle .icon {
+  background-position: -1px -51px;
+}
+#lsid-window-mask {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: none;
+  background-color: black;
+}
+#lsid-messages {
+  position: absolute;
+  z-index: 999;
+}
+.lsid-messages .message {
+  margin: 10px;
+  width: 473px;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #A4C47B;
+  font-weight: bold;
+  color: #0D8500;
+  background: url(../../res/_fs/build/icon-message.124f659.gif) -990px 50% no-repeat #CCFFCC;
+}
+.lsid-messages .message.info {
+  border: 1px solid #00A8FF;
+  background-color: #EBFCFF;
+  background-position: -2000px 50%;
+  color: #278AB8;
+}
+.lsid-messages .message.err {
+  border: 1px solid #FFAFAF;
+  background-color: #FFEBEB;
+  background-position: 10px 50%;
+  color: red;
+}
+.lsid-messages .message a {
+  color: inherit;
+  text-decoration: underline;
+}
+.lsid-messages .message a:hover {
+  text-decoration: none;
+}
+#lsid-window {
+  position: fixed;
+  display: none;
+  background-color: white;
+  padding: 10px;
+  /*border-radius: 4px;*/
+  -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+}
+.detailbody .lsid-messages .message {
+  width: auto;
+}
+.detailbody #lsid-window > div {
+  min-width: 400px;
+}
+#lsid-window.long {
+  position: absolute;
+}
+/* jQuery animation override by important */
+#lsid-window > div {
+  min-width: 450px;
+  overflow: visible !important;
+}
+#lsid-window-close {
+  position: relative;
+  top: -26px;
+  float: right;
+  right: -26px;
+  height: 33px;
+  width: 33px;
+  background: url(../../res/_fs/build/icons-lsid.b6e415a.png) no-repeat;
+}
+#lsid-window-close:hover {
+  background-position: 0px -33px;
+}
+#lsid-main-dialog {
+  width: 600px;
+}
+#lsid-window ul {
+  margin: 0;
+  padding: 0;
+}
+#lsid-window .tabs-menu {
+  list-style-type: none;
+  width: 100%;
+  height: 24px;
+  border-bottom: 5px solid #00407D;
+}
+#lsid-window .tabs-menu li,
+#lsid-window .tabs-menu li span {
+  background: url(../../res/_fs/build/bg-bookmark.ac568f9.gif) no-repeat;
+}
+#lsid-window .tabs-menu li {
+  float: left;
+  margin-right: 1px;
+  border: none;
+  border-bottom: 1px solid #BCBEAE;
+  background-color: #9C9C9C;
+  background-position: 0 -800px;
+}
+#lsid-window .tabs-menu li span {
+  display: block;
+  background-position: 100% -850px;
+}
+#lsid-window .tabs-menu li a {
+  display: block;
+  height: 23px;
+  line-height: 23px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+#lsid-window .tabs-menu li a:hover {
+  text-decoration: underline;
+}
+#lsid-window .tabs-menu li a.unclickable:hover {
+  text-decoration: none;
+  cursor: default;
+}
+#lsid-window .tabs-menu li.selected {
+  height: 24px;
+  line-height: 24px;
+  border: none;
+  background-color: #00407D;
+  background-position: 0 -200px;
+}
+#lsid-window .tabs-menu li.selected span {
+  background-position: 100% -250px;
+}
+#lsid-window div.contents {
+  background-color: #F0F0F0;
+}
+#lsid-window div.contents div.content {
+  background-color: inherit;
+}
+#lsid-window div.contents > div.selected {
+  display: block;
+}
+#lsid-window div.header {
+  height: 23px;
+  line-height: 23px;
+  padding-left: 10px;
+  border: 1px solid #BCBEAE;
+  border-right: none;
+  border-left: none;
+  background: url(../../res/_fs/build/bg-label.6e2a995.gif) repeat-x top #343434;
+  font-weight: bold;
+  color: white;
+}
+#lsid-window div.content {
+  padding: 10px;
+}
+#lsid-window span.button {
+  display: inline-block;
+  line-height: 15px;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 4px 10px 5px;
+  border: solid 1px #0C3398;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background: #506FB9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6F9AD0), to(#4C69C0));
+  background: -moz-linear-gradient(to bottom, #6F9AD0, #4C69C0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6F9AD0', endColorstr='#4C69C0');
+  color: #DDE4FA;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+}
+#lsid-window div.content a {
+  text-decoration: underline;
+  color: #00407D;
+}
+#lsid-window div.content a:hover {
+  text-decoration: none;
+}
+#lsid-window form .lsid-messages .message {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
+}
+#lsid-window .form .captcha {
+  margin-bottom: 10px;
+  min-height: 129px;
+}
+#lsid-window strong .nobold {
+  font-weight: normal;
+}
+#lsid-window form .email-form-element strong,
+#lsid-window form .verification-code-form-element strong,
+#lsid-window form .password-form-element strong,
+#lsid-window form .password-confirm-form-element strong,
+#lsid-window form#registration-form .captcha strong,
+#lsid-window form .newpassword-form-element strong {
+  display: block;
+  margin: 10px 0 3px;
+}
+#lsid-window .verification form .email-form-element strong,
+#lsid-window .settings form .password-form-element strong,
+#lsid-window .passwordchange form .password-form-element strong,
+#lsid-window .passwordchange form .newpassword-form-element strong {
+  margin-top: 0px;
+}
+#lsid-window .passwordchange form .password-form-element {
+  margin-bottom: 10px;
+}
+#lsid-window .verification form input[type="submit"],
+#lsid-window .settings form input[type="submit"],
+#lsid-window .forgottenPassword form input[type="submit"],
+#lsid-window .passwordchange form input[type="submit"],
+#lsid-window .registration-mail form input[type="submit"] {
+  margin-top: 10px;
+}
+#lsid-window form .persist-form-element,
+#lsid-window form .terms-form-element {
+  margin: 5px 0;
+}
+#lsid-window form .persist-form-element strong,
+#lsid-window form .terms-form-element strong {
+  font-weight: normal;
+}
+#lsid-window form .terms-form-element input[type="checkbox"] {
+  margin-left: 0px;
+}
+#lsid-window .recaptchatable .recaptcha_input_area {
+  line-height: 1 !important;
+}
+/* google uses !important in css :( */
+#lsid-window .recaptchatable * {
+  color: inherit !important;
+}
+#lsid-window form input,
+#lsid-window .recaptchatable #recaptcha_response_field {
+  font-size: 11px;
+}
+/* google uses !important in css :( */
+#lsid-window form input[type="text"],
+#lsid-window form input[type="password"],
+#lsid-window .recaptchatable #recaptcha_response_field {
+  height: 19px;
+  width: 249px;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #B0B0B0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+#lsid-window .error-box {
+  display: none;
+  margin: 10px 0;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #FFAFAF;
+  background: url(../../res/_fs/build/icon-message.124f659.gif) 10px 50% no-repeat #FFEBEB;
+}
+#lsid-window .error-box.visible {
+  display: block;
+}
+#lsid-window form input.err-input[type="text"],
+#lsid-window form input.err-input[type="password"],
+#lsid-window .recaptchatable #recaptcha_response_field.err-input {
+  background-color: #FDF5F5;
+  border-width: 2px;
+  border-color: #DD4B39;
+}
+#lsid-window form input[type="text"]:focus,
+#lsid-window form input.err-input[type="text"]:focus,
+#lsid-window form input[type="password"]:focus,
+#lsid-window form input.err-input[type="password"]:focus,
+#lsid-window .recaptchatable #recaptcha_response_field:focus,
+#lsid-window .recaptchatable #recaptcha_response_field.err-input:focus {
+  border-color: #4D90FE;
+  QQbox-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+#lsid-window form .err-msg {
+  color: red;
+  display: block;
+  font-weight: bold;
+}
+#lsid-window form input[type="submit"] {
+  line-height: 15px;
+  margin: 0px;
+  padding: 4px 10px 5px;
+  border: solid 1px #980C10;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background: #D81B21;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ED1C24), to(#AA1317));
+  background: -moz-linear-gradient(to bottom, #ED1C24, #AA1317);
+  background: -o-linear-gradient(to bottom, #ED1C24, #AA1317);
+  background: linear-gradient(to bottom, #ED1C24, #AA1317);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED1C24', endColorstr='#AA1317');
+  color: #FFFFFF;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+}
+#lsid-window form label strong {
+  vertical-align: text-bottom;
+  line-height: 16px;
+}
+#lsid-window form label input[type="checkbox"] {
+  margin-right: 3px;
+}
+#lsid-window form input[type="submit"]:hover {
+  text-decoration: underline;
+}
+#lsid-window .signInFB,
+#lsid-window .signInGoogle,
+#lsid-window .signInTwitter {
+  height: 32px;
+  line-height: 32px;
+  width: auto;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+#lsid-window .signInFB:hover,
+#lsid-window .signInGoogle:hover,
+#lsid-window .signInTwitter:hover {
+  text-decoration: underline;
+}
+#lsid-window .login .signInFB,
+#lsid-window .login .signInGoogle,
+#lsid-window .login .signInTwitter {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#lsid-window .registration .signInFB,
+#lsid-window .registration .signInGoogle,
+#lsid-window .registration .signInTwitter {
+  margin: 10px;
+  margin-right: 0px;
+}
+#lsid-window .registration-benefits {
+  background-color: #F3FFE3;
+  border: 1px solid #98D943;
+  color: #499C00;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 10px;
+  float: right;
+  width: 260px;
+}
+#lsid-window .login .registration-benefits,
+#lsid-window .registration .registration-benefits {
+  margin-top: 10px;
+}
+#lsid-window .registration-benefits ul {
+  margin: 10px 0 10px 0px;
+}
+#lsid-window .registration-benefits ul li {
+  margin: 5px 0 5px;
+  padding: 0 0 0 22px;
+  list-style-type: none;
+  background: url(../../res/_fs/build/icon-check.8595770.png) no-repeat left center;
+}
+#lsid-window .registration .registration-benefits ul {
+  margin-bottom: -5px;
+}
+/* ----FS---- */
+#lsid-window #livescore-settings {
+  width: 450px;
+}
+#lsid-window .settings .error-box,
+#lsid-window #livescore-settings .error-box {
+  margin-top: 0px;
+}
+#lsid-window #livescore-settings input[type="radio"] {
+  margin-left: 50px;
+}
+.ie #lsid-window #livescore-settings input[type="radio"] {
+  vertical-align: sub;
+  margin-right: 2px;
+}
+.gecko #lsid-window #livescore-settings input[type="radio"] {
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+#lsid-window #livescore-settings .options,
+#lsid-window #livescore-settings .topfirst-form-element,
+#lsid-window #livescore-settings .mgnotifications-form-element {
+  margin-top: 13px;
+}
+#lsid-window #livescore-settings label {
+  vertical-align: top;
+  line-height: 18px;
+}
+#lsid-window .preload {
+  min-width: inherit;
+  left: 50%;
+}
+#lsid-window .preload span {
+  background-image: url(../../res/_fs/build/ajax-loader-hockey.54802cb.gif);
+}
+#fscon .ifmenu #ifmenu-livescore-settings {
+  width: 27px;
+  height: 23px;
+  border-bottom: 1px solid #BCBEAE;
+  cursor: pointer;
+}
+/* @green: #7BA154; */
+#lsid-window.registration {
+  background-color: #f1f1f1;
+  padding: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#lsid-window.registration > div {
+  min-width: 300px;
+}
+#lsid-window.registration div.preload {
+  min-width: 0px;
+}
+#lsid-window.registration .contents {
+  /* margin-top:30px; */
+}
+#lsid-window.registration .contents > div {
+  /* XXX background-color: @lsid-background; */
+  float: left;
+  font-family: Tahoma, "Geneva CE", "Lucida Sans", Arial, Helvetica, sans-serif;
+  /* padding-bottom:20px; */
+}
+#lsid-window.registration .contents input::-ms-clear,
+#lsid-window.registration .contents input::-ms-reveal {
+  display: none;
+}
+#lsid-window.registration .contents h1 {
+  color: #1b7700;
+  text-align: center;
+  font-size: 30px;
+  width: 360px;
+  /* padding: 0 20px; */
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .deleteAccount,
+#lsid-window.registration .contents .newTermsOfUse1,
+#lsid-window.registration .contents .newTermsOfUse2,
+#lsid-window.registration .contents .privacySettings {
+  width: 420px;
+  padding: 0 20px 10px 20px;
+}
+#lsid-window.registration .contents .deleteAccount h1,
+#lsid-window.registration .contents .newTermsOfUse1 h1,
+#lsid-window.registration .contents .newTermsOfUse2 h1,
+#lsid-window.registration .contents .privacySettings h1 {
+  color: #1b7700;
+  text-align: center;
+  font-size: 30px;
+  width: 420px;
+  /* padding: 0 20px; */
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .deleteAccount h1,
+#lsid-window.registration .contents .newTermsOfUse1 h1,
+#lsid-window.registration .contents .newTermsOfUse2 h1,
+#lsid-window.registration .contents .privacySettings h1 {
+  padding: 0 20px;
+}
+#lsid-window.registration .contents .deleteAccount .header,
+#lsid-window.registration .contents .newTermsOfUse1 .header,
+#lsid-window.registration .contents .newTermsOfUse2 .header,
+#lsid-window.registration .contents .privacySettings .header {
+  background: inherit;
+  border: none;
+  padding: 0 20px;
+  color: #418619;
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  height: inherit;
+  line-height: inherit;
+}
+#lsid-window.registration .contents .deleteAccountForm__text,
+#lsid-window.registration .contents .newTermsOfUse1Form__text,
+#lsid-window.registration .contents .newTermsOfUse2Form__text,
+#lsid-window.registration .contents .privacySettingsForm__text {
+  font-size: 15px;
+  padding: 20px 10px;
+  text-align: center;
+}
+#lsid-window.registration .contents .deleteAccountForm__text a,
+#lsid-window.registration .contents .newTermsOfUse1Form__text a,
+#lsid-window.registration .contents .newTermsOfUse2Form__text a,
+#lsid-window.registration .contents .privacySettingsForm__text a {
+  color: #418619;
+  font-weight: bold;
+}
+#lsid-window.registration .contents .deleteAccountForm__text a:hover,
+#lsid-window.registration .contents .newTermsOfUse1Form__text a:hover,
+#lsid-window.registration .contents .newTermsOfUse2Form__text a:hover,
+#lsid-window.registration .contents .privacySettingsForm__text a:hover {
+  color: #4f9e1e;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .deleteAccountForm__buttons,
+#lsid-window.registration .contents .newTermsOfUse1Form__buttons,
+#lsid-window.registration .contents .newTermsOfUse2Form__buttons,
+#lsid-window.registration .contents .privacySettingsForm__buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#lsid-window.registration .contents .deleteAccountForm__buttons > input[type="button"],
+#lsid-window.registration .contents .newTermsOfUse1Form__buttons > input[type="button"],
+#lsid-window.registration .contents .newTermsOfUse2Form__buttons > input[type="button"],
+#lsid-window.registration .contents .privacySettingsForm__buttons > input[type="button"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: left;
+  padding: 0 15px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: none;
+  background: #1b7700;
+  color: #ffffff;
+  border: 0px;
+  border-bottom: 3px solid #2f6e0b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  -webkit-box-shadow: none rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none rgba(0, 0, 0, 0.5);
+  box-shadow: none rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  width: auto;
+  white-space: normal;
+  height: auto;
+  padding: 10px 15px;
+}
+#lsid-window.registration .contents .deleteAccountForm__buttons > input[type="button"]:hover,
+#lsid-window.registration .contents .newTermsOfUse1Form__buttons > input[type="button"]:hover,
+#lsid-window.registration .contents .newTermsOfUse2Form__buttons > input[type="button"]:hover,
+#lsid-window.registration .contents .privacySettingsForm__buttons > input[type="button"]:hover {
+  background-color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .deleteAccountForm__buttons > input[type="button"]:last-child,
+#lsid-window.registration .contents .newTermsOfUse1Form__buttons > input[type="button"]:last-child,
+#lsid-window.registration .contents .newTermsOfUse2Form__buttons > input[type="button"]:last-child,
+#lsid-window.registration .contents .privacySettingsForm__buttons > input[type="button"]:last-child {
+  margin: 0;
+}
+#lsid-window.registration .contents .deleteAccountForm__links,
+#lsid-window.registration .contents .newTermsOfUse1Form__links,
+#lsid-window.registration .contents .newTermsOfUse2Form__links,
+#lsid-window.registration .contents .privacySettingsForm__links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+#lsid-window.registration .contents .deleteAccountForm__links > a,
+#lsid-window.registration .contents .newTermsOfUse1Form__links > a,
+#lsid-window.registration .contents .newTermsOfUse2Form__links > a,
+#lsid-window.registration .contents .privacySettingsForm__links > a {
+  color: #418619;
+  font-weight: bold;
+  font-size: 15px;
+}
+#lsid-window.registration .contents .deleteAccountForm__links > a:hover,
+#lsid-window.registration .contents .newTermsOfUse1Form__links > a:hover,
+#lsid-window.registration .contents .newTermsOfUse2Form__links > a:hover,
+#lsid-window.registration .contents .privacySettingsForm__links > a:hover {
+  color: #4f9e1e;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .registration {
+  width: 680px;
+}
+#lsid-window.registration .contents .registration h1 {
+  color: #1b7700;
+  text-align: center;
+  font-size: 30px;
+  width: 680px;
+  /* padding: 0 20px; */
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .registration .form {
+  width: 320px;
+  border: 1px solid #d9d9d9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  margin: 20px 40px 0 20px;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .registration .form form > div:nth-child(1) input {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#lsid-window.registration .contents .registration .form #email,
+#lsid-window.registration .contents .registration .form #passwd,
+#lsid-window.registration .contents .registration .form #verificationcode,
+#lsid-window.registration .contents .registration .form #newpasswd {
+  border: none;
+  height: 40px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 15px;
+}
+#lsid-window.registration .contents .registration .form .email-form-element {
+  clear: both;
+  position: relative;
+}
+#lsid-window.registration .contents .registration .form .password-form-element,
+#lsid-window.registration .contents .registration .form .newpassword-form-element {
+  position: relative;
+  margin: 0;
+}
+#lsid-window.registration .contents .registration .form .password-form-element span.show,
+#lsid-window.registration .contents .registration .form .newpassword-form-element span.show {
+  display: none;
+  border: 1px solid #1b7700;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -11px;
+  padding: 0 5px;
+  min-width: 36px;
+  font-size: 11px;
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  color: #63a24e;
+}
+#lsid-window.registration .contents .registration .form .password-form-element span.show:hover,
+#lsid-window.registration .contents .registration .form .newpassword-form-element span.show:hover {
+  background-color: #d8e7d2;
+  cursor: pointer;
+}
+#lsid-window.registration .contents .registration .form .password-form-element span.show.on,
+#lsid-window.registration .contents .registration .form .newpassword-form-element span.show.on {
+  background-color: #1b7700;
+  color: white;
+}
+#lsid-window.registration .contents .registration .form .sign-up-form-element {
+  float: left;
+  width: 320px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .registration .form .sign-up-form-element #registration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: left;
+  padding: 0 15px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: none;
+  background: #1b7700;
+  color: #ffffff;
+  border: 0px;
+  border-bottom: 3px solid #2f6e0b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  -webkit-box-shadow: none rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none rgba(0, 0, 0, 0.5);
+  box-shadow: none rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  width: auto;
+}
+#lsid-window.registration .contents .registration .form .sign-up-form-element #registration:hover {
+  background-color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .registration .form .sign-up-form-element .log-in {
+  float: left;
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+#lsid-window.registration .contents .registration .form .sign-up-form-element .log-in a {
+  color: #1b7700;
+  font-weight: bold;
+}
+#lsid-window.registration .contents .registration .form .sign-up-form-element .log-in a:hover {
+  color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .registration .captcha {
+  position: relative;
+  margin: 10px auto 0 auto;
+  min-height: inherit;
+  height: 65px;
+  width: 236px;
+}
+#lsid-window.registration .contents .registration .captcha .captcha-preload span {
+  background-image: url(../../res/_fs/build/ajax-loader-hockey.54802cb.gif);
+  background-repeat: no-repeat;
+  background-position: 60px 12px;
+  padding-left: 40px;
+  line-height: 55px;
+  text-align: center;
+  width: 196px;
+  height: 55px;
+  display: block;
+  font-size: 15px;
+}
+#lsid-window.registration .contents .registration .benefits {
+  width: 270px;
+  float: left;
+  margin-top: 20px;
+  font-size: 15px;
+}
+#lsid-window.registration .contents .registration .benefits ul {
+  list-style-type: none;
+  margin: 20px 0 20px 0;
+}
+#lsid-window.registration .contents .registration .benefits ul li {
+  font-size: 15px;
+  margin-top: 25px;
+  line-height: 20px;
+}
+#lsid-window.registration .contents .registration .benefits ul li span {
+  float: left;
+}
+#lsid-window.registration .contents .registration .benefits ul li span:not(.content) {
+  width: 50px;
+  height: 30px;
+  margin-bottom: 10px;
+  vertical-align: text-top;
+  background: url(../../res/_fs/build/icons-benefits.bc2d284.png) 0px 0px no-repeat;
+}
+#lsid-window.registration .contents .registration .benefits ul li span:not(.content).favorite {
+  background-position: 0 -30px;
+}
+#lsid-window.registration .contents .registration .benefits ul li span:not(.content).features {
+  background-position: 0 -60px;
+}
+#lsid-window.registration .contents .registration .benefits ul li span.content {
+  width: 220px;
+  margin-bottom: 20px;
+}
+#lsid-window.registration .contents .registration .benefits a.discover {
+  color: #1b7700;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#lsid-window.registration .contents .registration .benefits a.discover:hover {
+  color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .registration .devices {
+  float: left;
+  clear: both;
+  background: url(../../res/_fs/build/devices.11e44e1.png) 0px 0px no-repeat;
+  width: 400px;
+  height: 200px;
+  margin: 20px  0 0 120px;
+}
+#lsid-window.registration .contents .login .form {
+  width: 320px;
+  border: 1px solid #d9d9d9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  margin: 20px 20px 0 20px;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .login .form form > div:nth-child(1) input {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#lsid-window.registration .contents .login .form #email,
+#lsid-window.registration .contents .login .form #passwd,
+#lsid-window.registration .contents .login .form #verificationcode,
+#lsid-window.registration .contents .login .form #newpasswd {
+  border: none;
+  height: 40px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 15px;
+}
+#lsid-window.registration .contents .login .form .email-form-element {
+  clear: both;
+  position: relative;
+}
+#lsid-window.registration .contents .login .form .password-form-element,
+#lsid-window.registration .contents .login .form .newpassword-form-element {
+  position: relative;
+  margin: 0;
+}
+#lsid-window.registration .contents .login .form .password-form-element span.show,
+#lsid-window.registration .contents .login .form .newpassword-form-element span.show {
+  display: none;
+  border: 1px solid #1b7700;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -11px;
+  padding: 0 5px;
+  min-width: 36px;
+  font-size: 11px;
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  color: #63a24e;
+}
+#lsid-window.registration .contents .login .form .password-form-element span.show:hover,
+#lsid-window.registration .contents .login .form .newpassword-form-element span.show:hover {
+  background-color: #d8e7d2;
+  cursor: pointer;
+}
+#lsid-window.registration .contents .login .form .password-form-element span.show.on,
+#lsid-window.registration .contents .login .form .newpassword-form-element span.show.on {
+  background-color: #1b7700;
+  color: white;
+}
+#lsid-window.registration .contents .login .form .sign-up-form-element {
+  float: left;
+  width: 320px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .login .form .sign-up-form-element #login {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: left;
+  padding: 0 15px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: none;
+  background: #1b7700;
+  color: #ffffff;
+  border: 0px;
+  border-bottom: 3px solid #2f6e0b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  -webkit-box-shadow: none rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none rgba(0, 0, 0, 0.5);
+  box-shadow: none rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  width: auto;
+}
+#lsid-window.registration .contents .login .form .sign-up-form-element #login:hover {
+  background-color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .login .form .sign-up-form-element .log-in {
+  float: left;
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+#lsid-window.registration .contents .login .form .sign-up-form-element .log-in a {
+  color: #1b7700;
+  font-weight: bold;
+}
+#lsid-window.registration .contents .login .form .sign-up-form-element .log-in a:hover {
+  color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .forgottenPassword .text {
+  width: 320px;
+  margin: 20px 0;
+  padding: 0  20px;
+  font-size: 15px;
+  text-align: center;
+}
+#lsid-window.registration .contents .forgottenPassword .form {
+  width: 320px;
+  border: 1px solid #d9d9d9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  margin: 0px 20px;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .forgottenPassword .form form > div:nth-child(1) input {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#lsid-window.registration .contents .forgottenPassword .form #email,
+#lsid-window.registration .contents .forgottenPassword .form #passwd,
+#lsid-window.registration .contents .forgottenPassword .form #verificationcode,
+#lsid-window.registration .contents .forgottenPassword .form #newpasswd {
+  border: none;
+  height: 40px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 15px;
+}
+#lsid-window.registration .contents .forgottenPassword .form .email-form-element {
+  clear: both;
+  position: relative;
+}
+#lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element {
+  float: left;
+  width: 320px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element #send {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: left;
+  padding: 0 15px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: none;
+  background: #1b7700;
+  color: #ffffff;
+  border: 0px;
+  border-bottom: 3px solid #2f6e0b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  -webkit-box-shadow: none rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none rgba(0, 0, 0, 0.5);
+  box-shadow: none rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  width: 300px;
+}
+#lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element #send:hover {
+  background-color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .settings .form,
+#lsid-window.registration .contents .passwordchange .form {
+  width: 320px;
+  border: 1px solid #d9d9d9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  margin: 20px 20px 0 20px;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .settings .form form > div:nth-child(1) input,
+#lsid-window.registration .contents .passwordchange .form form > div:nth-child(1) input {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#lsid-window.registration .contents .settings .form #email,
+#lsid-window.registration .contents .passwordchange .form #email,
+#lsid-window.registration .contents .settings .form #passwd,
+#lsid-window.registration .contents .passwordchange .form #passwd,
+#lsid-window.registration .contents .settings .form #verificationcode,
+#lsid-window.registration .contents .passwordchange .form #verificationcode,
+#lsid-window.registration .contents .settings .form #newpasswd,
+#lsid-window.registration .contents .passwordchange .form #newpasswd {
+  border: none;
+  height: 40px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 15px;
+}
+#lsid-window.registration .contents .settings .form .email-form-element,
+#lsid-window.registration .contents .passwordchange .form .email-form-element {
+  clear: both;
+  position: relative;
+}
+#lsid-window.registration .contents .settings .form .password-form-element,
+#lsid-window.registration .contents .passwordchange .form .password-form-element,
+#lsid-window.registration .contents .settings .form .newpassword-form-element,
+#lsid-window.registration .contents .passwordchange .form .newpassword-form-element {
+  position: relative;
+  margin: 0;
+}
+#lsid-window.registration .contents .settings .form .password-form-element span.show,
+#lsid-window.registration .contents .passwordchange .form .password-form-element span.show,
+#lsid-window.registration .contents .settings .form .newpassword-form-element span.show,
+#lsid-window.registration .contents .passwordchange .form .newpassword-form-element span.show {
+  display: none;
+  border: 1px solid #1b7700;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -11px;
+  padding: 0 5px;
+  min-width: 36px;
+  font-size: 11px;
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  color: #63a24e;
+}
+#lsid-window.registration .contents .settings .form .password-form-element span.show:hover,
+#lsid-window.registration .contents .passwordchange .form .password-form-element span.show:hover,
+#lsid-window.registration .contents .settings .form .newpassword-form-element span.show:hover,
+#lsid-window.registration .contents .passwordchange .form .newpassword-form-element span.show:hover {
+  background-color: #d8e7d2;
+  cursor: pointer;
+}
+#lsid-window.registration .contents .settings .form .password-form-element span.show.on,
+#lsid-window.registration .contents .passwordchange .form .password-form-element span.show.on,
+#lsid-window.registration .contents .settings .form .newpassword-form-element span.show.on,
+#lsid-window.registration .contents .passwordchange .form .newpassword-form-element span.show.on {
+  background-color: #1b7700;
+  color: white;
+}
+#lsid-window.registration .contents .settings .form .sign-up-form-element,
+#lsid-window.registration .contents .passwordchange .form .sign-up-form-element {
+  float: left;
+  width: 320px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .settings .form .sign-up-form-element #settings,
+#lsid-window.registration .contents .passwordchange .form .sign-up-form-element #settings,
+#lsid-window.registration .contents .settings .form .sign-up-form-element #passwordchange,
+#lsid-window.registration .contents .passwordchange .form .sign-up-form-element #passwordchange {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: left;
+  padding: 0 15px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: none;
+  background: #1b7700;
+  color: #ffffff;
+  border: 0px;
+  border-bottom: 3px solid #2f6e0b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  -webkit-box-shadow: none rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: none rgba(0, 0, 0, 0.5);
+  box-shadow: none rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  width: 300px;
+}
+#lsid-window.registration .contents .settings .form .sign-up-form-element #settings:hover,
+#lsid-window.registration .contents .passwordchange .form .sign-up-form-element #settings:hover,
+#lsid-window.registration .contents .settings .form .sign-up-form-element #passwordchange:hover,
+#lsid-window.registration .contents .passwordchange .form .sign-up-form-element #passwordchange:hover {
+  background-color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .content {
+  padding: 0px;
+}
+#lsid-window.registration .contents .content a {
+  text-decoration: none;
+}
+#lsid-window.registration .contents .border-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+#lsid-window.registration .contents .terms {
+  clear: both;
+  font-size: 11px;
+  line-height: 16px;
+  float: left;
+  margin: 15px 0 0 0;
+}
+#lsid-window.registration .contents .terms a {
+  color: #1b7700;
+}
+#lsid-window.registration .contents .terms a:hover {
+  color: #085f00;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .social-buttons {
+  padding: 10px;
+  float: left;
+  width: 300px;
+}
+#lsid-window.registration .contents .social-buttons div {
+  width: 100px;
+  height: 33px;
+  line-height: 20px;
+  float: left;
+  padding: 5px 0 0 10px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lsid-window.registration .contents .social-buttons div.facebook {
+  background-color: #4267b2;
+  border-bottom: 3px solid #2e4472;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#lsid-window.registration .contents .social-buttons div.facebook:hover {
+  background-color: #49659d;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .social-buttons div.google {
+  background-color: #4285f4;
+  border-bottom: 3px solid #a93a2b;
+}
+#lsid-window.registration .contents .social-buttons div.google:hover {
+  background-color: #de5442;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .social-buttons div.google span.icon {
+  background-position: 0 -12px;
+  margin-right: 5px;
+}
+#lsid-window.registration .contents .social-buttons div.twitter {
+  background-color: #53a3ff;
+  border-bottom: 3px solid #337acc;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#lsid-window.registration .contents .social-buttons div.twitter:hover {
+  background-color: #337acc;
+  text-decoration: underline;
+}
+#lsid-window.registration .contents .social-buttons div.twitter span.icon {
+  background-position: 0 -24px;
+  margin-right: 5px;
+}
+#lsid-window.registration .contents .social-buttons div span.icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  vertical-align: text-top;
+  background: url(../../res/_fs/build/icons-socialmedia.008cdb0.png) 0px 0px no-repeat;
+  padding-right: 5px;
+}
+#lsid-window.registration .contents .err-msg-wrapper {
+  background-color: #D94E48;
+  position: absolute;
+  top: 50%;
+  left: 320px;
+  white-space: nowrap;
+  height: 30px;
+  line-height: 30px;
+  margin-top: -15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: white;
+  padding: 0 10px;
+  font-size: 12px;
+}
+#lsid-window.registration .contents .err-msg-wrapper:before {
+  border: solid;
+  border-color: transparent #D94E48 transparent transparent;
+  border-width: 5px 5px 5px 0px;
+  top: 50%;
+  content: "";
+  left: -5px;
+  position: absolute;
+  z-index: 99;
+  margin-top: -5px;
+}
+#lsid-window.registration .contents .captcha .err-msg-wrapper {
+  left: 320px - 11px;
+}
+#lsid-window.registration .lsid-messages {
+  width: 300px;
+  background: #f1f1f1;
+}
+#lsid-window.registration .lsid-messages .header-message {
+  background: url(../../res/_fs/build/icons-status.af68301.png) no-repeat 0px 0px;
+  width: 58px;
+  height: 58px;
+  margin: 20px 121px;
+}
+#lsid-window.registration .lsid-messages .header-message.err {
+  background: url(../../res/_fs/build/icons-status.af68301.png) no-repeat 0px -58px;
+}
+#lsid-window.registration .lsid-messages .header-message.info {
+  background: url(../../res/_fs/build/icons-status.af68301.png) no-repeat 0px -116px;
+}
+#lsid-window.registration .lsid-messages .message {
+  margin: 20px;
+  width: auto;
+  border: none;
+  color: #787878;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0px;
+  background: #f1f1f1;
+  line-height: 20px;
+}
+#lsid-window.registration .lsid-messages .message.headline {
+  color: #1b7700;
+  font-size: 30px;
+  line-height: 30px;
+}
+#lsid-window.registration .lsid-messages .message.headline.err {
+  color: #ba4c3b;
+}
+#lsid-window.registration .lsid-messages .message.headline.info {
+  color: #5488b6;
+}
+#lsid-window.registration .lsid-messages.reg-version-two .message {
+  margin-bottom: -10px;
+}
+#lsid-window.registration #login-content .lsid-messages {
+  width: 360px;
+}
+#lsid-window.registration .top-corners {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#lsid-window.registration #lsid-main-dialog {
+  width: auto;
+}
+#lsid-window.registration > div {
+  min-width: initial;
+}
+#lsid-window.registration #lsid-window-close {
+  background: url(../../res/_fs/build/icon-close.6e137fa.png) no-repeat 0px 0px;
+  top: 8px;
+  right: 8px;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+#lsid-window.registration #lsid-window-close:hover {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 639px) {
+  .home.responsive.flat #lsid #lsid-content .user {
+    background-color: #006290;
+  }
+  .home.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: #00406d;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .links.responsive.flat #lsid #lsid-content .user {
+    background-color: /* links             */ #1b7700;
+  }
+  .links.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* links             */ #085f00;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .american-football.responsive.flat #lsid #lsid-content .user {
+    background-color: /* american-football */ #834132;
+  }
+  .american-football.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* american-football */ #652b1d;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .aussie-rules.responsive.flat #lsid #lsid-content .user {
+    background-color: /* aussie-rules      */ #d55f3f;
+  }
+  .aussie-rules.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* aussie-rules      */ #ad3f21;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .badminton.responsive.flat #lsid #lsid-content .user {
+    background-color: /* badminton         */ #35aa7b;
+  }
+  .badminton.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* badminton         */ #16875a;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .bandy.responsive.flat #lsid #lsid-content .user {
+    background-color: /* bandy             */ #5aa4e6;
+  }
+  .bandy.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* bandy             */ #4492d6;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .baseball.responsive.flat #lsid #lsid-content .user {
+    background-color: /* baseball          */ #ab8c61;
+  }
+  .baseball.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* baseball          */ #856842;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .basketball.responsive.flat #lsid #lsid-content .user {
+    background-color: /* basketball        */ #91311d;
+  }
+  .basketball.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* basketball        */ #ab4630;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .beach-soccer.responsive.flat #lsid #lsid-content .user {
+    background-color: /* beach-soccer      */ #c9a56e;
+  }
+  .beach-soccer.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* beach-soccer      */ #a08256;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .beach-volleyball.responsive.flat #lsid #lsid-content .user {
+    background-color: /* beach-volleyball  */ #c9a56e;
+  }
+  .beach-volleyball.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* beach-volleyball  */ #a08256;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .boxing.responsive.flat #lsid #lsid-content .user {
+    background-color: /* boxing            */ #b6322d;
+  }
+  .boxing.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* boxing            */ #862320;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .cricket.responsive.flat #lsid #lsid-content .user {
+    background-color: /* cricket           */ #4e0000;
+  }
+  .cricket.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* cricket           */ #7b081b;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .cycling.responsive.flat #lsid #lsid-content .user {
+    background-color: /* cycling           */ #454545;
+  }
+  .cycling.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* cycling           */ #2c2c2c;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .darts.responsive.flat #lsid #lsid-content .user {
+    background-color: /* darts             */ #7b613a;
+  }
+  .darts.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* darts             */ #61471f;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .esports.responsive.flat #lsid #lsid-content .user {
+    background-color: /* esports           */ #4a3a80;
+  }
+  .esports.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* esports           */ #352860;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .field-hockey.responsive.flat #lsid #lsid-content .user {
+    background-color: /* field-hockey      */ #298a54;
+  }
+  .field-hockey.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* field-hockey      */ #1d7342;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .floorball.responsive.flat #lsid #lsid-content .user {
+    background-color: /* floorball         */ #21c1b9;
+  }
+  .floorball.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* floorball         */ #0e9892;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .futsal.responsive.flat #lsid #lsid-content .user {
+    background-color: /* futsal            */ #5299db;
+  }
+  .futsal.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* futsal            */ #3772aa;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .golf.responsive.flat #lsid #lsid-content .user {
+    background-color: /* golf              */ #71962d;
+  }
+  .golf.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* golf              */ #4e7019;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .handball.responsive.flat #lsid #lsid-content .user {
+    background-color: /* handball          */ #d97d44;
+  }
+  .handball.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* handball          */ #bb5c21;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .hockey.responsive.flat #lsid #lsid-content .user {
+    background-color: /* hockey            */ #006290;
+  }
+  .hockey.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* hockey            */ #00406d;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .horse-racing.responsive.flat #lsid #lsid-content .user {
+    background-color: /* horse-racing      */ #44332c;
+  }
+  .horse-racing.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* horse-racing      */ #614235;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .kabaddi.responsive.flat #lsid #lsid-content .user {
+    background-color: /* kabaddi           */ #b85fb0;
+  }
+  .kabaddi.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* kabaddi           */ #8b408a;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .mma.responsive.flat #lsid #lsid-content .user {
+    background-color: /* mma               */ #000000;
+  }
+  .mma.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* mma               */ #2b2b2b;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .motorsport.responsive.flat #lsid #lsid-content .user {
+    background-color: /* motorsport        */ #262626;
+  }
+  .motorsport.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* motorsport        */ #454545;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .motorsport-auto-racing.responsive.flat #lsid #lsid-content .user {
+    background-color: /* moto-auto-racing  */ #262626;
+  }
+  .motorsport-auto-racing.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* motor-auto-racing */ #454545;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .motorsport-moto-racing.responsive.flat #lsid #lsid-content .user {
+    background-color: /* moto-moto-racing  */ #262626;
+  }
+  .motorsport-moto-racing.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* motor-moto-racing */ #454545;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .netball.responsive.flat #lsid #lsid-content .user {
+    background-color: /* netball           */ #bb9255;
+  }
+  .netball.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* netball           */ #966d30;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .pesapallo.responsive.flat #lsid #lsid-content .user {
+    background-color: /* pesapallo         */ #abc434;
+  }
+  .pesapallo.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* pesapallo         */ #8aa411;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .rugby-league.responsive.flat #lsid #lsid-content .user {
+    background-color: /* rugby-league      */ #000000;
+  }
+  .rugby-league.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* rugby-league      */ #2b2b2b;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .rugby-union.responsive.flat #lsid #lsid-content .user {
+    background-color: /* rugby-union       */ #000000;
+  }
+  .rugby-union.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* rugby-union       */ #2b2b2b;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .snooker.responsive.flat #lsid #lsid-content .user {
+    background-color: /* snooker           */ #125912;
+  }
+  .snooker.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* snooker           */ #004000;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .soccer.responsive.flat #lsid #lsid-content .user {
+    background-color: /* soccer            */ #1b7700;
+  }
+  .soccer.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* soccer            */ #085f00;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .table-tennis.responsive.flat #lsid #lsid-content .user {
+    background-color: /* table-tennis      */ #c84b3b;
+  }
+  .table-tennis.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* table-tennis      */ #913124;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .tennis.responsive.flat #lsid #lsid-content .user {
+    background-color: /* tennis            */ #bf9a17;
+  }
+  .tennis.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* tennis            */ #a37e00;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .volleyball.responsive.flat #lsid #lsid-content .user {
+    background-color: /* volleyball        */ #e6a260;
+  }
+  .volleyball.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* volleyball        */ #b5773a;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .water-polo.responsive.flat #lsid #lsid-content .user {
+    background-color: /* water-polo        */ #3bb1dd;
+  }
+  .water-polo.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* water-polo        */ #0f8bb9;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .winter-sports.responsive.flat #lsid #lsid-content .user {
+    background-color: /* winter-sports     */ #234e8a;
+  }
+  .winter-sports.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* winter-sports     */ #0f3263;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .winter-sports-biathlon.responsive.flat #lsid #lsid-content .user {
+    background-color: /* biathlon          */ #234e8a;
+  }
+  .winter-sports-biathlon.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* biathlon          */ #0f3263;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .winter-sports-cross-country.responsive.flat #lsid #lsid-content .user {
+    background-color: /* cross-country     */ #234e8a;
+  }
+  .winter-sports-cross-country.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* cross-country     */ #0f3263;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .winter-sports-alpine-skiing.responsive.flat #lsid #lsid-content .user {
+    background-color: /* alpine-skiing     */ #234e8a;
+  }
+  .winter-sports-alpine-skiing.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* alpine-skiing     */ #0f3263;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .winter-sports-ski-jumping.responsive.flat #lsid #lsid-content .user {
+    background-color: /* ski-jumping       */ #234e8a;
+  }
+  .winter-sports-ski-jumping.responsive.flat #lsid #lsid-content .user:hover {
+    background-color: /* ski-jumping       */ #0f3263;
+  }
+}
+.flat #lsid-window {
+  padding: 20px;
+}
+.flat #lsid-window div.header {
+  display: flex;
+  color: #656565;
+  background: #f0f0f0;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  border-width: 1px 0 1px 0;
+  margin-top: 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.flat #lsid-window div.header.timezone-settings .settings-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 9px;
+  background: #f0f0f0 url(../../res/_fs/build/settings-sprite.0a45b7e.svg) no-repeat 0 0;
+}
+.flat #lsid-window div.header.general-settings .settings-icon {
+  width: 13px;
+  height: 10px;
+  margin-right: 12px;
+  background: #f0f0f0 url(../../res/_fs/build/settings-sprite.0a45b7e.svg) no-repeat -120px 0;
+}
+.flat #lsid-window div.header.my-games-settings .settings-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 9px;
+  background: #f0f0f0 url(../../res/_fs/build/settings-sprite.0a45b7e.svg) no-repeat -180px 0;
+}
+.flat #lsid-window .content {
+  padding: 18px 0 0;
+}
+.flat #lsid-window .content table tbody tr {
+  background-color: inherit !important;
+  height: 23px;
+  line-height: 23px;
+}
+.flat #lsid-window .content table tbody tr td {
+  border-left: 0;
+  border-right: 0;
+}
+.flat #lsid-window .content .options {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.flat #lsid-window .content .options label {
+  margin-right: 17px;
+  display: flex;
+}
+.flat #lsid-window .content div.topfirst-form-element,
+.flat #lsid-window .content div.mgnotifications-form-element {
+  margin-top: 20px !important;
+}
+.flat #lsid-window .content li.actual {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  font-weight: bold;
+}
+.flat #lsid-window .content li.actual #tzactual:hover {
+  text-decoration: none !important;
+}
+.flat #lsid-window .content li.actual #tzactual-icon {
+  width: 18px;
+  height: 17px;
+  display: inline-block;
+  margin-left: 10px;
+  background: url(../../res/_fs/build/settings-sprite.0a45b7e.svg) no-repeat -60px 0 !important;
+}
+.flat #lsid-window div.contents {
+  background-color: #fff;
+}
+.flat #lsid-window #livescore-settings {
+  width: 450px;
+  min-width: 450px;
+}
+.flat #lsid-window #livescore-settings .options {
+  margin-top: 5px;
+}
+.flat #lsid-window #livescore-settings .back {
+  display: none;
+}
+.flat #lsid-window #livescore-settings ul.tabs-menu {
+  background: none;
+  border: none;
+  margin-bottom: 15px;
+}
+.flat #lsid-window #livescore-settings ul.tabs-menu span,
+.flat #lsid-window #livescore-settings ul.tabs-menu li {
+  background: none;
+}
+.flat #lsid-window #livescore-settings ul.tabs-menu a {
+  padding: 0;
+  font-size: 16px;
+  color: #353535;
+  font-weight: bold;
+}
+.flat #lsid-window #livescore-settings input[type="radio"] {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.flat #lsid-window #livescore-settings #timezone .menu li.actual {
+  border: none;
+  background: none;
+}
+.flat #lsid-window #livescore-settings #timezone .menu li.actual span {
+  background: none;
+  padding: 0;
+}
+.flat #lsid-window #livescore-settings #tzcontent {
+  box-shadow: none;
+  background: #343434;
+  border: none;
+  height: 294px;
+  padding: 15px 0 15px 15px;
+  width: 430px;
+  box-sizing: border-box;
+  margin-top: -5px;
+  user-select: none;
+}
+.flat #lsid-window #livescore-settings #tzcontent li {
+  width: 135px;
+  border: none;
+  height: 22px;
+  background: #343434;
+}
+.flat #lsid-window #livescore-settings #tzcontent li a {
+  background: inherit;
+  color: #bebebe;
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 22px;
+  padding: 0 5px;
+  width: fit-content;
+}
+.flat #lsid-window #livescore-settings #tzcontent li a:hover {
+  background-color: #222;
+  color: #bebebe !important;
+}
+.flat #lsid-window #livescore-settings #tzcontent li a.active {
+  background: #157d00;
+}
+.flat #lsid-window #livescore-settings #tzcontent li a.tzdefault {
+  background: rgba(21, 125, 0, 0.4);
+}
+.flat #lsid-window #livescore-settings #tzcontent li:first-child {
+  margin-top: 15px;
+}
+.flat #lsid-window #livescore-settings #tzcontent:before {
+  width: 0;
+  height: 0;
+  content: ' ';
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: -22px;
+  border-style: solid;
+  border-width: 0 7px 7px 7px;
+  border-color: transparent transparent #343434 transparent;
+}
+.flat #lsid-window #lsid-window-close {
+  background: url(../../res/_fs/build/close-popup.18e4fda.svg) no-repeat;
+  top: 0;
+  right: 0;
+  height: 15px;
+  width: 15px;
+  z-index: 1;
+}
+.flat #lsid-window.registration {
+  border-radius: inherit;
+}
+.flat #lsid-window.registration .lsid-messages {
+  background: inherit;
+}
+.flat #lsid-window.registration .lsid-messages .message {
+  background: inherit;
+  font-size: 12px;
+  color: #656565;
+  margin-bottom: 30px;
+}
+.flat #lsid-window.registration .lsid-messages .header-message {
+  width: 80px;
+  height: 80px;
+  margin: 40px auto 20px;
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat -360px 0;
+}
+.flat #lsid-window.registration .lsid-messages .header-message.err {
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat -480px 0;
+}
+.flat #ls-search-window {
+  padding: 20px;
+}
+.flat #ls-search-window > div {
+  min-width: 560px;
+}
+.flat #ls-search-window .content table thead tr th {
+  display: block;
+  color: #656565;
+  background: #f0f0f0;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 26px;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  box-sizing: border-box;
+}
+.flat #ls-search-window .content table tbody tr:last-of-type td {
+  border-bottom: 0;
+}
+.flat #ls-search-window .content .search-result-wrapper table thead tr th {
+  border-width: 1px 0 1px 0;
+}
+.flat #ls-search-window .content {
+  padding: 12px 0 0;
+}
+.flat #ls-search-window .content table tbody tr {
+  background-color: inherit !important;
+  height: 23px;
+  line-height: 23px;
+}
+.flat #ls-search-window .content table tbody tr td {
+  border-left: 0;
+  border-right: 0;
+}
+.flat #ls-search-window .content .options {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.flat #ls-search-window .content .options label {
+  margin-right: 17px;
+  display: flex;
+}
+.flat #ls-search-window .content #search-form {
+  overflow: hidden;
+}
+.flat #ls-search-window .content #search-form .search-form-label-wrapper {
+  margin: 0;
+}
+.flat #ls-search-window .content #search-form > div {
+  display: flex;
+  margin-bottom: 12px;
+}
+.flat #ls-search-window div.contents {
+  background-color: inherit;
+}
+.flat #ls-search-window .content-wrap {
+  width: 440px;
+}
+.flat #ls-search-window .content-wrap .options {
+  margin-top: 5px;
+}
+.flat #ls-search-window .content-wrap ul.tabs-menu {
+  background: none;
+  border: none;
+  margin-bottom: 15px;
+}
+.flat #ls-search-window .content-wrap ul.tabs-menu span,
+.flat #ls-search-window .content-wrap ul.tabs-menu li {
+  background: none;
+}
+.flat #ls-search-window .content-wrap ul.tabs-menu a {
+  padding: 0;
+  font-size: 16px;
+  color: #353535;
+  font-weight: bold;
+}
+.flat #ls-search-window .content-wrap #search-results {
+  color: #b0b0b0;
+}
+.flat #ls-search-window .content-wrap #search-results .flat .sport-label {
+  background: none;
+  height: 30px;
+  line-height: 30px;
+}
+.flat #ls-search-window .content-wrap #search-results-history {
+  margin-top: 28px;
+}
+.flat #ls-search-window #search-input-wrapper {
+  height: 36px;
+  width: 560px;
+  box-sizing: border-box;
+}
+.flat #ls-search-window #search-input-wrapper .search-input-sport-wrapper {
+  height: 35px;
+  line-height: 35px;
+  float: right;
+  border-right: none;
+}
+.flat #ls-search-window #search-input-wrapper .search-input-sport-wrapper:hover {
+  background: none;
+}
+.flat #ls-search-window #search-input-wrapper .search-input-sport-wrapper #search-form-select {
+  height: 35px;
+  line-height: 35px;
+}
+.flat #ls-search-window #search-input-wrapper .search-input-sport-wrapper .search-input-sport-selected {
+  height: 35px;
+  line-height: 35px;
+  color: #167e00;
+  font-weight: bold;
+}
+.flat #ls-search-window #search-input-wrapper .search-input-sport-wrapper .search-input-sport-selected:hover {
+  background: none;
+}
+.flat #ls-search-window #search-input-wrapper .search-input-sport-wrapper .search-input-sport-downarrow {
+  top: 16px;
+  width: 9px;
+  background: url(../../res/_fs/build/down-arrow.f850fbb.svg) no-repeat;
+}
+.flat #ls-search-window #search-input-wrapper #search-form-query {
+  height: 32px;
+}
+.flat #ls-search-window #search-input-wrapper .search-input-submit {
+  height: 35px;
+  line-height: 35px;
+  width: 80px;
+  text-align: center;
+  background: #167e00;
+}
+.flat #ls-search-window #ls-search-window-close {
+  background: url(../../res/_fs/build/close-popup.18e4fda.svg) no-repeat;
+  top: 0;
+  right: 0;
+  height: 15px;
+  width: 15px;
+}
+.flat #ls-window,
+.flat #lsid-window,
+.flat #ls-search-window {
+  margin-left: -20px;
+}
+@media only screen and (max-width: 639px) {
+  .flat #ls-window,
+  .flat #lsid-window,
+  .flat #ls-search-window {
+    margin-left: initial;
+  }
+  .flat.responsive .header__button--lsidBox #lsid #lsid-content .user.lsid-rounded-box .lsid-dropdown > *:not(.icon) {
+    display: none;
+  }
+  .flat.responsive .header__button--lsidBox #lsid #lsid-content .settings-list {
+    right: 0;
+    margin: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+  }
+  .flat.responsive .search-results-inner {
+    padding: 0 12px;
+  }
+  .flat.responsive #ls-search-window {
+    box-sizing: border-box;
+    left: 0 !important;
+    right: 0 !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+  }
+  .flat.responsive #ls-search-window #ls-search-window-close {
+    display: none;
+  }
+  .flat.responsive #ls-search-window .content-wrap {
+    width: 100%;
+    min-width: inherit;
+  }
+  .flat.responsive #ls-search-window .content-wrap .tabs-menu {
+    display: none;
+  }
+  .flat.responsive #ls-search-window .content-wrap #search-results {
+    margin-top: 0;
+  }
+  .flat.responsive #ls-search-window .content-wrap #search-results-history {
+    margin-top: 16px;
+  }
+  .flat.responsive #ls-search-window #search-input-wrapper {
+    width: 100%;
+    position: relative;
+  }
+  .flat.responsive #ls-search-window #search-input-wrapper .search-input-submit {
+    display: none;
+    font-size: 0;
+    width: 35px;
+    padding: 0;
+    position: relative;
+  }
+  .flat.responsive #ls-search-window #search-input-wrapper .search-input-submit:after {
+    content: "o";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    display: block;
+    top: 0;
+    left: 0;
+    background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat 9px -21px;
+  }
+  .flat.responsive #ls-search-window .search-result-wrapper tr {
+    line-height: inherit !important;
+  }
+  .flat.responsive #ls-search-window .search-result-wrapper tr td {
+    padding: 0 7px 0 12px;
+  }
+  .flat.responsive #ls-search-window .search-result-wrapper tr td .cellWrapper {
+    display: flex;
+    align-items: center;
+  }
+  .flat.responsive #ls-search-window .search-result-wrapper tr td .cellWrapper a {
+    display: flex;
+    flex: 1;
+    padding: 10px 0;
+  }
+  .flat.responsive #ls-search-window .search-result-wrapper tr td .cellWrapper a span {
+    line-height: 16px;
+  }
+  .flat.responsive .search-form-label-wrapper {
+    width: calc(100% - 24px);
+    padding: 0 12px 0;
+  }
+  .flat.responsive #lsid-window {
+    padding: 0;
+    box-shadow: none;
+  }
+  .flat.responsive #lsid-window #lsid-window-close {
+    display: none;
+  }
+  .flat.responsive #lsid-window #livescore-settings .tabs-menu {
+    padding: 16px 12px;
+    width: auto;
+    margin: 0;
+  }
+  .flat.responsive #lsid-window #livescore-settings .header {
+    margin-top: 0;
+    height: 36px;
+    line-height: 34px;
+  }
+  .flat.responsive #lsid-window #livescore-settings .content {
+    padding: 20px 0;
+  }
+  .flat.responsive #lsid-window #livescore-settings .content > * {
+    padding: 0 12px;
+  }
+  .flat.responsive #lsid-window #livescore-settings .content #timezone {
+    padding: 12px;
+  }
+  .flat.responsive #lsid-window #livescore-settings .content strong {
+    margin: 0 0 16px;
+    display: flex;
+  }
+  .flat.responsive #lsid-window #livescore-settings .content .options {
+    align-items: flex-start;
+  }
+  .flat.responsive #lsid-window #livescore-settings .content .options label {
+    margin-right: 14px;
+  }
+  .flat.responsive #lsid-window #livescore-settings .timezone-settings + .content {
+    padding: 12px 0;
+  }
+  .flat.responsive #lsid-window .lsid-messages {
+    background-color: #fff;
+    position: fixed;
+    top: 48px;
+    left: calc(50% - 150px);
+    -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+  }
+  .flat #lsid-content .user.lsid-rounded-box .lsid-dropdown {
+    flex: 1 1 auto;
+  }
+}
+.flat {
+  /*#lsid-window .content-wrap{
+		background-color: #fff;
+	}
+	#lsid-window.registration:not([data-window-name="login"]){
+		 background-color: #fff;
+	 }*/
+}
+.flat #lsid-window.registration {
+  background-color: #fff;
+  border-radius: 0;
+}
+.flat #lsid-window.registration .contents {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+.flat #lsid-window.registration .contents__passwordChange {
+  flex-direction: column;
+}
+.flat #lsid-window.registration .contents .social-buttons {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .social-buttons a {
+  margin-bottom: 10px;
+}
+.flat #lsid-window.registration .contents .social-buttons a > div {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  border-bottom: none;
+  border-radius: 0;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: center;
+}
+.flat #lsid-window.registration .contents .social-buttons a > div:hover {
+  text-decoration: none;
+}
+.flat #lsid-window.registration .contents .social-buttons a > div span.icon {
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 10px;
+  padding: 0;
+  flex: 0 0 30px;
+}
+.flat #lsid-window.registration .contents .social-buttons a > div span {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  margin-right: 30px;
+}
+.flat #lsid-window.registration .contents .social-buttons [id="#login-fb"]:hover .facebook,
+.flat #lsid-window.registration .contents .social-buttons [id="#registration-fb"]:hover {
+  background-color: #3a507d;
+}
+.flat #lsid-window.registration .contents .social-buttons .facebook .icon {
+  background: url(../../res/_fs/build/social-sprite.45899f4.svg) no-repeat 0 2px;
+}
+.flat #lsid-window.registration .contents .social-buttons [id="#login-google"]:hover .google,
+.flat #lsid-window.registration .contents .social-buttons [id="#registration-google"]:hover {
+  background-color: #3367D6;
+}
+.flat #lsid-window.registration .contents .social-buttons .google .icon {
+  background: url(../../res/_fs/build/social-sprite.45899f4.svg) no-repeat -60px 2px;
+}
+.flat #lsid-window.registration .contents .social-buttons [id="#login-twitter"]:hover .twitter,
+.flat #lsid-window.registration .contents .social-buttons [id="#registration-twitter"]:hover {
+  background-color: #4281cd;
+}
+.flat #lsid-window.registration .contents .social-buttons .twitter .icon {
+  background: url(../../res/_fs/build/social-sprite.45899f4.svg) no-repeat -120px 4px;
+}
+.flat #lsid-window.registration .contents h1 {
+  color: #353535;
+  font-family: Tahoma, Verdana, "Geneva CE", Lucida, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+}
+.flat #lsid-window.registration .contents .login,
+.flat #lsid-window.registration .contents .registration,
+.flat #lsid-window.registration .contents .settings,
+.flat #lsid-window.registration .contents .deleteAccount,
+.flat #lsid-window.registration .contents .forgottenPassword,
+.flat #lsid-window.registration .contents .passwordchange {
+  width: auto;
+  margin: 0 auto;
+}
+.flat #lsid-window.registration .contents .login .form,
+.flat #lsid-window.registration .contents .registration .form,
+.flat #lsid-window.registration .contents .settings .form,
+.flat #lsid-window.registration .contents .deleteAccount .form,
+.flat #lsid-window.registration .contents .forgottenPassword .form,
+.flat #lsid-window.registration .contents .passwordchange .form {
+  background-color: transparent;
+  border: none;
+  width: 260px;
+  margin: 30px 0 0 0;
+}
+.flat #lsid-window.registration .contents .login .form .email-form-element,
+.flat #lsid-window.registration .contents .registration .form .email-form-element,
+.flat #lsid-window.registration .contents .settings .form .email-form-element,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element,
+.flat #lsid-window.registration .contents .login .form .password-form-element,
+.flat #lsid-window.registration .contents .registration .form .password-form-element,
+.flat #lsid-window.registration .contents .settings .form .password-form-element,
+.flat #lsid-window.registration .contents .deleteAccount .form .password-form-element,
+.flat #lsid-window.registration .contents .forgottenPassword .form .password-form-element,
+.flat #lsid-window.registration .contents .passwordchange .form .password-form-element,
+.flat #lsid-window.registration .contents .login .form .newpassword-form-element,
+.flat #lsid-window.registration .contents .registration .form .newpassword-form-element,
+.flat #lsid-window.registration .contents .settings .form .newpassword-form-element,
+.flat #lsid-window.registration .contents .deleteAccount .form .newpassword-form-element,
+.flat #lsid-window.registration .contents .forgottenPassword .form .newpassword-form-element,
+.flat #lsid-window.registration .contents .passwordchange .form .newpassword-form-element {
+  border: solid 1px #d7d7d7;
+  height: 36px;
+}
+.flat #lsid-window.registration .contents .login .form .email-form-element #passwd,
+.flat #lsid-window.registration .contents .registration .form .email-form-element #passwd,
+.flat #lsid-window.registration .contents .settings .form .email-form-element #passwd,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element #passwd,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element #passwd,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element #passwd,
+.flat #lsid-window.registration .contents .login .form .password-form-element #passwd,
+.flat #lsid-window.registration .contents .registration .form .password-form-element #passwd,
+.flat #lsid-window.registration .contents .settings .form .password-form-element #passwd,
+.flat #lsid-window.registration .contents .deleteAccount .form .password-form-element #passwd,
+.flat #lsid-window.registration .contents .forgottenPassword .form .password-form-element #passwd,
+.flat #lsid-window.registration .contents .passwordchange .form .password-form-element #passwd,
+.flat #lsid-window.registration .contents .login .form .newpassword-form-element #passwd,
+.flat #lsid-window.registration .contents .registration .form .newpassword-form-element #passwd,
+.flat #lsid-window.registration .contents .settings .form .newpassword-form-element #passwd,
+.flat #lsid-window.registration .contents .deleteAccount .form .newpassword-form-element #passwd,
+.flat #lsid-window.registration .contents .forgottenPassword .form .newpassword-form-element #passwd,
+.flat #lsid-window.registration .contents .passwordchange .form .newpassword-form-element #passwd,
+.flat #lsid-window.registration .contents .login .form .email-form-element #newpasswd,
+.flat #lsid-window.registration .contents .registration .form .email-form-element #newpasswd,
+.flat #lsid-window.registration .contents .settings .form .email-form-element #newpasswd,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element #newpasswd,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element #newpasswd,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element #newpasswd,
+.flat #lsid-window.registration .contents .login .form .password-form-element #newpasswd,
+.flat #lsid-window.registration .contents .registration .form .password-form-element #newpasswd,
+.flat #lsid-window.registration .contents .settings .form .password-form-element #newpasswd,
+.flat #lsid-window.registration .contents .deleteAccount .form .password-form-element #newpasswd,
+.flat #lsid-window.registration .contents .forgottenPassword .form .password-form-element #newpasswd,
+.flat #lsid-window.registration .contents .passwordchange .form .password-form-element #newpasswd,
+.flat #lsid-window.registration .contents .login .form .newpassword-form-element #newpasswd,
+.flat #lsid-window.registration .contents .registration .form .newpassword-form-element #newpasswd,
+.flat #lsid-window.registration .contents .settings .form .newpassword-form-element #newpasswd,
+.flat #lsid-window.registration .contents .deleteAccount .form .newpassword-form-element #newpasswd,
+.flat #lsid-window.registration .contents .forgottenPassword .form .newpassword-form-element #newpasswd,
+.flat #lsid-window.registration .contents .passwordchange .form .newpassword-form-element #newpasswd {
+  height: 36px;
+  box-shadow: none;
+  font-size: 12px;
+}
+.flat #lsid-window.registration .contents .login .form .email-form-element .show,
+.flat #lsid-window.registration .contents .registration .form .email-form-element .show,
+.flat #lsid-window.registration .contents .settings .form .email-form-element .show,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element .show,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element .show,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element .show,
+.flat #lsid-window.registration .contents .login .form .password-form-element .show,
+.flat #lsid-window.registration .contents .registration .form .password-form-element .show,
+.flat #lsid-window.registration .contents .settings .form .password-form-element .show,
+.flat #lsid-window.registration .contents .deleteAccount .form .password-form-element .show,
+.flat #lsid-window.registration .contents .forgottenPassword .form .password-form-element .show,
+.flat #lsid-window.registration .contents .passwordchange .form .password-form-element .show,
+.flat #lsid-window.registration .contents .login .form .newpassword-form-element .show,
+.flat #lsid-window.registration .contents .registration .form .newpassword-form-element .show,
+.flat #lsid-window.registration .contents .settings .form .newpassword-form-element .show,
+.flat #lsid-window.registration .contents .deleteAccount .form .newpassword-form-element .show,
+.flat #lsid-window.registration .contents .forgottenPassword .form .newpassword-form-element .show,
+.flat #lsid-window.registration .contents .passwordchange .form .newpassword-form-element .show {
+  border-radius: 0;
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat -180px 3px;
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: transparent;
+  min-width: inherit;
+  padding: 0;
+  font-size: 0;
+  top: calc(100% - 15px);
+  right: 20px;
+}
+.flat #lsid-window.registration .contents .login .form .email-form-element .show:hover,
+.flat #lsid-window.registration .contents .registration .form .email-form-element .show:hover,
+.flat #lsid-window.registration .contents .settings .form .email-form-element .show:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element .show:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element .show:hover,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element .show:hover,
+.flat #lsid-window.registration .contents .login .form .password-form-element .show:hover,
+.flat #lsid-window.registration .contents .registration .form .password-form-element .show:hover,
+.flat #lsid-window.registration .contents .settings .form .password-form-element .show:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form .password-form-element .show:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form .password-form-element .show:hover,
+.flat #lsid-window.registration .contents .passwordchange .form .password-form-element .show:hover,
+.flat #lsid-window.registration .contents .login .form .newpassword-form-element .show:hover,
+.flat #lsid-window.registration .contents .registration .form .newpassword-form-element .show:hover,
+.flat #lsid-window.registration .contents .settings .form .newpassword-form-element .show:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form .newpassword-form-element .show:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form .newpassword-form-element .show:hover,
+.flat #lsid-window.registration .contents .passwordchange .form .newpassword-form-element .show:hover {
+  background-color: transparent;
+}
+.flat #lsid-window.registration .contents .login .form .email-form-element .show.on,
+.flat #lsid-window.registration .contents .registration .form .email-form-element .show.on,
+.flat #lsid-window.registration .contents .settings .form .email-form-element .show.on,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element .show.on,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element .show.on,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element .show.on,
+.flat #lsid-window.registration .contents .login .form .password-form-element .show.on,
+.flat #lsid-window.registration .contents .registration .form .password-form-element .show.on,
+.flat #lsid-window.registration .contents .settings .form .password-form-element .show.on,
+.flat #lsid-window.registration .contents .deleteAccount .form .password-form-element .show.on,
+.flat #lsid-window.registration .contents .forgottenPassword .form .password-form-element .show.on,
+.flat #lsid-window.registration .contents .passwordchange .form .password-form-element .show.on,
+.flat #lsid-window.registration .contents .login .form .newpassword-form-element .show.on,
+.flat #lsid-window.registration .contents .registration .form .newpassword-form-element .show.on,
+.flat #lsid-window.registration .contents .settings .form .newpassword-form-element .show.on,
+.flat #lsid-window.registration .contents .deleteAccount .form .newpassword-form-element .show.on,
+.flat #lsid-window.registration .contents .forgottenPassword .form .newpassword-form-element .show.on,
+.flat #lsid-window.registration .contents .passwordchange .form .newpassword-form-element .show.on {
+  background-color: transparent;
+  opacity: 0.5;
+}
+.flat #lsid-window.registration .contents .login .form .email-form-element,
+.flat #lsid-window.registration .contents .registration .form .email-form-element,
+.flat #lsid-window.registration .contents .settings .form .email-form-element,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element {
+  margin-top: 30px;
+  border-bottom: none;
+}
+.flat #lsid-window.registration .contents .login .form .email-form-element #email,
+.flat #lsid-window.registration .contents .registration .form .email-form-element #email,
+.flat #lsid-window.registration .contents .settings .form .email-form-element #email,
+.flat #lsid-window.registration .contents .deleteAccount .form .email-form-element #email,
+.flat #lsid-window.registration .contents .forgottenPassword .form .email-form-element #email,
+.flat #lsid-window.registration .contents .passwordchange .form .email-form-element #email {
+  height: 36px;
+  font-size: 12px;
+}
+.flat #lsid-window.registration .contents .login .form .sign-up-form-element,
+.flat #lsid-window.registration .contents .registration .form .sign-up-form-element,
+.flat #lsid-window.registration .contents .settings .form .sign-up-form-element,
+.flat #lsid-window.registration .contents .deleteAccount .form .sign-up-form-element,
+.flat #lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element,
+.flat #lsid-window.registration .contents .passwordchange .form .sign-up-form-element {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+}
+.flat #lsid-window.registration .contents .login .form .sign-up-form-element #login-log-in-link,
+.flat #lsid-window.registration .contents .registration .form .sign-up-form-element #login-log-in-link,
+.flat #lsid-window.registration .contents .settings .form .sign-up-form-element #login-log-in-link,
+.flat #lsid-window.registration .contents .deleteAccount .form .sign-up-form-element #login-log-in-link,
+.flat #lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element #login-log-in-link,
+.flat #lsid-window.registration .contents .passwordchange .form .sign-up-form-element #login-log-in-link,
+.flat #lsid-window.registration .contents .login .form .sign-up-form-element #registration-log-in-link,
+.flat #lsid-window.registration .contents .registration .form .sign-up-form-element #registration-log-in-link,
+.flat #lsid-window.registration .contents .settings .form .sign-up-form-element #registration-log-in-link,
+.flat #lsid-window.registration .contents .deleteAccount .form .sign-up-form-element #registration-log-in-link,
+.flat #lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element #registration-log-in-link,
+.flat #lsid-window.registration .contents .passwordchange .form .sign-up-form-element #registration-log-in-link {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.flat #lsid-window.registration .contents .login .form .sign-up-form-element .terms,
+.flat #lsid-window.registration .contents .registration .form .sign-up-form-element .terms,
+.flat #lsid-window.registration .contents .settings .form .sign-up-form-element .terms,
+.flat #lsid-window.registration .contents .deleteAccount .form .sign-up-form-element .terms,
+.flat #lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element .terms,
+.flat #lsid-window.registration .contents .passwordchange .form .sign-up-form-element .terms {
+  margin-top: 10px;
+  text-align: center;
+}
+.flat #lsid-window.registration .contents .login .form .sign-up-form-element #terms-link,
+.flat #lsid-window.registration .contents .registration .form .sign-up-form-element #terms-link,
+.flat #lsid-window.registration .contents .settings .form .sign-up-form-element #terms-link,
+.flat #lsid-window.registration .contents .deleteAccount .form .sign-up-form-element #terms-link,
+.flat #lsid-window.registration .contents .forgottenPassword .form .sign-up-form-element #terms-link,
+.flat #lsid-window.registration .contents .passwordchange .form .sign-up-form-element #terms-link {
+  width: 180px;
+}
+.flat #lsid-window.registration .contents .login .form #login,
+.flat #lsid-window.registration .contents .registration .form #login,
+.flat #lsid-window.registration .contents .settings .form #login,
+.flat #lsid-window.registration .contents .deleteAccount .form #login,
+.flat #lsid-window.registration .contents .forgottenPassword .form #login,
+.flat #lsid-window.registration .contents .passwordchange .form #login,
+.flat #lsid-window.registration .contents .login .form #registration,
+.flat #lsid-window.registration .contents .registration .form #registration,
+.flat #lsid-window.registration .contents .settings .form #registration,
+.flat #lsid-window.registration .contents .deleteAccount .form #registration,
+.flat #lsid-window.registration .contents .forgottenPassword .form #registration,
+.flat #lsid-window.registration .contents .passwordchange .form #registration,
+.flat #lsid-window.registration .contents .login .form #settings,
+.flat #lsid-window.registration .contents .registration .form #settings,
+.flat #lsid-window.registration .contents .settings .form #settings,
+.flat #lsid-window.registration .contents .deleteAccount .form #settings,
+.flat #lsid-window.registration .contents .forgottenPassword .form #settings,
+.flat #lsid-window.registration .contents .passwordchange .form #settings,
+.flat #lsid-window.registration .contents .login .form #delete-account-no,
+.flat #lsid-window.registration .contents .registration .form #delete-account-no,
+.flat #lsid-window.registration .contents .settings .form #delete-account-no,
+.flat #lsid-window.registration .contents .deleteAccount .form #delete-account-no,
+.flat #lsid-window.registration .contents .forgottenPassword .form #delete-account-no,
+.flat #lsid-window.registration .contents .passwordchange .form #delete-account-no,
+.flat #lsid-window.registration .contents .login .form #delete-account-yes,
+.flat #lsid-window.registration .contents .registration .form #delete-account-yes,
+.flat #lsid-window.registration .contents .settings .form #delete-account-yes,
+.flat #lsid-window.registration .contents .deleteAccount .form #delete-account-yes,
+.flat #lsid-window.registration .contents .forgottenPassword .form #delete-account-yes,
+.flat #lsid-window.registration .contents .passwordchange .form #delete-account-yes,
+.flat #lsid-window.registration .contents .login .form #send,
+.flat #lsid-window.registration .contents .registration .form #send,
+.flat #lsid-window.registration .contents .settings .form #send,
+.flat #lsid-window.registration .contents .deleteAccount .form #send,
+.flat #lsid-window.registration .contents .forgottenPassword .form #send,
+.flat #lsid-window.registration .contents .passwordchange .form #send,
+.flat #lsid-window.registration .contents .login .form #passwordchange,
+.flat #lsid-window.registration .contents .registration .form #passwordchange,
+.flat #lsid-window.registration .contents .settings .form #passwordchange,
+.flat #lsid-window.registration .contents .deleteAccount .form #passwordchange,
+.flat #lsid-window.registration .contents .forgottenPassword .form #passwordchange,
+.flat #lsid-window.registration .contents .passwordchange .form #passwordchange {
+  height: 36px;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 12px;
+}
+.flat #lsid-window.registration .contents .login .form #login:hover,
+.flat #lsid-window.registration .contents .registration .form #login:hover,
+.flat #lsid-window.registration .contents .settings .form #login:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #login:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #login:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #login:hover,
+.flat #lsid-window.registration .contents .login .form #registration:hover,
+.flat #lsid-window.registration .contents .registration .form #registration:hover,
+.flat #lsid-window.registration .contents .settings .form #registration:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #registration:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #registration:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #registration:hover,
+.flat #lsid-window.registration .contents .login .form #settings:hover,
+.flat #lsid-window.registration .contents .registration .form #settings:hover,
+.flat #lsid-window.registration .contents .settings .form #settings:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #settings:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #settings:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #settings:hover,
+.flat #lsid-window.registration .contents .login .form #delete-account-no:hover,
+.flat #lsid-window.registration .contents .registration .form #delete-account-no:hover,
+.flat #lsid-window.registration .contents .settings .form #delete-account-no:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #delete-account-no:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #delete-account-no:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #delete-account-no:hover,
+.flat #lsid-window.registration .contents .login .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .registration .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .settings .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .login .form #send:hover,
+.flat #lsid-window.registration .contents .registration .form #send:hover,
+.flat #lsid-window.registration .contents .settings .form #send:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #send:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #send:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #send:hover,
+.flat #lsid-window.registration .contents .login .form #passwordchange:hover,
+.flat #lsid-window.registration .contents .registration .form #passwordchange:hover,
+.flat #lsid-window.registration .contents .settings .form #passwordchange:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #passwordchange:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #passwordchange:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #passwordchange:hover {
+  background-color: #336914;
+  text-decoration: none;
+}
+.flat #lsid-window.registration .contents .login .form #delete-account-yes,
+.flat #lsid-window.registration .contents .registration .form #delete-account-yes,
+.flat #lsid-window.registration .contents .settings .form #delete-account-yes,
+.flat #lsid-window.registration .contents .deleteAccount .form #delete-account-yes,
+.flat #lsid-window.registration .contents .forgottenPassword .form #delete-account-yes,
+.flat #lsid-window.registration .contents .passwordchange .form #delete-account-yes {
+  margin-right: 10px;
+  background-color: #656565;
+}
+.flat #lsid-window.registration .contents .login .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .registration .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .settings .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .deleteAccount .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .forgottenPassword .form #delete-account-yes:hover,
+.flat #lsid-window.registration .contents .passwordchange .form #delete-account-yes:hover {
+  background-color: #444;
+}
+.flat #lsid-window.registration .contents .login #login-content,
+.flat #lsid-window.registration .contents .registration #login-content,
+.flat #lsid-window.registration .contents .settings #login-content,
+.flat #lsid-window.registration .contents .deleteAccount #login-content,
+.flat #lsid-window.registration .contents .forgottenPassword #login-content,
+.flat #lsid-window.registration .contents .passwordchange #login-content {
+  display: flex;
+  flex-flow: column;
+  width: 260px;
+}
+.flat #lsid-window.registration .contents .login #login-content .lsid-messages,
+.flat #lsid-window.registration .contents .registration #login-content .lsid-messages,
+.flat #lsid-window.registration .contents .settings #login-content .lsid-messages,
+.flat #lsid-window.registration .contents .deleteAccount #login-content .lsid-messages,
+.flat #lsid-window.registration .contents .forgottenPassword #login-content .lsid-messages,
+.flat #lsid-window.registration .contents .passwordchange #login-content .lsid-messages {
+  width: auto;
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 10px;
+}
+.flat #lsid-window.registration .contents .login #login-content .lsid-messages .message,
+.flat #lsid-window.registration .contents .registration #login-content .lsid-messages .message,
+.flat #lsid-window.registration .contents .settings #login-content .lsid-messages .message,
+.flat #lsid-window.registration .contents .deleteAccount #login-content .lsid-messages .message,
+.flat #lsid-window.registration .contents .forgottenPassword #login-content .lsid-messages .message,
+.flat #lsid-window.registration .contents .passwordchange #login-content .lsid-messages .message {
+  margin: 0;
+  padding: 10px 40px 10px 60px;
+  font-size: 11px;
+  text-align: left;
+  line-height: 16px;
+  color: #656565;
+  min-height: 32px;
+  position: relative;
+  background-color: #fff4bd;
+}
+.flat #lsid-window.registration .contents .login #login-content .lsid-messages .message:before,
+.flat #lsid-window.registration .contents .registration #login-content .lsid-messages .message:before,
+.flat #lsid-window.registration .contents .settings #login-content .lsid-messages .message:before,
+.flat #lsid-window.registration .contents .deleteAccount #login-content .lsid-messages .message:before,
+.flat #lsid-window.registration .contents .forgottenPassword #login-content .lsid-messages .message:before,
+.flat #lsid-window.registration .contents .passwordchange #login-content .lsid-messages .message:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat -590px 10px;
+  width: 50px;
+  height: 50px;
+}
+.flat #lsid-window.registration .contents .login .captcha,
+.flat #lsid-window.registration .contents .registration .captcha,
+.flat #lsid-window.registration .contents .settings .captcha,
+.flat #lsid-window.registration .contents .deleteAccount .captcha,
+.flat #lsid-window.registration .contents .forgottenPassword .captcha,
+.flat #lsid-window.registration .contents .passwordchange .captcha {
+  padding: 10px;
+  box-shadow: none;
+  margin: 0;
+  background-color: #f0f0f0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  height: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.flat #lsid-window.registration .contents #login-form,
+.flat #lsid-window.registration .contents #registration-form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.flat #lsid-window.registration .contents .benefits {
+  display: flex;
+  background: url(../../res/_fs/build/registration.6d76c22.jpg) #cfad80 no-repeat 0 100%;
+  background-size: 340px;
+  color: #fff;
+  margin: -20px 20px -20px -20px;
+  width: 320px;
+  justify-content: center;
+}
+.flat #lsid-window.registration .contents .benefits ul {
+  margin-top: 50px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 12px;
+  width: 200px;
+}
+.flat #lsid-window.registration .contents .benefits ul li {
+  display: flex;
+  flex-flow: row nowrap;
+  line-height: 16px;
+  margin-bottom: 40px;
+  background-size: 30px;
+}
+.flat #lsid-window.registration .contents .benefits ul li .benefit-item {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  flex: 0 0 30px;
+  margin-right: 15px;
+}
+.flat #lsid-window.registration .contents .benefits ul li .sync {
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat 0 0;
+}
+.flat #lsid-window.registration .contents .benefits ul li .news {
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat -120px 1px;
+}
+.flat #lsid-window.registration .contents .benefits ul li .favourite {
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat -60px 0;
+}
+.flat #lsid-window.registration .contents .err-msg-wrapper {
+  left: 280px;
+}
+.flat #lsid-window.registration .contents .deleteAccount {
+  width: 320px;
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .deleteAccount .header {
+  color: #353535;
+  font-family: Tahoma, Verdana, "Geneva CE", Lucida, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .deleteAccount .deleteAccountForm__text {
+  font-size: 12px;
+}
+.flat #lsid-window.registration .contents .forgottenPassword {
+  width: 320px;
+}
+.flat #lsid-window.registration .contents .forgottenPassword .text {
+  width: auto;
+  margin: 20px 0 0;
+  padding: 10px 40px 10px 60px;
+  font-size: 11px;
+  text-align: left;
+  line-height: 16px;
+  color: #656565;
+  position: relative;
+  background-color: #fff4bd;
+}
+.flat #lsid-window.registration .contents .forgottenPassword .text:before {
+  content: "";
+  width: 38px;
+  height: 38px;
+  display: block;
+  position: absolute;
+  top: calc(50% - 17px);
+  left: 10px;
+  background: url(../../res/_fs/build/registration-sprite.acb630d.svg) no-repeat -299px 0px;
+}
+.flat #lsid-window.registration .contents .forgottenPassword .email-form-element {
+  margin-top: 0 !important;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1,
+.flat #lsid-window.registration .contents .newTermsOfUse2 {
+  width: 320px;
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1 .header,
+.flat #lsid-window.registration .contents .newTermsOfUse2 .header {
+  color: #353535;
+  font-family: Tahoma, Verdana, "Geneva CE", Lucida, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form {
+  padding: 30px 20px 0 20px;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__text,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__text {
+  font-size: 12px;
+  padding: 20px 0;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__text a,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__text a {
+  color: #167e00;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons > *:first-child,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons > *:first-child {
+  margin-right: 10px;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #terms-agree,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #terms-agree,
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #privacySettings-agree,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #privacySettings-agree {
+  min-height: 36px;
+  height: auto;
+  flex: 0 0 50%;
+  max-width: calc(50% - 5px);
+  word-break: break-word;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #terms-agree:hover,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #terms-agree:hover,
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #privacySettings-agree:hover,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #privacySettings-agree:hover {
+  background-color: #336914;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #terms-logout,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #terms-logout,
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #terms-disagree,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #terms-disagree {
+  min-height: 36px;
+  height: auto;
+  flex: 0 0 50%;
+  max-width: calc(50% - 5px);
+  word-break: break-word;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #656565;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #terms-logout:hover,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #terms-logout:hover,
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__buttons #terms-disagree:hover,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__buttons #terms-disagree:hover {
+  background-color: #444444;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__links > a,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__links > a {
+  color: #167e00;
+}
+.flat #lsid-window.registration .contents .newTermsOfUse1Form__links > a:hover,
+.flat #lsid-window.registration .contents .newTermsOfUse2Form__links > a:hover {
+  color: #336914;
+}
+.flat #lsid-window.registration .contents .privacySettings {
+  width: 420px;
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .privacySettings .header {
+  color: #353535;
+  font-family: Tahoma, Verdana, "Geneva CE", Lucida, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .privacySettingsForm {
+  padding: 0;
+}
+.flat #lsid-window.registration .contents .privacySettingsForm__text {
+  font-size: 12px;
+  text-align: left;
+  padding: 20px 0;
+}
+.flat #lsid-window.registration .contents .privacySettingsFormCheckboxes {
+  padding-top: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.flat #lsid-window.registration .contents .privacySettingsFormCheckboxes label {
+  display: flex;
+  align-items: center;
+}
+.flat #lsid-window.registration .contents .privacySettingsFormCheckboxes input {
+  margin-right: 6px;
+}
+.flat #lsid-window.registration .contents .privacySettingsForm__buttons #privacySettings-agree {
+  min-height: 36px;
+  height: auto;
+  flex: 0 0 50%;
+  word-break: break-word;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  margin: 10px 0;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.flat #lsid-window.registration .contents .privacySettingsForm__buttons #privacySettings-agree:hover {
+  background-color: #336914;
+}
+.flat #lsid-window #lsid-window-close {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+.flat #lsid-window.registration .contents .forgottenPassword .form,
+.flat #lsid-window.registration .contents .deleteAccount .form {
+  width: 100%;
+}
+@media only screen and (max-width: 639px) {
+  .flat.responsive #lsid-window.registration {
+    overflow-y: auto;
+    box-shadow: none;
+    background-color: transparent;
+    /*&:not([data-window-name]){
+						position: fixed;
+						top: 0 !important;
+						bottom: 0;
+						left: 0;
+						right: 0;
+						background: rgba(0, 0, 0, 0.6);
+						.content-wrap{
+							-webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+							-moz-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+							box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+							min-width: unset;
+							width: 240px;
+							margin: 103px auto 0;
+						}
+						.lsid-messages{
+							width: auto;
+						}
+						.close{
+							left: calc(50% + 95px);
+							top: 115px;
+						}
+					}*/
+  }
+  .flat.responsive #lsid-window.registration .contents h1 {
+    margin-top: 20px;
+  }
+  .flat.responsive #lsid-window.registration .contents .benefits {
+    display: none;
+  }
+  .flat.responsive #lsid-window.registration .contents .login .form,
+  .flat.responsive #lsid-window.registration .contents .registration .form {
+    width: 296px;
+    margin-top: 15px;
+  }
+  .flat.responsive #lsid-window.registration .contents .login #login-content,
+  .flat.responsive #lsid-window.registration .contents .registration #login-content {
+    width: 296px;
+  }
+  .flat.responsive #lsid-window.registration .contents .privacySettings,
+  .flat.responsive #lsid-window.registration .contents .newTermsOfUse2,
+  .flat.responsive #lsid-window.registration .contents .forgottenPassword {
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .flat.responsive #lsid-window.registration .contents .privacySettings .form,
+  .flat.responsive #lsid-window.registration .contents .newTermsOfUse2 .form,
+  .flat.responsive #lsid-window.registration .contents .forgottenPassword .form {
+    width: 280px !important;
+  }
+  .flat.responsive .login .form,
+  .flat.responsive .registration .form,
+  .flat.responsive .settings .form,
+  .flat.responsive .deleteAccount .form,
+  .flat.responsive .forgottenPassword .form,
+  .flat.responsive .passwordchange .form {
+    width: 300px !important;
+  }
+  .flat.responsive .deleteAccount .header,
+  .flat.responsive .contents__passwordChange h1 {
+    padding: 20px 0 0 20px !important;
+    box-sizing: border-box;
+  }
+  .flat.responsive .deleteAccount .form {
+    padding: 20px;
+    width: 280px !important;
+  }
+  .flat.responsive .contents__passwordChange .form {
+    padding: 20px;
+    width: 320px !important;
+  }
+}
+/*
+	CONTROL PANEL - SKELETON
+*/
+div#control-panel-bg {
+  height: 40px;
+  position: relative;
+  z-index: 888;
+}
+div#control-panel {
+  /*	position: fixed; */
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 900;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #000;
+  background: #666666;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #666666 0%, #343434 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #666666), color-stop(100%, #343434));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #666666 0%, #343434 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #666666 0%, #343434 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #666666 0%, #343434 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #666666 0%, #343434 100%);
+  /* W3C */
+}
+div#control-panel #lsid {
+  float: left;
+}
+div#control-panel #lsid #signInFB {
+  visibility: hidden;
+}
+div#control-panel-content {
+  width: 990px;
+  height: 40px;
+  margin: 0px auto;
+}
+._fs--wide div#control-panel-content {
+  width: 1130px;
+  height: 40px;
+  margin: 0px auto;
+}
+div#control-panel-left {
+  float: left;
+  margin-left: -5px;
+}
+div#control-panel-right {
+  float: right;
+  margin-right: 7px;
+}
+div#control-panel-right .user {
+  width: 209px;
+  margin-top: 8px;
+}
+div#control-panel-left {
+  float: left;
+  margin-right: -13px;
+}
+/*
+	----------- ICONS AND BUTTONS ------------
+*/
+span.control-panel-icon,
+span.control-panel-icon-2 {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 0px;
+  background-color: #222;
+}
+span.control-panel-icon:hover,
+span.control-panel-icon-2:hover {
+  opacity: 0.75;
+}
+a.control-panel-icon-search,
+a.control-panel-icon-setting,
+a.control-panel-icon-android,
+a.control-panel-icon-apple,
+a.control-panel-icon-social {
+  /*	width: 100%; */
+  height: 100%;
+  display: block;
+}
+div.control-panel-button {
+  margin-top: 6px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  height: 26px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #aa0000;
+}
+div.control-panel-button:hover {
+  text-decoration: underline;
+}
+div.control-panel-button-select {
+  border-radius: 0px !important;
+  font-weight: normal;
+  height: 22px;
+  line-height: 21px;
+  margin-top: 8px;
+  padding-right: 25px;
+  position: relative;
+}
+div.control-panel-button-select span {
+  display: block;
+  width: 25px;
+  height: 22px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+body.v3 div.control-panel-button {
+  background: linear-gradient(to bottom, #464546 0%, #1e191f 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #222;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+body.v3 div.control-panel-button-red {
+  background: linear-gradient(to bottom, #c30000 0%, #940000 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #440000;
+}
+body.v3 span.control-panel-icon,
+body.v3 span.control-panel-icon-2 {
+  margin-top: 4px;
+  background: linear-gradient(to bottom, #464546 0%, #1e191f 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #222;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+}
+body.v3 span.control-panel-icon:hover,
+body.v3 span.control-panel-icon-2:hover {
+  opacity: 1.0;
+  background: linear-gradient(to bottom, #505050 0%, #222 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+body.v3 span.control-panel-icon-2 {
+  margin-top: 5px;
+  width: auto;
+  height: 28px;
+}
+body.v3 span.control-panel-icon-2 a {
+  padding-left: 32px;
+  padding-right: 10px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 27px;
+  text-decoration: none;
+}
+body.v3 span.control-panel-icon-2 a:hover {
+  text-decoration: underline;
+}
+body.light-bg-1 div#control-panel {
+  background: #7d7d7d;
+  /* Old browsers */
+  background: -moz-linear-gradient(to bottom, #7d7d7d 0%, #525252 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d7d7d), color-stop(100%, #525252));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #7d7d7d 0%, #525252 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #7d7d7d 0%, #525252 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #7d7d7d 0%, #525252 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #7d7d7d 0%, #525252 100%);
+  /* W3C */
+}
+#lsid .buttons {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#lsid #signIn,
+#lsid #registration,
+#lsid #lsid-content .user {
+  max-width: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  float: none;
+  text-align: left;
+  line-height: normal;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-shadow: none;
+  margin: 0 10px 0 0;
+}
+#lsid #signInFB {
+  display: none;
+}
+#lsid #signIn:hover {
+  background-color: var(--secondary-sport-color);
+  text-decoration: none;
+}
+#lsid #registration {
+  margin-right: 0;
+  text-transform: uppercase;
+}
+#lsid #lsid-content {
+  user-select: none;
+}
+#lsid #lsid-content .user {
+  background-color: var(--secondary-sport-color);
+  padding: 0;
+  margin-right: 0;
+}
+#lsid #lsid-content .user .wrapperArrow {
+  border: none;
+  margin-left: 10px;
+}
+#lsid #lsid-content .user .button {
+  border-left: 1px solid #fff;
+  width: auto;
+  height: auto;
+}
+#lsid #lsid-content .user .button span {
+  background: none;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  position: relative;
+}
+#lsid #lsid-content .user .button span:hover {
+  background: none;
+  width: 28px;
+  height: 28px;
+}
+#lsid #lsid-content .user .button span:after {
+  left: 12px;
+  top: 10px;
+  content: "";
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #fff;
+  position: absolute;
+}
+#lsid #lsid-content .user .icon {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -357px -27px;
+  width: 28px;
+  height: 24px;
+  margin-right: 5px;
+}
+#lsid #lsid-content .user .icon#arrow {
+  background: none;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  transition: 0.2s;
+}
+#lsid #lsid-content .lsid-dropdown {
+  height: 32px;
+  padding-left: 10px;
+}
+#lsid #lsid-content .settings-list {
+  width: 100%;
+  top: 32px;
+  box-shadow: 2px 4px 20px 0 rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+  z-index: 2;
+}
+#lsid #lsid-content .settings-list li {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  line-height: 1.4;
+  min-height: 28px;
+  display: flex;
+  height: auto;
+}
+#lsid #lsid-content .settings-list li.profile-name-item {
+  display: none;
+  padding-top: 8px;
+}
+#lsid #lsid-content .settings-list li:not(.profile-name-item):hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+#lsid #lsid-content .settings-list li:not(.profile-name-item):hover a {
+  text-decoration: underline;
+}
+#lsid #lsid-content .settings-list a {
+  font-weight: normal;
+  text-transform: none;
+  color: #656565;
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding: 6px 4px;
+  flex: 1;
+}
+#lsid #lsid-content .settings-list .icon {
+  margin: 0 12px 0 8px;
+  padding: 0;
+  background: none;
+  display: flex;
+}
+#lsid #lsid-content .settings-list #lsid-change-password {
+  position: relative;
+}
+#lsid #lsid-content .settings-list #lsid-change-password .icon {
+  background: url(../../res/_fs/build/change-password.5387a5e.svg) no-repeat 50% 50%;
+}
+#lsid #lsid-content .settings-list #lsid-change-password .userControls__icon--rArrow {
+  margin: 0 0 0 auto;
+}
+#lsid #lsid-content .settings-list #lsid-change-password:after {
+  display: none;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -232px 5px;
+}
+#lsid #lsid-content .settings-list #lsid-delete-account .icon {
+  background: url(../../res/_fs/build/delete-account.64c72ce.svg) no-repeat 50% top;
+}
+#lsid #lsid-content .settings-list #lsid-sign-out .icon {
+  background: url(../../res/_fs/build/sign-out.00c1f52.svg) no-repeat 50% top;
+}
+#lsid #lsid-content #lsid-profile-name {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  color: #656565;
+}
+#lsid #lsid-content #lsid-profile-name .icon {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -59px 0px;
+  width: 20px;
+  height: 20px;
+  margin-left: 11px;
+}
+#lsid .logged-in-title {
+  font-weight: bold;
+}
+@media only screen and (max-width: 999px) {
+  .responsive .header__button--lsidBox #lsid #lsid-content .user {
+    margin-right: 0;
+  }
+  .responsive .header__button--lsidBox #lsid #lsid-content .settings-list {
+    width: 100%;
+  }
+  .responsive .header__button--lsidBox #lsid #lsid-content .settings-list li {
+    min-height: 40px;
+  }
+  .responsive .header__button--lsidBox #lsid #lsid-content .settings-list a {
+    width: 100%;
+  }
+  .responsive .header__button--lsidBox #lsid #lsid-content .buttons #signInFB:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+}
+@media only screen and (max-width: 639px) {
+  .responsive #lsid-window {
+    left: 0 !important;
+    right: 0 !important;
+    padding: 10px;
+    display: flex !important;
+    flex-flow: column nowrap;
+  }
+  .responsive #lsid-window > div {
+    min-width: inherit !important;
+  }
+  .responsive #lsid-window .content-wrap #livescore-settings {
+    width: 100%;
+    min-width: inherit;
+  }
+  .responsive #lsid-window .social-buttons #\#login-twitter,
+  .responsive #lsid-window .social-buttons #\#registration-twitter {
+    display: none;
+  }
+  .responsive #lsid-window.registration #lsid-window-close {
+    display: none;
+  }
+  .responsive .flat #lsid-window.registration .contents .login #login-content {
+    width: calc(100vw - 40px);
+  }
+  .responsive .flat #lsid-window.registration .contents .login #login-content .form {
+    width: 100%;
+  }
+  .responsive .flat #lsid-window.registration .contents .registration .form {
+    width: calc(100vw - 40px);
+  }
+  .responsive #lsid #lsid-content {
+    position: inherit;
+  }
+  .responsive #lsid #lsid-content .settings-list {
+    box-shadow: none;
+  }
+  .responsive #lsid #lsid-content .settings-list .profile-name-item {
+    display: flex;
+    cursor: auto;
+  }
+  .responsive #lsid #lsid-content .settings-list .profile-name-item .logged-in {
+    margin: 10px 0;
+  }
+  .responsive #lsid #lsid-content .settings-list #lsid-change-password:after {
+    display: block;
+  }
+  .responsive #lsid #lsid-content .lsid-dropdown {
+    height: 48px;
+    padding: 0;
+    width: 40px;
+    justify-content: center;
+  }
+  .responsive #lsid #lsid-content .lsid-dropdown--active {
+    background-color: #fff;
+  }
+  .responsive #lsid #lsid-content .lsid-dropdown--active .icon {
+    background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -54px 2px;
+  }
+  .responsive #lsid #lsid-content .user .icon {
+    margin: 0;
+  }
+  .responsive #lsid #lsid-content .settings-list {
+    top: 48px;
+  }
+  .responsive #lsid #signIn,
+  .responsive #lsid #registration,
+  .responsive #lsid #lsid-content .user {
+    height: 48px;
+    margin: 0;
+  }
+}
+

@@ -1,0 +1,5501 @@
+.pid_501 {
+  --odds-column-width: 64px;
+}
+.pid_42 {
+  --text-transform: lowercase;
+}
+.event.odds {
+  --odds-spacer-width: 8px;
+  --odds-livebet-width: 35px;
+}
+.american-football {
+  --primary-sport-color: #834132;
+  --secondary-sport-color: #652b1d;
+  --primary-sport-color-alpha: 131, 65, 50;
+  --secondary-sport-color-alpha: 101, 43, 29;
+}
+body.american-football {
+  --primary-sport-color-body: #834132;
+  --secondary-sport-color-body: #652b1d;
+}
+.aussie-rules {
+  --primary-sport-color: #d55f3f;
+  --secondary-sport-color: #ad3f21;
+  --primary-sport-color-alpha: 213, 95, 63;
+  --secondary-sport-color-alpha: 173, 63, 33;
+}
+body.aussie-rules {
+  --primary-sport-color-body: #d55f3f;
+  --secondary-sport-color-body: #ad3f21;
+}
+.badminton {
+  --primary-sport-color: #35aa7b;
+  --secondary-sport-color: #16875a;
+  --primary-sport-color-alpha: 53, 170, 123;
+  --secondary-sport-color-alpha: 22, 135, 90;
+}
+body.badminton {
+  --primary-sport-color-body: #35aa7b;
+  --secondary-sport-color-body: #16875a;
+}
+.bandy {
+  --primary-sport-color: #5aa4e6;
+  --secondary-sport-color: #4492d6;
+  --primary-sport-color-alpha: 90, 164, 230;
+  --secondary-sport-color-alpha: 68, 146, 214;
+}
+body.bandy {
+  --primary-sport-color-body: #5aa4e6;
+  --secondary-sport-color-body: #4492d6;
+}
+.baseball {
+  --primary-sport-color: #ab8c61;
+  --secondary-sport-color: #856842;
+  --primary-sport-color-alpha: 171, 140, 97;
+  --secondary-sport-color-alpha: 133, 104, 66;
+}
+body.baseball {
+  --primary-sport-color-body: #ab8c61;
+  --secondary-sport-color-body: #856842;
+}
+.basketball {
+  --primary-sport-color: #91311d;
+  --secondary-sport-color: #ab4630;
+  --primary-sport-color-alpha: 145, 49, 29;
+  --secondary-sport-color-alpha: 171, 70, 48;
+}
+body.basketball {
+  --primary-sport-color-body: #91311d;
+  --secondary-sport-color-body: #ab4630;
+}
+.beach-soccer,
+.beach-volleyball {
+  --primary-sport-color: #c9a56e;
+  --secondary-sport-color: #a08256;
+  --primary-sport-color-alpha: 201, 165, 110;
+  --secondary-sport-color-alpha: 160, 130, 86;
+}
+body.beach-soccer,
+body.beach-volleyball {
+  --primary-sport-color-body: #c9a56e;
+  --secondary-sport-color-body: #a08256;
+}
+.boxing {
+  --primary-sport-color: #b6322d;
+  --secondary-sport-color: #862320;
+  --primary-sport-color-alpha: 182, 50, 45;
+  --secondary-sport-color-alpha: 134, 35, 32;
+}
+body.boxing {
+  --primary-sport-color-body: #b6322d;
+  --secondary-sport-color-body: #862320;
+}
+.cricket {
+  --primary-sport-color: #4e0000;
+  --secondary-sport-color: #7b081b;
+  --primary-sport-color-alpha: 78, 0, 0;
+  --secondary-sport-color-alpha: 123, 8, 27;
+}
+body.cricket {
+  --primary-sport-color-body: #4e0000;
+  --secondary-sport-color-body: #7b081b;
+}
+.cycling {
+  --primary-sport-color: #454545;
+  --secondary-sport-color: #2c2c2c;
+  --primary-sport-color-alpha: 69, 69, 69;
+  --secondary-sport-color-alpha: 44, 44, 44;
+}
+body.cycling {
+  --primary-sport-color-body: #454545;
+  --secondary-sport-color-body: #2c2c2c;
+}
+.darts {
+  --primary-sport-color: #7b613a;
+  --secondary-sport-color: #61471f;
+  --primary-sport-color-alpha: 123, 97, 58;
+  --secondary-sport-color-alpha: 97, 71, 31;
+}
+body.darts {
+  --primary-sport-color-body: #7b613a;
+  --secondary-sport-color-body: #61471f;
+}
+.esports {
+  --primary-sport-color: #4a3a80;
+  --secondary-sport-color: #352860;
+  --primary-sport-color-alpha: 74, 58, 128;
+  --secondary-sport-color-alpha: 53, 40, 96;
+}
+body.esports {
+  --primary-sport-color-body: #4a3a80;
+  --secondary-sport-color-body: #352860;
+}
+.field-hockey {
+  --primary-sport-color: #298a54;
+  --secondary-sport-color: #1d7342;
+  --primary-sport-color-alpha: 41, 138, 84;
+  --secondary-sport-color-alpha: 29, 115, 66;
+}
+body.field-hockey {
+  --primary-sport-color-body: #298a54;
+  --secondary-sport-color-body: #1d7342;
+}
+.floorball {
+  --primary-sport-color: #21c1b9;
+  --secondary-sport-color: #0e9892;
+  --primary-sport-color-alpha: 33, 193, 185;
+  --secondary-sport-color-alpha: 14, 152, 146;
+}
+body.floorball {
+  --primary-sport-color-body: #21c1b9;
+  --secondary-sport-color-body: #0e9892;
+}
+.futsal {
+  --primary-sport-color: #5299db;
+  --secondary-sport-color: #3772aa;
+  --primary-sport-color-alpha: 82, 153, 219;
+  --secondary-sport-color-alpha: 55, 114, 170;
+}
+body.futsal {
+  --primary-sport-color-body: #5299db;
+  --secondary-sport-color-body: #3772aa;
+}
+.golf {
+  --primary-sport-color: #71962d;
+  --secondary-sport-color: #4e7019;
+  --primary-sport-color-alpha: 113, 150, 45;
+  --secondary-sport-color-alpha: 78, 112, 25;
+}
+body.golf {
+  --primary-sport-color-body: #71962d;
+  --secondary-sport-color-body: #4e7019;
+}
+.handball {
+  --primary-sport-color: #d97d44;
+  --secondary-sport-color: #bb5c21;
+  --primary-sport-color-alpha: 217, 125, 68;
+  --secondary-sport-color-alpha: 187, 92, 33;
+}
+body.handball {
+  --primary-sport-color-body: #d97d44;
+  --secondary-sport-color-body: #bb5c21;
+}
+.hockey,
+.home {
+  --primary-sport-color: #006290;
+  --secondary-sport-color: #00406d;
+  --primary-sport-color-alpha: 0, 98, 144;
+  --secondary-sport-color-alpha: 0, 64, 109;
+}
+body.hockey,
+body.home {
+  --primary-sport-color-body: #006290;
+  --secondary-sport-color-body: #00406d;
+}
+.horse-racing {
+  --primary-sport-color: #44332c;
+  --secondary-sport-color: #614235;
+  --primary-sport-color-alpha: 68, 51, 44;
+  --secondary-sport-color-alpha: 97, 66, 53;
+}
+body.horse-racing {
+  --primary-sport-color-body: #44332c;
+  --secondary-sport-color-body: #614235;
+}
+.kabaddi {
+  --primary-sport-color: #b85fb0;
+  --secondary-sport-color: #8b408a;
+  --primary-sport-color-alpha: 184, 95, 176;
+  --secondary-sport-color-alpha: 139, 64, 138;
+}
+body.kabaddi {
+  --primary-sport-color-body: #b85fb0;
+  --secondary-sport-color-body: #8b408a;
+}
+.mma,
+.rugby-union,
+.rugby-league {
+  --primary-sport-color: #000000;
+  --secondary-sport-color: #2b2b2b;
+  --primary-sport-color-alpha: 0, 0, 0;
+  --secondary-sport-color-alpha: 43, 43, 43;
+}
+body.mma,
+body.rugby-union,
+body.rugby-league {
+  --primary-sport-color-body: #000000;
+  --secondary-sport-color-body: #2b2b2b;
+}
+.motorsport,
+.motorsport-auto-racing,
+.motorsport-moto-racing {
+  --primary-sport-color: #262626;
+  --secondary-sport-color: #454545;
+  --primary-sport-color-alpha: 38, 38, 38;
+  --secondary-sport-color-alpha: 69, 69, 69;
+}
+body.motorsport,
+body.motorsport-auto-racing,
+body.motorsport-moto-racing {
+  --primary-sport-color-body: #262626;
+  --secondary-sport-color-body: #454545;
+}
+.netball {
+  --primary-sport-color: #bb9255;
+  --secondary-sport-color: #966d30;
+  --primary-sport-color-alpha: 187, 146, 85;
+  --secondary-sport-color-alpha: 150, 109, 48;
+}
+body.netball {
+  --primary-sport-color-body: #bb9255;
+  --secondary-sport-color-body: #966d30;
+}
+.pesapallo {
+  --primary-sport-color: #abc434;
+  --secondary-sport-color: #8aa411;
+  --primary-sport-color-alpha: 171, 196, 52;
+  --secondary-sport-color-alpha: 138, 164, 17;
+}
+body.pesapallo {
+  --primary-sport-color-body: #abc434;
+  --secondary-sport-color-body: #8aa411;
+}
+.snooker {
+  --primary-sport-color: #125912;
+  --secondary-sport-color: #004000;
+  --primary-sport-color-alpha: 18, 89, 18;
+  --secondary-sport-color-alpha: 0, 64, 0;
+}
+body.snooker {
+  --primary-sport-color-body: #125912;
+  --secondary-sport-color-body: #004000;
+}
+.soccer,
+.links {
+  --primary-sport-color: #1b7700;
+  --secondary-sport-color: #085f00;
+  --primary-sport-color-alpha: 27, 119, 0;
+  --secondary-sport-color-alpha: 8, 95, 0;
+}
+body.soccer,
+body.links {
+  --primary-sport-color-body: #1b7700;
+  --secondary-sport-color-body: #085f00;
+}
+.table-tennis {
+  --primary-sport-color: #c84b3b;
+  --secondary-sport-color: #913124;
+  --primary-sport-color-alpha: 200, 75, 59;
+  --secondary-sport-color-alpha: 145, 49, 36;
+}
+body.table-tennis {
+  --primary-sport-color-body: #c84b3b;
+  --secondary-sport-color-body: #913124;
+}
+.tennis {
+  --primary-sport-color: #bf9a17;
+  --secondary-sport-color: #a37e00;
+  --primary-sport-color-alpha: 191, 154, 23;
+  --secondary-sport-color-alpha: 163, 126, 0;
+}
+body.tennis {
+  --primary-sport-color-body: #bf9a17;
+  --secondary-sport-color-body: #a37e00;
+}
+.volleyball {
+  --primary-sport-color: #e6a260;
+  --secondary-sport-color: #b5773a;
+  --primary-sport-color-aplha: 230, 162, 96;
+  --secondary-sport-color-aplha: 181, 119, 58;
+}
+body.volleyball {
+  --primary-sport-color-body: #e6a260;
+  --secondary-sport-color-body: #b5773a;
+}
+.water-polo {
+  --primary-sport-color: #3bb1dd;
+  --secondary-sport-color: #0f8bb9;
+  --primary-sport-color-alpha: 59, 177, 221;
+  --secondary-sport-color-alpha: 15, 139, 185;
+}
+body.water-polo {
+  --primary-sport-color-body: #3bb1dd;
+  --secondary-sport-color-body: #0f8bb9;
+}
+.winter-sports,
+.winter-sports-biathlon,
+.winter-sports-cross-country,
+.winter-sports-alpine-skiing,
+.winter-sports-ski-jumping {
+  --primary-sport-color: #234e8a;
+  --secondary-sport-color: #0f3263;
+  --primary-sport-color-alpha: 35, 78, 138;
+  --secondary-sport-color-alpha: 15, 50, 99;
+}
+body.winter-sports,
+body.winter-sports-biathlon,
+body.winter-sports-cross-country,
+body.winter-sports-alpine-skiing,
+body.winter-sports-ski-jumping {
+  --primary-sport-color-body: #234e8a;
+  --secondary-sport-color-body: #0f3263;
+}
+
+body {
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  color: #656565;
+  background: #e1e1e1;
+}
+body,
+div#mc h2.tournament,
+form input,
+form select,
+form textarea {
+  font-family: Tahoma, "Geneva CE", "Lucida Sans", Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 5px 5px 5px 0;
+}
+h1 {
+  font-size: 130%;
+}
+h2 {
+  font-size: 120%;
+}
+h3 {
+  font-size: 110%;
+}
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+table {
+  font-size: 100%;
+}
+p {
+  margin: 5px 0;
+}
+a {
+  color: #656565;
+  text-decoration: none;
+}
+a img,
+a:link img {
+  border: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  margin: 10px;
+  padding: 0;
+}
+.blink {
+  background: url(../../res/_fs/build/icons-anim.96c31da.gif) no-repeat -31px 0;
+}
+sub,
+sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 80%;
+  line-height: 0;
+}
+sub {
+  top: 0.4em;
+}
+sup {
+  bottom: 0.4em;
+}
+
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url("/res/font/PFDinDisplayPro-Normal.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url("/res/font/PFDinDisplayPro-Tiny.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro';
+  src: url("/res/font/PFDinDisplayPro-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body.non-responsive {
+  min-width: 1000px;
+}
+body.non-responsive._fs--wide {
+  min-width: 1140px;
+}
+body.non-responsive.mobile-page {
+  min-width: inherit;
+}
+
+.background-add-on,
+body.branding {
+  background-color: #222;
+}
+.background-add-on .header,
+body.branding .header,
+.background-add-on .menuTop,
+body.branding .menuTop,
+.background-add-on .seoTop,
+body.branding .seoTop {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.background-add-on .header__wing,
+body.branding .header__wing,
+.background-add-on .menuTop__wing,
+body.branding .menuTop__wing,
+.background-add-on .seoTop__wing,
+body.branding .seoTop__wing {
+  display: none;
+}
+._fs--wide.background-add-on .header,
+._fs--widebody.branding .header,
+._fs--wide.background-add-on .menuTop,
+._fs--widebody.branding .menuTop,
+._fs--wide.background-add-on .seoTop,
+._fs--widebody.branding .seoTop {
+  max-width: 1140px;
+}
+.background-add-on .seoTop__content,
+body.branding .seoTop__content {
+  background-color: transparent;
+}
+.background-add-on .seoAdWrapper,
+body.branding .seoAdWrapper {
+  background-color: transparent;
+}
+body.branding > .header {
+  margin-top: 200px;
+}
+@media only screen and (max-width: 999px) {
+  .responsive {
+    /* TODO: vyresit na strane kodu ne CSS  -->*/
+    /* TODO: vyresit na strane kodu ne CSS  <--*/
+  }
+  .responsive .adsbackground-wrapper {
+    height: auto !important;
+  }
+  .responsive .sticky-wrapper {
+    display: none;
+  }
+  .responsive #box-under-content-wrapper {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .responsive.scrollLock .footer,
+  .responsive.scrollLock .selfPromo,
+  .responsive.scrollLock .extraContent,
+  .responsive.scrollLock .container__liveTableWrapper {
+    display: none;
+  }
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  border: 0;
+}
+.icon.icon-search {
+  width: 24px;
+  height: 24px;
+}
+.icon.icon-pp-yc {
+  width: 10px;
+  height: 13px;
+}
+.icon.icon-pp-rc {
+  width: 10px;
+  height: 13px;
+}
+.icon.icon-pp-ball {
+  width: 15px;
+  height: 13px;
+}
+.icon.icon-pp-dress {
+  width: 13px;
+  height: 13px;
+}
+.icon.icon-cycling-jersey {
+  display: inline-block;
+  width: 17px;
+  height: 13px;
+  margin-left: 3px;
+  float: left;
+}
+.icon-cycling-jersey-group {
+  display: inline-block;
+  height: 13px;
+  margin-left: 4px;
+  vertical-align: text-top;
+}
+.sportIcon.sportIcon {
+  background: url(../../res/_fs/build/sport-icons.5c1d65b.svg) no-repeat;
+}
+.sportIcon.sportIcon--home {
+  background-position-x: 60px;
+}
+.sportIcon.sportIcon--links {
+  background-position-x: 30px;
+}
+.sportIcon.sportIcon--american-football {
+  background-position-x: 0px;
+}
+.sportIcon.sportIcon--aussie-rules {
+  background-position-x: -30px;
+}
+.sportIcon.sportIcon--badminton {
+  background-position-x: -60px;
+}
+.sportIcon.sportIcon--bandy {
+  background-position-x: -90px;
+}
+.sportIcon.sportIcon--baseball {
+  background-position-x: -120px;
+}
+.sportIcon.sportIcon--basketball {
+  background-position-x: -150px;
+}
+.sportIcon.sportIcon--beach-soccer {
+  background-position-x: -180px;
+}
+.sportIcon.sportIcon--beach-volleyball {
+  background-position-x: -210px;
+}
+.sportIcon.sportIcon--boxing {
+  background-position-x: -240px;
+}
+.sportIcon.sportIcon--cricket {
+  background-position-x: -270px;
+}
+.sportIcon.sportIcon--cycling {
+  background-position-x: -300px;
+}
+.sportIcon.sportIcon--darts {
+  background-position-x: -330px;
+}
+.sportIcon.sportIcon--esports {
+  background-position-x: -360px;
+}
+.sportIcon.sportIcon--field-hockey {
+  background-position-x: -390px;
+}
+.sportIcon.sportIcon--floorball {
+  background-position-x: -420px;
+}
+.sportIcon.sportIcon--futsal {
+  background-position-x: -450px;
+}
+.sportIcon.sportIcon--golf {
+  background-position-x: -480px;
+}
+.sportIcon.sportIcon--handball {
+  background-position-x: -510px;
+}
+.sportIcon.sportIcon--hockey {
+  background-position-x: -540px;
+}
+.sportIcon.sportIcon--horse-racing {
+  background-position-x: -570px;
+}
+.sportIcon.sportIcon--kabaddi {
+  background-position-x: -600px;
+}
+.sportIcon.sportIcon--mma {
+  background-position-x: -630px;
+}
+.sportIcon.sportIcon--motorsport {
+  background-position-x: -660px;
+}
+.sportIcon.sportIcon--motorsport-auto-racing {
+  background-position-x: -690px;
+}
+.sportIcon.sportIcon--motorsport-moto-racing {
+  background-position-x: -720px;
+}
+.sportIcon.sportIcon--netball {
+  background-position-x: -750px;
+}
+.sportIcon.sportIcon--pesapallo {
+  background-position-x: -780px;
+}
+.sportIcon.sportIcon--rugby-league {
+  background-position-x: -810px;
+}
+.sportIcon.sportIcon--rugby-union {
+  background-position-x: -840px;
+}
+.sportIcon.sportIcon--snooker {
+  background-position-x: -870px;
+}
+.sportIcon.sportIcon--soccer {
+  background-position-x: -900px;
+}
+.sportIcon.sportIcon--table-tennis {
+  background-position-x: -930px;
+}
+.sportIcon.sportIcon--tennis {
+  background-position-x: -960px;
+}
+.sportIcon.sportIcon--volleyball {
+  background-position-x: -990px;
+}
+.sportIcon.sportIcon--water-polo {
+  background-position-x: -1020px;
+}
+.sportIcon.sportIcon--winter-sports {
+  background-position-x: -1050px;
+}
+.sportIcon.sportIcon--winter-sports-biathlon {
+  background-position-x: -1080px;
+}
+.sportIcon.sportIcon--winter-sports-cross-country {
+  background-position-x: -1110px;
+}
+.sportIcon.sportIcon--winter-sports-alpine-skiing {
+  background-position-x: -1140px;
+}
+.sportIcon.sportIcon--winter-sports-ski-jumping {
+  background-position-x: -1170px;
+}
+.menuTop .sportIcon {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-position-y: -30px;
+}
+.sport-label .sportIcon {
+  width: 24px;
+  height: 24px;
+  margin: 3px 5px 0 -5px;
+  float: left;
+  background-position-y: -30px;
+}
+h2.tournament .sportIcon {
+  width: 24px;
+  height: 24px;
+  margin: 0 2px 0 0;
+  float: left;
+  background-position-y: 0;
+  transform: scale(0.8);
+}
+h2.tournament .sportIcon:nth-of-type(2) {
+  margin-left: 5px;
+  float: none;
+  display: inline-block;
+}
+.nmf .sportIcon {
+  width: 85px;
+  height: 80px;
+  margin-top: 20px;
+  background-position-y: 0;
+  background-size: auto 300px;
+  opacity: 0.18;
+}
+.nmf .sportIcon--home {
+  background-position-x: 205px;
+}
+.nmf .sportIcon--links {
+  background-position-x: 105px;
+}
+.nmf .sportIcon--american-football {
+  background-position-x: 5px;
+}
+.nmf .sportIcon--aussie-rules {
+  background-position-x: -95px;
+}
+.nmf .sportIcon--badminton {
+  background-position-x: -195px;
+}
+.nmf .sportIcon--bandy {
+  background-position-x: -295px;
+}
+.nmf .sportIcon--baseball {
+  background-position-x: -395px;
+}
+.nmf .sportIcon--basketball {
+  background-position-x: -495px;
+}
+.nmf .sportIcon--beach-soccer {
+  background-position-x: -595px;
+}
+.nmf .sportIcon--beach-volleyball {
+  background-position-x: -695px;
+}
+.nmf .sportIcon--boxing {
+  background-position-x: -795px;
+}
+.nmf .sportIcon--cricket {
+  background-position-x: -895px;
+}
+.nmf .sportIcon--cycling {
+  background-position-x: -995px;
+}
+.nmf .sportIcon--darts {
+  background-position-x: -1095px;
+}
+.nmf .sportIcon--esports {
+  background-position-x: -1195px;
+}
+.nmf .sportIcon--field-hockey {
+  background-position-x: -1295px;
+}
+.nmf .sportIcon--floorball {
+  background-position-x: -1395px;
+}
+.nmf .sportIcon--futsal {
+  background-position-x: -1495px;
+}
+.nmf .sportIcon--golf {
+  background-position-x: -1595px;
+}
+.nmf .sportIcon--handball {
+  background-position-x: -1695px;
+}
+.nmf .sportIcon--hockey {
+  background-position-x: -1795px;
+}
+.nmf .sportIcon--horse-racing {
+  background-position-x: -1895px;
+}
+.nmf .sportIcon--kabaddi {
+  background-position-x: -1995px;
+}
+.nmf .sportIcon--mma {
+  background-position-x: -2095px;
+}
+.nmf .sportIcon--motorsport {
+  background-position-x: -2195px;
+}
+.nmf .sportIcon--motorsport-auto-racing {
+  background-position-x: -2295px;
+}
+.nmf .sportIcon--motorsport-moto-racing {
+  background-position-x: -2395px;
+}
+.nmf .sportIcon--netball {
+  background-position-x: -2495px;
+}
+.nmf .sportIcon--pesapallo {
+  background-position-x: -2595px;
+}
+.nmf .sportIcon--rugby-league {
+  background-position-x: -2695px;
+}
+.nmf .sportIcon--rugby-union {
+  background-position-x: -2795px;
+}
+.nmf .sportIcon--snooker {
+  background-position-x: -2895px;
+}
+.nmf .sportIcon--soccer {
+  background-position-x: -2995px;
+}
+.nmf .sportIcon--table-tennis {
+  background-position-x: -3095px;
+}
+.nmf .sportIcon--tennis {
+  background-position-x: -3195px;
+}
+.nmf .sportIcon--volleyball {
+  background-position-x: -3295px;
+}
+.nmf .sportIcon--water-polo {
+  background-position-x: -3395px;
+}
+.nmf .sportIcon--winter-sports {
+  background-position-x: -3495px;
+}
+.nmf .sportIcon--winter-sports-biathlon {
+  background-position-x: -3595px;
+}
+.nmf .sportIcon--winter-sports-cross-country {
+  background-position-x: -3695px;
+}
+.nmf .sportIcon--winter-sports-alpine-skiing {
+  background-position-x: -3795px;
+}
+.nmf .sportIcon--winter-sports-ski-jumping {
+  background-position-x: -3895px;
+}
+.sport-icon .sportIcon {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  background-position-y: 0;
+  background-size: auto 120px;
+}
+.sport-icon .sportIcon--home {
+  background-position-x: 80px;
+}
+.sport-icon .sportIcon--links {
+  background-position-x: 40px;
+}
+.sport-icon .sportIcon--american-football {
+  background-position-x: 0px;
+}
+.sport-icon .sportIcon--aussie-rules {
+  background-position-x: -40px;
+}
+.sport-icon .sportIcon--badminton {
+  background-position-x: -80px;
+}
+.sport-icon .sportIcon--bandy {
+  background-position-x: -120px;
+}
+.sport-icon .sportIcon--baseball {
+  background-position-x: -160px;
+}
+.sport-icon .sportIcon--basketball {
+  background-position-x: -200px;
+}
+.sport-icon .sportIcon--beach-soccer {
+  background-position-x: -240px;
+}
+.sport-icon .sportIcon--beach-volleyball {
+  background-position-x: -280px;
+}
+.sport-icon .sportIcon--boxing {
+  background-position-x: -320px;
+}
+.sport-icon .sportIcon--cricket {
+  background-position-x: -360px;
+}
+.sport-icon .sportIcon--cycling {
+  background-position-x: -400px;
+}
+.sport-icon .sportIcon--darts {
+  background-position-x: -440px;
+}
+.sport-icon .sportIcon--esports {
+  background-position-x: -480px;
+}
+.sport-icon .sportIcon--field-hockey {
+  background-position-x: -520px;
+}
+.sport-icon .sportIcon--floorball {
+  background-position-x: -560px;
+}
+.sport-icon .sportIcon--futsal {
+  background-position-x: -600px;
+}
+.sport-icon .sportIcon--golf {
+  background-position-x: -640px;
+}
+.sport-icon .sportIcon--handball {
+  background-position-x: -680px;
+}
+.sport-icon .sportIcon--hockey {
+  background-position-x: -720px;
+}
+.sport-icon .sportIcon--horse-racing {
+  background-position-x: -760px;
+}
+.sport-icon .sportIcon--kabaddi {
+  background-position-x: -800px;
+}
+.sport-icon .sportIcon--mma {
+  background-position-x: -840px;
+}
+.sport-icon .sportIcon--motorsport {
+  background-position-x: -880px;
+}
+.sport-icon .sportIcon--motorsport-auto-racing {
+  background-position-x: -920px;
+}
+.sport-icon .sportIcon--motorsport-moto-racing {
+  background-position-x: -960px;
+}
+.sport-icon .sportIcon--netball {
+  background-position-x: -1000px;
+}
+.sport-icon .sportIcon--pesapallo {
+  background-position-x: -1040px;
+}
+.sport-icon .sportIcon--rugby-league {
+  background-position-x: -1080px;
+}
+.sport-icon .sportIcon--rugby-union {
+  background-position-x: -1120px;
+}
+.sport-icon .sportIcon--snooker {
+  background-position-x: -1160px;
+}
+.sport-icon .sportIcon--soccer {
+  background-position-x: -1200px;
+}
+.sport-icon .sportIcon--table-tennis {
+  background-position-x: -1240px;
+}
+.sport-icon .sportIcon--tennis {
+  background-position-x: -1280px;
+}
+.sport-icon .sportIcon--volleyball {
+  background-position-x: -1320px;
+}
+.sport-icon .sportIcon--water-polo {
+  background-position-x: -1360px;
+}
+.sport-icon .sportIcon--winter-sports {
+  background-position-x: -1400px;
+}
+.sport-icon .sportIcon--winter-sports-biathlon {
+  background-position-x: -1440px;
+}
+.sport-icon .sportIcon--winter-sports-cross-country {
+  background-position-x: -1480px;
+}
+.sport-icon .sportIcon--winter-sports-alpine-skiing {
+  background-position-x: -1520px;
+}
+.sport-icon .sportIcon--winter-sports-ski-jumping {
+  background-position-x: -1560px;
+}
+.flat .container .lc--active .menu .head .sportIcon {
+  width: 18px;
+  height: 18px;
+  margin: 0 8px 0 0;
+  background-position-y: 0;
+  background-size: auto 72px;
+  display: inline-block;
+}
+.flat .container .lc--active .menu .head .sportIcon--home {
+  background-position-x: 48px;
+}
+.flat .container .lc--active .menu .head .sportIcon--links {
+  background-position-x: 24px;
+}
+.flat .container .lc--active .menu .head .sportIcon--american-football {
+  background-position-x: 0px;
+}
+.flat .container .lc--active .menu .head .sportIcon--aussie-rules {
+  background-position-x: -24px;
+}
+.flat .container .lc--active .menu .head .sportIcon--badminton {
+  background-position-x: -48px;
+}
+.flat .container .lc--active .menu .head .sportIcon--bandy {
+  background-position-x: -72px;
+}
+.flat .container .lc--active .menu .head .sportIcon--baseball {
+  background-position-x: -96px;
+}
+.flat .container .lc--active .menu .head .sportIcon--basketball {
+  background-position-x: -120px;
+}
+.flat .container .lc--active .menu .head .sportIcon--beach-soccer {
+  background-position-x: -144px;
+}
+.flat .container .lc--active .menu .head .sportIcon--beach-volleyball {
+  background-position-x: -168px;
+}
+.flat .container .lc--active .menu .head .sportIcon--boxing {
+  background-position-x: -192px;
+}
+.flat .container .lc--active .menu .head .sportIcon--cricket {
+  background-position-x: -216px;
+}
+.flat .container .lc--active .menu .head .sportIcon--cycling {
+  background-position-x: -240px;
+}
+.flat .container .lc--active .menu .head .sportIcon--darts {
+  background-position-x: -264px;
+}
+.flat .container .lc--active .menu .head .sportIcon--esports {
+  background-position-x: -288px;
+}
+.flat .container .lc--active .menu .head .sportIcon--field-hockey {
+  background-position-x: -312px;
+}
+.flat .container .lc--active .menu .head .sportIcon--floorball {
+  background-position-x: -336px;
+}
+.flat .container .lc--active .menu .head .sportIcon--futsal {
+  background-position-x: -360px;
+}
+.flat .container .lc--active .menu .head .sportIcon--golf {
+  background-position-x: -384px;
+}
+.flat .container .lc--active .menu .head .sportIcon--handball {
+  background-position-x: -408px;
+}
+.flat .container .lc--active .menu .head .sportIcon--hockey {
+  background-position-x: -432px;
+}
+.flat .container .lc--active .menu .head .sportIcon--horse-racing {
+  background-position-x: -456px;
+}
+.flat .container .lc--active .menu .head .sportIcon--kabaddi {
+  background-position-x: -480px;
+}
+.flat .container .lc--active .menu .head .sportIcon--mma {
+  background-position-x: -504px;
+}
+.flat .container .lc--active .menu .head .sportIcon--motorsport {
+  background-position-x: -528px;
+}
+.flat .container .lc--active .menu .head .sportIcon--motorsport-auto-racing {
+  background-position-x: -552px;
+}
+.flat .container .lc--active .menu .head .sportIcon--motorsport-moto-racing {
+  background-position-x: -576px;
+}
+.flat .container .lc--active .menu .head .sportIcon--netball {
+  background-position-x: -600px;
+}
+.flat .container .lc--active .menu .head .sportIcon--pesapallo {
+  background-position-x: -624px;
+}
+.flat .container .lc--active .menu .head .sportIcon--rugby-league {
+  background-position-x: -648px;
+}
+.flat .container .lc--active .menu .head .sportIcon--rugby-union {
+  background-position-x: -672px;
+}
+.flat .container .lc--active .menu .head .sportIcon--snooker {
+  background-position-x: -696px;
+}
+.flat .container .lc--active .menu .head .sportIcon--soccer {
+  background-position-x: -720px;
+}
+.flat .container .lc--active .menu .head .sportIcon--table-tennis {
+  background-position-x: -744px;
+}
+.flat .container .lc--active .menu .head .sportIcon--tennis {
+  background-position-x: -768px;
+}
+.flat .container .lc--active .menu .head .sportIcon--volleyball {
+  background-position-x: -792px;
+}
+.flat .container .lc--active .menu .head .sportIcon--water-polo {
+  background-position-x: -816px;
+}
+.flat .container .lc--active .menu .head .sportIcon--winter-sports {
+  background-position-x: -840px;
+}
+.flat .container .lc--active .menu .head .sportIcon--winter-sports-biathlon {
+  background-position-x: -864px;
+}
+.flat .container .lc--active .menu .head .sportIcon--winter-sports-cross-country {
+  background-position-x: -888px;
+}
+.flat .container .lc--active .menu .head .sportIcon--winter-sports-alpine-skiing {
+  background-position-x: -912px;
+}
+.flat .container .lc--active .menu .head .sportIcon--winter-sports-ski-jumping {
+  background-position-x: -936px;
+}
+@media only screen and (max-width: 639px) {
+  h2.tournament .sportIcon {
+    margin: 0 0 0 12px;
+  }
+}
+
+.seoTop h1 {
+  font-size: initial;
+  color: initial;
+  margin: initial;
+  padding: initial;
+}
+.seoTop {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+}
+.seoTop__wing {
+  flex: 1;
+}
+.seoTop__content {
+  flex: 0 1 1000px;
+  background-color: #343434;
+}
+._fs--wide .seoTop__content {
+  flex: 0 1 1140px;
+  flex-flow: row nowrap;
+}
+.seoTop__content h1 {
+  font-size: 11px;
+  color: #B0B0B0;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  font-weight: normal;
+  margin: 0 10px;
+  padding: 7px 0;
+}
+.seoAdWrapper {
+  /* SHAME */
+  overflow: hidden;
+  /* SHAME */
+}
+
+.header {
+  font-size: initial;
+  color: initial;
+}
+.header a {
+  text-decoration: initial;
+  color: initial;
+}
+.container .header {
+  padding: initial;
+}
+.home .profileTable__list {
+  border-bottom: solid 4px #00406d;
+}
+.home .profileTable__tabsList,
+.home .profileTable__tabsItem--selected {
+  background-color: #00406d;
+}
+.home #filter-box {
+  background-color: #00406d;
+}
+.home .menuTop__wing,
+.home .menuTop__content,
+.home .header__button:hover,
+.home #lsid #lsid-content .user,
+.home #lsid #lsid-content #signIn:hover,
+.home .signAndReg:hover,
+.home #fsbody .color-spacer,
+.home #detail #glib-stats-submenu-table .ifmenu,
+.home #detail .stats-table-label,
+.home #detail .stats-shared-menu .submenu .ifmenu,
+.home .group-label span.group-label-wrapper,
+.home #detail .stats-table-label,
+.home .tab-header .label,
+.home #tabs div.submenu ul,
+.home .tab-header,
+.home #tabs div.submenu .color-spacer {
+  background-color: #00406d;
+}
+.home .group-label {
+  border-color: #00406d;
+}
+.home .gTableSort-asc .arrow {
+  border-color: transparent transparent #00406d transparent;
+}
+.home .gTableSort-desc .arrow {
+  border-color: #00406d transparent transparent transparent;
+}
+.home .menuTop__item:hover,
+.home .menuMinority__title:hover,
+.home #lsid #lsid-content #registration,
+.home #lsid #lsid-content .user:hover,
+.home #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.home #odds-format.switchable span.active-odds-format,
+.home #tabs div.submenu ul li.selected a,
+.home #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.home #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.home #fsbody #tabs div.submenu ul ul li a:hover,
+.home #fsbody #tabs.tabs div.submenu ul li a:hover,
+.home #fsbody #tabs.tabs div.submenu ul li.selected a,
+.home #fsbody #tabs .submenu ul li a:hover,
+.home #fsbody #odds-format.switchable a:hover,
+.home.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.home.flat #detail .stats-shared-menu .submenu li a:hover,
+.home .profileTable__tabsListItem:hover,
+.home .profileTable__tabsListItem--selected {
+  background-color: #002844;
+  opacity: 1;
+}
+.home.flat .ifmenu {
+  border-color: #00406d;
+}
+.home.flat .ifmenu #ifmenu-calendar span.today,
+.home.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: #00406d;
+}
+.home.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(0, 64, 109, 0.1);
+}
+.home.flat .ifmenu .selected {
+  background-color: #00406d;
+}
+.home .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(0, 98, 144, 0.1);
+}
+.home #fsbody .tomyg:hover,
+.home .event__check:not(.checked):hover {
+  background: rgba(0, 64, 109, 0.2);
+}
+#fsbody #local-mygames table.home .icons .tomyg:hover {
+  background: rgba(0, 64, 109, 0.2);
+}
+.home #odds-format.switchable {
+  background: #00406d;
+}
+.links .profileTable__list {
+  border-bottom: solid 4px /* links             */ #085f00;
+}
+.links .profileTable__tabsList,
+.links .profileTable__tabsItem--selected {
+  background-color: /* links             */ #085f00;
+}
+.links #filter-box {
+  background-color: /* links             */ #085f00;
+}
+.links .menuTop__wing,
+.links .menuTop__content,
+.links .header__button:hover,
+.links #lsid #lsid-content .user,
+.links #lsid #lsid-content #signIn:hover,
+.links .signAndReg:hover,
+.links #fsbody .color-spacer,
+.links #detail #glib-stats-submenu-table .ifmenu,
+.links #detail .stats-table-label,
+.links #detail .stats-shared-menu .submenu .ifmenu,
+.links .group-label span.group-label-wrapper,
+.links #detail .stats-table-label,
+.links .tab-header .label,
+.links #tabs div.submenu ul,
+.links .tab-header,
+.links #tabs div.submenu .color-spacer {
+  background-color: /* links             */ #085f00;
+}
+.links .group-label {
+  border-color: /* links             */ #085f00;
+}
+.links .gTableSort-asc .arrow {
+  border-color: transparent transparent /* links             */ #085f00 transparent;
+}
+.links .gTableSort-desc .arrow {
+  border-color: /* links             */ #085f00 transparent transparent transparent;
+}
+.links .menuTop__item:hover,
+.links .menuMinority__title:hover,
+.links #lsid #lsid-content #registration,
+.links #lsid #lsid-content .user:hover,
+.links #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.links #odds-format.switchable span.active-odds-format,
+.links #tabs div.submenu ul li.selected a,
+.links #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.links #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.links #fsbody #tabs div.submenu ul ul li a:hover,
+.links #fsbody #tabs.tabs div.submenu ul li a:hover,
+.links #fsbody #tabs.tabs div.submenu ul li.selected a,
+.links #fsbody #tabs .submenu ul li a:hover,
+.links #fsbody #odds-format.switchable a:hover,
+.links.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.links.flat #detail .stats-shared-menu .submenu li a:hover,
+.links .profileTable__tabsListItem:hover,
+.links .profileTable__tabsListItem--selected {
+  background-color: #053600;
+  opacity: 1;
+}
+.links.flat .ifmenu {
+  border-color: /* links             */ #085f00;
+}
+.links.flat .ifmenu #ifmenu-calendar span.today,
+.links.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* links             */ #085f00;
+}
+.links.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(8, 95, 0, 0.1);
+}
+.links.flat .ifmenu .selected {
+  background-color: /* links             */ #085f00;
+}
+.links .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(27, 119, 0, 0.1);
+}
+.links #fsbody .tomyg:hover,
+.links .event__check:not(.checked):hover {
+  background: rgba(8, 95, 0, 0.2);
+}
+#fsbody #local-mygames table.links .icons .tomyg:hover {
+  background: rgba(8, 95, 0, 0.2);
+}
+.links #odds-format.switchable {
+  background: /* links             */ #085f00;
+}
+.american-football .profileTable__list {
+  border-bottom: solid 4px /* american-football */ #652b1d;
+}
+.american-football .profileTable__tabsList,
+.american-football .profileTable__tabsItem--selected {
+  background-color: /* american-football */ #652b1d;
+}
+.american-football #filter-box {
+  background-color: /* american-football */ #652b1d;
+}
+.american-football .menuTop__wing,
+.american-football .menuTop__content,
+.american-football .header__button:hover,
+.american-football #lsid #lsid-content .user,
+.american-football #lsid #lsid-content #signIn:hover,
+.american-football .signAndReg:hover,
+.american-football #fsbody .color-spacer,
+.american-football #detail #glib-stats-submenu-table .ifmenu,
+.american-football #detail .stats-table-label,
+.american-football #detail .stats-shared-menu .submenu .ifmenu,
+.american-football .group-label span.group-label-wrapper,
+.american-football #detail .stats-table-label,
+.american-football .tab-header .label,
+.american-football #tabs div.submenu ul,
+.american-football .tab-header,
+.american-football #tabs div.submenu .color-spacer {
+  background-color: /* american-football */ #652b1d;
+}
+.american-football .group-label {
+  border-color: /* american-football */ #652b1d;
+}
+.american-football .gTableSort-asc .arrow {
+  border-color: transparent transparent /* american-football */ #652b1d transparent;
+}
+.american-football .gTableSort-desc .arrow {
+  border-color: /* american-football */ #652b1d transparent transparent transparent;
+}
+.american-football .menuTop__item:hover,
+.american-football .menuMinority__title:hover,
+.american-football #lsid #lsid-content #registration,
+.american-football #lsid #lsid-content .user:hover,
+.american-football #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.american-football #odds-format.switchable span.active-odds-format,
+.american-football #tabs div.submenu ul li.selected a,
+.american-football #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.american-football #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.american-football #fsbody #tabs div.submenu ul ul li a:hover,
+.american-football #fsbody #tabs.tabs div.submenu ul li a:hover,
+.american-football #fsbody #tabs.tabs div.submenu ul li.selected a,
+.american-football #fsbody #tabs .submenu ul li a:hover,
+.american-football #fsbody #odds-format.switchable a:hover,
+.american-football.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.american-football.flat #detail .stats-shared-menu .submenu li a:hover,
+.american-football .profileTable__tabsListItem:hover,
+.american-football .profileTable__tabsListItem--selected {
+  background-color: #451e14;
+  opacity: 1;
+}
+.american-football.flat .ifmenu {
+  border-color: /* american-football */ #652b1d;
+}
+.american-football.flat .ifmenu #ifmenu-calendar span.today,
+.american-football.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* american-football */ #652b1d;
+}
+.american-football.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(101, 43, 29, 0.1);
+}
+.american-football.flat .ifmenu .selected {
+  background-color: /* american-football */ #652b1d;
+}
+.american-football .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(131, 65, 50, 0.1);
+}
+.american-football #fsbody .tomyg:hover,
+.american-football .event__check:not(.checked):hover {
+  background: rgba(101, 43, 29, 0.2);
+}
+#fsbody #local-mygames table.american-football .icons .tomyg:hover {
+  background: rgba(101, 43, 29, 0.2);
+}
+.american-football #odds-format.switchable {
+  background: /* american-football */ #652b1d;
+}
+.aussie-rules .profileTable__list {
+  border-bottom: solid 4px /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules .profileTable__tabsList,
+.aussie-rules .profileTable__tabsItem--selected {
+  background-color: /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules #filter-box {
+  background-color: /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules .menuTop__wing,
+.aussie-rules .menuTop__content,
+.aussie-rules .header__button:hover,
+.aussie-rules #lsid #lsid-content .user,
+.aussie-rules #lsid #lsid-content #signIn:hover,
+.aussie-rules .signAndReg:hover,
+.aussie-rules #fsbody .color-spacer,
+.aussie-rules #detail #glib-stats-submenu-table .ifmenu,
+.aussie-rules #detail .stats-table-label,
+.aussie-rules #detail .stats-shared-menu .submenu .ifmenu,
+.aussie-rules .group-label span.group-label-wrapper,
+.aussie-rules #detail .stats-table-label,
+.aussie-rules .tab-header .label,
+.aussie-rules #tabs div.submenu ul,
+.aussie-rules .tab-header,
+.aussie-rules #tabs div.submenu .color-spacer {
+  background-color: /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules .group-label {
+  border-color: /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules .gTableSort-asc .arrow {
+  border-color: transparent transparent /* aussie-rules      */ #ad3f21 transparent;
+}
+.aussie-rules .gTableSort-desc .arrow {
+  border-color: /* aussie-rules      */ #ad3f21 transparent transparent transparent;
+}
+.aussie-rules .menuTop__item:hover,
+.aussie-rules .menuMinority__title:hover,
+.aussie-rules #lsid #lsid-content #registration,
+.aussie-rules #lsid #lsid-content .user:hover,
+.aussie-rules #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.aussie-rules #odds-format.switchable span.active-odds-format,
+.aussie-rules #tabs div.submenu ul li.selected a,
+.aussie-rules #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.aussie-rules #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.aussie-rules #fsbody #tabs div.submenu ul ul li a:hover,
+.aussie-rules #fsbody #tabs.tabs div.submenu ul li a:hover,
+.aussie-rules #fsbody #tabs.tabs div.submenu ul li.selected a,
+.aussie-rules #fsbody #tabs .submenu ul li a:hover,
+.aussie-rules #fsbody #odds-format.switchable a:hover,
+.aussie-rules.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.aussie-rules.flat #detail .stats-shared-menu .submenu li a:hover,
+.aussie-rules .profileTable__tabsListItem:hover,
+.aussie-rules .profileTable__tabsListItem--selected {
+  background-color: #8b331a;
+  opacity: 1;
+}
+.aussie-rules.flat .ifmenu {
+  border-color: /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules.flat .ifmenu #ifmenu-calendar span.today,
+.aussie-rules.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(173, 63, 33, 0.1);
+}
+.aussie-rules.flat .ifmenu .selected {
+  background-color: /* aussie-rules      */ #ad3f21;
+}
+.aussie-rules .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(213, 95, 63, 0.1);
+}
+.aussie-rules #fsbody .tomyg:hover,
+.aussie-rules .event__check:not(.checked):hover {
+  background: rgba(173, 63, 33, 0.2);
+}
+#fsbody #local-mygames table.aussie-rules .icons .tomyg:hover {
+  background: rgba(173, 63, 33, 0.2);
+}
+.aussie-rules #odds-format.switchable {
+  background: /* aussie-rules      */ #ad3f21;
+}
+.badminton .profileTable__list {
+  border-bottom: solid 4px /* badminton         */ #16875a;
+}
+.badminton .profileTable__tabsList,
+.badminton .profileTable__tabsItem--selected {
+  background-color: /* badminton         */ #16875a;
+}
+.badminton #filter-box {
+  background-color: /* badminton         */ #16875a;
+}
+.badminton .menuTop__wing,
+.badminton .menuTop__content,
+.badminton .header__button:hover,
+.badminton #lsid #lsid-content .user,
+.badminton #lsid #lsid-content #signIn:hover,
+.badminton .signAndReg:hover,
+.badminton #fsbody .color-spacer,
+.badminton #detail #glib-stats-submenu-table .ifmenu,
+.badminton #detail .stats-table-label,
+.badminton #detail .stats-shared-menu .submenu .ifmenu,
+.badminton .group-label span.group-label-wrapper,
+.badminton #detail .stats-table-label,
+.badminton .tab-header .label,
+.badminton #tabs div.submenu ul,
+.badminton .tab-header,
+.badminton #tabs div.submenu .color-spacer {
+  background-color: /* badminton         */ #16875a;
+}
+.badminton .group-label {
+  border-color: /* badminton         */ #16875a;
+}
+.badminton .gTableSort-asc .arrow {
+  border-color: transparent transparent /* badminton         */ #16875a transparent;
+}
+.badminton .gTableSort-desc .arrow {
+  border-color: /* badminton         */ #16875a transparent transparent transparent;
+}
+.badminton .menuTop__item:hover,
+.badminton .menuMinority__title:hover,
+.badminton #lsid #lsid-content #registration,
+.badminton #lsid #lsid-content .user:hover,
+.badminton #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.badminton #odds-format.switchable span.active-odds-format,
+.badminton #tabs div.submenu ul li.selected a,
+.badminton #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.badminton #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.badminton #fsbody #tabs div.submenu ul ul li a:hover,
+.badminton #fsbody #tabs.tabs div.submenu ul li a:hover,
+.badminton #fsbody #tabs.tabs div.submenu ul li.selected a,
+.badminton #fsbody #tabs .submenu ul li a:hover,
+.badminton #fsbody #odds-format.switchable a:hover,
+.badminton.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.badminton.flat #detail .stats-shared-menu .submenu li a:hover,
+.badminton .profileTable__tabsListItem:hover,
+.badminton .profileTable__tabsListItem--selected {
+  background-color: #106443;
+  opacity: 1;
+}
+.badminton.flat .ifmenu {
+  border-color: /* badminton         */ #16875a;
+}
+.badminton.flat .ifmenu #ifmenu-calendar span.today,
+.badminton.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* badminton         */ #16875a;
+}
+.badminton.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(22, 135, 90, 0.1);
+}
+.badminton.flat .ifmenu .selected {
+  background-color: /* badminton         */ #16875a;
+}
+.badminton .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(53, 170, 123, 0.1);
+}
+.badminton #fsbody .tomyg:hover,
+.badminton .event__check:not(.checked):hover {
+  background: rgba(22, 135, 90, 0.2);
+}
+#fsbody #local-mygames table.badminton .icons .tomyg:hover {
+  background: rgba(22, 135, 90, 0.2);
+}
+.badminton #odds-format.switchable {
+  background: /* badminton         */ #16875a;
+}
+.bandy .profileTable__list {
+  border-bottom: solid 4px /* bandy             */ #4492d6;
+}
+.bandy .profileTable__tabsList,
+.bandy .profileTable__tabsItem--selected {
+  background-color: /* bandy             */ #4492d6;
+}
+.bandy #filter-box {
+  background-color: /* bandy             */ #4492d6;
+}
+.bandy .menuTop__wing,
+.bandy .menuTop__content,
+.bandy .header__button:hover,
+.bandy #lsid #lsid-content .user,
+.bandy #lsid #lsid-content #signIn:hover,
+.bandy .signAndReg:hover,
+.bandy #fsbody .color-spacer,
+.bandy #detail #glib-stats-submenu-table .ifmenu,
+.bandy #detail .stats-table-label,
+.bandy #detail .stats-shared-menu .submenu .ifmenu,
+.bandy .group-label span.group-label-wrapper,
+.bandy #detail .stats-table-label,
+.bandy .tab-header .label,
+.bandy #tabs div.submenu ul,
+.bandy .tab-header,
+.bandy #tabs div.submenu .color-spacer {
+  background-color: /* bandy             */ #4492d6;
+}
+.bandy .group-label {
+  border-color: /* bandy             */ #4492d6;
+}
+.bandy .gTableSort-asc .arrow {
+  border-color: transparent transparent /* bandy             */ #4492d6 transparent;
+}
+.bandy .gTableSort-desc .arrow {
+  border-color: /* bandy             */ #4492d6 transparent transparent transparent;
+}
+.bandy .menuTop__item:hover,
+.bandy .menuMinority__title:hover,
+.bandy #lsid #lsid-content #registration,
+.bandy #lsid #lsid-content .user:hover,
+.bandy #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.bandy #odds-format.switchable span.active-odds-format,
+.bandy #tabs div.submenu ul li.selected a,
+.bandy #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.bandy #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.bandy #fsbody #tabs div.submenu ul ul li a:hover,
+.bandy #fsbody #tabs.tabs div.submenu ul li a:hover,
+.bandy #fsbody #tabs.tabs div.submenu ul li.selected a,
+.bandy #fsbody #tabs .submenu ul li a:hover,
+.bandy #fsbody #odds-format.switchable a:hover,
+.bandy.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.bandy.flat #detail .stats-shared-menu .submenu li a:hover,
+.bandy .profileTable__tabsListItem:hover,
+.bandy .profileTable__tabsListItem--selected {
+  background-color: #2b7ec6;
+  opacity: 1;
+}
+.bandy.flat .ifmenu {
+  border-color: /* bandy             */ #4492d6;
+}
+.bandy.flat .ifmenu #ifmenu-calendar span.today,
+.bandy.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* bandy             */ #4492d6;
+}
+.bandy.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(68, 146, 214, 0.1);
+}
+.bandy.flat .ifmenu .selected {
+  background-color: /* bandy             */ #4492d6;
+}
+.bandy .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(90, 164, 230, 0.1);
+}
+.bandy #fsbody .tomyg:hover,
+.bandy .event__check:not(.checked):hover {
+  background: rgba(68, 146, 214, 0.2);
+}
+#fsbody #local-mygames table.bandy .icons .tomyg:hover {
+  background: rgba(68, 146, 214, 0.2);
+}
+.bandy #odds-format.switchable {
+  background: /* bandy             */ #4492d6;
+}
+.baseball .profileTable__list {
+  border-bottom: solid 4px /* baseball          */ #856842;
+}
+.baseball .profileTable__tabsList,
+.baseball .profileTable__tabsItem--selected {
+  background-color: /* baseball          */ #856842;
+}
+.baseball #filter-box {
+  background-color: /* baseball          */ #856842;
+}
+.baseball .menuTop__wing,
+.baseball .menuTop__content,
+.baseball .header__button:hover,
+.baseball #lsid #lsid-content .user,
+.baseball #lsid #lsid-content #signIn:hover,
+.baseball .signAndReg:hover,
+.baseball #fsbody .color-spacer,
+.baseball #detail #glib-stats-submenu-table .ifmenu,
+.baseball #detail .stats-table-label,
+.baseball #detail .stats-shared-menu .submenu .ifmenu,
+.baseball .group-label span.group-label-wrapper,
+.baseball #detail .stats-table-label,
+.baseball .tab-header .label,
+.baseball #tabs div.submenu ul,
+.baseball .tab-header,
+.baseball #tabs div.submenu .color-spacer {
+  background-color: /* baseball          */ #856842;
+}
+.baseball .group-label {
+  border-color: /* baseball          */ #856842;
+}
+.baseball .gTableSort-asc .arrow {
+  border-color: transparent transparent /* baseball          */ #856842 transparent;
+}
+.baseball .gTableSort-desc .arrow {
+  border-color: /* baseball          */ #856842 transparent transparent transparent;
+}
+.baseball .menuTop__item:hover,
+.baseball .menuMinority__title:hover,
+.baseball #lsid #lsid-content #registration,
+.baseball #lsid #lsid-content .user:hover,
+.baseball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.baseball #odds-format.switchable span.active-odds-format,
+.baseball #tabs div.submenu ul li.selected a,
+.baseball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.baseball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.baseball #fsbody #tabs div.submenu ul ul li a:hover,
+.baseball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.baseball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.baseball #fsbody #tabs .submenu ul li a:hover,
+.baseball #fsbody #odds-format.switchable a:hover,
+.baseball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.baseball.flat #detail .stats-shared-menu .submenu li a:hover,
+.baseball .profileTable__tabsListItem:hover,
+.baseball .profileTable__tabsListItem--selected {
+  background-color: #6a5334;
+  opacity: 1;
+}
+.baseball.flat .ifmenu {
+  border-color: /* baseball          */ #856842;
+}
+.baseball.flat .ifmenu #ifmenu-calendar span.today,
+.baseball.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* baseball          */ #856842;
+}
+.baseball.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(133, 104, 66, 0.1);
+}
+.baseball.flat .ifmenu .selected {
+  background-color: /* baseball          */ #856842;
+}
+.baseball .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(171, 140, 97, 0.1);
+}
+.baseball #fsbody .tomyg:hover,
+.baseball .event__check:not(.checked):hover {
+  background: rgba(133, 104, 66, 0.2);
+}
+#fsbody #local-mygames table.baseball .icons .tomyg:hover {
+  background: rgba(133, 104, 66, 0.2);
+}
+.baseball #odds-format.switchable {
+  background: /* baseball          */ #856842;
+}
+.basketball .profileTable__list {
+  border-bottom: solid 4px /* basketball        */ #ab4630;
+}
+.basketball .profileTable__tabsList,
+.basketball .profileTable__tabsItem--selected {
+  background-color: /* basketball        */ #ab4630;
+}
+.basketball #filter-box {
+  background-color: /* basketball        */ #ab4630;
+}
+.basketball .menuTop__wing,
+.basketball .menuTop__content,
+.basketball .header__button:hover,
+.basketball #lsid #lsid-content .user,
+.basketball #lsid #lsid-content #signIn:hover,
+.basketball .signAndReg:hover,
+.basketball #fsbody .color-spacer,
+.basketball #detail #glib-stats-submenu-table .ifmenu,
+.basketball #detail .stats-table-label,
+.basketball #detail .stats-shared-menu .submenu .ifmenu,
+.basketball .group-label span.group-label-wrapper,
+.basketball #detail .stats-table-label,
+.basketball .tab-header .label,
+.basketball #tabs div.submenu ul,
+.basketball .tab-header,
+.basketball #tabs div.submenu .color-spacer {
+  background-color: /* basketball        */ #ab4630;
+}
+.basketball .group-label {
+  border-color: /* basketball        */ #ab4630;
+}
+.basketball .gTableSort-asc .arrow {
+  border-color: transparent transparent /* basketball        */ #ab4630 transparent;
+}
+.basketball .gTableSort-desc .arrow {
+  border-color: /* basketball        */ #ab4630 transparent transparent transparent;
+}
+.basketball .menuTop__item:hover,
+.basketball .menuMinority__title:hover,
+.basketball #lsid #lsid-content #registration,
+.basketball #lsid #lsid-content .user:hover,
+.basketball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.basketball #odds-format.switchable span.active-odds-format,
+.basketball #tabs div.submenu ul li.selected a,
+.basketball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.basketball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.basketball #fsbody #tabs div.submenu ul ul li a:hover,
+.basketball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.basketball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.basketball #fsbody #tabs .submenu ul li a:hover,
+.basketball #fsbody #odds-format.switchable a:hover,
+.basketball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.basketball.flat #detail .stats-shared-menu .submenu li a:hover,
+.basketball .profileTable__tabsListItem:hover,
+.basketball .profileTable__tabsListItem--selected {
+  background-color: #8b3927;
+  opacity: 1;
+}
+.basketball .menuTop__item:hover,
+.basketball .menuMinority__title:hover,
+.basketball #lsid #lsid-content #registration,
+.basketball #lsid #lsid-content .user:hover,
+.basketball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.basketball #odds-format.switchable span.active-odds-format,
+.basketball #tabs div.submenu ul li.selected a,
+.basketball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.basketball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.basketball #fsbody #tabs div.submenu ul ul li a:hover,
+.basketball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.basketball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.basketball #fsbody #tabs .submenu ul li a:hover,
+.basketball #fsbody #odds-format.switchable a:hover,
+.basketball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.basketball.flat #detail .stats-shared-menu .submenu li a:hover,
+.basketball .profileTable__tabsListItem:hover,
+.basketball .profileTable__tabsListItem--selected {
+  background-color: #cd634c;
+  opacity: 1;
+}
+.basketball.flat .ifmenu {
+  border-color: /* basketball        */ #ab4630;
+}
+.basketball.flat .ifmenu #ifmenu-calendar span.today,
+.basketball.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* basketball        */ #ab4630;
+}
+.basketball.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(171, 70, 48, 0.1);
+}
+.basketball.flat .ifmenu .selected {
+  background-color: /* basketball        */ #ab4630;
+}
+.basketball .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(145, 49, 29, 0.1);
+}
+.basketball #fsbody .tomyg:hover,
+.basketball .event__check:not(.checked):hover {
+  background: rgba(171, 70, 48, 0.2);
+}
+#fsbody #local-mygames table.basketball .icons .tomyg:hover {
+  background: rgba(171, 70, 48, 0.2);
+}
+.basketball #odds-format.switchable {
+  background: /* basketball        */ #ab4630;
+}
+.beach-soccer .profileTable__list {
+  border-bottom: solid 4px /* beach-soccer      */ #a08256;
+}
+.beach-soccer .profileTable__tabsList,
+.beach-soccer .profileTable__tabsItem--selected {
+  background-color: /* beach-soccer      */ #a08256;
+}
+.beach-soccer #filter-box {
+  background-color: /* beach-soccer      */ #a08256;
+}
+.beach-soccer .menuTop__wing,
+.beach-soccer .menuTop__content,
+.beach-soccer .header__button:hover,
+.beach-soccer #lsid #lsid-content .user,
+.beach-soccer #lsid #lsid-content #signIn:hover,
+.beach-soccer .signAndReg:hover,
+.beach-soccer #fsbody .color-spacer,
+.beach-soccer #detail #glib-stats-submenu-table .ifmenu,
+.beach-soccer #detail .stats-table-label,
+.beach-soccer #detail .stats-shared-menu .submenu .ifmenu,
+.beach-soccer .group-label span.group-label-wrapper,
+.beach-soccer #detail .stats-table-label,
+.beach-soccer .tab-header .label,
+.beach-soccer #tabs div.submenu ul,
+.beach-soccer .tab-header,
+.beach-soccer #tabs div.submenu .color-spacer {
+  background-color: /* beach-soccer      */ #a08256;
+}
+.beach-soccer .group-label {
+  border-color: /* beach-soccer      */ #a08256;
+}
+.beach-soccer .gTableSort-asc .arrow {
+  border-color: transparent transparent /* beach-soccer      */ #a08256 transparent;
+}
+.beach-soccer .gTableSort-desc .arrow {
+  border-color: /* beach-soccer      */ #a08256 transparent transparent transparent;
+}
+.beach-soccer .menuTop__item:hover,
+.beach-soccer .menuMinority__title:hover,
+.beach-soccer #lsid #lsid-content #registration,
+.beach-soccer #lsid #lsid-content .user:hover,
+.beach-soccer #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.beach-soccer #odds-format.switchable span.active-odds-format,
+.beach-soccer #tabs div.submenu ul li.selected a,
+.beach-soccer #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.beach-soccer #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.beach-soccer #fsbody #tabs div.submenu ul ul li a:hover,
+.beach-soccer #fsbody #tabs.tabs div.submenu ul li a:hover,
+.beach-soccer #fsbody #tabs.tabs div.submenu ul li.selected a,
+.beach-soccer #fsbody #tabs .submenu ul li a:hover,
+.beach-soccer #fsbody #odds-format.switchable a:hover,
+.beach-soccer.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.beach-soccer.flat #detail .stats-shared-menu .submenu li a:hover,
+.beach-soccer .profileTable__tabsListItem:hover,
+.beach-soccer .profileTable__tabsListItem--selected {
+  background-color: #856c48;
+  opacity: 1;
+}
+.beach-soccer.flat .ifmenu {
+  border-color: /* beach-soccer      */ #a08256;
+}
+.beach-soccer.flat .ifmenu #ifmenu-calendar span.today,
+.beach-soccer.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* beach-soccer      */ #a08256;
+}
+.beach-soccer.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(160, 130, 86, 0.1);
+}
+.beach-soccer.flat .ifmenu .selected {
+  background-color: /* beach-soccer      */ #a08256;
+}
+.beach-soccer .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(201, 165, 110, 0.1);
+}
+.beach-soccer #fsbody .tomyg:hover,
+.beach-soccer .event__check:not(.checked):hover {
+  background: rgba(160, 130, 86, 0.2);
+}
+#fsbody #local-mygames table.beach-soccer .icons .tomyg:hover {
+  background: rgba(160, 130, 86, 0.2);
+}
+.beach-soccer #odds-format.switchable {
+  background: /* beach-soccer      */ #a08256;
+}
+.beach-volleyball .profileTable__list {
+  border-bottom: solid 4px /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball .profileTable__tabsList,
+.beach-volleyball .profileTable__tabsItem--selected {
+  background-color: /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball #filter-box {
+  background-color: /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball .menuTop__wing,
+.beach-volleyball .menuTop__content,
+.beach-volleyball .header__button:hover,
+.beach-volleyball #lsid #lsid-content .user,
+.beach-volleyball #lsid #lsid-content #signIn:hover,
+.beach-volleyball .signAndReg:hover,
+.beach-volleyball #fsbody .color-spacer,
+.beach-volleyball #detail #glib-stats-submenu-table .ifmenu,
+.beach-volleyball #detail .stats-table-label,
+.beach-volleyball #detail .stats-shared-menu .submenu .ifmenu,
+.beach-volleyball .group-label span.group-label-wrapper,
+.beach-volleyball #detail .stats-table-label,
+.beach-volleyball .tab-header .label,
+.beach-volleyball #tabs div.submenu ul,
+.beach-volleyball .tab-header,
+.beach-volleyball #tabs div.submenu .color-spacer {
+  background-color: /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball .group-label {
+  border-color: /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball .gTableSort-asc .arrow {
+  border-color: transparent transparent /* beach-volleyball  */ #a08256 transparent;
+}
+.beach-volleyball .gTableSort-desc .arrow {
+  border-color: /* beach-volleyball  */ #a08256 transparent transparent transparent;
+}
+.beach-volleyball .menuTop__item:hover,
+.beach-volleyball .menuMinority__title:hover,
+.beach-volleyball #lsid #lsid-content #registration,
+.beach-volleyball #lsid #lsid-content .user:hover,
+.beach-volleyball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.beach-volleyball #odds-format.switchable span.active-odds-format,
+.beach-volleyball #tabs div.submenu ul li.selected a,
+.beach-volleyball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.beach-volleyball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.beach-volleyball #fsbody #tabs div.submenu ul ul li a:hover,
+.beach-volleyball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.beach-volleyball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.beach-volleyball #fsbody #tabs .submenu ul li a:hover,
+.beach-volleyball #fsbody #odds-format.switchable a:hover,
+.beach-volleyball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.beach-volleyball.flat #detail .stats-shared-menu .submenu li a:hover,
+.beach-volleyball .profileTable__tabsListItem:hover,
+.beach-volleyball .profileTable__tabsListItem--selected {
+  background-color: #856c48;
+  opacity: 1;
+}
+.beach-volleyball.flat .ifmenu {
+  border-color: /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball.flat .ifmenu #ifmenu-calendar span.today,
+.beach-volleyball.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(160, 130, 86, 0.1);
+}
+.beach-volleyball.flat .ifmenu .selected {
+  background-color: /* beach-volleyball  */ #a08256;
+}
+.beach-volleyball .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(201, 165, 110, 0.1);
+}
+.beach-volleyball #fsbody .tomyg:hover,
+.beach-volleyball .event__check:not(.checked):hover {
+  background: rgba(160, 130, 86, 0.2);
+}
+#fsbody #local-mygames table.beach-volleyball .icons .tomyg:hover {
+  background: rgba(160, 130, 86, 0.2);
+}
+.beach-volleyball #odds-format.switchable {
+  background: /* beach-volleyball  */ #a08256;
+}
+.boxing .profileTable__list {
+  border-bottom: solid 4px /* boxing            */ #862320;
+}
+.boxing .profileTable__tabsList,
+.boxing .profileTable__tabsItem--selected {
+  background-color: /* boxing            */ #862320;
+}
+.boxing #filter-box {
+  background-color: /* boxing            */ #862320;
+}
+.boxing .menuTop__wing,
+.boxing .menuTop__content,
+.boxing .header__button:hover,
+.boxing #lsid #lsid-content .user,
+.boxing #lsid #lsid-content #signIn:hover,
+.boxing .signAndReg:hover,
+.boxing #fsbody .color-spacer,
+.boxing #detail #glib-stats-submenu-table .ifmenu,
+.boxing #detail .stats-table-label,
+.boxing #detail .stats-shared-menu .submenu .ifmenu,
+.boxing .group-label span.group-label-wrapper,
+.boxing #detail .stats-table-label,
+.boxing .tab-header .label,
+.boxing #tabs div.submenu ul,
+.boxing .tab-header,
+.boxing #tabs div.submenu .color-spacer {
+  background-color: /* boxing            */ #862320;
+}
+.boxing .group-label {
+  border-color: /* boxing            */ #862320;
+}
+.boxing .gTableSort-asc .arrow {
+  border-color: transparent transparent /* boxing            */ #862320 transparent;
+}
+.boxing .gTableSort-desc .arrow {
+  border-color: /* boxing            */ #862320 transparent transparent transparent;
+}
+.boxing .menuTop__item:hover,
+.boxing .menuMinority__title:hover,
+.boxing #lsid #lsid-content #registration,
+.boxing #lsid #lsid-content .user:hover,
+.boxing #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.boxing #odds-format.switchable span.active-odds-format,
+.boxing #tabs div.submenu ul li.selected a,
+.boxing #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.boxing #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.boxing #fsbody #tabs div.submenu ul ul li a:hover,
+.boxing #fsbody #tabs.tabs div.submenu ul li a:hover,
+.boxing #fsbody #tabs.tabs div.submenu ul li.selected a,
+.boxing #fsbody #tabs .submenu ul li a:hover,
+.boxing #fsbody #odds-format.switchable a:hover,
+.boxing.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.boxing.flat #detail .stats-shared-menu .submenu li a:hover,
+.boxing .profileTable__tabsListItem:hover,
+.boxing .profileTable__tabsListItem--selected {
+  background-color: #651a18;
+  opacity: 1;
+}
+.boxing.flat .ifmenu {
+  border-color: /* boxing            */ #862320;
+}
+.boxing.flat .ifmenu #ifmenu-calendar span.today,
+.boxing.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* boxing            */ #862320;
+}
+.boxing.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(134, 35, 32, 0.1);
+}
+.boxing.flat .ifmenu .selected {
+  background-color: /* boxing            */ #862320;
+}
+.boxing .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(182, 50, 45, 0.1);
+}
+.boxing #fsbody .tomyg:hover,
+.boxing .event__check:not(.checked):hover {
+  background: rgba(134, 35, 32, 0.2);
+}
+#fsbody #local-mygames table.boxing .icons .tomyg:hover {
+  background: rgba(134, 35, 32, 0.2);
+}
+.boxing #odds-format.switchable {
+  background: /* boxing            */ #862320;
+}
+.cricket .profileTable__list {
+  border-bottom: solid 4px /* cricket           */ #7b081b;
+}
+.cricket .profileTable__tabsList,
+.cricket .profileTable__tabsItem--selected {
+  background-color: /* cricket           */ #7b081b;
+}
+.cricket #filter-box {
+  background-color: /* cricket           */ #7b081b;
+}
+.cricket .menuTop__wing,
+.cricket .menuTop__content,
+.cricket .header__button:hover,
+.cricket #lsid #lsid-content .user,
+.cricket #lsid #lsid-content #signIn:hover,
+.cricket .signAndReg:hover,
+.cricket #fsbody .color-spacer,
+.cricket #detail #glib-stats-submenu-table .ifmenu,
+.cricket #detail .stats-table-label,
+.cricket #detail .stats-shared-menu .submenu .ifmenu,
+.cricket .group-label span.group-label-wrapper,
+.cricket #detail .stats-table-label,
+.cricket .tab-header .label,
+.cricket #tabs div.submenu ul,
+.cricket .tab-header,
+.cricket #tabs div.submenu .color-spacer {
+  background-color: /* cricket           */ #7b081b;
+}
+.cricket .group-label {
+  border-color: /* cricket           */ #7b081b;
+}
+.cricket .gTableSort-asc .arrow {
+  border-color: transparent transparent /* cricket           */ #7b081b transparent;
+}
+.cricket .gTableSort-desc .arrow {
+  border-color: /* cricket           */ #7b081b transparent transparent transparent;
+}
+.cricket .menuTop__item:hover,
+.cricket .menuMinority__title:hover,
+.cricket #lsid #lsid-content #registration,
+.cricket #lsid #lsid-content .user:hover,
+.cricket #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.cricket #odds-format.switchable span.active-odds-format,
+.cricket #tabs div.submenu ul li.selected a,
+.cricket #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.cricket #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.cricket #fsbody #tabs div.submenu ul ul li a:hover,
+.cricket #fsbody #tabs.tabs div.submenu ul li a:hover,
+.cricket #fsbody #tabs.tabs div.submenu ul li.selected a,
+.cricket #fsbody #tabs .submenu ul li a:hover,
+.cricket #fsbody #odds-format.switchable a:hover,
+.cricket.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.cricket.flat #detail .stats-shared-menu .submenu li a:hover,
+.cricket .profileTable__tabsListItem:hover,
+.cricket .profileTable__tabsListItem--selected {
+  background-color: #550613;
+  opacity: 1;
+}
+.cricket .menuTop__item:hover,
+.cricket .menuMinority__title:hover,
+.cricket #lsid #lsid-content #registration,
+.cricket #lsid #lsid-content .user:hover,
+.cricket #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.cricket #odds-format.switchable span.active-odds-format,
+.cricket #tabs div.submenu ul li.selected a,
+.cricket #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.cricket #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.cricket #fsbody #tabs div.submenu ul ul li a:hover,
+.cricket #fsbody #tabs.tabs div.submenu ul li a:hover,
+.cricket #fsbody #tabs.tabs div.submenu ul li.selected a,
+.cricket #fsbody #tabs .submenu ul li a:hover,
+.cricket #fsbody #odds-format.switchable a:hover,
+.cricket.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.cricket.flat #detail .stats-shared-menu .submenu li a:hover,
+.cricket .profileTable__tabsListItem:hover,
+.cricket .profileTable__tabsListItem--selected {
+  background-color: #b40c28;
+  opacity: 1;
+}
+.cricket.flat .ifmenu {
+  border-color: /* cricket           */ #7b081b;
+}
+.cricket.flat .ifmenu #ifmenu-calendar span.today,
+.cricket.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* cricket           */ #7b081b;
+}
+.cricket.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(123, 8, 27, 0.1);
+}
+.cricket.flat .ifmenu .selected {
+  background-color: /* cricket           */ #7b081b;
+}
+.cricket .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(78, 0, 0, 0.1);
+}
+.cricket #fsbody .tomyg:hover,
+.cricket .event__check:not(.checked):hover {
+  background: rgba(123, 8, 27, 0.2);
+}
+#fsbody #local-mygames table.cricket .icons .tomyg:hover {
+  background: rgba(123, 8, 27, 0.2);
+}
+.cricket #odds-format.switchable {
+  background: /* cricket           */ #7b081b;
+}
+.cycling .profileTable__list {
+  border-bottom: solid 4px /* cycling           */ #2c2c2c;
+}
+.cycling .profileTable__tabsList,
+.cycling .profileTable__tabsItem--selected {
+  background-color: /* cycling           */ #2c2c2c;
+}
+.cycling #filter-box {
+  background-color: /* cycling           */ #2c2c2c;
+}
+.cycling .menuTop__wing,
+.cycling .menuTop__content,
+.cycling .header__button:hover,
+.cycling #lsid #lsid-content .user,
+.cycling #lsid #lsid-content #signIn:hover,
+.cycling .signAndReg:hover,
+.cycling #fsbody .color-spacer,
+.cycling #detail #glib-stats-submenu-table .ifmenu,
+.cycling #detail .stats-table-label,
+.cycling #detail .stats-shared-menu .submenu .ifmenu,
+.cycling .group-label span.group-label-wrapper,
+.cycling #detail .stats-table-label,
+.cycling .tab-header .label,
+.cycling #tabs div.submenu ul,
+.cycling .tab-header,
+.cycling #tabs div.submenu .color-spacer {
+  background-color: /* cycling           */ #2c2c2c;
+}
+.cycling .group-label {
+  border-color: /* cycling           */ #2c2c2c;
+}
+.cycling .gTableSort-asc .arrow {
+  border-color: transparent transparent /* cycling           */ #2c2c2c transparent;
+}
+.cycling .gTableSort-desc .arrow {
+  border-color: /* cycling           */ #2c2c2c transparent transparent transparent;
+}
+.cycling .menuTop__item:hover,
+.cycling .menuMinority__title:hover,
+.cycling #lsid #lsid-content #registration,
+.cycling #lsid #lsid-content .user:hover,
+.cycling #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.cycling #odds-format.switchable span.active-odds-format,
+.cycling #tabs div.submenu ul li.selected a,
+.cycling #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.cycling #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.cycling #fsbody #tabs div.submenu ul ul li a:hover,
+.cycling #fsbody #tabs.tabs div.submenu ul li a:hover,
+.cycling #fsbody #tabs.tabs div.submenu ul li.selected a,
+.cycling #fsbody #tabs .submenu ul li a:hover,
+.cycling #fsbody #odds-format.switchable a:hover,
+.cycling.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.cycling.flat #detail .stats-shared-menu .submenu li a:hover,
+.cycling .profileTable__tabsListItem:hover,
+.cycling .profileTable__tabsListItem--selected {
+  background-color: #181818;
+  opacity: 1;
+}
+.cycling.flat .ifmenu {
+  border-color: /* cycling           */ #2c2c2c;
+}
+.cycling.flat .ifmenu #ifmenu-calendar span.today,
+.cycling.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* cycling           */ #2c2c2c;
+}
+.cycling.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(44, 44, 44, 0.1);
+}
+.cycling.flat .ifmenu .selected {
+  background-color: /* cycling           */ #2c2c2c;
+}
+.cycling .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(69, 69, 69, 0.1);
+}
+.cycling #fsbody .tomyg:hover,
+.cycling .event__check:not(.checked):hover {
+  background: rgba(44, 44, 44, 0.2);
+}
+#fsbody #local-mygames table.cycling .icons .tomyg:hover {
+  background: rgba(44, 44, 44, 0.2);
+}
+.cycling #odds-format.switchable {
+  background: /* cycling           */ #2c2c2c;
+}
+.darts .profileTable__list {
+  border-bottom: solid 4px /* darts             */ #61471f;
+}
+.darts .profileTable__tabsList,
+.darts .profileTable__tabsItem--selected {
+  background-color: /* darts             */ #61471f;
+}
+.darts #filter-box {
+  background-color: /* darts             */ #61471f;
+}
+.darts .menuTop__wing,
+.darts .menuTop__content,
+.darts .header__button:hover,
+.darts #lsid #lsid-content .user,
+.darts #lsid #lsid-content #signIn:hover,
+.darts .signAndReg:hover,
+.darts #fsbody .color-spacer,
+.darts #detail #glib-stats-submenu-table .ifmenu,
+.darts #detail .stats-table-label,
+.darts #detail .stats-shared-menu .submenu .ifmenu,
+.darts .group-label span.group-label-wrapper,
+.darts #detail .stats-table-label,
+.darts .tab-header .label,
+.darts #tabs div.submenu ul,
+.darts .tab-header,
+.darts #tabs div.submenu .color-spacer {
+  background-color: /* darts             */ #61471f;
+}
+.darts .group-label {
+  border-color: /* darts             */ #61471f;
+}
+.darts .gTableSort-asc .arrow {
+  border-color: transparent transparent /* darts             */ #61471f transparent;
+}
+.darts .gTableSort-desc .arrow {
+  border-color: /* darts             */ #61471f transparent transparent transparent;
+}
+.darts .menuTop__item:hover,
+.darts .menuMinority__title:hover,
+.darts #lsid #lsid-content #registration,
+.darts #lsid #lsid-content .user:hover,
+.darts #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.darts #odds-format.switchable span.active-odds-format,
+.darts #tabs div.submenu ul li.selected a,
+.darts #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.darts #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.darts #fsbody #tabs div.submenu ul ul li a:hover,
+.darts #fsbody #tabs.tabs div.submenu ul li a:hover,
+.darts #fsbody #tabs.tabs div.submenu ul li.selected a,
+.darts #fsbody #tabs .submenu ul li a:hover,
+.darts #fsbody #odds-format.switchable a:hover,
+.darts.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.darts.flat #detail .stats-shared-menu .submenu li a:hover,
+.darts .profileTable__tabsListItem:hover,
+.darts .profileTable__tabsListItem--selected {
+  background-color: #423015;
+  opacity: 1;
+}
+.darts.flat .ifmenu {
+  border-color: /* darts             */ #61471f;
+}
+.darts.flat .ifmenu #ifmenu-calendar span.today,
+.darts.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* darts             */ #61471f;
+}
+.darts.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(97, 71, 31, 0.1);
+}
+.darts.flat .ifmenu .selected {
+  background-color: /* darts             */ #61471f;
+}
+.darts .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(123, 97, 58, 0.1);
+}
+.darts #fsbody .tomyg:hover,
+.darts .event__check:not(.checked):hover {
+  background: rgba(97, 71, 31, 0.2);
+}
+#fsbody #local-mygames table.darts .icons .tomyg:hover {
+  background: rgba(97, 71, 31, 0.2);
+}
+.darts #odds-format.switchable {
+  background: /* darts             */ #61471f;
+}
+.esports .profileTable__list {
+  border-bottom: solid 4px /* esports           */ #352860;
+}
+.esports .profileTable__tabsList,
+.esports .profileTable__tabsItem--selected {
+  background-color: /* esports           */ #352860;
+}
+.esports #filter-box {
+  background-color: /* esports           */ #352860;
+}
+.esports .menuTop__wing,
+.esports .menuTop__content,
+.esports .header__button:hover,
+.esports #lsid #lsid-content .user,
+.esports #lsid #lsid-content #signIn:hover,
+.esports .signAndReg:hover,
+.esports #fsbody .color-spacer,
+.esports #detail #glib-stats-submenu-table .ifmenu,
+.esports #detail .stats-table-label,
+.esports #detail .stats-shared-menu .submenu .ifmenu,
+.esports .group-label span.group-label-wrapper,
+.esports #detail .stats-table-label,
+.esports .tab-header .label,
+.esports #tabs div.submenu ul,
+.esports .tab-header,
+.esports #tabs div.submenu .color-spacer {
+  background-color: /* esports           */ #352860;
+}
+.esports .group-label {
+  border-color: /* esports           */ #352860;
+}
+.esports .gTableSort-asc .arrow {
+  border-color: transparent transparent /* esports           */ #352860 transparent;
+}
+.esports .gTableSort-desc .arrow {
+  border-color: /* esports           */ #352860 transparent transparent transparent;
+}
+.esports .menuTop__item:hover,
+.esports .menuMinority__title:hover,
+.esports #lsid #lsid-content #registration,
+.esports #lsid #lsid-content .user:hover,
+.esports #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.esports #odds-format.switchable span.active-odds-format,
+.esports #tabs div.submenu ul li.selected a,
+.esports #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.esports #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.esports #fsbody #tabs div.submenu ul ul li a:hover,
+.esports #fsbody #tabs.tabs div.submenu ul li a:hover,
+.esports #fsbody #tabs.tabs div.submenu ul li.selected a,
+.esports #fsbody #tabs .submenu ul li a:hover,
+.esports #fsbody #odds-format.switchable a:hover,
+.esports.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.esports.flat #detail .stats-shared-menu .submenu li a:hover,
+.esports .profileTable__tabsListItem:hover,
+.esports .profileTable__tabsListItem--selected {
+  background-color: #251c43;
+  opacity: 1;
+}
+.esports.flat .ifmenu {
+  border-color: /* esports           */ #352860;
+}
+.esports.flat .ifmenu #ifmenu-calendar span.today,
+.esports.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* esports           */ #352860;
+}
+.esports.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(53, 40, 96, 0.1);
+}
+.esports.flat .ifmenu .selected {
+  background-color: /* esports           */ #352860;
+}
+.esports .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(74, 58, 128, 0.1);
+}
+.esports #fsbody .tomyg:hover,
+.esports .event__check:not(.checked):hover {
+  background: rgba(53, 40, 96, 0.2);
+}
+#fsbody #local-mygames table.esports .icons .tomyg:hover {
+  background: rgba(53, 40, 96, 0.2);
+}
+.esports #odds-format.switchable {
+  background: /* esports           */ #352860;
+}
+.field-hockey .profileTable__list {
+  border-bottom: solid 4px /* field-hockey      */ #1d7342;
+}
+.field-hockey .profileTable__tabsList,
+.field-hockey .profileTable__tabsItem--selected {
+  background-color: /* field-hockey      */ #1d7342;
+}
+.field-hockey #filter-box {
+  background-color: /* field-hockey      */ #1d7342;
+}
+.field-hockey .menuTop__wing,
+.field-hockey .menuTop__content,
+.field-hockey .header__button:hover,
+.field-hockey #lsid #lsid-content .user,
+.field-hockey #lsid #lsid-content #signIn:hover,
+.field-hockey .signAndReg:hover,
+.field-hockey #fsbody .color-spacer,
+.field-hockey #detail #glib-stats-submenu-table .ifmenu,
+.field-hockey #detail .stats-table-label,
+.field-hockey #detail .stats-shared-menu .submenu .ifmenu,
+.field-hockey .group-label span.group-label-wrapper,
+.field-hockey #detail .stats-table-label,
+.field-hockey .tab-header .label,
+.field-hockey #tabs div.submenu ul,
+.field-hockey .tab-header,
+.field-hockey #tabs div.submenu .color-spacer {
+  background-color: /* field-hockey      */ #1d7342;
+}
+.field-hockey .group-label {
+  border-color: /* field-hockey      */ #1d7342;
+}
+.field-hockey .gTableSort-asc .arrow {
+  border-color: transparent transparent /* field-hockey      */ #1d7342 transparent;
+}
+.field-hockey .gTableSort-desc .arrow {
+  border-color: /* field-hockey      */ #1d7342 transparent transparent transparent;
+}
+.field-hockey .menuTop__item:hover,
+.field-hockey .menuMinority__title:hover,
+.field-hockey #lsid #lsid-content #registration,
+.field-hockey #lsid #lsid-content .user:hover,
+.field-hockey #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.field-hockey #odds-format.switchable span.active-odds-format,
+.field-hockey #tabs div.submenu ul li.selected a,
+.field-hockey #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.field-hockey #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.field-hockey #fsbody #tabs div.submenu ul ul li a:hover,
+.field-hockey #fsbody #tabs.tabs div.submenu ul li a:hover,
+.field-hockey #fsbody #tabs.tabs div.submenu ul li.selected a,
+.field-hockey #fsbody #tabs .submenu ul li a:hover,
+.field-hockey #fsbody #odds-format.switchable a:hover,
+.field-hockey.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.field-hockey.flat #detail .stats-shared-menu .submenu li a:hover,
+.field-hockey .profileTable__tabsListItem:hover,
+.field-hockey .profileTable__tabsListItem--selected {
+  background-color: #15522f;
+  opacity: 1;
+}
+.field-hockey.flat .ifmenu {
+  border-color: /* field-hockey      */ #1d7342;
+}
+.field-hockey.flat .ifmenu #ifmenu-calendar span.today,
+.field-hockey.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* field-hockey      */ #1d7342;
+}
+.field-hockey.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(29, 115, 66, 0.1);
+}
+.field-hockey.flat .ifmenu .selected {
+  background-color: /* field-hockey      */ #1d7342;
+}
+.field-hockey .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(41, 138, 84, 0.1);
+}
+.field-hockey #fsbody .tomyg:hover,
+.field-hockey .event__check:not(.checked):hover {
+  background: rgba(29, 115, 66, 0.2);
+}
+#fsbody #local-mygames table.field-hockey .icons .tomyg:hover {
+  background: rgba(29, 115, 66, 0.2);
+}
+.field-hockey #odds-format.switchable {
+  background: /* field-hockey      */ #1d7342;
+}
+.floorball .profileTable__list {
+  border-bottom: solid 4px /* floorball         */ #0e9892;
+}
+.floorball .profileTable__tabsList,
+.floorball .profileTable__tabsItem--selected {
+  background-color: /* floorball         */ #0e9892;
+}
+.floorball #filter-box {
+  background-color: /* floorball         */ #0e9892;
+}
+.floorball .menuTop__wing,
+.floorball .menuTop__content,
+.floorball .header__button:hover,
+.floorball #lsid #lsid-content .user,
+.floorball #lsid #lsid-content #signIn:hover,
+.floorball .signAndReg:hover,
+.floorball #fsbody .color-spacer,
+.floorball #detail #glib-stats-submenu-table .ifmenu,
+.floorball #detail .stats-table-label,
+.floorball #detail .stats-shared-menu .submenu .ifmenu,
+.floorball .group-label span.group-label-wrapper,
+.floorball #detail .stats-table-label,
+.floorball .tab-header .label,
+.floorball #tabs div.submenu ul,
+.floorball .tab-header,
+.floorball #tabs div.submenu .color-spacer {
+  background-color: /* floorball         */ #0e9892;
+}
+.floorball .group-label {
+  border-color: /* floorball         */ #0e9892;
+}
+.floorball .gTableSort-asc .arrow {
+  border-color: transparent transparent /* floorball         */ #0e9892 transparent;
+}
+.floorball .gTableSort-desc .arrow {
+  border-color: /* floorball         */ #0e9892 transparent transparent transparent;
+}
+.floorball .menuTop__item:hover,
+.floorball .menuMinority__title:hover,
+.floorball #lsid #lsid-content #registration,
+.floorball #lsid #lsid-content .user:hover,
+.floorball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.floorball #odds-format.switchable span.active-odds-format,
+.floorball #tabs div.submenu ul li.selected a,
+.floorball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.floorball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.floorball #fsbody #tabs div.submenu ul ul li a:hover,
+.floorball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.floorball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.floorball #fsbody #tabs .submenu ul li a:hover,
+.floorball #fsbody #odds-format.switchable a:hover,
+.floorball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.floorball.flat #detail .stats-shared-menu .submenu li a:hover,
+.floorball .profileTable__tabsListItem:hover,
+.floorball .profileTable__tabsListItem--selected {
+  background-color: #0b736e;
+  opacity: 1;
+}
+.floorball.flat .ifmenu {
+  border-color: /* floorball         */ #0e9892;
+}
+.floorball.flat .ifmenu #ifmenu-calendar span.today,
+.floorball.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* floorball         */ #0e9892;
+}
+.floorball.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(14, 152, 146, 0.1);
+}
+.floorball.flat .ifmenu .selected {
+  background-color: /* floorball         */ #0e9892;
+}
+.floorball .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(33, 193, 185, 0.1);
+}
+.floorball #fsbody .tomyg:hover,
+.floorball .event__check:not(.checked):hover {
+  background: rgba(14, 152, 146, 0.2);
+}
+#fsbody #local-mygames table.floorball .icons .tomyg:hover {
+  background: rgba(14, 152, 146, 0.2);
+}
+.floorball #odds-format.switchable {
+  background: /* floorball         */ #0e9892;
+}
+.futsal .profileTable__list {
+  border-bottom: solid 4px /* futsal            */ #3772aa;
+}
+.futsal .profileTable__tabsList,
+.futsal .profileTable__tabsItem--selected {
+  background-color: /* futsal            */ #3772aa;
+}
+.futsal #filter-box {
+  background-color: /* futsal            */ #3772aa;
+}
+.futsal .menuTop__wing,
+.futsal .menuTop__content,
+.futsal .header__button:hover,
+.futsal #lsid #lsid-content .user,
+.futsal #lsid #lsid-content #signIn:hover,
+.futsal .signAndReg:hover,
+.futsal #fsbody .color-spacer,
+.futsal #detail #glib-stats-submenu-table .ifmenu,
+.futsal #detail .stats-table-label,
+.futsal #detail .stats-shared-menu .submenu .ifmenu,
+.futsal .group-label span.group-label-wrapper,
+.futsal #detail .stats-table-label,
+.futsal .tab-header .label,
+.futsal #tabs div.submenu ul,
+.futsal .tab-header,
+.futsal #tabs div.submenu .color-spacer {
+  background-color: /* futsal            */ #3772aa;
+}
+.futsal .group-label {
+  border-color: /* futsal            */ #3772aa;
+}
+.futsal .gTableSort-asc .arrow {
+  border-color: transparent transparent /* futsal            */ #3772aa transparent;
+}
+.futsal .gTableSort-desc .arrow {
+  border-color: /* futsal            */ #3772aa transparent transparent transparent;
+}
+.futsal .menuTop__item:hover,
+.futsal .menuMinority__title:hover,
+.futsal #lsid #lsid-content #registration,
+.futsal #lsid #lsid-content .user:hover,
+.futsal #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.futsal #odds-format.switchable span.active-odds-format,
+.futsal #tabs div.submenu ul li.selected a,
+.futsal #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.futsal #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.futsal #fsbody #tabs div.submenu ul ul li a:hover,
+.futsal #fsbody #tabs.tabs div.submenu ul li a:hover,
+.futsal #fsbody #tabs.tabs div.submenu ul li.selected a,
+.futsal #fsbody #tabs .submenu ul li a:hover,
+.futsal #fsbody #odds-format.switchable a:hover,
+.futsal.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.futsal.flat #detail .stats-shared-menu .submenu li a:hover,
+.futsal .profileTable__tabsListItem:hover,
+.futsal .profileTable__tabsListItem--selected {
+  background-color: #2d5d8b;
+  opacity: 1;
+}
+.futsal.flat .ifmenu {
+  border-color: /* futsal            */ #3772aa;
+}
+.futsal.flat .ifmenu #ifmenu-calendar span.today,
+.futsal.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* futsal            */ #3772aa;
+}
+.futsal.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(55, 114, 170, 0.1);
+}
+.futsal.flat .ifmenu .selected {
+  background-color: /* futsal            */ #3772aa;
+}
+.futsal .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(82, 153, 219, 0.1);
+}
+.futsal #fsbody .tomyg:hover,
+.futsal .event__check:not(.checked):hover {
+  background: rgba(55, 114, 170, 0.2);
+}
+#fsbody #local-mygames table.futsal .icons .tomyg:hover {
+  background: rgba(55, 114, 170, 0.2);
+}
+.futsal #odds-format.switchable {
+  background: /* futsal            */ #3772aa;
+}
+.golf .profileTable__list {
+  border-bottom: solid 4px /* golf              */ #4e7019;
+}
+.golf .profileTable__tabsList,
+.golf .profileTable__tabsItem--selected {
+  background-color: /* golf              */ #4e7019;
+}
+.golf #filter-box {
+  background-color: /* golf              */ #4e7019;
+}
+.golf .menuTop__wing,
+.golf .menuTop__content,
+.golf .header__button:hover,
+.golf #lsid #lsid-content .user,
+.golf #lsid #lsid-content #signIn:hover,
+.golf .signAndReg:hover,
+.golf #fsbody .color-spacer,
+.golf #detail #glib-stats-submenu-table .ifmenu,
+.golf #detail .stats-table-label,
+.golf #detail .stats-shared-menu .submenu .ifmenu,
+.golf .group-label span.group-label-wrapper,
+.golf #detail .stats-table-label,
+.golf .tab-header .label,
+.golf #tabs div.submenu ul,
+.golf .tab-header,
+.golf #tabs div.submenu .color-spacer {
+  background-color: /* golf              */ #4e7019;
+}
+.golf .group-label {
+  border-color: /* golf              */ #4e7019;
+}
+.golf .gTableSort-asc .arrow {
+  border-color: transparent transparent /* golf              */ #4e7019 transparent;
+}
+.golf .gTableSort-desc .arrow {
+  border-color: /* golf              */ #4e7019 transparent transparent transparent;
+}
+.golf .menuTop__item:hover,
+.golf .menuMinority__title:hover,
+.golf #lsid #lsid-content #registration,
+.golf #lsid #lsid-content .user:hover,
+.golf #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.golf #odds-format.switchable span.active-odds-format,
+.golf #tabs div.submenu ul li.selected a,
+.golf #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.golf #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.golf #fsbody #tabs div.submenu ul ul li a:hover,
+.golf #fsbody #tabs.tabs div.submenu ul li a:hover,
+.golf #fsbody #tabs.tabs div.submenu ul li.selected a,
+.golf #fsbody #tabs .submenu ul li a:hover,
+.golf #fsbody #odds-format.switchable a:hover,
+.golf.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.golf.flat #detail .stats-shared-menu .submenu li a:hover,
+.golf .profileTable__tabsListItem:hover,
+.golf .profileTable__tabsListItem--selected {
+  background-color: #374f12;
+  opacity: 1;
+}
+.golf.flat .ifmenu {
+  border-color: /* golf              */ #4e7019;
+}
+.golf.flat .ifmenu #ifmenu-calendar span.today,
+.golf.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* golf              */ #4e7019;
+}
+.golf.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(78, 112, 25, 0.1);
+}
+.golf.flat .ifmenu .selected {
+  background-color: /* golf              */ #4e7019;
+}
+.golf .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(113, 150, 45, 0.1);
+}
+.golf #fsbody .tomyg:hover,
+.golf .event__check:not(.checked):hover {
+  background: rgba(78, 112, 25, 0.2);
+}
+#fsbody #local-mygames table.golf .icons .tomyg:hover {
+  background: rgba(78, 112, 25, 0.2);
+}
+.golf #odds-format.switchable {
+  background: /* golf              */ #4e7019;
+}
+.handball .profileTable__list {
+  border-bottom: solid 4px /* handball          */ #bb5c21;
+}
+.handball .profileTable__tabsList,
+.handball .profileTable__tabsItem--selected {
+  background-color: /* handball          */ #bb5c21;
+}
+.handball #filter-box {
+  background-color: /* handball          */ #bb5c21;
+}
+.handball .menuTop__wing,
+.handball .menuTop__content,
+.handball .header__button:hover,
+.handball #lsid #lsid-content .user,
+.handball #lsid #lsid-content #signIn:hover,
+.handball .signAndReg:hover,
+.handball #fsbody .color-spacer,
+.handball #detail #glib-stats-submenu-table .ifmenu,
+.handball #detail .stats-table-label,
+.handball #detail .stats-shared-menu .submenu .ifmenu,
+.handball .group-label span.group-label-wrapper,
+.handball #detail .stats-table-label,
+.handball .tab-header .label,
+.handball #tabs div.submenu ul,
+.handball .tab-header,
+.handball #tabs div.submenu .color-spacer {
+  background-color: /* handball          */ #bb5c21;
+}
+.handball .group-label {
+  border-color: /* handball          */ #bb5c21;
+}
+.handball .gTableSort-asc .arrow {
+  border-color: transparent transparent /* handball          */ #bb5c21 transparent;
+}
+.handball .gTableSort-desc .arrow {
+  border-color: /* handball          */ #bb5c21 transparent transparent transparent;
+}
+.handball .menuTop__item:hover,
+.handball .menuMinority__title:hover,
+.handball #lsid #lsid-content #registration,
+.handball #lsid #lsid-content .user:hover,
+.handball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.handball #odds-format.switchable span.active-odds-format,
+.handball #tabs div.submenu ul li.selected a,
+.handball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.handball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.handball #fsbody #tabs div.submenu ul ul li a:hover,
+.handball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.handball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.handball #fsbody #tabs .submenu ul li a:hover,
+.handball #fsbody #odds-format.switchable a:hover,
+.handball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.handball.flat #detail .stats-shared-menu .submenu li a:hover,
+.handball .profileTable__tabsListItem:hover,
+.handball .profileTable__tabsListItem--selected {
+  background-color: #984b1b;
+  opacity: 1;
+}
+.handball.flat .ifmenu {
+  border-color: /* handball          */ #bb5c21;
+}
+.handball.flat .ifmenu #ifmenu-calendar span.today,
+.handball.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* handball          */ #bb5c21;
+}
+.handball.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(187, 92, 33, 0.1);
+}
+.handball.flat .ifmenu .selected {
+  background-color: /* handball          */ #bb5c21;
+}
+.handball .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(217, 125, 68, 0.1);
+}
+.handball #fsbody .tomyg:hover,
+.handball .event__check:not(.checked):hover {
+  background: rgba(187, 92, 33, 0.2);
+}
+#fsbody #local-mygames table.handball .icons .tomyg:hover {
+  background: rgba(187, 92, 33, 0.2);
+}
+.handball #odds-format.switchable {
+  background: /* handball          */ #bb5c21;
+}
+.hockey .profileTable__list {
+  border-bottom: solid 4px /* hockey            */ #00406d;
+}
+.hockey .profileTable__tabsList,
+.hockey .profileTable__tabsItem--selected {
+  background-color: /* hockey            */ #00406d;
+}
+.hockey #filter-box {
+  background-color: /* hockey            */ #00406d;
+}
+.hockey .menuTop__wing,
+.hockey .menuTop__content,
+.hockey .header__button:hover,
+.hockey #lsid #lsid-content .user,
+.hockey #lsid #lsid-content #signIn:hover,
+.hockey .signAndReg:hover,
+.hockey #fsbody .color-spacer,
+.hockey #detail #glib-stats-submenu-table .ifmenu,
+.hockey #detail .stats-table-label,
+.hockey #detail .stats-shared-menu .submenu .ifmenu,
+.hockey .group-label span.group-label-wrapper,
+.hockey #detail .stats-table-label,
+.hockey .tab-header .label,
+.hockey #tabs div.submenu ul,
+.hockey .tab-header,
+.hockey #tabs div.submenu .color-spacer {
+  background-color: /* hockey            */ #00406d;
+}
+.hockey .group-label {
+  border-color: /* hockey            */ #00406d;
+}
+.hockey .gTableSort-asc .arrow {
+  border-color: transparent transparent /* hockey            */ #00406d transparent;
+}
+.hockey .gTableSort-desc .arrow {
+  border-color: /* hockey            */ #00406d transparent transparent transparent;
+}
+.hockey .menuTop__item:hover,
+.hockey .menuMinority__title:hover,
+.hockey #lsid #lsid-content #registration,
+.hockey #lsid #lsid-content .user:hover,
+.hockey #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.hockey #odds-format.switchable span.active-odds-format,
+.hockey #tabs div.submenu ul li.selected a,
+.hockey #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.hockey #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.hockey #fsbody #tabs div.submenu ul ul li a:hover,
+.hockey #fsbody #tabs.tabs div.submenu ul li a:hover,
+.hockey #fsbody #tabs.tabs div.submenu ul li.selected a,
+.hockey #fsbody #tabs .submenu ul li a:hover,
+.hockey #fsbody #odds-format.switchable a:hover,
+.hockey.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.hockey.flat #detail .stats-shared-menu .submenu li a:hover,
+.hockey .profileTable__tabsListItem:hover,
+.hockey .profileTable__tabsListItem--selected {
+  background-color: #002844;
+  opacity: 1;
+}
+.hockey.flat .ifmenu {
+  border-color: /* hockey            */ #00406d;
+}
+.hockey.flat .ifmenu #ifmenu-calendar span.today,
+.hockey.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* hockey            */ #00406d;
+}
+.hockey.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(0, 64, 109, 0.1);
+}
+.hockey.flat .ifmenu .selected {
+  background-color: /* hockey            */ #00406d;
+}
+.hockey .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(0, 98, 144, 0.1);
+}
+.hockey #fsbody .tomyg:hover,
+.hockey .event__check:not(.checked):hover {
+  background: rgba(0, 64, 109, 0.2);
+}
+#fsbody #local-mygames table.hockey .icons .tomyg:hover {
+  background: rgba(0, 64, 109, 0.2);
+}
+.hockey #odds-format.switchable {
+  background: /* hockey            */ #00406d;
+}
+.horse-racing .profileTable__list {
+  border-bottom: solid 4px /* horse-racing      */ #614235;
+}
+.horse-racing .profileTable__tabsList,
+.horse-racing .profileTable__tabsItem--selected {
+  background-color: /* horse-racing      */ #614235;
+}
+.horse-racing #filter-box {
+  background-color: /* horse-racing      */ #614235;
+}
+.horse-racing .menuTop__wing,
+.horse-racing .menuTop__content,
+.horse-racing .header__button:hover,
+.horse-racing #lsid #lsid-content .user,
+.horse-racing #lsid #lsid-content #signIn:hover,
+.horse-racing .signAndReg:hover,
+.horse-racing #fsbody .color-spacer,
+.horse-racing #detail #glib-stats-submenu-table .ifmenu,
+.horse-racing #detail .stats-table-label,
+.horse-racing #detail .stats-shared-menu .submenu .ifmenu,
+.horse-racing .group-label span.group-label-wrapper,
+.horse-racing #detail .stats-table-label,
+.horse-racing .tab-header .label,
+.horse-racing #tabs div.submenu ul,
+.horse-racing .tab-header,
+.horse-racing #tabs div.submenu .color-spacer {
+  background-color: /* horse-racing      */ #614235;
+}
+.horse-racing .group-label {
+  border-color: /* horse-racing      */ #614235;
+}
+.horse-racing .gTableSort-asc .arrow {
+  border-color: transparent transparent /* horse-racing      */ #614235 transparent;
+}
+.horse-racing .gTableSort-desc .arrow {
+  border-color: /* horse-racing      */ #614235 transparent transparent transparent;
+}
+.horse-racing .menuTop__item:hover,
+.horse-racing .menuMinority__title:hover,
+.horse-racing #lsid #lsid-content #registration,
+.horse-racing #lsid #lsid-content .user:hover,
+.horse-racing #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.horse-racing #odds-format.switchable span.active-odds-format,
+.horse-racing #tabs div.submenu ul li.selected a,
+.horse-racing #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.horse-racing #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.horse-racing #fsbody #tabs div.submenu ul ul li a:hover,
+.horse-racing #fsbody #tabs.tabs div.submenu ul li a:hover,
+.horse-racing #fsbody #tabs.tabs div.submenu ul li.selected a,
+.horse-racing #fsbody #tabs .submenu ul li a:hover,
+.horse-racing #fsbody #odds-format.switchable a:hover,
+.horse-racing.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.horse-racing.flat #detail .stats-shared-menu .submenu li a:hover,
+.horse-racing .profileTable__tabsListItem:hover,
+.horse-racing .profileTable__tabsListItem--selected {
+  background-color: #473027;
+  opacity: 1;
+}
+.horse-racing .menuTop__item:hover,
+.horse-racing .menuMinority__title:hover,
+.horse-racing #lsid #lsid-content #registration,
+.horse-racing #lsid #lsid-content .user:hover,
+.horse-racing #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.horse-racing #odds-format.switchable span.active-odds-format,
+.horse-racing #tabs div.submenu ul li.selected a,
+.horse-racing #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.horse-racing #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.horse-racing #fsbody #tabs div.submenu ul ul li a:hover,
+.horse-racing #fsbody #tabs.tabs div.submenu ul li a:hover,
+.horse-racing #fsbody #tabs.tabs div.submenu ul li.selected a,
+.horse-racing #fsbody #tabs .submenu ul li a:hover,
+.horse-racing #fsbody #odds-format.switchable a:hover,
+.horse-racing.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.horse-racing.flat #detail .stats-shared-menu .submenu li a:hover,
+.horse-racing .profileTable__tabsListItem:hover,
+.horse-racing .profileTable__tabsListItem--selected {
+  background-color: #895d4b;
+  opacity: 1;
+}
+.horse-racing.flat .ifmenu {
+  border-color: /* horse-racing      */ #614235;
+}
+.horse-racing.flat .ifmenu #ifmenu-calendar span.today,
+.horse-racing.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* horse-racing      */ #614235;
+}
+.horse-racing.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(97, 66, 53, 0.1);
+}
+.horse-racing.flat .ifmenu .selected {
+  background-color: /* horse-racing      */ #614235;
+}
+.horse-racing .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(68, 51, 44, 0.1);
+}
+.horse-racing #fsbody .tomyg:hover,
+.horse-racing .event__check:not(.checked):hover {
+  background: rgba(97, 66, 53, 0.2);
+}
+#fsbody #local-mygames table.horse-racing .icons .tomyg:hover {
+  background: rgba(97, 66, 53, 0.2);
+}
+.horse-racing #odds-format.switchable {
+  background: /* horse-racing      */ #614235;
+}
+.kabaddi .profileTable__list {
+  border-bottom: solid 4px /* kabaddi           */ #8b408a;
+}
+.kabaddi .profileTable__tabsList,
+.kabaddi .profileTable__tabsItem--selected {
+  background-color: /* kabaddi           */ #8b408a;
+}
+.kabaddi #filter-box {
+  background-color: /* kabaddi           */ #8b408a;
+}
+.kabaddi .menuTop__wing,
+.kabaddi .menuTop__content,
+.kabaddi .header__button:hover,
+.kabaddi #lsid #lsid-content .user,
+.kabaddi #lsid #lsid-content #signIn:hover,
+.kabaddi .signAndReg:hover,
+.kabaddi #fsbody .color-spacer,
+.kabaddi #detail #glib-stats-submenu-table .ifmenu,
+.kabaddi #detail .stats-table-label,
+.kabaddi #detail .stats-shared-menu .submenu .ifmenu,
+.kabaddi .group-label span.group-label-wrapper,
+.kabaddi #detail .stats-table-label,
+.kabaddi .tab-header .label,
+.kabaddi #tabs div.submenu ul,
+.kabaddi .tab-header,
+.kabaddi #tabs div.submenu .color-spacer {
+  background-color: /* kabaddi           */ #8b408a;
+}
+.kabaddi .group-label {
+  border-color: /* kabaddi           */ #8b408a;
+}
+.kabaddi .gTableSort-asc .arrow {
+  border-color: transparent transparent /* kabaddi           */ #8b408a transparent;
+}
+.kabaddi .gTableSort-desc .arrow {
+  border-color: /* kabaddi           */ #8b408a transparent transparent transparent;
+}
+.kabaddi .menuTop__item:hover,
+.kabaddi .menuMinority__title:hover,
+.kabaddi #lsid #lsid-content #registration,
+.kabaddi #lsid #lsid-content .user:hover,
+.kabaddi #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.kabaddi #odds-format.switchable span.active-odds-format,
+.kabaddi #tabs div.submenu ul li.selected a,
+.kabaddi #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.kabaddi #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.kabaddi #fsbody #tabs div.submenu ul ul li a:hover,
+.kabaddi #fsbody #tabs.tabs div.submenu ul li a:hover,
+.kabaddi #fsbody #tabs.tabs div.submenu ul li.selected a,
+.kabaddi #fsbody #tabs .submenu ul li a:hover,
+.kabaddi #fsbody #odds-format.switchable a:hover,
+.kabaddi.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.kabaddi.flat #detail .stats-shared-menu .submenu li a:hover,
+.kabaddi .profileTable__tabsListItem:hover,
+.kabaddi .profileTable__tabsListItem--selected {
+  background-color: #6f336e;
+  opacity: 1;
+}
+.kabaddi.flat .ifmenu {
+  border-color: /* kabaddi           */ #8b408a;
+}
+.kabaddi.flat .ifmenu #ifmenu-calendar span.today,
+.kabaddi.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* kabaddi           */ #8b408a;
+}
+.kabaddi.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(139, 64, 138, 0.1);
+}
+.kabaddi.flat .ifmenu .selected {
+  background-color: /* kabaddi           */ #8b408a;
+}
+.kabaddi .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(184, 95, 176, 0.1);
+}
+.kabaddi #fsbody .tomyg:hover,
+.kabaddi .event__check:not(.checked):hover {
+  background: rgba(139, 64, 138, 0.2);
+}
+#fsbody #local-mygames table.kabaddi .icons .tomyg:hover {
+  background: rgba(139, 64, 138, 0.2);
+}
+.kabaddi #odds-format.switchable {
+  background: /* kabaddi           */ #8b408a;
+}
+.mma .profileTable__list {
+  border-bottom: solid 4px /* mma               */ #2b2b2b;
+}
+.mma .profileTable__tabsList,
+.mma .profileTable__tabsItem--selected {
+  background-color: /* mma               */ #2b2b2b;
+}
+.mma #filter-box {
+  background-color: /* mma               */ #2b2b2b;
+}
+.mma .menuTop__wing,
+.mma .menuTop__content,
+.mma .header__button:hover,
+.mma #lsid #lsid-content .user,
+.mma #lsid #lsid-content #signIn:hover,
+.mma .signAndReg:hover,
+.mma #fsbody .color-spacer,
+.mma #detail #glib-stats-submenu-table .ifmenu,
+.mma #detail .stats-table-label,
+.mma #detail .stats-shared-menu .submenu .ifmenu,
+.mma .group-label span.group-label-wrapper,
+.mma #detail .stats-table-label,
+.mma .tab-header .label,
+.mma #tabs div.submenu ul,
+.mma .tab-header,
+.mma #tabs div.submenu .color-spacer {
+  background-color: /* mma               */ #2b2b2b;
+}
+.mma .group-label {
+  border-color: /* mma               */ #2b2b2b;
+}
+.mma .gTableSort-asc .arrow {
+  border-color: transparent transparent /* mma               */ #2b2b2b transparent;
+}
+.mma .gTableSort-desc .arrow {
+  border-color: /* mma               */ #2b2b2b transparent transparent transparent;
+}
+.mma .menuTop__item:hover,
+.mma .menuMinority__title:hover,
+.mma #lsid #lsid-content #registration,
+.mma #lsid #lsid-content .user:hover,
+.mma #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.mma #odds-format.switchable span.active-odds-format,
+.mma #tabs div.submenu ul li.selected a,
+.mma #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.mma #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.mma #fsbody #tabs div.submenu ul ul li a:hover,
+.mma #fsbody #tabs.tabs div.submenu ul li a:hover,
+.mma #fsbody #tabs.tabs div.submenu ul li.selected a,
+.mma #fsbody #tabs .submenu ul li a:hover,
+.mma #fsbody #odds-format.switchable a:hover,
+.mma.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.mma.flat #detail .stats-shared-menu .submenu li a:hover,
+.mma .profileTable__tabsListItem:hover,
+.mma .profileTable__tabsListItem--selected {
+  background-color: #171717;
+  opacity: 1;
+}
+.mma .menuTop__item:hover,
+.mma .menuMinority__title:hover,
+.mma #lsid #lsid-content #registration,
+.mma #lsid #lsid-content .user:hover,
+.mma #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.mma #odds-format.switchable span.active-odds-format,
+.mma #tabs div.submenu ul li.selected a,
+.mma #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.mma #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.mma #fsbody #tabs div.submenu ul ul li a:hover,
+.mma #fsbody #tabs.tabs div.submenu ul li a:hover,
+.mma #fsbody #tabs.tabs div.submenu ul li.selected a,
+.mma #fsbody #tabs .submenu ul li a:hover,
+.mma #fsbody #odds-format.switchable a:hover,
+.mma.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.mma.flat #detail .stats-shared-menu .submenu li a:hover,
+.mma .profileTable__tabsListItem:hover,
+.mma .profileTable__tabsListItem--selected {
+  background-color: #4a4a4a;
+  opacity: 1;
+}
+.mma.flat .ifmenu {
+  border-color: /* mma               */ #2b2b2b;
+}
+.mma.flat .ifmenu #ifmenu-calendar span.today,
+.mma.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* mma               */ #2b2b2b;
+}
+.mma.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(43, 43, 43, 0.1);
+}
+.mma.flat .ifmenu .selected {
+  background-color: /* mma               */ #2b2b2b;
+}
+.mma .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.mma #fsbody .tomyg:hover,
+.mma .event__check:not(.checked):hover {
+  background: rgba(43, 43, 43, 0.2);
+}
+#fsbody #local-mygames table.mma .icons .tomyg:hover {
+  background: rgba(43, 43, 43, 0.2);
+}
+.mma #odds-format.switchable {
+  background: /* mma               */ #2b2b2b;
+}
+.motorsport .profileTable__list {
+  border-bottom: solid 4px /* motorsport        */ #454545;
+}
+.motorsport .profileTable__tabsList,
+.motorsport .profileTable__tabsItem--selected {
+  background-color: /* motorsport        */ #454545;
+}
+.motorsport #filter-box {
+  background-color: /* motorsport        */ #454545;
+}
+.motorsport .menuTop__wing,
+.motorsport .menuTop__content,
+.motorsport .header__button:hover,
+.motorsport #lsid #lsid-content .user,
+.motorsport #lsid #lsid-content #signIn:hover,
+.motorsport .signAndReg:hover,
+.motorsport #fsbody .color-spacer,
+.motorsport #detail #glib-stats-submenu-table .ifmenu,
+.motorsport #detail .stats-table-label,
+.motorsport #detail .stats-shared-menu .submenu .ifmenu,
+.motorsport .group-label span.group-label-wrapper,
+.motorsport #detail .stats-table-label,
+.motorsport .tab-header .label,
+.motorsport #tabs div.submenu ul,
+.motorsport .tab-header,
+.motorsport #tabs div.submenu .color-spacer {
+  background-color: /* motorsport        */ #454545;
+}
+.motorsport .group-label {
+  border-color: /* motorsport        */ #454545;
+}
+.motorsport .gTableSort-asc .arrow {
+  border-color: transparent transparent /* motorsport        */ #454545 transparent;
+}
+.motorsport .gTableSort-desc .arrow {
+  border-color: /* motorsport        */ #454545 transparent transparent transparent;
+}
+.motorsport .menuTop__item:hover,
+.motorsport .menuMinority__title:hover,
+.motorsport #lsid #lsid-content #registration,
+.motorsport #lsid #lsid-content .user:hover,
+.motorsport #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.motorsport #odds-format.switchable span.active-odds-format,
+.motorsport #tabs div.submenu ul li.selected a,
+.motorsport #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.motorsport #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.motorsport #fsbody #tabs div.submenu ul ul li a:hover,
+.motorsport #fsbody #tabs.tabs div.submenu ul li a:hover,
+.motorsport #fsbody #tabs.tabs div.submenu ul li.selected a,
+.motorsport #fsbody #tabs .submenu ul li a:hover,
+.motorsport #fsbody #odds-format.switchable a:hover,
+.motorsport.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.motorsport.flat #detail .stats-shared-menu .submenu li a:hover,
+.motorsport .profileTable__tabsListItem:hover,
+.motorsport .profileTable__tabsListItem--selected {
+  background-color: #313131;
+  opacity: 1;
+}
+.motorsport .menuTop__item:hover,
+.motorsport .menuMinority__title:hover,
+.motorsport #lsid #lsid-content #registration,
+.motorsport #lsid #lsid-content .user:hover,
+.motorsport #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.motorsport #odds-format.switchable span.active-odds-format,
+.motorsport #tabs div.submenu ul li.selected a,
+.motorsport #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.motorsport #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.motorsport #fsbody #tabs div.submenu ul ul li a:hover,
+.motorsport #fsbody #tabs.tabs div.submenu ul li a:hover,
+.motorsport #fsbody #tabs.tabs div.submenu ul li.selected a,
+.motorsport #fsbody #tabs .submenu ul li a:hover,
+.motorsport #fsbody #odds-format.switchable a:hover,
+.motorsport.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.motorsport.flat #detail .stats-shared-menu .submenu li a:hover,
+.motorsport .profileTable__tabsListItem:hover,
+.motorsport .profileTable__tabsListItem--selected {
+  background-color: #646464;
+  opacity: 1;
+}
+.motorsport.flat .ifmenu {
+  border-color: /* motorsport        */ #454545;
+}
+.motorsport.flat .ifmenu #ifmenu-calendar span.today,
+.motorsport.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* motorsport        */ #454545;
+}
+.motorsport.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(69, 69, 69, 0.1);
+}
+.motorsport.flat .ifmenu .selected {
+  background-color: /* motorsport        */ #454545;
+}
+.motorsport .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(38, 38, 38, 0.1);
+}
+.motorsport #fsbody .tomyg:hover,
+.motorsport .event__check:not(.checked):hover {
+  background: rgba(69, 69, 69, 0.2);
+}
+#fsbody #local-mygames table.motorsport .icons .tomyg:hover {
+  background: rgba(69, 69, 69, 0.2);
+}
+.motorsport #odds-format.switchable {
+  background: /* motorsport        */ #454545;
+}
+.motorsport-auto-racing .profileTable__list {
+  border-bottom: solid 4px /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing .profileTable__tabsList,
+.motorsport-auto-racing .profileTable__tabsItem--selected {
+  background-color: /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing #filter-box {
+  background-color: /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing .menuTop__wing,
+.motorsport-auto-racing .menuTop__content,
+.motorsport-auto-racing .header__button:hover,
+.motorsport-auto-racing #lsid #lsid-content .user,
+.motorsport-auto-racing #lsid #lsid-content #signIn:hover,
+.motorsport-auto-racing .signAndReg:hover,
+.motorsport-auto-racing #fsbody .color-spacer,
+.motorsport-auto-racing #detail #glib-stats-submenu-table .ifmenu,
+.motorsport-auto-racing #detail .stats-table-label,
+.motorsport-auto-racing #detail .stats-shared-menu .submenu .ifmenu,
+.motorsport-auto-racing .group-label span.group-label-wrapper,
+.motorsport-auto-racing #detail .stats-table-label,
+.motorsport-auto-racing .tab-header .label,
+.motorsport-auto-racing #tabs div.submenu ul,
+.motorsport-auto-racing .tab-header,
+.motorsport-auto-racing #tabs div.submenu .color-spacer {
+  background-color: /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing .group-label {
+  border-color: /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing .gTableSort-asc .arrow {
+  border-color: transparent transparent /* motor-auto-racing */ #454545 transparent;
+}
+.motorsport-auto-racing .gTableSort-desc .arrow {
+  border-color: /* motor-auto-racing */ #454545 transparent transparent transparent;
+}
+.motorsport-auto-racing .menuTop__item:hover,
+.motorsport-auto-racing .menuMinority__title:hover,
+.motorsport-auto-racing #lsid #lsid-content #registration,
+.motorsport-auto-racing #lsid #lsid-content .user:hover,
+.motorsport-auto-racing #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.motorsport-auto-racing #odds-format.switchable span.active-odds-format,
+.motorsport-auto-racing #tabs div.submenu ul li.selected a,
+.motorsport-auto-racing #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.motorsport-auto-racing #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.motorsport-auto-racing #fsbody #tabs div.submenu ul ul li a:hover,
+.motorsport-auto-racing #fsbody #tabs.tabs div.submenu ul li a:hover,
+.motorsport-auto-racing #fsbody #tabs.tabs div.submenu ul li.selected a,
+.motorsport-auto-racing #fsbody #tabs .submenu ul li a:hover,
+.motorsport-auto-racing #fsbody #odds-format.switchable a:hover,
+.motorsport-auto-racing.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.motorsport-auto-racing.flat #detail .stats-shared-menu .submenu li a:hover,
+.motorsport-auto-racing .profileTable__tabsListItem:hover,
+.motorsport-auto-racing .profileTable__tabsListItem--selected {
+  background-color: #313131;
+  opacity: 1;
+}
+.motorsport-auto-racing.flat .ifmenu {
+  border-color: /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing.flat .ifmenu #ifmenu-calendar span.today,
+.motorsport-auto-racing.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(69, 69, 69, 0.1);
+}
+.motorsport-auto-racing.flat .ifmenu .selected {
+  background-color: /* motor-auto-racing */ #454545;
+}
+.motorsport-auto-racing .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(38, 38, 38, 0.1);
+}
+.motorsport-auto-racing #fsbody .tomyg:hover,
+.motorsport-auto-racing .event__check:not(.checked):hover {
+  background: rgba(69, 69, 69, 0.2);
+}
+#fsbody #local-mygames table.motorsport-auto-racing .icons .tomyg:hover {
+  background: rgba(69, 69, 69, 0.2);
+}
+.motorsport-auto-racing #odds-format.switchable {
+  background: /* motor-auto-racing */ #454545;
+}
+.motorsport-moto-racing .profileTable__list {
+  border-bottom: solid 4px /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing .profileTable__tabsList,
+.motorsport-moto-racing .profileTable__tabsItem--selected {
+  background-color: /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing #filter-box {
+  background-color: /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing .menuTop__wing,
+.motorsport-moto-racing .menuTop__content,
+.motorsport-moto-racing .header__button:hover,
+.motorsport-moto-racing #lsid #lsid-content .user,
+.motorsport-moto-racing #lsid #lsid-content #signIn:hover,
+.motorsport-moto-racing .signAndReg:hover,
+.motorsport-moto-racing #fsbody .color-spacer,
+.motorsport-moto-racing #detail #glib-stats-submenu-table .ifmenu,
+.motorsport-moto-racing #detail .stats-table-label,
+.motorsport-moto-racing #detail .stats-shared-menu .submenu .ifmenu,
+.motorsport-moto-racing .group-label span.group-label-wrapper,
+.motorsport-moto-racing #detail .stats-table-label,
+.motorsport-moto-racing .tab-header .label,
+.motorsport-moto-racing #tabs div.submenu ul,
+.motorsport-moto-racing .tab-header,
+.motorsport-moto-racing #tabs div.submenu .color-spacer {
+  background-color: /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing .group-label {
+  border-color: /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing .gTableSort-asc .arrow {
+  border-color: transparent transparent /* motor-moto-racing */ #454545 transparent;
+}
+.motorsport-moto-racing .gTableSort-desc .arrow {
+  border-color: /* motor-moto-racing */ #454545 transparent transparent transparent;
+}
+.motorsport-moto-racing .menuTop__item:hover,
+.motorsport-moto-racing .menuMinority__title:hover,
+.motorsport-moto-racing #lsid #lsid-content #registration,
+.motorsport-moto-racing #lsid #lsid-content .user:hover,
+.motorsport-moto-racing #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.motorsport-moto-racing #odds-format.switchable span.active-odds-format,
+.motorsport-moto-racing #tabs div.submenu ul li.selected a,
+.motorsport-moto-racing #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.motorsport-moto-racing #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.motorsport-moto-racing #fsbody #tabs div.submenu ul ul li a:hover,
+.motorsport-moto-racing #fsbody #tabs.tabs div.submenu ul li a:hover,
+.motorsport-moto-racing #fsbody #tabs.tabs div.submenu ul li.selected a,
+.motorsport-moto-racing #fsbody #tabs .submenu ul li a:hover,
+.motorsport-moto-racing #fsbody #odds-format.switchable a:hover,
+.motorsport-moto-racing.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.motorsport-moto-racing.flat #detail .stats-shared-menu .submenu li a:hover,
+.motorsport-moto-racing .profileTable__tabsListItem:hover,
+.motorsport-moto-racing .profileTable__tabsListItem--selected {
+  background-color: #313131;
+  opacity: 1;
+}
+.motorsport-moto-racing.flat .ifmenu {
+  border-color: /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing.flat .ifmenu #ifmenu-calendar span.today,
+.motorsport-moto-racing.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(69, 69, 69, 0.1);
+}
+.motorsport-moto-racing.flat .ifmenu .selected {
+  background-color: /* motor-moto-racing */ #454545;
+}
+.motorsport-moto-racing .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(38, 38, 38, 0.1);
+}
+.motorsport-moto-racing #fsbody .tomyg:hover,
+.motorsport-moto-racing .event__check:not(.checked):hover {
+  background: rgba(69, 69, 69, 0.2);
+}
+#fsbody #local-mygames table.motorsport-moto-racing .icons .tomyg:hover {
+  background: rgba(69, 69, 69, 0.2);
+}
+.motorsport-moto-racing #odds-format.switchable {
+  background: /* motor-moto-racing */ #454545;
+}
+.netball .profileTable__list {
+  border-bottom: solid 4px /* netball           */ #966d30;
+}
+.netball .profileTable__tabsList,
+.netball .profileTable__tabsItem--selected {
+  background-color: /* netball           */ #966d30;
+}
+.netball #filter-box {
+  background-color: /* netball           */ #966d30;
+}
+.netball .menuTop__wing,
+.netball .menuTop__content,
+.netball .header__button:hover,
+.netball #lsid #lsid-content .user,
+.netball #lsid #lsid-content #signIn:hover,
+.netball .signAndReg:hover,
+.netball #fsbody .color-spacer,
+.netball #detail #glib-stats-submenu-table .ifmenu,
+.netball #detail .stats-table-label,
+.netball #detail .stats-shared-menu .submenu .ifmenu,
+.netball .group-label span.group-label-wrapper,
+.netball #detail .stats-table-label,
+.netball .tab-header .label,
+.netball #tabs div.submenu ul,
+.netball .tab-header,
+.netball #tabs div.submenu .color-spacer {
+  background-color: /* netball           */ #966d30;
+}
+.netball .group-label {
+  border-color: /* netball           */ #966d30;
+}
+.netball .gTableSort-asc .arrow {
+  border-color: transparent transparent /* netball           */ #966d30 transparent;
+}
+.netball .gTableSort-desc .arrow {
+  border-color: /* netball           */ #966d30 transparent transparent transparent;
+}
+.netball .menuTop__item:hover,
+.netball .menuMinority__title:hover,
+.netball #lsid #lsid-content #registration,
+.netball #lsid #lsid-content .user:hover,
+.netball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.netball #odds-format.switchable span.active-odds-format,
+.netball #tabs div.submenu ul li.selected a,
+.netball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.netball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.netball #fsbody #tabs div.submenu ul ul li a:hover,
+.netball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.netball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.netball #fsbody #tabs .submenu ul li a:hover,
+.netball #fsbody #odds-format.switchable a:hover,
+.netball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.netball.flat #detail .stats-shared-menu .submenu li a:hover,
+.netball .profileTable__tabsListItem:hover,
+.netball .profileTable__tabsListItem--selected {
+  background-color: #775726;
+  opacity: 1;
+}
+.netball.flat .ifmenu {
+  border-color: /* netball           */ #966d30;
+}
+.netball.flat .ifmenu #ifmenu-calendar span.today,
+.netball.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* netball           */ #966d30;
+}
+.netball.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(150, 109, 48, 0.1);
+}
+.netball.flat .ifmenu .selected {
+  background-color: /* netball           */ #966d30;
+}
+.netball .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(187, 146, 85, 0.1);
+}
+.netball #fsbody .tomyg:hover,
+.netball .event__check:not(.checked):hover {
+  background: rgba(150, 109, 48, 0.2);
+}
+#fsbody #local-mygames table.netball .icons .tomyg:hover {
+  background: rgba(150, 109, 48, 0.2);
+}
+.netball #odds-format.switchable {
+  background: /* netball           */ #966d30;
+}
+.pesapallo .profileTable__list {
+  border-bottom: solid 4px /* pesapallo         */ #8aa411;
+}
+.pesapallo .profileTable__tabsList,
+.pesapallo .profileTable__tabsItem--selected {
+  background-color: /* pesapallo         */ #8aa411;
+}
+.pesapallo #filter-box {
+  background-color: /* pesapallo         */ #8aa411;
+}
+.pesapallo .menuTop__wing,
+.pesapallo .menuTop__content,
+.pesapallo .header__button:hover,
+.pesapallo #lsid #lsid-content .user,
+.pesapallo #lsid #lsid-content #signIn:hover,
+.pesapallo .signAndReg:hover,
+.pesapallo #fsbody .color-spacer,
+.pesapallo #detail #glib-stats-submenu-table .ifmenu,
+.pesapallo #detail .stats-table-label,
+.pesapallo #detail .stats-shared-menu .submenu .ifmenu,
+.pesapallo .group-label span.group-label-wrapper,
+.pesapallo #detail .stats-table-label,
+.pesapallo .tab-header .label,
+.pesapallo #tabs div.submenu ul,
+.pesapallo .tab-header,
+.pesapallo #tabs div.submenu .color-spacer {
+  background-color: /* pesapallo         */ #8aa411;
+}
+.pesapallo .group-label {
+  border-color: /* pesapallo         */ #8aa411;
+}
+.pesapallo .gTableSort-asc .arrow {
+  border-color: transparent transparent /* pesapallo         */ #8aa411 transparent;
+}
+.pesapallo .gTableSort-desc .arrow {
+  border-color: /* pesapallo         */ #8aa411 transparent transparent transparent;
+}
+.pesapallo .menuTop__item:hover,
+.pesapallo .menuMinority__title:hover,
+.pesapallo #lsid #lsid-content #registration,
+.pesapallo #lsid #lsid-content .user:hover,
+.pesapallo #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.pesapallo #odds-format.switchable span.active-odds-format,
+.pesapallo #tabs div.submenu ul li.selected a,
+.pesapallo #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.pesapallo #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.pesapallo #fsbody #tabs div.submenu ul ul li a:hover,
+.pesapallo #fsbody #tabs.tabs div.submenu ul li a:hover,
+.pesapallo #fsbody #tabs.tabs div.submenu ul li.selected a,
+.pesapallo #fsbody #tabs .submenu ul li a:hover,
+.pesapallo #fsbody #odds-format.switchable a:hover,
+.pesapallo.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.pesapallo.flat #detail .stats-shared-menu .submenu li a:hover,
+.pesapallo .profileTable__tabsListItem:hover,
+.pesapallo .profileTable__tabsListItem--selected {
+  background-color: #6b7f0d;
+  opacity: 1;
+}
+.pesapallo.flat .ifmenu {
+  border-color: /* pesapallo         */ #8aa411;
+}
+.pesapallo.flat .ifmenu #ifmenu-calendar span.today,
+.pesapallo.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* pesapallo         */ #8aa411;
+}
+.pesapallo.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(138, 164, 17, 0.1);
+}
+.pesapallo.flat .ifmenu .selected {
+  background-color: /* pesapallo         */ #8aa411;
+}
+.pesapallo .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(171, 196, 52, 0.1);
+}
+.pesapallo #fsbody .tomyg:hover,
+.pesapallo .event__check:not(.checked):hover {
+  background: rgba(138, 164, 17, 0.2);
+}
+#fsbody #local-mygames table.pesapallo .icons .tomyg:hover {
+  background: rgba(138, 164, 17, 0.2);
+}
+.pesapallo #odds-format.switchable {
+  background: /* pesapallo         */ #8aa411;
+}
+.rugby-league .profileTable__list {
+  border-bottom: solid 4px /* rugby-league      */ #2b2b2b;
+}
+.rugby-league .profileTable__tabsList,
+.rugby-league .profileTable__tabsItem--selected {
+  background-color: /* rugby-league      */ #2b2b2b;
+}
+.rugby-league #filter-box {
+  background-color: /* rugby-league      */ #2b2b2b;
+}
+.rugby-league .menuTop__wing,
+.rugby-league .menuTop__content,
+.rugby-league .header__button:hover,
+.rugby-league #lsid #lsid-content .user,
+.rugby-league #lsid #lsid-content #signIn:hover,
+.rugby-league .signAndReg:hover,
+.rugby-league #fsbody .color-spacer,
+.rugby-league #detail #glib-stats-submenu-table .ifmenu,
+.rugby-league #detail .stats-table-label,
+.rugby-league #detail .stats-shared-menu .submenu .ifmenu,
+.rugby-league .group-label span.group-label-wrapper,
+.rugby-league #detail .stats-table-label,
+.rugby-league .tab-header .label,
+.rugby-league #tabs div.submenu ul,
+.rugby-league .tab-header,
+.rugby-league #tabs div.submenu .color-spacer {
+  background-color: /* rugby-league      */ #2b2b2b;
+}
+.rugby-league .group-label {
+  border-color: /* rugby-league      */ #2b2b2b;
+}
+.rugby-league .gTableSort-asc .arrow {
+  border-color: transparent transparent /* rugby-league      */ #2b2b2b transparent;
+}
+.rugby-league .gTableSort-desc .arrow {
+  border-color: /* rugby-league      */ #2b2b2b transparent transparent transparent;
+}
+.rugby-league .menuTop__item:hover,
+.rugby-league .menuMinority__title:hover,
+.rugby-league #lsid #lsid-content #registration,
+.rugby-league #lsid #lsid-content .user:hover,
+.rugby-league #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.rugby-league #odds-format.switchable span.active-odds-format,
+.rugby-league #tabs div.submenu ul li.selected a,
+.rugby-league #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.rugby-league #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.rugby-league #fsbody #tabs div.submenu ul ul li a:hover,
+.rugby-league #fsbody #tabs.tabs div.submenu ul li a:hover,
+.rugby-league #fsbody #tabs.tabs div.submenu ul li.selected a,
+.rugby-league #fsbody #tabs .submenu ul li a:hover,
+.rugby-league #fsbody #odds-format.switchable a:hover,
+.rugby-league.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.rugby-league.flat #detail .stats-shared-menu .submenu li a:hover,
+.rugby-league .profileTable__tabsListItem:hover,
+.rugby-league .profileTable__tabsListItem--selected {
+  background-color: #171717;
+  opacity: 1;
+}
+.rugby-league .menuTop__item:hover,
+.rugby-league .menuMinority__title:hover,
+.rugby-league #lsid #lsid-content #registration,
+.rugby-league #lsid #lsid-content .user:hover,
+.rugby-league #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.rugby-league #odds-format.switchable span.active-odds-format,
+.rugby-league #tabs div.submenu ul li.selected a,
+.rugby-league #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.rugby-league #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.rugby-league #fsbody #tabs div.submenu ul ul li a:hover,
+.rugby-league #fsbody #tabs.tabs div.submenu ul li a:hover,
+.rugby-league #fsbody #tabs.tabs div.submenu ul li.selected a,
+.rugby-league #fsbody #tabs .submenu ul li a:hover,
+.rugby-league #fsbody #odds-format.switchable a:hover,
+.rugby-league.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.rugby-league.flat #detail .stats-shared-menu .submenu li a:hover,
+.rugby-league .profileTable__tabsListItem:hover,
+.rugby-league .profileTable__tabsListItem--selected {
+  background-color: #4a4a4a;
+  opacity: 1;
+}
+.rugby-league.flat .ifmenu {
+  border-color: /* rugby-league      */ #2b2b2b;
+}
+.rugby-league.flat .ifmenu #ifmenu-calendar span.today,
+.rugby-league.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* rugby-league      */ #2b2b2b;
+}
+.rugby-league.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(43, 43, 43, 0.1);
+}
+.rugby-league.flat .ifmenu .selected {
+  background-color: /* rugby-league      */ #2b2b2b;
+}
+.rugby-league .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.rugby-league #fsbody .tomyg:hover,
+.rugby-league .event__check:not(.checked):hover {
+  background: rgba(43, 43, 43, 0.2);
+}
+#fsbody #local-mygames table.rugby-league .icons .tomyg:hover {
+  background: rgba(43, 43, 43, 0.2);
+}
+.rugby-league #odds-format.switchable {
+  background: /* rugby-league      */ #2b2b2b;
+}
+.rugby-union .profileTable__list {
+  border-bottom: solid 4px /* rugby-union       */ #2b2b2b;
+}
+.rugby-union .profileTable__tabsList,
+.rugby-union .profileTable__tabsItem--selected {
+  background-color: /* rugby-union       */ #2b2b2b;
+}
+.rugby-union #filter-box {
+  background-color: /* rugby-union       */ #2b2b2b;
+}
+.rugby-union .menuTop__wing,
+.rugby-union .menuTop__content,
+.rugby-union .header__button:hover,
+.rugby-union #lsid #lsid-content .user,
+.rugby-union #lsid #lsid-content #signIn:hover,
+.rugby-union .signAndReg:hover,
+.rugby-union #fsbody .color-spacer,
+.rugby-union #detail #glib-stats-submenu-table .ifmenu,
+.rugby-union #detail .stats-table-label,
+.rugby-union #detail .stats-shared-menu .submenu .ifmenu,
+.rugby-union .group-label span.group-label-wrapper,
+.rugby-union #detail .stats-table-label,
+.rugby-union .tab-header .label,
+.rugby-union #tabs div.submenu ul,
+.rugby-union .tab-header,
+.rugby-union #tabs div.submenu .color-spacer {
+  background-color: /* rugby-union       */ #2b2b2b;
+}
+.rugby-union .group-label {
+  border-color: /* rugby-union       */ #2b2b2b;
+}
+.rugby-union .gTableSort-asc .arrow {
+  border-color: transparent transparent /* rugby-union       */ #2b2b2b transparent;
+}
+.rugby-union .gTableSort-desc .arrow {
+  border-color: /* rugby-union       */ #2b2b2b transparent transparent transparent;
+}
+.rugby-union .menuTop__item:hover,
+.rugby-union .menuMinority__title:hover,
+.rugby-union #lsid #lsid-content #registration,
+.rugby-union #lsid #lsid-content .user:hover,
+.rugby-union #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.rugby-union #odds-format.switchable span.active-odds-format,
+.rugby-union #tabs div.submenu ul li.selected a,
+.rugby-union #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.rugby-union #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.rugby-union #fsbody #tabs div.submenu ul ul li a:hover,
+.rugby-union #fsbody #tabs.tabs div.submenu ul li a:hover,
+.rugby-union #fsbody #tabs.tabs div.submenu ul li.selected a,
+.rugby-union #fsbody #tabs .submenu ul li a:hover,
+.rugby-union #fsbody #odds-format.switchable a:hover,
+.rugby-union.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.rugby-union.flat #detail .stats-shared-menu .submenu li a:hover,
+.rugby-union .profileTable__tabsListItem:hover,
+.rugby-union .profileTable__tabsListItem--selected {
+  background-color: #171717;
+  opacity: 1;
+}
+.rugby-union .menuTop__item:hover,
+.rugby-union .menuMinority__title:hover,
+.rugby-union #lsid #lsid-content #registration,
+.rugby-union #lsid #lsid-content .user:hover,
+.rugby-union #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.rugby-union #odds-format.switchable span.active-odds-format,
+.rugby-union #tabs div.submenu ul li.selected a,
+.rugby-union #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.rugby-union #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.rugby-union #fsbody #tabs div.submenu ul ul li a:hover,
+.rugby-union #fsbody #tabs.tabs div.submenu ul li a:hover,
+.rugby-union #fsbody #tabs.tabs div.submenu ul li.selected a,
+.rugby-union #fsbody #tabs .submenu ul li a:hover,
+.rugby-union #fsbody #odds-format.switchable a:hover,
+.rugby-union.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.rugby-union.flat #detail .stats-shared-menu .submenu li a:hover,
+.rugby-union .profileTable__tabsListItem:hover,
+.rugby-union .profileTable__tabsListItem--selected {
+  background-color: #4a4a4a;
+  opacity: 1;
+}
+.rugby-union.flat .ifmenu {
+  border-color: /* rugby-union       */ #2b2b2b;
+}
+.rugby-union.flat .ifmenu #ifmenu-calendar span.today,
+.rugby-union.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* rugby-union       */ #2b2b2b;
+}
+.rugby-union.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(43, 43, 43, 0.1);
+}
+.rugby-union.flat .ifmenu .selected {
+  background-color: /* rugby-union       */ #2b2b2b;
+}
+.rugby-union .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.rugby-union #fsbody .tomyg:hover,
+.rugby-union .event__check:not(.checked):hover {
+  background: rgba(43, 43, 43, 0.2);
+}
+#fsbody #local-mygames table.rugby-union .icons .tomyg:hover {
+  background: rgba(43, 43, 43, 0.2);
+}
+.rugby-union #odds-format.switchable {
+  background: /* rugby-union       */ #2b2b2b;
+}
+.snooker .profileTable__list {
+  border-bottom: solid 4px /* snooker           */ #004000;
+}
+.snooker .profileTable__tabsList,
+.snooker .profileTable__tabsItem--selected {
+  background-color: /* snooker           */ #004000;
+}
+.snooker #filter-box {
+  background-color: /* snooker           */ #004000;
+}
+.snooker .menuTop__wing,
+.snooker .menuTop__content,
+.snooker .header__button:hover,
+.snooker #lsid #lsid-content .user,
+.snooker #lsid #lsid-content #signIn:hover,
+.snooker .signAndReg:hover,
+.snooker #fsbody .color-spacer,
+.snooker #detail #glib-stats-submenu-table .ifmenu,
+.snooker #detail .stats-table-label,
+.snooker #detail .stats-shared-menu .submenu .ifmenu,
+.snooker .group-label span.group-label-wrapper,
+.snooker #detail .stats-table-label,
+.snooker .tab-header .label,
+.snooker #tabs div.submenu ul,
+.snooker .tab-header,
+.snooker #tabs div.submenu .color-spacer {
+  background-color: /* snooker           */ #004000;
+}
+.snooker .group-label {
+  border-color: /* snooker           */ #004000;
+}
+.snooker .gTableSort-asc .arrow {
+  border-color: transparent transparent /* snooker           */ #004000 transparent;
+}
+.snooker .gTableSort-desc .arrow {
+  border-color: /* snooker           */ #004000 transparent transparent transparent;
+}
+.snooker .menuTop__item:hover,
+.snooker .menuMinority__title:hover,
+.snooker #lsid #lsid-content #registration,
+.snooker #lsid #lsid-content .user:hover,
+.snooker #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.snooker #odds-format.switchable span.active-odds-format,
+.snooker #tabs div.submenu ul li.selected a,
+.snooker #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.snooker #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.snooker #fsbody #tabs div.submenu ul ul li a:hover,
+.snooker #fsbody #tabs.tabs div.submenu ul li a:hover,
+.snooker #fsbody #tabs.tabs div.submenu ul li.selected a,
+.snooker #fsbody #tabs .submenu ul li a:hover,
+.snooker #fsbody #odds-format.switchable a:hover,
+.snooker.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.snooker.flat #detail .stats-shared-menu .submenu li a:hover,
+.snooker .profileTable__tabsListItem:hover,
+.snooker .profileTable__tabsListItem--selected {
+  background-color: #001700;
+  opacity: 1;
+}
+.snooker.flat .ifmenu {
+  border-color: /* snooker           */ #004000;
+}
+.snooker.flat .ifmenu #ifmenu-calendar span.today,
+.snooker.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* snooker           */ #004000;
+}
+.snooker.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(0, 64, 0, 0.1);
+}
+.snooker.flat .ifmenu .selected {
+  background-color: /* snooker           */ #004000;
+}
+.snooker .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(18, 89, 18, 0.1);
+}
+.snooker #fsbody .tomyg:hover,
+.snooker .event__check:not(.checked):hover {
+  background: rgba(0, 64, 0, 0.2);
+}
+#fsbody #local-mygames table.snooker .icons .tomyg:hover {
+  background: rgba(0, 64, 0, 0.2);
+}
+.snooker #odds-format.switchable {
+  background: /* snooker           */ #004000;
+}
+.soccer .profileTable__list {
+  border-bottom: solid 4px /* soccer            */ #085f00;
+}
+.soccer .profileTable__tabsList,
+.soccer .profileTable__tabsItem--selected {
+  background-color: /* soccer            */ #085f00;
+}
+.soccer #filter-box {
+  background-color: /* soccer            */ #085f00;
+}
+.soccer .menuTop__wing,
+.soccer .menuTop__content,
+.soccer .header__button:hover,
+.soccer #lsid #lsid-content .user,
+.soccer #lsid #lsid-content #signIn:hover,
+.soccer .signAndReg:hover,
+.soccer #fsbody .color-spacer,
+.soccer #detail #glib-stats-submenu-table .ifmenu,
+.soccer #detail .stats-table-label,
+.soccer #detail .stats-shared-menu .submenu .ifmenu,
+.soccer .group-label span.group-label-wrapper,
+.soccer #detail .stats-table-label,
+.soccer .tab-header .label,
+.soccer #tabs div.submenu ul,
+.soccer .tab-header,
+.soccer #tabs div.submenu .color-spacer {
+  background-color: /* soccer            */ #085f00;
+}
+.soccer .group-label {
+  border-color: /* soccer            */ #085f00;
+}
+.soccer .gTableSort-asc .arrow {
+  border-color: transparent transparent /* soccer            */ #085f00 transparent;
+}
+.soccer .gTableSort-desc .arrow {
+  border-color: /* soccer            */ #085f00 transparent transparent transparent;
+}
+.soccer .menuTop__item:hover,
+.soccer .menuMinority__title:hover,
+.soccer #lsid #lsid-content #registration,
+.soccer #lsid #lsid-content .user:hover,
+.soccer #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.soccer #odds-format.switchable span.active-odds-format,
+.soccer #tabs div.submenu ul li.selected a,
+.soccer #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.soccer #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.soccer #fsbody #tabs div.submenu ul ul li a:hover,
+.soccer #fsbody #tabs.tabs div.submenu ul li a:hover,
+.soccer #fsbody #tabs.tabs div.submenu ul li.selected a,
+.soccer #fsbody #tabs .submenu ul li a:hover,
+.soccer #fsbody #odds-format.switchable a:hover,
+.soccer.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.soccer.flat #detail .stats-shared-menu .submenu li a:hover,
+.soccer .profileTable__tabsListItem:hover,
+.soccer .profileTable__tabsListItem--selected {
+  background-color: #053600;
+  opacity: 1;
+}
+.soccer.flat .ifmenu {
+  border-color: /* soccer            */ #085f00;
+}
+.soccer.flat .ifmenu #ifmenu-calendar span.today,
+.soccer.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* soccer            */ #085f00;
+}
+.soccer.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(8, 95, 0, 0.1);
+}
+.soccer.flat .ifmenu .selected {
+  background-color: /* soccer            */ #085f00;
+}
+.soccer .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(27, 119, 0, 0.1);
+}
+.soccer #fsbody .tomyg:hover,
+.soccer .event__check:not(.checked):hover {
+  background: rgba(8, 95, 0, 0.2);
+}
+#fsbody #local-mygames table.soccer .icons .tomyg:hover {
+  background: rgba(8, 95, 0, 0.2);
+}
+.soccer #odds-format.switchable {
+  background: /* soccer            */ #085f00;
+}
+.table-tennis .profileTable__list {
+  border-bottom: solid 4px /* table-tennis      */ #913124;
+}
+.table-tennis .profileTable__tabsList,
+.table-tennis .profileTable__tabsItem--selected {
+  background-color: /* table-tennis      */ #913124;
+}
+.table-tennis #filter-box {
+  background-color: /* table-tennis      */ #913124;
+}
+.table-tennis .menuTop__wing,
+.table-tennis .menuTop__content,
+.table-tennis .header__button:hover,
+.table-tennis #lsid #lsid-content .user,
+.table-tennis #lsid #lsid-content #signIn:hover,
+.table-tennis .signAndReg:hover,
+.table-tennis #fsbody .color-spacer,
+.table-tennis #detail #glib-stats-submenu-table .ifmenu,
+.table-tennis #detail .stats-table-label,
+.table-tennis #detail .stats-shared-menu .submenu .ifmenu,
+.table-tennis .group-label span.group-label-wrapper,
+.table-tennis #detail .stats-table-label,
+.table-tennis .tab-header .label,
+.table-tennis #tabs div.submenu ul,
+.table-tennis .tab-header,
+.table-tennis #tabs div.submenu .color-spacer {
+  background-color: /* table-tennis      */ #913124;
+}
+.table-tennis .group-label {
+  border-color: /* table-tennis      */ #913124;
+}
+.table-tennis .gTableSort-asc .arrow {
+  border-color: transparent transparent /* table-tennis      */ #913124 transparent;
+}
+.table-tennis .gTableSort-desc .arrow {
+  border-color: /* table-tennis      */ #913124 transparent transparent transparent;
+}
+.table-tennis .menuTop__item:hover,
+.table-tennis .menuMinority__title:hover,
+.table-tennis #lsid #lsid-content #registration,
+.table-tennis #lsid #lsid-content .user:hover,
+.table-tennis #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.table-tennis #odds-format.switchable span.active-odds-format,
+.table-tennis #tabs div.submenu ul li.selected a,
+.table-tennis #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.table-tennis #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.table-tennis #fsbody #tabs div.submenu ul ul li a:hover,
+.table-tennis #fsbody #tabs.tabs div.submenu ul li a:hover,
+.table-tennis #fsbody #tabs.tabs div.submenu ul li.selected a,
+.table-tennis #fsbody #tabs .submenu ul li a:hover,
+.table-tennis #fsbody #odds-format.switchable a:hover,
+.table-tennis.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.table-tennis.flat #detail .stats-shared-menu .submenu li a:hover,
+.table-tennis .profileTable__tabsListItem:hover,
+.table-tennis .profileTable__tabsListItem--selected {
+  background-color: #70261c;
+  opacity: 1;
+}
+.table-tennis.flat .ifmenu {
+  border-color: /* table-tennis      */ #913124;
+}
+.table-tennis.flat .ifmenu #ifmenu-calendar span.today,
+.table-tennis.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* table-tennis      */ #913124;
+}
+.table-tennis.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(145, 49, 36, 0.1);
+}
+.table-tennis.flat .ifmenu .selected {
+  background-color: /* table-tennis      */ #913124;
+}
+.table-tennis .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(200, 75, 59, 0.1);
+}
+.table-tennis #fsbody .tomyg:hover,
+.table-tennis .event__check:not(.checked):hover {
+  background: rgba(145, 49, 36, 0.2);
+}
+#fsbody #local-mygames table.table-tennis .icons .tomyg:hover {
+  background: rgba(145, 49, 36, 0.2);
+}
+.table-tennis #odds-format.switchable {
+  background: /* table-tennis      */ #913124;
+}
+.tennis .profileTable__list {
+  border-bottom: solid 4px /* tennis            */ #a37e00;
+}
+.tennis .profileTable__tabsList,
+.tennis .profileTable__tabsItem--selected {
+  background-color: /* tennis            */ #a37e00;
+}
+.tennis #filter-box {
+  background-color: /* tennis            */ #a37e00;
+}
+.tennis .menuTop__wing,
+.tennis .menuTop__content,
+.tennis .header__button:hover,
+.tennis #lsid #lsid-content .user,
+.tennis #lsid #lsid-content #signIn:hover,
+.tennis .signAndReg:hover,
+.tennis #fsbody .color-spacer,
+.tennis #detail #glib-stats-submenu-table .ifmenu,
+.tennis #detail .stats-table-label,
+.tennis #detail .stats-shared-menu .submenu .ifmenu,
+.tennis .group-label span.group-label-wrapper,
+.tennis #detail .stats-table-label,
+.tennis .tab-header .label,
+.tennis #tabs div.submenu ul,
+.tennis .tab-header,
+.tennis #tabs div.submenu .color-spacer {
+  background-color: /* tennis            */ #a37e00;
+}
+.tennis .group-label {
+  border-color: /* tennis            */ #a37e00;
+}
+.tennis .gTableSort-asc .arrow {
+  border-color: transparent transparent /* tennis            */ #a37e00 transparent;
+}
+.tennis .gTableSort-desc .arrow {
+  border-color: /* tennis            */ #a37e00 transparent transparent transparent;
+}
+.tennis .menuTop__item:hover,
+.tennis .menuMinority__title:hover,
+.tennis #lsid #lsid-content #registration,
+.tennis #lsid #lsid-content .user:hover,
+.tennis #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.tennis #odds-format.switchable span.active-odds-format,
+.tennis #tabs div.submenu ul li.selected a,
+.tennis #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.tennis #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.tennis #fsbody #tabs div.submenu ul ul li a:hover,
+.tennis #fsbody #tabs.tabs div.submenu ul li a:hover,
+.tennis #fsbody #tabs.tabs div.submenu ul li.selected a,
+.tennis #fsbody #tabs .submenu ul li a:hover,
+.tennis #fsbody #odds-format.switchable a:hover,
+.tennis.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.tennis.flat #detail .stats-shared-menu .submenu li a:hover,
+.tennis .profileTable__tabsListItem:hover,
+.tennis .profileTable__tabsListItem--selected {
+  background-color: #7a5e00;
+  opacity: 1;
+}
+.tennis.flat .ifmenu {
+  border-color: /* tennis            */ #a37e00;
+}
+.tennis.flat .ifmenu #ifmenu-calendar span.today,
+.tennis.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* tennis            */ #a37e00;
+}
+.tennis.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(163, 126, 0, 0.1);
+}
+.tennis.flat .ifmenu .selected {
+  background-color: /* tennis            */ #a37e00;
+}
+.tennis .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(191, 154, 23, 0.1);
+}
+.tennis #fsbody .tomyg:hover,
+.tennis .event__check:not(.checked):hover {
+  background: rgba(163, 126, 0, 0.2);
+}
+#fsbody #local-mygames table.tennis .icons .tomyg:hover {
+  background: rgba(163, 126, 0, 0.2);
+}
+.tennis #odds-format.switchable {
+  background: /* tennis            */ #a37e00;
+}
+.volleyball .profileTable__list {
+  border-bottom: solid 4px /* volleyball        */ #b5773a;
+}
+.volleyball .profileTable__tabsList,
+.volleyball .profileTable__tabsItem--selected {
+  background-color: /* volleyball        */ #b5773a;
+}
+.volleyball #filter-box {
+  background-color: /* volleyball        */ #b5773a;
+}
+.volleyball .menuTop__wing,
+.volleyball .menuTop__content,
+.volleyball .header__button:hover,
+.volleyball #lsid #lsid-content .user,
+.volleyball #lsid #lsid-content #signIn:hover,
+.volleyball .signAndReg:hover,
+.volleyball #fsbody .color-spacer,
+.volleyball #detail #glib-stats-submenu-table .ifmenu,
+.volleyball #detail .stats-table-label,
+.volleyball #detail .stats-shared-menu .submenu .ifmenu,
+.volleyball .group-label span.group-label-wrapper,
+.volleyball #detail .stats-table-label,
+.volleyball .tab-header .label,
+.volleyball #tabs div.submenu ul,
+.volleyball .tab-header,
+.volleyball #tabs div.submenu .color-spacer {
+  background-color: /* volleyball        */ #b5773a;
+}
+.volleyball .group-label {
+  border-color: /* volleyball        */ #b5773a;
+}
+.volleyball .gTableSort-asc .arrow {
+  border-color: transparent transparent /* volleyball        */ #b5773a transparent;
+}
+.volleyball .gTableSort-desc .arrow {
+  border-color: /* volleyball        */ #b5773a transparent transparent transparent;
+}
+.volleyball .menuTop__item:hover,
+.volleyball .menuMinority__title:hover,
+.volleyball #lsid #lsid-content #registration,
+.volleyball #lsid #lsid-content .user:hover,
+.volleyball #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.volleyball #odds-format.switchable span.active-odds-format,
+.volleyball #tabs div.submenu ul li.selected a,
+.volleyball #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.volleyball #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.volleyball #fsbody #tabs div.submenu ul ul li a:hover,
+.volleyball #fsbody #tabs.tabs div.submenu ul li a:hover,
+.volleyball #fsbody #tabs.tabs div.submenu ul li.selected a,
+.volleyball #fsbody #tabs .submenu ul li a:hover,
+.volleyball #fsbody #odds-format.switchable a:hover,
+.volleyball.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.volleyball.flat #detail .stats-shared-menu .submenu li a:hover,
+.volleyball .profileTable__tabsListItem:hover,
+.volleyball .profileTable__tabsListItem--selected {
+  background-color: #966330;
+  opacity: 1;
+}
+.volleyball.flat .ifmenu {
+  border-color: /* volleyball        */ #b5773a;
+}
+.volleyball.flat .ifmenu #ifmenu-calendar span.today,
+.volleyball.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* volleyball        */ #b5773a;
+}
+.volleyball.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(181, 119, 58, 0.1);
+}
+.volleyball.flat .ifmenu .selected {
+  background-color: /* volleyball        */ #b5773a;
+}
+.volleyball .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(230, 162, 96, 0.1);
+}
+.volleyball #fsbody .tomyg:hover,
+.volleyball .event__check:not(.checked):hover {
+  background: rgba(181, 119, 58, 0.2);
+}
+#fsbody #local-mygames table.volleyball .icons .tomyg:hover {
+  background: rgba(181, 119, 58, 0.2);
+}
+.volleyball #odds-format.switchable {
+  background: /* volleyball        */ #b5773a;
+}
+.water-polo .profileTable__list {
+  border-bottom: solid 4px /* water-polo        */ #0f8bb9;
+}
+.water-polo .profileTable__tabsList,
+.water-polo .profileTable__tabsItem--selected {
+  background-color: /* water-polo        */ #0f8bb9;
+}
+.water-polo #filter-box {
+  background-color: /* water-polo        */ #0f8bb9;
+}
+.water-polo .menuTop__wing,
+.water-polo .menuTop__content,
+.water-polo .header__button:hover,
+.water-polo #lsid #lsid-content .user,
+.water-polo #lsid #lsid-content #signIn:hover,
+.water-polo .signAndReg:hover,
+.water-polo #fsbody .color-spacer,
+.water-polo #detail #glib-stats-submenu-table .ifmenu,
+.water-polo #detail .stats-table-label,
+.water-polo #detail .stats-shared-menu .submenu .ifmenu,
+.water-polo .group-label span.group-label-wrapper,
+.water-polo #detail .stats-table-label,
+.water-polo .tab-header .label,
+.water-polo #tabs div.submenu ul,
+.water-polo .tab-header,
+.water-polo #tabs div.submenu .color-spacer {
+  background-color: /* water-polo        */ #0f8bb9;
+}
+.water-polo .group-label {
+  border-color: /* water-polo        */ #0f8bb9;
+}
+.water-polo .gTableSort-asc .arrow {
+  border-color: transparent transparent /* water-polo        */ #0f8bb9 transparent;
+}
+.water-polo .gTableSort-desc .arrow {
+  border-color: /* water-polo        */ #0f8bb9 transparent transparent transparent;
+}
+.water-polo .menuTop__item:hover,
+.water-polo .menuMinority__title:hover,
+.water-polo #lsid #lsid-content #registration,
+.water-polo #lsid #lsid-content .user:hover,
+.water-polo #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.water-polo #odds-format.switchable span.active-odds-format,
+.water-polo #tabs div.submenu ul li.selected a,
+.water-polo #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.water-polo #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.water-polo #fsbody #tabs div.submenu ul ul li a:hover,
+.water-polo #fsbody #tabs.tabs div.submenu ul li a:hover,
+.water-polo #fsbody #tabs.tabs div.submenu ul li.selected a,
+.water-polo #fsbody #tabs .submenu ul li a:hover,
+.water-polo #fsbody #odds-format.switchable a:hover,
+.water-polo.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.water-polo.flat #detail .stats-shared-menu .submenu li a:hover,
+.water-polo .profileTable__tabsListItem:hover,
+.water-polo .profileTable__tabsListItem--selected {
+  background-color: #0c6f93;
+  opacity: 1;
+}
+.water-polo.flat .ifmenu {
+  border-color: /* water-polo        */ #0f8bb9;
+}
+.water-polo.flat .ifmenu #ifmenu-calendar span.today,
+.water-polo.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* water-polo        */ #0f8bb9;
+}
+.water-polo.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(15, 139, 185, 0.1);
+}
+.water-polo.flat .ifmenu .selected {
+  background-color: /* water-polo        */ #0f8bb9;
+}
+.water-polo .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(59, 177, 221, 0.1);
+}
+.water-polo #fsbody .tomyg:hover,
+.water-polo .event__check:not(.checked):hover {
+  background: rgba(15, 139, 185, 0.2);
+}
+#fsbody #local-mygames table.water-polo .icons .tomyg:hover {
+  background: rgba(15, 139, 185, 0.2);
+}
+.water-polo #odds-format.switchable {
+  background: /* water-polo        */ #0f8bb9;
+}
+.winter-sports .profileTable__list {
+  border-bottom: solid 4px /* winter-sports     */ #0f3263;
+}
+.winter-sports .profileTable__tabsList,
+.winter-sports .profileTable__tabsItem--selected {
+  background-color: /* winter-sports     */ #0f3263;
+}
+.winter-sports #filter-box {
+  background-color: /* winter-sports     */ #0f3263;
+}
+.winter-sports .menuTop__wing,
+.winter-sports .menuTop__content,
+.winter-sports .header__button:hover,
+.winter-sports #lsid #lsid-content .user,
+.winter-sports #lsid #lsid-content #signIn:hover,
+.winter-sports .signAndReg:hover,
+.winter-sports #fsbody .color-spacer,
+.winter-sports #detail #glib-stats-submenu-table .ifmenu,
+.winter-sports #detail .stats-table-label,
+.winter-sports #detail .stats-shared-menu .submenu .ifmenu,
+.winter-sports .group-label span.group-label-wrapper,
+.winter-sports #detail .stats-table-label,
+.winter-sports .tab-header .label,
+.winter-sports #tabs div.submenu ul,
+.winter-sports .tab-header,
+.winter-sports #tabs div.submenu .color-spacer {
+  background-color: /* winter-sports     */ #0f3263;
+}
+.winter-sports .group-label {
+  border-color: /* winter-sports     */ #0f3263;
+}
+.winter-sports .gTableSort-asc .arrow {
+  border-color: transparent transparent /* winter-sports     */ #0f3263 transparent;
+}
+.winter-sports .gTableSort-desc .arrow {
+  border-color: /* winter-sports     */ #0f3263 transparent transparent transparent;
+}
+.winter-sports .menuTop__item:hover,
+.winter-sports .menuMinority__title:hover,
+.winter-sports #lsid #lsid-content #registration,
+.winter-sports #lsid #lsid-content .user:hover,
+.winter-sports #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.winter-sports #odds-format.switchable span.active-odds-format,
+.winter-sports #tabs div.submenu ul li.selected a,
+.winter-sports #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.winter-sports #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.winter-sports #fsbody #tabs div.submenu ul ul li a:hover,
+.winter-sports #fsbody #tabs.tabs div.submenu ul li a:hover,
+.winter-sports #fsbody #tabs.tabs div.submenu ul li.selected a,
+.winter-sports #fsbody #tabs .submenu ul li a:hover,
+.winter-sports #fsbody #odds-format.switchable a:hover,
+.winter-sports.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.winter-sports.flat #detail .stats-shared-menu .submenu li a:hover,
+.winter-sports .profileTable__tabsListItem:hover,
+.winter-sports .profileTable__tabsListItem--selected {
+  background-color: #0a2040;
+  opacity: 1;
+}
+.winter-sports.flat .ifmenu {
+  border-color: /* winter-sports     */ #0f3263;
+}
+.winter-sports.flat .ifmenu #ifmenu-calendar span.today,
+.winter-sports.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* winter-sports     */ #0f3263;
+}
+.winter-sports.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports.flat .ifmenu .selected {
+  background-color: /* winter-sports     */ #0f3263;
+}
+.winter-sports .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(35, 78, 138, 0.1);
+}
+.winter-sports #fsbody .tomyg:hover,
+.winter-sports .event__check:not(.checked):hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+#fsbody #local-mygames table.winter-sports .icons .tomyg:hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+.winter-sports #odds-format.switchable {
+  background: /* winter-sports     */ #0f3263;
+}
+.winter-sports-biathlon .profileTable__list {
+  border-bottom: solid 4px /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon .profileTable__tabsList,
+.winter-sports-biathlon .profileTable__tabsItem--selected {
+  background-color: /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon #filter-box {
+  background-color: /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon .menuTop__wing,
+.winter-sports-biathlon .menuTop__content,
+.winter-sports-biathlon .header__button:hover,
+.winter-sports-biathlon #lsid #lsid-content .user,
+.winter-sports-biathlon #lsid #lsid-content #signIn:hover,
+.winter-sports-biathlon .signAndReg:hover,
+.winter-sports-biathlon #fsbody .color-spacer,
+.winter-sports-biathlon #detail #glib-stats-submenu-table .ifmenu,
+.winter-sports-biathlon #detail .stats-table-label,
+.winter-sports-biathlon #detail .stats-shared-menu .submenu .ifmenu,
+.winter-sports-biathlon .group-label span.group-label-wrapper,
+.winter-sports-biathlon #detail .stats-table-label,
+.winter-sports-biathlon .tab-header .label,
+.winter-sports-biathlon #tabs div.submenu ul,
+.winter-sports-biathlon .tab-header,
+.winter-sports-biathlon #tabs div.submenu .color-spacer {
+  background-color: /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon .group-label {
+  border-color: /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon .gTableSort-asc .arrow {
+  border-color: transparent transparent /* biathlon          */ #0f3263 transparent;
+}
+.winter-sports-biathlon .gTableSort-desc .arrow {
+  border-color: /* biathlon          */ #0f3263 transparent transparent transparent;
+}
+.winter-sports-biathlon .menuTop__item:hover,
+.winter-sports-biathlon .menuMinority__title:hover,
+.winter-sports-biathlon #lsid #lsid-content #registration,
+.winter-sports-biathlon #lsid #lsid-content .user:hover,
+.winter-sports-biathlon #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.winter-sports-biathlon #odds-format.switchable span.active-odds-format,
+.winter-sports-biathlon #tabs div.submenu ul li.selected a,
+.winter-sports-biathlon #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.winter-sports-biathlon #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.winter-sports-biathlon #fsbody #tabs div.submenu ul ul li a:hover,
+.winter-sports-biathlon #fsbody #tabs.tabs div.submenu ul li a:hover,
+.winter-sports-biathlon #fsbody #tabs.tabs div.submenu ul li.selected a,
+.winter-sports-biathlon #fsbody #tabs .submenu ul li a:hover,
+.winter-sports-biathlon #fsbody #odds-format.switchable a:hover,
+.winter-sports-biathlon.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.winter-sports-biathlon.flat #detail .stats-shared-menu .submenu li a:hover,
+.winter-sports-biathlon .profileTable__tabsListItem:hover,
+.winter-sports-biathlon .profileTable__tabsListItem--selected {
+  background-color: #0a2040;
+  opacity: 1;
+}
+.winter-sports-biathlon.flat .ifmenu {
+  border-color: /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon.flat .ifmenu #ifmenu-calendar span.today,
+.winter-sports-biathlon.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-biathlon.flat .ifmenu .selected {
+  background-color: /* biathlon          */ #0f3263;
+}
+.winter-sports-biathlon .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(35, 78, 138, 0.1);
+}
+.winter-sports-biathlon #fsbody .tomyg:hover,
+.winter-sports-biathlon .event__check:not(.checked):hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+#fsbody #local-mygames table.winter-sports-biathlon .icons .tomyg:hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+.winter-sports-biathlon #odds-format.switchable {
+  background: /* biathlon          */ #0f3263;
+}
+.winter-sports-cross-country .profileTable__list {
+  border-bottom: solid 4px /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country .profileTable__tabsList,
+.winter-sports-cross-country .profileTable__tabsItem--selected {
+  background-color: /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country #filter-box {
+  background-color: /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country .menuTop__wing,
+.winter-sports-cross-country .menuTop__content,
+.winter-sports-cross-country .header__button:hover,
+.winter-sports-cross-country #lsid #lsid-content .user,
+.winter-sports-cross-country #lsid #lsid-content #signIn:hover,
+.winter-sports-cross-country .signAndReg:hover,
+.winter-sports-cross-country #fsbody .color-spacer,
+.winter-sports-cross-country #detail #glib-stats-submenu-table .ifmenu,
+.winter-sports-cross-country #detail .stats-table-label,
+.winter-sports-cross-country #detail .stats-shared-menu .submenu .ifmenu,
+.winter-sports-cross-country .group-label span.group-label-wrapper,
+.winter-sports-cross-country #detail .stats-table-label,
+.winter-sports-cross-country .tab-header .label,
+.winter-sports-cross-country #tabs div.submenu ul,
+.winter-sports-cross-country .tab-header,
+.winter-sports-cross-country #tabs div.submenu .color-spacer {
+  background-color: /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country .group-label {
+  border-color: /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country .gTableSort-asc .arrow {
+  border-color: transparent transparent /* cross-country     */ #0f3263 transparent;
+}
+.winter-sports-cross-country .gTableSort-desc .arrow {
+  border-color: /* cross-country     */ #0f3263 transparent transparent transparent;
+}
+.winter-sports-cross-country .menuTop__item:hover,
+.winter-sports-cross-country .menuMinority__title:hover,
+.winter-sports-cross-country #lsid #lsid-content #registration,
+.winter-sports-cross-country #lsid #lsid-content .user:hover,
+.winter-sports-cross-country #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.winter-sports-cross-country #odds-format.switchable span.active-odds-format,
+.winter-sports-cross-country #tabs div.submenu ul li.selected a,
+.winter-sports-cross-country #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.winter-sports-cross-country #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.winter-sports-cross-country #fsbody #tabs div.submenu ul ul li a:hover,
+.winter-sports-cross-country #fsbody #tabs.tabs div.submenu ul li a:hover,
+.winter-sports-cross-country #fsbody #tabs.tabs div.submenu ul li.selected a,
+.winter-sports-cross-country #fsbody #tabs .submenu ul li a:hover,
+.winter-sports-cross-country #fsbody #odds-format.switchable a:hover,
+.winter-sports-cross-country.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.winter-sports-cross-country.flat #detail .stats-shared-menu .submenu li a:hover,
+.winter-sports-cross-country .profileTable__tabsListItem:hover,
+.winter-sports-cross-country .profileTable__tabsListItem--selected {
+  background-color: #0a2040;
+  opacity: 1;
+}
+.winter-sports-cross-country.flat .ifmenu {
+  border-color: /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country.flat .ifmenu #ifmenu-calendar span.today,
+.winter-sports-cross-country.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-cross-country.flat .ifmenu .selected {
+  background-color: /* cross-country     */ #0f3263;
+}
+.winter-sports-cross-country .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(35, 78, 138, 0.1);
+}
+.winter-sports-cross-country #fsbody .tomyg:hover,
+.winter-sports-cross-country .event__check:not(.checked):hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+#fsbody #local-mygames table.winter-sports-cross-country .icons .tomyg:hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+.winter-sports-cross-country #odds-format.switchable {
+  background: /* cross-country     */ #0f3263;
+}
+.winter-sports-alpine-skiing .profileTable__list {
+  border-bottom: solid 4px /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing .profileTable__tabsList,
+.winter-sports-alpine-skiing .profileTable__tabsItem--selected {
+  background-color: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing #filter-box {
+  background-color: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing .menuTop__wing,
+.winter-sports-alpine-skiing .menuTop__content,
+.winter-sports-alpine-skiing .header__button:hover,
+.winter-sports-alpine-skiing #lsid #lsid-content .user,
+.winter-sports-alpine-skiing #lsid #lsid-content #signIn:hover,
+.winter-sports-alpine-skiing .signAndReg:hover,
+.winter-sports-alpine-skiing #fsbody .color-spacer,
+.winter-sports-alpine-skiing #detail #glib-stats-submenu-table .ifmenu,
+.winter-sports-alpine-skiing #detail .stats-table-label,
+.winter-sports-alpine-skiing #detail .stats-shared-menu .submenu .ifmenu,
+.winter-sports-alpine-skiing .group-label span.group-label-wrapper,
+.winter-sports-alpine-skiing #detail .stats-table-label,
+.winter-sports-alpine-skiing .tab-header .label,
+.winter-sports-alpine-skiing #tabs div.submenu ul,
+.winter-sports-alpine-skiing .tab-header,
+.winter-sports-alpine-skiing #tabs div.submenu .color-spacer {
+  background-color: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing .group-label {
+  border-color: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing .gTableSort-asc .arrow {
+  border-color: transparent transparent /* alpine-skiing     */ #0f3263 transparent;
+}
+.winter-sports-alpine-skiing .gTableSort-desc .arrow {
+  border-color: /* alpine-skiing     */ #0f3263 transparent transparent transparent;
+}
+.winter-sports-alpine-skiing .menuTop__item:hover,
+.winter-sports-alpine-skiing .menuMinority__title:hover,
+.winter-sports-alpine-skiing #lsid #lsid-content #registration,
+.winter-sports-alpine-skiing #lsid #lsid-content .user:hover,
+.winter-sports-alpine-skiing #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.winter-sports-alpine-skiing #odds-format.switchable span.active-odds-format,
+.winter-sports-alpine-skiing #tabs div.submenu ul li.selected a,
+.winter-sports-alpine-skiing #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.winter-sports-alpine-skiing #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.winter-sports-alpine-skiing #fsbody #tabs div.submenu ul ul li a:hover,
+.winter-sports-alpine-skiing #fsbody #tabs.tabs div.submenu ul li a:hover,
+.winter-sports-alpine-skiing #fsbody #tabs.tabs div.submenu ul li.selected a,
+.winter-sports-alpine-skiing #fsbody #tabs .submenu ul li a:hover,
+.winter-sports-alpine-skiing #fsbody #odds-format.switchable a:hover,
+.winter-sports-alpine-skiing.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.winter-sports-alpine-skiing.flat #detail .stats-shared-menu .submenu li a:hover,
+.winter-sports-alpine-skiing .profileTable__tabsListItem:hover,
+.winter-sports-alpine-skiing .profileTable__tabsListItem--selected {
+  background-color: #0a2040;
+  opacity: 1;
+}
+.winter-sports-alpine-skiing.flat .ifmenu {
+  border-color: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing.flat .ifmenu #ifmenu-calendar span.today,
+.winter-sports-alpine-skiing.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-alpine-skiing.flat .ifmenu .selected {
+  background-color: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-alpine-skiing .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(35, 78, 138, 0.1);
+}
+.winter-sports-alpine-skiing #fsbody .tomyg:hover,
+.winter-sports-alpine-skiing .event__check:not(.checked):hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+#fsbody #local-mygames table.winter-sports-alpine-skiing .icons .tomyg:hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+.winter-sports-alpine-skiing #odds-format.switchable {
+  background: /* alpine-skiing     */ #0f3263;
+}
+.winter-sports-ski-jumping .profileTable__list {
+  border-bottom: solid 4px /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping .profileTable__tabsList,
+.winter-sports-ski-jumping .profileTable__tabsItem--selected {
+  background-color: /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping #filter-box {
+  background-color: /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping .menuTop__wing,
+.winter-sports-ski-jumping .menuTop__content,
+.winter-sports-ski-jumping .header__button:hover,
+.winter-sports-ski-jumping #lsid #lsid-content .user,
+.winter-sports-ski-jumping #lsid #lsid-content #signIn:hover,
+.winter-sports-ski-jumping .signAndReg:hover,
+.winter-sports-ski-jumping #fsbody .color-spacer,
+.winter-sports-ski-jumping #detail #glib-stats-submenu-table .ifmenu,
+.winter-sports-ski-jumping #detail .stats-table-label,
+.winter-sports-ski-jumping #detail .stats-shared-menu .submenu .ifmenu,
+.winter-sports-ski-jumping .group-label span.group-label-wrapper,
+.winter-sports-ski-jumping #detail .stats-table-label,
+.winter-sports-ski-jumping .tab-header .label,
+.winter-sports-ski-jumping #tabs div.submenu ul,
+.winter-sports-ski-jumping .tab-header,
+.winter-sports-ski-jumping #tabs div.submenu .color-spacer {
+  background-color: /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping .group-label {
+  border-color: /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping .gTableSort-asc .arrow {
+  border-color: transparent transparent /* ski-jumping       */ #0f3263 transparent;
+}
+.winter-sports-ski-jumping .gTableSort-desc .arrow {
+  border-color: /* ski-jumping       */ #0f3263 transparent transparent transparent;
+}
+.winter-sports-ski-jumping .menuTop__item:hover,
+.winter-sports-ski-jumping .menuMinority__title:hover,
+.winter-sports-ski-jumping #lsid #lsid-content #registration,
+.winter-sports-ski-jumping #lsid #lsid-content .user:hover,
+.winter-sports-ski-jumping #detail .stats-shared-menu .submenu .ifmenu .selected a,
+.winter-sports-ski-jumping #odds-format.switchable span.active-odds-format,
+.winter-sports-ski-jumping #tabs div.submenu ul li.selected a,
+.winter-sports-ski-jumping #fsbody .ifmenu #ifmenu-calendar span.today:hover,
+.winter-sports-ski-jumping #fsbody #ifmenu-calendar a.ifmenu-active:hover,
+.winter-sports-ski-jumping #fsbody #tabs div.submenu ul ul li a:hover,
+.winter-sports-ski-jumping #fsbody #tabs.tabs div.submenu ul li a:hover,
+.winter-sports-ski-jumping #fsbody #tabs.tabs div.submenu ul li.selected a,
+.winter-sports-ski-jumping #fsbody #tabs .submenu ul li a:hover,
+.winter-sports-ski-jumping #fsbody #odds-format.switchable a:hover,
+.winter-sports-ski-jumping.flat #detail .stats-shared-menu .submenu .ifmenu a:hover,
+.winter-sports-ski-jumping.flat #detail .stats-shared-menu .submenu li a:hover,
+.winter-sports-ski-jumping .profileTable__tabsListItem:hover,
+.winter-sports-ski-jumping .profileTable__tabsListItem--selected {
+  background-color: #0a2040;
+  opacity: 1;
+}
+.winter-sports-ski-jumping.flat .ifmenu {
+  border-color: /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping.flat .ifmenu #ifmenu-calendar span.today,
+.winter-sports-ski-jumping.flat .ifmenu #ifmenu-calendar a.ifmenu-active {
+  background-color: /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping.flat .ifmenu #ifmenu-calendar a.ifmenu-today:not(.ifmenu-active) {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-ski-jumping.flat .ifmenu .selected {
+  background-color: /* ski-jumping       */ #0f3263;
+}
+.winter-sports-ski-jumping .ifmenu #ifmenu-calendar-content a:not(.ifmenu-active) span:hover {
+  background: rgba(35, 78, 138, 0.1);
+}
+.winter-sports-ski-jumping #fsbody .tomyg:hover,
+.winter-sports-ski-jumping .event__check:not(.checked):hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+#fsbody #local-mygames table.winter-sports-ski-jumping .icons .tomyg:hover {
+  background: rgba(15, 50, 99, 0.2);
+}
+.winter-sports-ski-jumping #odds-format.switchable {
+  background: /* ski-jumping       */ #0f3263;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 80px;
+  font-size: 11px;
+  color: #fff;
+  position: relative;
+}
+.header__content {
+  flex: 0 1 1000px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  position: relative;
+  background-color: var(--primary-sport-color);
+  /* Pro wide weby jako je diretta.it */
+}
+._fs--wide .header__content {
+  flex: 0 1 1140px;
+}
+.header__logo {
+  height: 34px;
+  margin-left: 20px;
+}
+.header__slogan {
+  margin-bottom: -3px;
+  opacity: 0.8;
+  color: #fff;
+  font-size: 9px;
+  position: absolute;
+  top: 54px;
+  left: 64px;
+  white-space: nowrap;
+}
+.header__beta {
+  background-color: #d8232a;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  line-height: 18px;
+  margin-left: 5px;
+}
+.header__logoWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+.header__lsidBoxWrapper {
+  margin-left: auto;
+  right: 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.header__button {
+  padding: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header__button:hover {
+  background-color: var(--secondary-sport-color);
+}
+.header__button--switch {
+  display: none;
+}
+.header__button--lsidBox {
+  padding: 0;
+}
+.header__buttonIcon {
+  width: 24px;
+  height: 24px;
+}
+.header__buttonIcon--search {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat 4px -26px;
+}
+.header__buttonIcon--switch {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -88px -24px;
+}
+.header__buttonIcon--settings {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -27px -27px;
+}
+.header__langBoxWrapper {
+  margin-right: 10px;
+  z-index: 11;
+}
+.header__wing {
+  flex: 1;
+  background-color: var(--primary-sport-color);
+}
+@media only screen and (max-width: 999px) {
+  .responsive .header {
+    height: 52px;
+  }
+  .responsive .header__content {
+    flex-shrink: 1;
+  }
+  .responsive .header__logo {
+    height: 24px;
+    margin-left: 16px;
+  }
+  .responsive .header__slogan {
+    display: none;
+  }
+  .responsive .header__button--active .header__buttonIcon--switch {
+    background-position-x: -206px;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .responsive .header {
+    height: 48px;
+  }
+  .responsive .header__logo {
+    margin-left: 8px;
+  }
+  .responsive .header__button {
+    padding: 12px 8px;
+    margin-right: 0;
+  }
+  .responsive .header__button--switch {
+    order: 1;
+  }
+  .responsive .header__button--settings {
+    display: none;
+  }
+  .responsive .header__button--switch {
+    display: block;
+    order: 3;
+  }
+  .responsive .header__button--user {
+    order: 2;
+    display: block;
+  }
+  .responsive .header__button--lsidBox {
+    padding: 0;
+  }
+  .responsive .header__button--active {
+    background-color: #fff;
+  }
+  .responsive .header__button--active .header__buttonIcon {
+    background-position-y: 5px;
+  }
+  .responsive .header__button--active:hover {
+    background-color: #fff;
+  }
+  .responsive .header .signAndReg {
+    width: 40px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .responsive .header .signAndReg:before {
+    background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -57px -27px;
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  .responsive .header .signAndReg--active {
+    background-color: #fff;
+  }
+  .responsive .header .signAndReg--active:before {
+    background-position-y: 3px;
+  }
+  .responsive .header #signAndReg.header__button--active:before {
+    background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -57px 3px;
+  }
+  .responsive .header .header__button--active #lsid-content .user {
+    background: #fff !important;
+  }
+  .responsive .header .header__button--active #lsid-content .user .icon {
+    background-position-y: 3px !important;
+  }
+  .responsive .header #lsid #registration,
+  .responsive .header #lsid #signIn {
+    display: none;
+  }
+}
+.header__button--lsidBox:hover {
+  background-color: transparent !important;
+}
+
+.menuTop {
+  font-size: initial;
+  color: initial;
+}
+.menuTop a {
+  color: initial;
+  text-decoration: initial;
+}
+/* Pouze pro mereni ---> */
+.menuTop--clone {
+  position: absolute;
+  visibility: hidden;
+  top: -100px;
+}
+.menuTop__clonedItemRow {
+  flex-flow: row nowrap !important;
+  padding: 0 8px 0 0 !important;
+}
+.menuTop__clonedItemRow:first-of-type {
+  margin-left: 10px !important;
+}
+.menuTop__clonedItemColumn {
+  flex-flow: column wrap !important;
+  padding: 0 8px 8px !important;
+  align-items: center !important;
+}
+.menuTop__clonedItemColumn .menuTop__text {
+  max-width: 55px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-size: 9px !important;
+}
+.menuTop__clonedItemColumn:first-of-type {
+  margin-left: 0 !important;
+}
+.menuTop__clonedItemColumn .sportIcon {
+  margin: 8px 8px 4px !important;
+}
+.menuMinority__clonedMinorityRow {
+  margin-right: 10px !important;
+}
+.menuMinority__clonedMinorityRow .menuMinority__title {
+  padding: 0 8px 0 0 !important;
+  flex-flow: row nowrap !important;
+  align-items: inherit !important;
+}
+.menuMinority__clonedMinorityRow .menuMinority__arrowBox {
+  flex: inherit !important;
+}
+.menuMinority__clonedMinorityRow .menuMinority__text {
+  flex: inherit !important;
+  white-space: nowrap !important;
+  text-align: center !important;
+  width: auto !important;
+}
+.menuMinority__clonedMinorityColumn {
+  margin-right: 0 !important;
+  justify-content: center !important;
+}
+.menuMinority__clonedMinorityColumn .menuMinority__title {
+  padding: 0 8px !important;
+  flex-flow: column wrap !important;
+  align-items: center !important;
+}
+.menuMinority__clonedMinorityColumn .menuMinority__arrowBox {
+  flex: 1 !important;
+}
+.menuMinority__clonedMinorityColumn .menuMinority__title .menuMinority__text {
+  flex: 1 !important;
+  white-space: normal !important;
+  text-align: center !important;
+  width: 60px !important;
+  font-size: 9px !important;
+}
+/* Pouze pro mereni <--- */
+.menuTop {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 40px;
+  position: relative;
+  /* If has majority games counter --> */
+  /* If has majority games counter <-- */
+}
+.menuTop__group {
+  flex: 0 1 1000px;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: var(--secondary-sport-color);
+  /* Pro wide weby jako je diretta.it  --> */
+  /* Pro wide weby jako je diretta.it  <-- */
+}
+._fs--wide .menuTop__group {
+  flex: 0 1 1140px;
+}
+.menuTop__content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  overflow: hidden;
+  height: 40px;
+}
+.menuTop__content .menuTop__item:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.menuTop__content .menuTop__item--active {
+  background-color: #fff;
+}
+.menuTop__content .menuTop__item--active .menuTop__text {
+  color: #656565;
+}
+.menuTop__content .menuTop__item--active .sportIcon {
+  background-position-y: 0;
+}
+.menuTop__content .menuTop__item--active:hover {
+  background-color: #fff;
+}
+.menuTop__item {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0 10px 0 0;
+  user-select: none;
+  color: #fff;
+  position: relative;
+  box-sizing: border-box;
+  /* docasne vypnuti skryvani */
+}
+.menuTop__item:first-of-type {
+  margin-left: 10px;
+}
+.menuTop__item--hidden {
+  display: none;
+}
+.menuTop__icon {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../res/_fs/build/sport-icons.5c1d65b.svg);
+  background-repeat: no-repeat;
+  background-position-y: -30px;
+}
+.menuTop__text {
+  display: flex;
+  flex-flow: row nowrap;
+  white-space: nowrap;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+}
+.menuTop__sportCount {
+  color: #fff;
+  font-size: 9px;
+  height: 18px;
+  border-radius: 50%;
+  min-width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  margin-top: 11px;
+  margin-left: 7px;
+  z-index: 1;
+  background-color: #000000;
+  opacity: 0.5;
+}
+.menuTop__wing {
+  flex: 1;
+  background-color: var(--secondary-sport-color);
+}
+.mgc .menuTop [data-sport-id="-1"] {
+  padding-left: 10px;
+}
+.mgc .menuTop [data-sport-id="-1"] .menuTop__text {
+  white-space: normal;
+}
+.mgc .menuTop [data-sport-id="-1"] .sportIcon {
+  display: none;
+}
+@media only screen and (max-width: 639px) {
+  .responsive .menuTop__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    grid-template-rows: 55px;
+    height: 55px;
+    width: 100%;
+  }
+  .responsive .menuTop__item {
+    flex-flow: column nowrap;
+    padding: 8px !important;
+    align-items: center;
+    flex: 1;
+  }
+  .responsive .menuTop__item:first-of-type {
+    margin-left: 0;
+  }
+  .responsive .menuTop__text {
+    margin: auto 0;
+    display: block;
+    font-size: 9px;
+    text-align: center;
+    max-width: 55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .responsive .menuTop__sportCount {
+    position: absolute;
+    margin-top: -5px;
+    margin-right: 3px;
+  }
+  .responsive .menuTop .sportIcon {
+    margin: 0 8px 4px;
+  }
+}
+
+.menuMinority {
+  display: flex;
+  flex-flow: row-reverse;
+  margin: 0 10px 0 auto;
+  align-content: flex-end;
+}
+.menuMinority__title {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0 10px 0 0;
+  user-select: none;
+  color: #fff;
+  cursor: pointer;
+}
+.menuMinority__title--active .menuMinority__arrow {
+  border-top-color: #656565;
+}
+.menuMinority__title--open .menuMinority__arrow {
+  border-top-color: #fff;
+}
+.menuMinority__titleText--long {
+  display: block;
+}
+.menuMinority__titleText--short {
+  display: none;
+}
+.menuMinority__arrow {
+  transition: 0.2s;
+  background: none;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+.menuMinority__arrow--arrow-rotation {
+  transform: rotate(180deg);
+}
+.menuMinority__arrowBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+}
+.menuMinority__content {
+  display: none;
+  flex-flow: column wrap;
+  width: 590px;
+  height: 460px;
+  position: absolute;
+  top: 100%;
+  box-shadow: 2px 4px 20px 0 rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.menuMinority__contentInner {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px;
+  background-color: #353535;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.menuMinority__icon {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  fill: #fff;
+}
+.menuMinority__item {
+  display: flex;
+  flex-flow: row nowrap;
+  white-space: nowrap;
+  align-items: center;
+  flex: 0 0 40px;
+  width: 33.3%;
+}
+.menuMinority__item:hover,
+.menuMinority__item--active {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+.menuMinority__item--hidden {
+  display: none;
+}
+.menuMinority__text {
+  display: flex;
+  flex-flow: row nowrap;
+  white-space: nowrap;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+}
+.menuMinority__sportCount {
+  color: #fff;
+  font-size: 9px;
+  height: 18px;
+  border-radius: 50%;
+  min-width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  opacity: 0.5;
+  margin-left: 5px;
+}
+.menuMinority .menuMinority__title--active {
+  background-color: #fff;
+}
+.menuMinority .menuMinority__title--active .menuMinority__text {
+  color: #656565;
+}
+.menuMinority .menuMinority__title--active .menuMinority__arrow:after {
+  border-top-color: #656565;
+}
+.menuMinority .menuMinority__title--active:hover {
+  background-color: #fff;
+}
+.menuMinority .menuMinority__title--open {
+  background-color: #343434;
+}
+.menuMinority .menuMinority__title--open .menuMinority__text {
+  color: #fff;
+}
+.menuMinority .menuMinority__title--open .menuMinority__arrow:after {
+  border-top-color: #fff;
+}
+.menuMinority .menuMinority__title--open:hover {
+  background-color: #343434;
+}
+@media only screen and (max-width: 639px) {
+  .responsive .menuMinority {
+    flex: 0 0 75px;
+    margin-right: 0;
+  }
+  .responsive .menuMinority__content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: calc(100% - 10px);
+    box-sizing: border-box;
+    max-width: 220px;
+  }
+  .responsive .menuMinority__contentInner {
+    position: relative;
+  }
+  .responsive .menuMinority__title {
+    padding: 0 8px;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .responsive .menuMinority__titleText--long {
+    display: none;
+  }
+  .responsive .menuMinority__titleText--short {
+    display: block;
+  }
+  .responsive .menuMinority__arrowBox {
+    flex: 1;
+    margin: 12px 8px 0;
+  }
+  .responsive .menuMinority__item {
+    width: 100%;
+  }
+  .responsive .menuMinority .menuMinority__title .menuMinority__text {
+    white-space: normal;
+    text-align: center;
+    width: 60px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+    font-size: 9px;
+  }
+}
+
+.userControls {
+  display: none;
+  flex-flow: column nowrap;
+}
+.userControls * {
+  display: flex;
+}
+.userControls__item {
+  flex-flow: row nowrap;
+  height: 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.userControls__item:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+.userControls__icon {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  margin: 8px;
+}
+.userControls__icon--settings {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -27px 3px;
+}
+.userControls__icon--lang {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -296px 4px;
+}
+.userControls__icon--rArrow {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -232px 5px;
+}
+.userControls__icon--lArrow {
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -262px 5px;
+}
+.userControls__text {
+  flex: 1;
+  align-items: center;
+}
+@media only screen and (max-width: 639px) {
+  .responsive .userControls {
+    display: flex;
+  }
+}
+
+.backButton {
+  display: none;
+  flex-flow: row nowrap;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.backButton:hover {
+  background-color: #eee;
+  text-decoration: underline;
+}
+.backButton__arrow {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  margin: 8px;
+  background: url(../../res/_fs/build/control-icons.18884b8.svg) no-repeat -264px 5px;
+}
+.backButton__text {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+@media only screen and (max-width: 639px) {
+  .responsive .backButton {
+    display: flex;
+  }
+}
+

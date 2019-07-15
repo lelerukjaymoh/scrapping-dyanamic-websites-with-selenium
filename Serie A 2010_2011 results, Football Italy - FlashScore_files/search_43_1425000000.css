@@ -1,0 +1,405 @@
+.ls-manager-window-mask {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  display: none;
+  background-color: black;
+}
+.ls-manager-window {
+  position: fixed;
+  z-index: 1001;
+  display: none;
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.5);
+}
+.ls-manager-window.long {
+  position: absolute;
+}
+.ls-manager-window > div {
+  min-width: 450px;
+  overflow: visible !important;
+}
+.ls-manager-window .close {
+  position: relative;
+  top: -26px;
+  float: right;
+  right: -26px;
+  height: 33px;
+  width: 33px;
+  background: url(../../res/_fs/build/icons-lsid.b6e415a.png) no-repeat;
+}
+.ls-manager-window .close:hover {
+  background-position: 0px -33px;
+}
+.ls-manager-window ul {
+  margin: 0;
+  padding: 0;
+}
+.ls-manager-window .tabs-menu {
+  list-style-type: none;
+  width: 100%;
+  height: 24px;
+  border-bottom: 5px solid #00407D;
+}
+.ls-manager-window .tabs-menu li,
+.ls-manager-window .tabs-menu li span {
+  background: url(../../res/_fs/build/bg-bookmark.ac568f9.gif) no-repeat;
+}
+.ls-manager-window .tabs-menu li {
+  float: left;
+  margin-right: 1px;
+  border: none;
+  border-bottom: 1px solid #BCBEAE;
+  background-color: #9C9C9C;
+  background-position: 0 -800px;
+}
+.ls-manager-window .tabs-menu li span {
+  display: block;
+  background-position: 100% -850px;
+}
+.ls-manager-window .tabs-menu li a {
+  display: block;
+  height: 23px;
+  line-height: 23px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+.ls-manager-window .tabs-menu li a:hover {
+  text-decoration: underline;
+}
+.ls-manager-window .tabs-menu li a.unclickable:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.ls-manager-window .tabs-menu li.selected {
+  height: 24px;
+  line-height: 24px;
+  border: none;
+  background-color: #00407D;
+  background-position: 0 -200px;
+}
+.ls-manager-window .tabs-menu li.selected span {
+  background-position: 100% -250px;
+}
+.ls-manager-window div.contents {
+  background-color: #F0F0F0;
+}
+.ls-manager-window div.contents div.content {
+  background-color: inherit;
+}
+.ls-manager-window div.contents div.content form {
+  overflow: auto;
+}
+.ls-manager-window div.contents div.content form input {
+  font-size: 11px;
+}
+.ls-manager-window div.contents div.content form input[type="text"] {
+  height: 19px;
+  width: 249px;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #B0B0B0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+.ls-manager-window div.contents div.content form input[type="text"]:focus {
+  border-color: #4D90FE;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset rgba(0, 0, 0, 0.5);
+}
+.ls-manager-window div.contents > div {
+  /*display: none;*/
+}
+.ls-manager-window div.contents > div.selected {
+  display: block;
+}
+.ls-manager-window div.content {
+  padding: 10px;
+}
+.ls-manager-window div.content a {
+  text-decoration: underline;
+  color: #00407D;
+}
+.ls-manager-window div.content a:hover {
+  text-decoration: none;
+}
+#ls-search-window {
+  position: absolute;
+  z-index: 2000;
+}
+#ls-search-window > div {
+  min-width: 620px;
+}
+#ls-search-window-mask {
+  z-index: 1999;
+}
+/*
+@media only screen and (max-width: @breakpoint-middle) {
+	.flat @{lss-wm-base-name-mask}
+	{
+		display: none!important;
+	}
+}*/
+@media only screen and (max-width: 639px) {
+  .responsive #lsid-window-mask,
+  .responsive #ls-search-window-mask {
+    display: none !important;
+  }
+  .responsive #ls-search-window .content table thead tr th {
+    height: 36px;
+    line-height: 34px;
+  }
+  .responsive #ls-search-window .team-logo,
+  .responsive #ls-search-window .flag {
+    margin-right: 11px;
+  }
+  .responsive #search-results .more-results-wrapper {
+    padding: 10px;
+  }
+}
+#search-form > div {
+  margin-bottom: 4px;
+}
+#search-form .search-form-label-wrapper {
+  display: inline-block;
+  margin-right: 10px;
+}
+#search-form .search-form-label-wrapper > span {
+  margin: 0 6px 0 10px;
+  float: left;
+  font-weight: bold;
+  line-height: 23px;
+}
+#search-form .search-form-label-wrapper label {
+  margin: 0 10px 0 0;
+  float: left;
+  line-height: 23px;
+}
+#search-form .search-form-label-wrapper label input[type="checkbox"] {
+  vertical-align: text-bottom;
+  margin: 0 5px 0 0;
+}
+.opera #search-form .search-form-label-wrapper label input[type="checkbox"] {
+  vertical-align: text-top;
+}
+.ie #search-form .search-form-label-wrapper label input[type="checkbox"] {
+  vertical-align: sub;
+  margin-bottom: -4px;
+}
+#search-results,
+#search-results-history,
+#search-results-project-history {
+  margin-top: 2px;
+}
+#search-results .search-result-wrapper table,
+#search-results-history .search-result-wrapper table,
+#search-results-project-history .search-result-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#search-results .search-result-wrapper table tr,
+#search-results-history .search-result-wrapper table tr,
+#search-results-project-history .search-result-wrapper table tr {
+  line-height: 19px;
+}
+#search-results .search-result-wrapper table tr th,
+#search-results-history .search-result-wrapper table tr th,
+#search-results-project-history .search-result-wrapper table tr th,
+#search-results .search-result-wrapper table tr td,
+#search-results-history .search-result-wrapper table tr td,
+#search-results-project-history .search-result-wrapper table tr td {
+  border: 1px solid #e0e0e0;
+  border-top-width: 0;
+  padding-left: 10px;
+  font-weight: normal;
+  text-align: left;
+}
+#search-results .search-result-wrapper table thead tr,
+#search-results-history .search-result-wrapper table thead tr,
+#search-results-project-history .search-result-wrapper table thead tr {
+  background: url(../../res/_fs/build/bg-label.6e2a995.gif) repeat-x top #343434;
+}
+#search-results .search-result-wrapper table thead tr th,
+#search-results-history .search-result-wrapper table thead tr th,
+#search-results-project-history .search-result-wrapper table thead tr th {
+  border-right: 0;
+  border-left: 0;
+  color: white;
+}
+#search-results .search-result-wrapper table tbody tr,
+#search-results-history .search-result-wrapper table tbody tr,
+#search-results-project-history .search-result-wrapper table tbody tr {
+  background-color: white;
+}
+#search-results .search-result-wrapper table tbody tr:nth-child(even),
+#search-results-history .search-result-wrapper table tbody tr:nth-child(even),
+#search-results-project-history .search-result-wrapper table tbody tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+#search-results .search-result-wrapper table tbody tr .tomyteams,
+#search-results-history .search-result-wrapper table tbody tr .tomyteams,
+#search-results-project-history .search-result-wrapper table tbody tr .tomyteams {
+  display: inline-block;
+}
+#search-results .search-result-wrapper table tbody tr .tomyteams .toggleMyTeam,
+#search-results-history .search-result-wrapper table tbody tr .tomyteams .toggleMyTeam,
+#search-results-project-history .search-result-wrapper table tbody tr .tomyteams .toggleMyTeam {
+  margin-left: 2px;
+}
+#search-results .search-result-wrapper table tbody tr .team-logo,
+#search-results-history .search-result-wrapper table tbody tr .team-logo,
+#search-results-project-history .search-result-wrapper table tbody tr .team-logo {
+  margin-top: -2px;
+  background-size: 15px 15px;
+}
+#search-results .search-result-wrapper table tbody tr a,
+#search-results-history .search-result-wrapper table tbody tr a,
+#search-results-project-history .search-result-wrapper table tbody tr a {
+  text-decoration: none;
+}
+#search-results .search-result-wrapper table tbody tr a span,
+#search-results-history .search-result-wrapper table tbody tr a span,
+#search-results-project-history .search-result-wrapper table tbody tr a span {
+  color: #656565;
+}
+#search-results .search-result-wrapper table tbody tr a:hover span,
+#search-results-history .search-result-wrapper table tbody tr a:hover span,
+#search-results-project-history .search-result-wrapper table tbody tr a:hover span {
+  text-decoration: underline;
+}
+#search-results .search-result-wrapper table tbody tr .toggleMyLeague,
+#search-results-history .search-result-wrapper table tbody tr .toggleMyLeague,
+#search-results-project-history .search-result-wrapper table tbody tr .toggleMyLeague {
+  margin-left: 2px;
+}
+#search-results .search-result-wrapper table tbody tr .toggleMyLeague.active,
+#search-results-history .search-result-wrapper table tbody tr .toggleMyLeague.active,
+#search-results-project-history .search-result-wrapper table tbody tr .toggleMyLeague.active {
+  background-position: 0 -40px;
+}
+#search-results .more-results-wrapper,
+#search-results-history .more-results-wrapper,
+#search-results-project-history .more-results-wrapper {
+  padding: 10px 0 3px 3px;
+}
+#search-results-history,
+#search-results-project-history {
+  margin-top: 0;
+}
+#search-results-history table,
+#search-results-project-history table {
+  margin-top: 10px;
+}
+#search-input-wrapper {
+  border: 1px solid #B0B0B0;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  height: 21px;
+  width: 350px;
+  display: inline-block;
+  float: left;
+}
+#search-input-wrapper.has-focus {
+  border-color: #4D90FE;
+}
+#search-input-wrapper .search-input-submit {
+  height: 21px;
+  line-height: 21px;
+  float: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 0 2px 2px 0;
+  border-left: 1px solid #b0b0b0;
+  background: url(../../res/_fs/build/bg-menu.6303fbc.png) 0px 0px repeat-x #343434;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: bold;
+}
+#search-input-wrapper .search-input-submit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#search-input-wrapper .search-input-sport-wrapper {
+  float: left;
+  display: inline-block;
+  height: 21px;
+  overflow: hidden;
+  position: relative;
+  border-right: 1px solid #B0B0B0;
+  border-radius: 3px 0 0 3px;
+}
+#search-input-wrapper .search-input-sport-wrapper .search-input-sport-selected {
+  display: inline-block;
+  height: 21px;
+  line-height: 21px;
+  padding: 0 20px 0 10px;
+  margin: 0 5px 0 0;
+  overflow: visible;
+}
+#search-input-wrapper .search-input-sport-wrapper .search-input-sport-downarrow {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 7px;
+  right: 7px;
+  top: 9px;
+  background: url(../../res/_fs/build/cal-dart.030d41c.gif) 0 0 no-repeat;
+}
+#search-input-wrapper .search-input-sport-wrapper.has-hover {
+  background: #e0e0e0;
+}
+#search-input-wrapper .search-input-sport-wrapper.has-hover .search-input-sport-selected {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#search-input-wrapper select {
+  position: absolute;
+  height: 21px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  top: 0px;
+  left: 0;
+  outline: 0;
+  white-space: pre;
+  opacity: 0;
+}
+#search-input-wrapper select:hover {
+  cursor: pointer;
+}
+#search-input-wrapper input {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  height: 19px;
+  padding-bottom: 0;
+}
+#search-input-wrapper .search-input-outer {
+  overflow: hidden;
+}
+.flat #search-input-wrapper {
+  border-radius: inherit;
+  box-shadow: inherit;
+}
+.flat #search-input-wrapper .search-input-submit {
+  border-radius: inherit;
+  background: #343434;
+  text-shadow: inherit;
+}
+.search-result-wrapper .cellWrapper {
+  line-height: 19px;
+}
+.flat .search-result-wrapper .cellWrapper {
+  line-height: 23px;
+}
+

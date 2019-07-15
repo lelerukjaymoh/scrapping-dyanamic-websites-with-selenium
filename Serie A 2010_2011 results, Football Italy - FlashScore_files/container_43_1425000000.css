@@ -1,0 +1,1710 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+.container__content {
+  display: flex;
+  -ms-flex: 1 1 1000px;
+  -webkit-flex: 1 1 1000px;
+  flex-flow: row nowrap;
+  margin: 0 auto;
+  background-color: #FFF;
+  position: relative;
+  padding: 0 10px 10px 10px;
+  box-sizing: border-box;
+  max-width: 1000px;
+}
+._fs--wide .container__content {
+  max-width: 1140px;
+  -ms-flex: 1 1 1140px;
+  -webkit-flex: 1 1 1140px;
+}
+.container__main {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+}
+.container__mainInner {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 10px;
+  position: relative;
+  order: 1;
+}
+.container__myMenu {
+  order: 1;
+  background-color: #fff;
+  margin-right: 10px;
+  width: 140px;
+}
+.container__liveTableWrapper {
+  width: 100%;
+  flex-flow: column nowrap;
+  display: flex;
+  order: 2;
+  flex: 1;
+}
+.container__bannerZone {
+  order: 3;
+  width: 160px;
+  position: relative;
+  margin-left: 10px;
+}
+._fs--wide .container__bannerZone {
+  width: 300px;
+}
+.container__fsbody {
+  max-width: 660px;
+}
+@media only screen and (max-width: 999px) {
+  .responsive .container__bannerZone {
+    display: none;
+  }
+  .responsive .container__fsbody {
+    flex: 1 0 300px;
+    max-width: initial;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    /*#fsbody{
+			background-color: pink ;
+		}
+		#live-table{
+			border: 2px solid red;
+			opacity: 0.25;
+			&:before{
+				content: "mobile livetable not ready";
+				font-size: 20px;
+
+			}
+			.tabs{
+				overflow-x: auto;
+				display: none;
+			}
+		}*/
+  }
+}
+@media only screen and (max-width: 639px) {
+  .responsive .container__content {
+    width: 100%;
+    flex: 1 0 100%;
+    padding: 0 0 10px;
+  }
+  .responsive .container__myMenu {
+    display: none;
+    position: absolute;
+    flex-flow: column nowrap;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .responsive .container__liveTableWrapper--hidden {
+    display: none;
+  }
+}
+
+.upcomingDraw {
+  color: #656565;
+  padding: 8px 10px;
+}
+.upcomingDraw__row {
+  display: flex;
+  font-size: 11px;
+  line-height: 12px;
+  padding: 4px 0;
+}
+.upcomingDraw__icon {
+  margin-right: 8px;
+  width: 12px;
+  height: 12px;
+  background: url(../../res/_fs/build/trophy.821bfea.svg) no-repeat center;
+}
+.upcomingDraw__name {
+  font-weight: bold;
+}
+@media screen and (min-width: 800px) {
+  .upcomingDraw {
+    padding: 8px 0;
+  }
+}
+
+.responsive h2.tournament {
+  width: 660px !important;
+}
+#block-summary-tournament-won,
+#block-summary-match-record,
+#main-matches-block-summary-results,
+#main-matches-block-summary-fixtures,
+#block-summary-squad,
+.container__fsbody,
+.transferTeamTable,
+#fscountry,
+#live-table,
+.container__fsbody,
+#fscon,
+#ranking-table {
+  width: 660px;
+}
+.teamHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0;
+}
+.teamHeader__info {
+  display: flex;
+  align-content: center;
+}
+.teamHeader__information {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 12px;
+}
+.teamHeader__name {
+  display: flex;
+  order: 1;
+}
+.teamHeader__text {
+  display: flex;
+  order: 2;
+}
+.teamHeader__infoPlayer {
+  display: flex;
+  order: 2;
+  flex-direction: column;
+  margin: 10px 0 0 0;
+}
+.teamHeader__logo {
+  width: 82px;
+  height: 82px;
+  border-radius: 8px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  background: no-repeat center / 72px 72px;
+}
+.teamHeader__logo a div {
+  width: 82px;
+  height: 82px;
+  background: no-repeat center / 72px 72px;
+}
+.teamHeader__info--player-country {
+  display: none;
+}
+.teamHeader__info--player-birthdate {
+  order: 3;
+}
+.teamHeader__info--player-type-name {
+  order: 2;
+  margin: 0 0 2px 0;
+}
+.teamHeader__info--player-rank {
+  order: 2;
+  margin: 0 0 2px 0;
+}
+.tournamentHeader {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.tournamentHeader__logo {
+  width: 82px;
+  height: 82px;
+  background: no-repeat center / 76px auto;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.tournamentHeader__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 0 12px;
+  line-height: 1.57;
+}
+.tournamentHeader__info--heading {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  color: #353535;
+}
+.tournamentHeader__info--year {
+  font-size: 14px;
+  color: #656565;
+}
+.tableNote {
+  margin: 12px 12px 0;
+}
+.profileTable {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  margin: 0 auto;
+}
+.profileTable__matchTable--desktop {
+  display: block;
+}
+.profileTable__matchTable--mobile {
+  display: none;
+}
+.profileTable__careerTable--desktop {
+  display: block;
+}
+.profileTable__careerTable--mobile {
+  display: none;
+}
+.profileTable__transfers--desktop {
+  display: block;
+}
+.profileTable__transfers--mobile {
+  display: none;
+  flex-direction: column;
+}
+.profileTable__list {
+  margin: 10px 0 0 0;
+  overflow-x: auto;
+}
+.profileTable__tabs {
+  overflow-y: hidden;
+}
+.profileTable__tabs,
+.profileTable__tabsList {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 !important;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+}
+.profileTable__tabsItem {
+  display: flex;
+  padding: 8px 0;
+  margin: 0 2px 0 0;
+  font-size: 11px;
+  line-height: 1.09;
+  background-color: #E7E7E7;
+  white-space: nowrap;
+}
+.profileTable__tabsItem a {
+  padding: 8px 10px;
+  color: #656565;
+  text-decoration: none;
+}
+.profileTable__tabsItem a:hover {
+  text-decoration: none;
+}
+.profileTable__tabsItem--selected {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.profileTable__tabsItem--selected a {
+  color: #FFFFFF;
+}
+.profileTable__tabsItem--ranking {
+  padding: 0;
+}
+.profileTable__tabsItem--nolink {
+  padding: 8px 10px !important;
+}
+.profileTable__tabsItem--hover:hover {
+  background-color: #D9D9D9;
+}
+.profileTable__tabsList {
+  padding: 4px 0 0 2px;
+}
+.profileTable__tabsList--squad {
+  padding: 0 0 4px 2px;
+}
+.profileTable__tabsListItem {
+  flex: 0 0 auto;
+  margin: 0 0 0 2px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 8px 10px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.profileTable__tabsListItem--nolink {
+  padding: 0;
+}
+.profileTable__tabsListItem--nolink a {
+  padding: 8px 10px;
+}
+.profileTable__tabsListItem--nolink a:hover {
+  text-decoration: none;
+}
+.profileTable__tabsListItem--selected {
+  font-weight: bold;
+  opacity: 1;
+}
+.profileTable__tabsListItem a {
+  font-size: 11px;
+  line-height: 1.09;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.profileTable__tabsListItem a:hover {
+  text-decoration: none;
+}
+.profileTable__row {
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+  min-width: 100%;
+  min-height: 28px;
+  font-size: 11px;
+  color: #656565;
+  box-sizing: border-box;
+  border-bottom: solid 1px #D2D2D2;
+}
+.profileTable__row--main {
+  background-color: #E7E7E7;
+  justify-content: flex-end;
+}
+.profileTable__row--between {
+  justify-content: space-between;
+}
+.profileTable__row--padding {
+  padding: 0 0 0 12px;
+  align-items: center;
+}
+.profileTable__row--start {
+  justify-content: flex-start;
+}
+.profileTable__row--last {
+  justify-content: center;
+  align-items: center;
+}
+.profileTable__row--last a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.profileTable__row--last a:hover {
+  text-decoration: none;
+}
+.profileTable__row--hide {
+  display: none;
+}
+.profileTable__row--open {
+  display: flex;
+}
+.profileTable__row--hover:hover {
+  cursor: pointer;
+  background-color: #F3F3F3;
+}
+.profileTable__row--background:hover {
+  background-color: #F3F3F3;
+}
+.profileTable__row--wrapper {
+  width: 100%;
+}
+.profileTable__row--transferText {
+  justify-content: center;
+  align-items: center;
+}
+.profileTable__row--teams .leagueTable__teams {
+  flex: 0 1 auto;
+}
+.iconRank {
+  margin: 0 8px 0 3px;
+}
+.rankingTable {
+  margin: 0 auto;
+  font-size: 11px;
+}
+.rankingTable__menu {
+  margin: 0;
+}
+.rankingTable__content .rankingTable__row:hover {
+  background-color: #f3f3f3;
+}
+.rankingTable__table {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+.rankingTable__mainRow {
+  min-height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+.rankingTable__submainRow,
+.rankingTable__row {
+  display: flex;
+  flex: 0 0 100%;
+  min-height: 28px;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  border-bottom: solid 1px #D2D2D2;
+}
+.rankingTable__submainRow {
+  color: #b0b0b0;
+}
+.rankingTable__row--noresult {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 12px;
+}
+.rankingTable__row:hover {
+  background-color: #F3F3F3;
+  cursor: hand;
+}
+.rankingTable__league {
+  padding: 0 0 0 10px;
+  flex: 1 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.rankingTable__rankingIcon {
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+.rankingTable__rankingIcon--up {
+  background-image: url('/res/image/live_icons/odds-up.svg');
+}
+.rankingTable__rankingIcon--down {
+  background-image: url('/res/image/live_icons/odds-down.svg');
+}
+.rankingTable .rank-column-rank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  padding: 0 0 0 10px;
+}
+.rankingTable .rank-player-container,
+.rankingTable .rank-nationality-container {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+}
+.rankingTable .rank-column-player,
+.rankingTable .rank-column-nationality {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  flex: 1 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3px 0;
+  margin: 0 0 0 12px;
+  text-align: left;
+  overflow: hidden;
+}
+.rankingTable .rank-column-team {
+  display: flex;
+  width: 150px;
+  flex: 1 0 auto;
+  align-items: center;
+  margin: 0 0 0 12px;
+  padding: 3px 0;
+  text-align: left;
+  overflow: hidden;
+}
+.rankingTable .rank-column-points,
+.rankingTable .rank-column-tournaments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  text-align: center;
+}
+.rankingTable__nolink {
+  text-decoration: none !important;
+  cursor: auto;
+}
+.filterBoxFlashscore {
+  display: flex;
+  justify-content: flex-start;
+  padding: 3px 0 6px 8px;
+}
+.filterBoxFlashscore__container,
+.filterBoxFlashscore__select {
+  height: 26px;
+  width: 210px !important;
+  margin-right: 8px;
+}
+.filterBoxFlashscore__container {
+  position: relative;
+}
+.filterBoxFlashscore__finder,
+.filterBoxFlashscore__selectBox {
+  font-size: 11px;
+}
+.filterBoxFlashscore__finder {
+  width: 100%;
+  height: 26px;
+  padding-left: 30px;
+  color: #656565;
+  border: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+.filterBoxFlashscore__finderIcon {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  background: transparent url('/res/image/live_icons/search.svg') no-repeat center / 16px 16px;
+  width: 16px;
+  height: 16px;
+}
+.filterBoxFlashscore__arrowIcon {
+  position: absolute;
+  top: 9px;
+  right: 4px;
+  background: transparent url('/res/image/live_icons/rank_arrow.svg') no-repeat center / 9px 6px;
+  width: 9px;
+  height: 9px;
+  z-index: 4;
+}
+.filterBoxFlashscore__select {
+  position: relative;
+  display: flex;
+}
+.filterBoxFlashscore__selectBox {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+  height: 26px;
+  padding-left: 5px;
+  background-color: #FFF;
+  border: none;
+  z-index: 4;
+  cursor: pointer;
+}
+.filterBoxFlashscore__selectList {
+  list-style: none;
+  position: absolute;
+  top: 26px;
+  right: 0;
+  width: 100% !important;
+  max-height: 280px;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background-color: #FFF;
+  border: none;
+  box-shadow: 2px 4px 20px 0 rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+.filterBoxFlashscore__selectItem {
+  padding: 4px 0 4px 5px;
+  cursor: pointer;
+}
+.filterBoxFlashscore__selectItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 999px) {
+  #block-summary-tournament-won,
+  #block-summary-match-record,
+  #main-matches-block-summary-results,
+  #main-matches-block-summary-fixtures,
+  #block-summary-squad,
+  .container__fsbody,
+  .transferTeamTable,
+  #fscountry,
+  #fscon,
+  #live-table,
+  .container__fsbody,
+  .container__content,
+  #ranking-table {
+    width: 100%;
+  }
+  .container__liveTableWrapper {
+    width: calc(100% - 140px) !important;
+  }
+  .responsive h2.tournament {
+    width: 100% !important;
+  }
+  .rankingTable__submainRow,
+  .rankingTable__row {
+    min-height: 36px;
+  }
+}
+@media only screen and (max-width: 826px) {
+  #national-team-table .playerTable__teamMobile,
+  #international-cups-table .playerTable__teamMobile {
+    display: none;
+  }
+  #nacional-cup-table .playerTable__team--none,
+  #international-cups-table .playerTable__team--none,
+  #national-team-table .playerTable__team--none {
+    display: none;
+  }
+  .profileTable__matchTable--desktop {
+    display: none;
+  }
+  .profileTable__matchTable--mobile {
+    display: block;
+  }
+  .profileTable__careerTable--desktop {
+    display: none;
+  }
+  .profileTable__careerTable--mobile {
+    display: block;
+  }
+  .profileTable__transfers--desktop {
+    display: none;
+  }
+  .profileTable__transfers--mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profileTable__tabsItem {
+    padding: 12px 0;
+  }
+  .profileTable__tabsItem a {
+    padding: 12px 10px;
+  }
+  .profileTable__tabsItem--nolink {
+    padding: 8px 10px;
+  }
+  .profileTable__tabsItem--ranking {
+    padding: 0;
+  }
+  .profileTable__tabsList {
+    padding: 4px 0 0 2px;
+  }
+  .profileTable__tabsList--squad {
+    padding: 0 0 4px 2px;
+  }
+  .profileTable__tabsList--squad .profileTable__tabsListItem--nolink {
+    padding: 0;
+  }
+  .profileTable__tabsListItem {
+    padding: 12px 10px;
+  }
+  .profileTable__tabsListItem--nolink a {
+    padding: 12px 10px;
+  }
+  .profileTable__row {
+    min-height: 36px;
+  }
+  .profileTable__row--leagueHeading {
+    background-color: #E7E7E7;
+  }
+  .profileTable__row--leagueHeading--selected {
+    background-color: #FFE1AF;
+  }
+  .profileTable__row--transfersRow {
+    display: none;
+  }
+  .profileTable__row--match {
+    height: 48px;
+  }
+  .profileTable__row--mobile {
+    display: none;
+  }
+  .profileTable__row--openSet .playerTable__teamMobile {
+    display: none;
+  }
+  .profileTable__row--last {
+    height: 32px;
+  }
+  .profileTable__row--transfer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  }
+  .profileTable__row--tennis {
+    flex: 1 0 auto;
+  }
+  .profileTable__row--transferMobile {
+    justify-content: center;
+  }
+  .profileTable__list {
+    width: 100%;
+    background: #FFF;
+    box-sizing: border-box;
+    z-index: 5;
+  }
+  .rankingTable__menu {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 3;
+  }
+  .rankingTable__league {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 96px;
+    z-index: 2;
+  }
+  .rankingTable .rank-column-rank {
+    position: sticky;
+    position: -webkit-sticky;
+    left: 0;
+    box-sizing: border-box;
+    box-shadow: 3px 0 4px 0 rgba(0, 0, 0, 0.08);
+    background-color: #FFFFFF;
+    z-index: 1;
+  }
+  .rankingTable .rank-column-nationality,
+  .rankingTable .rank-column-team {
+    display: none;
+  }
+  .filterBoxFlashscore {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 30px;
+    padding: 3px 8px 6px;
+    flex-wrap: wrap;
+    z-index: 3;
+  }
+  .filterBoxFlashscore__container,
+  .filterBoxFlashscore__select {
+    flex: 0 0 100%;
+    margin: 0;
+  }
+  .filterBoxFlashscore__select {
+    margin: 6px 0 0 0;
+  }
+  .filterBoxFlashscore__selectList {
+    position: absolute;
+    top: 26px;
+    min-width: calc(100% - 16px) !important;
+  }
+  .filterBoxFlashscore__selectItem {
+    padding: 8px 0 8px 10px;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .teamHeader {
+    padding: 10px 10px 0;
+  }
+  .teamHeader__name {
+    order: 1;
+  }
+  .teamHeader__infoPlayer {
+    margin: 4px 0 0 0;
+  }
+  .teamHeader__text {
+    order: 2;
+  }
+  .teamHeader__logo {
+    width: 52px;
+    height: 52px;
+    background: no-repeat center / 42px 42px;
+  }
+  .teamHeader__logo a div {
+    width: 52px;
+    height: 52px;
+    background: no-repeat center / 42px 42px;
+  }
+  .tournamentHeader {
+    padding: 10px;
+  }
+}
+
+.leagueTable__teamLogo {
+  margin: 0 11px 0 0;
+  width: 15px;
+  height: 15px;
+}
+.leagueTable__nologo {
+  background: url("/res/_fs/image/empty-logo-team-small.png") no-repeat 0 0 !important;
+}
+.leagueTable__toMyTeam {
+  margin: 0 11px 0 0;
+  width: 14px;
+  height: 14px;
+}
+.leagueTable__season,
+.leagueTable__winner {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.leagueTable__seasonName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.leagueTable__teams {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.leagueTable__teamName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.leagueTable__season {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.leagueTable__season--heading {
+  font-weight: bold;
+}
+.leagueTable__winner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px 0 2px 12px;
+}
+.leagueTable__winner--heading {
+  font-weight: bold;
+}
+.leagueTable__winnerBlock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px 0;
+}
+@media only screen and (max-width: 826px) {
+  .leagueTable__teams {
+    justify-content: space-between;
+  }
+}
+
+.playerTable__icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+.playerTable__icons--soccer {
+  flex: 0 0 200px;
+}
+.playerTable__icons--hockey {
+  flex: 0 0 200px;
+}
+.playerTable__icons--matches {
+  flex: 0 0 150px;
+}
+.playerTable__icons--squad {
+  flex: 0 0 250px;
+}
+.playerTable__sportIcon {
+  display: flex;
+  flex: 0 0 50px;
+  justify-content: center;
+  align-items: center;
+}
+.playerTable__sportIcon--matches {
+  flex: 0 0 28px;
+}
+.playerTable__sportIcon--grey {
+  color: #B0B0B0;
+}
+.playerTable__showArrow {
+  justify-self: flex-end;
+  flex: 0 0 20px;
+  min-height: 28px;
+  background: url('/res/image/live_icons/arrow_down.svg') no-repeat center / 12px 12px;
+}
+.playerTable__showArrow--up {
+  background: url('/res/image/live_icons/arrow_up.svg') no-repeat center / 12px 12px;
+}
+.playerTable__date {
+  display: flex;
+  flex: 0 0 70px;
+  align-items: center;
+  justify-content: center;
+}
+.playerTable__division {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 0 0 70px;
+  margin: 0 0 0 12px;
+}
+.playerTable__absenceInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 112px;
+}
+.playerTable__absenceIcon {
+  margin: 0 5px 0 0;
+}
+.playerTable__icon {
+  flex: 0 0 18px;
+  width: 17px;
+  height: 17px;
+  margin: auto 5px;
+  background-image: url('/res/image/standings/form.en-ke.png');
+}
+.playerTable__icon--d {
+  background-position: 0 -200px;
+}
+.playerTable__icon--d:hover {
+  background-position: 0 -350px;
+}
+.playerTable__icon--w {
+  background-position: 0 -150px;
+}
+.playerTable__icon--w:hover {
+  background-position: 0 -300px;
+}
+.playerTable__icon--l {
+  background-position: 0 -250px;
+}
+.playerTable__icon--l:hover {
+  background-position: 0 -400px;
+}
+.playerTable__icon--dw {
+  background-position: 0 -450px;
+}
+.playerTable__icon--dw:hover {
+  background-position: 0 -550px;
+}
+.playerTable__icon--dl {
+  background-position: 0 -500px;
+}
+.playerTable__icon--dl:hover {
+  background-position: 0 -600px;
+}
+.playerTable__info {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.playerTable__team {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0 12px;
+  padding: 0 0 0 12px;
+  overflow: hidden;
+}
+.playerTable__team--teamLogo {
+  flex: 0 0 16px;
+  margin: 0 8px 0 0;
+  height: 16px;
+  background: no-repeat center / 16px 16px;
+}
+.playerTable__team--teamName {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.playerTable__team--win {
+  font-weight: bold;
+}
+.playerTable__team .playerTable__showArrow {
+  display: none;
+}
+.playerTable__teamMobile {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 12px;
+  overflow: hidden;
+}
+.playerTable__teamMobileBlock {
+  display: flex;
+  align-items: center;
+}
+.playerTable__teamMobileBlock--info {
+  flex: 1;
+  overflow: hidden;
+}
+.playerTable__teamMobileBlock--arrow {
+  flex: 0 0 20px;
+}
+.playerTable__country {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 0 0 12px;
+  overflow: hidden;
+}
+.playerTable__country--countryName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.playerTable__country--border {
+  min-height: 27px;
+  border-left: solid 1px rgba(0, 0, 0, 0.1);
+}
+.playerTable__country--padding {
+  margin: 0 0 0 26px;
+}
+.playerTable__country--click {
+  cursor: pointer;
+}
+.playerTable__countryName {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+.playerTable__result {
+  display: flex;
+  flex: 0 0 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 0;
+}
+.playerTable__result--full {
+  margin: 0 0 2px 0;
+  font-weight: bold;
+}
+.playerTable__result--notFull {
+  margin: 2px 0 0 0;
+}
+.playerTable__sportIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playerTable__sportIcon--matches {
+  flex: 0 0 28px;
+}
+.playerTable__sportIcon--grey {
+  color: #B0B0B0;
+}
+.playerTable__sportIcon--goal {
+  background-color: #FFCE99;
+}
+.playerTable__sportIcon--yellow-card {
+  background-color: #F5DC00;
+}
+.playerTable__sportIcon--red-card {
+  color: #FFFFFF;
+  background-color: #DF1A22;
+}
+.playerTable__sportIcon--age {
+  flex: 0 0 50px;
+  text-align: center;
+}
+.playerTable__sportIcon--icon {
+  width: 16px;
+  height: 16px;
+  background: url(../../res/_fs/build/incident-sprite.cd32e84.svg);
+  background-repeat: no-repeat;
+}
+.playerTable__sportIcon--iconYersey {
+  background-position: -288px -32px;
+}
+.playerTable__sportIcon--iconFootball {
+  background-position: -16px 0px;
+}
+.playerTable__sportIcon--iconYellowCard {
+  background-position: 0px 0px;
+}
+.playerTable__sportIcon--iconRedCard {
+  background-position: 0px -16px;
+}
+.playerTable__matchDate {
+  margin: 0 5px 0 0;
+}
+.playerTable__type {
+  flex: 0 0 120px;
+  margin: auto 0 auto 10px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.playerTable__from,
+.playerTable__to {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 70px;
+}
+.playerTable__injury {
+  display: flex;
+  flex: 1 0 140px;
+  align-items: center;
+  margin: 0 0 0 12px;
+  padding: 0 12px 0 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.playerTable__season {
+  display: flex;
+  min-width: 65px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 12px;
+}
+.playerTable__season--selected {
+  background-color: #E7E7E7;
+}
+.playerTable__rank,
+.playerTable__titles,
+.playerTable__all-matches,
+.playerTable__hard,
+.playerTable__clay,
+.playerTable__grass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playerTable__rank {
+  min-width: 70px;
+}
+.playerTable__titles {
+  min-width: 60px;
+}
+.playerTable__all-matches {
+  min-width: 100px;
+}
+.playerTable__hard {
+  min-width: 80px;
+}
+.playerTable__clay {
+  min-width: 80px;
+}
+.playerTable__grass {
+  min-width: 80px;
+}
+.playerTable__year {
+  flex: 1 0 auto;
+  padding-left: 12px;
+  align-self: center;
+}
+.playerTable__tournament {
+  flex: 3;
+  width: 110px;
+  padding-left: 12px;
+}
+.playerTable__surface {
+  flex: 0 0 150px;
+  margin: 0 0 0 12px;
+  min-width: 90px;
+}
+.playerTable__tournament,
+.playerTable__surface {
+  align-self: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.playerTable__prize-money {
+  align-self: center;
+  flex: 0 0 150px;
+  margin: 0 0 0 12px;
+}
+.match__row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 826px) {
+  #nacional-cup-table .playerTable__country,
+  #international-cups-table .playerTable__country,
+  #national-team-table .playerTable__country {
+    display: flex;
+  }
+  .playerTable__leagueInfo {
+    display: flex;
+    align-items: center;
+  }
+  .playerTable__leagueAddTo {
+    display: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 8px;
+  }
+  .playerTable__leagueFlag {
+    margin: 0 0 0 8px;
+  }
+  .playerTable__leagueInformation {
+    display: flex;
+    flex-direction: column;
+  }
+  .playerTable__leagueInformation--name {
+    margin: 0 0 4px 0;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #656565;
+  }
+  .playerTable__leagueInformation--country {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #656565;
+    opacity: 0.6;
+  }
+  .playerTable__leagueStats {
+    width: 18px;
+    height: 20px;
+    margin: 0 8px 0 0;
+  }
+  .playerTable__season {
+    justify-content: center;
+    padding: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    left: 0;
+    min-height: 36px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #E7E7E7;
+    box-shadow: 3px 0 4px 0 rgba(0, 0, 0, 0.08);
+    z-index: 2;
+  }
+  .playerTable__season--selected {
+    background-color: #E7E7E7;
+  }
+  .playerTable__season--mobile {
+    background-color: #FFFFFF;
+  }
+  .playerTable__result {
+    flex: 0 0 20px;
+  }
+  .playerTable__matchDate {
+    display: flex;
+    flex: 0 0 60px;
+    justify-content: center;
+  }
+  .playerTable__info {
+    justify-content: flex-start;
+  }
+  .playerTable__country {
+    display: none;
+  }
+  .playerTable__country--border {
+    display: flex;
+    min-height: 36px;
+    padding: 0 0 0 26px;
+  }
+  .playerTable__country--padding {
+    margin: 0 0 0 12px;
+  }
+  .playerTable__teamContainer {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .playerTable__teamContainer--team {
+    margin: 3px 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .playerTable__icons {
+    flex: 0 0 160px;
+  }
+  .playerTable__icons--soccer {
+    flex: 0 0 128px;
+  }
+  .playerTable__icons--hockey {
+    flex: 0 0 128px;
+  }
+  .playerTable__icons--squad {
+    flex: 0 0 160px;
+  }
+  .playerTable__sportIcon {
+    flex: 0 0 32px;
+  }
+  .playerTable__sportIcon--hockey {
+    flex: 0 0 32px;
+  }
+  .playerTable__showArrow {
+    background: url('/res/image/live_icons/arrow_down.svg') no-repeat center / 8px 8px;
+  }
+  .playerTable__showArrow--up {
+    background: url('/res/image/live_icons/arrow_up.svg') no-repeat center / 8px 8px;
+  }
+  .playerTable__eventInfo {
+    display: flex;
+    flex: 0 0 200px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .playerTable__events {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 6px 0 0;
+  }
+  .playerTable__events--grey {
+    display: none !important;
+  }
+  .playerTable__events--minutes-played {
+    order: 1;
+    z-index: 4;
+    background-image: none !important;
+  }
+  .playerTable__events--goal {
+    order: 2;
+    background-position: -16px 0px;
+    z-index: 3;
+  }
+  .playerTable__events--yellow-card {
+    order: 3;
+    background-position: 0px 0px;
+    z-index: 2;
+  }
+  .playerTable__events--red-card {
+    order: 4;
+    background-position: 0px -16px;
+    z-index: 1;
+  }
+  .playerTable__eventsIcons {
+    display: flex;
+    flex: 0 0 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -4px;
+    width: 13px;
+    height: 23px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+  }
+  .playerTable__eventsIcons--icon {
+    padding: 8px;
+    background-image: url(../../res/_fs/build/incident-sprite.cd32e84.svg);
+    background-repeat: no-repeat;
+  }
+  .playerTable__upEvents {
+    display: flex;
+    flex: 0 0 12px;
+    align-items: center;
+    justify-content: center;
+    margin: -17px -18px 0 3px;
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+    color: #FFFFFF;
+    background-color: #CC0000;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  .playerTable__upEvents--minutes-played {
+    display: none;
+  }
+  .playerTable__upEvents--goal--1 {
+    display: none;
+  }
+  .playerTable__upEvents--yellow-card {
+    display: none;
+  }
+  .playerTable__upEvents--red-card {
+    display: none;
+  }
+  .playerTable__insideEvents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #656565;
+  }
+  .playerTable__insideEvents--goal {
+    display: none;
+  }
+  .playerTable__insideEvents--yellow-card {
+    display: none;
+  }
+  .playerTable__insideEvents--red-card {
+    display: none;
+  }
+  .playerTable__absenceText {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex-end;
+    font-size: 10px;
+    color: #656565;
+  }
+  .playerTable__icon {
+    margin: 0 8px 0 0;
+  }
+  .playerTable__result {
+    min-width: auto;
+    margin: 0 6px 0 0;
+  }
+  .playerTable__result div {
+    margin: 3px 0;
+    font-weight: bold;
+  }
+  .playerTable__team {
+    margin: 0;
+  }
+  .playerTable__team--teamName {
+    margin: 0 0 0 2px;
+  }
+  .playerTable__team .playerTable__showArrow {
+    display: flex;
+  }
+  .playerTable__transferTeams {
+    display: flex;
+    align-items: center;
+  }
+  .playerTable__transferTeams--team {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .playerTable__transferTeams--icon {
+    min-width: 30px;
+    height: 9px;
+    background: url('/res/image/live_icons/transfer.svg') no-repeat center / 11px 9px;
+  }
+  .playerTable__transferTeams--teamLogo {
+    flex: 0 0 16px;
+    height: 16px;
+    margin: 0 8px 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+  }
+  .playerTable__transferTeams--teamName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .playerTable__transferInfo {
+    display: flex;
+    margin: 6px 0 0 0;
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .playerTable__transferInfo--type {
+    color: #656565;
+  }
+  .playerTable__transferInfo--date {
+    color: #A3A3A3;
+  }
+  .playerTable__from,
+  .playerTable__to {
+    min-width: 70px;
+  }
+  .playerTable__injury {
+    min-width: 150px;
+  }
+  .playerTable__tournament,
+  .playerTable__surface,
+  .playerTable__prize-money {
+    flex: 1;
+  }
+}
+
+.transferTeamTable .profileTable__row--transferMobile {
+  display: none;
+}
+.tableTeam__squadInfo {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.tableTeam__squadHeading {
+  display: flex;
+  flex: 1 0 auto;
+}
+.tableTeam__squadNumber {
+  min-width: 30px;
+  text-align: center;
+  align-self: center;
+}
+.tableTeam__squadName {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 12px;
+  overflow: hidden;
+}
+.tableTeam__squadName--playerName {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.playerTable__transferSeason {
+  width: 90px;
+  text-align: center;
+  align-self: center;
+}
+.playerTable__transferCountry {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.playerTable__transferCountry--highlighted {
+  font-weight: bold;
+}
+.playerTable__transferTeam {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.playerTable__transferType {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.playerTable__transferIcon {
+  margin: 0 8px 0 0;
+  width: 16px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 10px;
+}
+.playerTable__transferIcon--out {
+  background-image: url("/res/image/live_icons/transfer_away.svg");
+}
+.playerTable__transferIcon--in {
+  background-image: url("/res/image/live_icons/transfer_in.svg");
+}
+.playerTable__transferTeam--logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+}
+@media only screen and (max-width: 826px) {
+  .transferTeamTable {
+    width: 100%;
+  }
+  .transferTeamTable .profileTable__row--transferDesktop {
+    display: none;
+  }
+  .transferTeamTable .profileTable__row--transferMobile {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.loadingAnimation {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 140px;
+  height: 105px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 100px;
+  margin-top: 100px;
+  left: calc(50% - 75px);
+  margin-left: -11ex;
+  text-align: center;
+  background: #ffffff;
+  line-height: 46px;
+}
+.loadingAnimation__text {
+  padding: 52px 0 0 0;
+  background: url(/res/_fs/image/fs-loading.gif) no-repeat;
+  background-size: 30%;
+  background-position: 50% 25px;
+  font-size: 11px;
+  color: rgba(101, 101, 101, 0.5);
+}
+.loading .loadingAnimation {
+  display: flex;
+}
+.loadingOverlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 1;
+}
+.loading .loadingOverlay {
+  display: flex;
+}
+
+#ContactFormDiv input[type='submit'],
+#AdvertiseFormDiv input[type='submit'] {
+  margin-top: 5px;
+}
+#ContactFormDiv a,
+#AdvertiseFormDiv a {
+  margin: 0 0 0 3px;
+  text-decoration: underline;
+}
+#ContactFormDiv a:hover,
+#AdvertiseFormDiv a:hover {
+  text-decoration: none;
+}
+#ContactFormDiv input[type="checkbox"],
+#AdvertiseFormDiv input[type="checkbox"] {
+  margin: 0 5px 0 0;
+}
+#ContactFormDiv .contact-line,
+#AdvertiseFormDiv .advertise-line {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.personalPage {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.personalPage__heading {
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  text-align: justify;
+}
+.personalPage__content {
+  margin: 0 0 20px 0;
+  text-align: justify;
+}
+.personalPage__headingContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 20px 0;
+}
+.personalPage__listContainer--counter {
+  margin: 0 10px 0 0;
+  font-weight: bolder;
+}
+.personalPage__listContainer--text {
+  font-weight: bolder;
+}
+.personalPage__subListItem {
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.personalPage__subListItem--counter {
+  margin: 0 10px 0 0;
+  text-align: justify;
+}
+.personalPage__subListItem--text {
+  text-align: justify;
+}
+@media only screen and (max-width: 999px) {
+  .personalPage {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+}
+

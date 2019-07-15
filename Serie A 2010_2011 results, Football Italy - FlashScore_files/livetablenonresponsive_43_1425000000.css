@@ -1,0 +1,4731 @@
+.home #live-table .subTabs li.selected,
+.home #live-table .subTabs li:hover {
+  background: #002844;
+}
+@media screen and (min-width: 0) {
+  .home .calendar__datepicker.active,
+  .home .calendar__datepicker:hover {
+    background: #002844;
+  }
+}
+.home #live-table .tabs--odds li.selected,
+.home #live-table .tabs--odds li:hover {
+  background: #002844;
+}
+.home .day.today {
+  background-color: rgba(0, 64, 109, 0.1);
+}
+.links #live-table .subTabs li.selected,
+.links #live-table .subTabs li:hover {
+  background: #053600;
+}
+@media screen and (min-width: 0) {
+  .links .calendar__datepicker.active,
+  .links .calendar__datepicker:hover {
+    background: #053600;
+  }
+}
+.links #live-table .tabs--odds li.selected,
+.links #live-table .tabs--odds li:hover {
+  background: #053600;
+}
+.links .day.today {
+  background-color: rgba(8, 95, 0, 0.1);
+}
+.american-football #live-table .subTabs li.selected,
+.american-football #live-table .subTabs li:hover {
+  background: #451e14;
+}
+@media screen and (min-width: 0) {
+  .american-football .calendar__datepicker.active,
+  .american-football .calendar__datepicker:hover {
+    background: #451e14;
+  }
+}
+.american-football #live-table .tabs--odds li.selected,
+.american-football #live-table .tabs--odds li:hover {
+  background: #451e14;
+}
+.american-football .day.today {
+  background-color: rgba(101, 43, 29, 0.1);
+}
+.aussie-rules #live-table .subTabs li.selected,
+.aussie-rules #live-table .subTabs li:hover {
+  background: #8b331a;
+}
+@media screen and (min-width: 0) {
+  .aussie-rules .calendar__datepicker.active,
+  .aussie-rules .calendar__datepicker:hover {
+    background: #8b331a;
+  }
+}
+.aussie-rules #live-table .tabs--odds li.selected,
+.aussie-rules #live-table .tabs--odds li:hover {
+  background: #8b331a;
+}
+.aussie-rules .day.today {
+  background-color: rgba(173, 63, 33, 0.1);
+}
+.badminton #live-table .subTabs li.selected,
+.badminton #live-table .subTabs li:hover {
+  background: #106443;
+}
+@media screen and (min-width: 0) {
+  .badminton .calendar__datepicker.active,
+  .badminton .calendar__datepicker:hover {
+    background: #106443;
+  }
+}
+.badminton #live-table .tabs--odds li.selected,
+.badminton #live-table .tabs--odds li:hover {
+  background: #106443;
+}
+.badminton .day.today {
+  background-color: rgba(22, 135, 90, 0.1);
+}
+.bandy #live-table .subTabs li.selected,
+.bandy #live-table .subTabs li:hover {
+  background: #2b7ec6;
+}
+@media screen and (min-width: 0) {
+  .bandy .calendar__datepicker.active,
+  .bandy .calendar__datepicker:hover {
+    background: #2b7ec6;
+  }
+}
+.bandy #live-table .tabs--odds li.selected,
+.bandy #live-table .tabs--odds li:hover {
+  background: #2b7ec6;
+}
+.bandy .day.today {
+  background-color: rgba(68, 146, 214, 0.1);
+}
+.baseball #live-table .subTabs li.selected,
+.baseball #live-table .subTabs li:hover {
+  background: #6a5334;
+}
+@media screen and (min-width: 0) {
+  .baseball .calendar__datepicker.active,
+  .baseball .calendar__datepicker:hover {
+    background: #6a5334;
+  }
+}
+.baseball #live-table .tabs--odds li.selected,
+.baseball #live-table .tabs--odds li:hover {
+  background: #6a5334;
+}
+.baseball .day.today {
+  background-color: rgba(133, 104, 66, 0.1);
+}
+.basketball #live-table .subTabs li.selected,
+.basketball #live-table .subTabs li:hover {
+  background: #8b3927;
+}
+@media screen and (min-width: 0) {
+  .basketball .calendar__datepicker.active,
+  .basketball .calendar__datepicker:hover {
+    background: #8b3927;
+  }
+}
+.basketball #live-table .tabs--odds li.selected,
+.basketball #live-table .tabs--odds li:hover {
+  background: #8b3927;
+}
+.basketball #live-table .subTabs li.selected,
+.basketball #live-table .subTabs li:hover {
+  background: #cd634c;
+}
+@media screen and (min-width: 0) {
+  .basketball .calendar__datepicker.active,
+  .basketball .calendar__datepicker:hover {
+    background: #cd634c;
+  }
+}
+.basketball #live-table .tabs--odds li.selected,
+.basketball #live-table .tabs--odds li:hover {
+  background: #cd634c;
+}
+.basketball .day.today {
+  background-color: rgba(171, 70, 48, 0.1);
+}
+.beach-soccer #live-table .subTabs li.selected,
+.beach-soccer #live-table .subTabs li:hover {
+  background: #856c48;
+}
+@media screen and (min-width: 0) {
+  .beach-soccer .calendar__datepicker.active,
+  .beach-soccer .calendar__datepicker:hover {
+    background: #856c48;
+  }
+}
+.beach-soccer #live-table .tabs--odds li.selected,
+.beach-soccer #live-table .tabs--odds li:hover {
+  background: #856c48;
+}
+.beach-soccer .day.today {
+  background-color: rgba(160, 130, 86, 0.1);
+}
+.beach-volleyball #live-table .subTabs li.selected,
+.beach-volleyball #live-table .subTabs li:hover {
+  background: #856c48;
+}
+@media screen and (min-width: 0) {
+  .beach-volleyball .calendar__datepicker.active,
+  .beach-volleyball .calendar__datepicker:hover {
+    background: #856c48;
+  }
+}
+.beach-volleyball #live-table .tabs--odds li.selected,
+.beach-volleyball #live-table .tabs--odds li:hover {
+  background: #856c48;
+}
+.beach-volleyball .day.today {
+  background-color: rgba(160, 130, 86, 0.1);
+}
+.boxing #live-table .subTabs li.selected,
+.boxing #live-table .subTabs li:hover {
+  background: #651a18;
+}
+@media screen and (min-width: 0) {
+  .boxing .calendar__datepicker.active,
+  .boxing .calendar__datepicker:hover {
+    background: #651a18;
+  }
+}
+.boxing #live-table .tabs--odds li.selected,
+.boxing #live-table .tabs--odds li:hover {
+  background: #651a18;
+}
+.boxing .day.today {
+  background-color: rgba(134, 35, 32, 0.1);
+}
+.cricket #live-table .subTabs li.selected,
+.cricket #live-table .subTabs li:hover {
+  background: #550613;
+}
+@media screen and (min-width: 0) {
+  .cricket .calendar__datepicker.active,
+  .cricket .calendar__datepicker:hover {
+    background: #550613;
+  }
+}
+.cricket #live-table .tabs--odds li.selected,
+.cricket #live-table .tabs--odds li:hover {
+  background: #550613;
+}
+.cricket #live-table .subTabs li.selected,
+.cricket #live-table .subTabs li:hover {
+  background: #b40c28;
+}
+@media screen and (min-width: 0) {
+  .cricket .calendar__datepicker.active,
+  .cricket .calendar__datepicker:hover {
+    background: #b40c28;
+  }
+}
+.cricket #live-table .tabs--odds li.selected,
+.cricket #live-table .tabs--odds li:hover {
+  background: #b40c28;
+}
+.cricket .day.today {
+  background-color: rgba(123, 8, 27, 0.1);
+}
+.cycling #live-table .subTabs li.selected,
+.cycling #live-table .subTabs li:hover {
+  background: #181818;
+}
+@media screen and (min-width: 0) {
+  .cycling .calendar__datepicker.active,
+  .cycling .calendar__datepicker:hover {
+    background: #181818;
+  }
+}
+.cycling #live-table .tabs--odds li.selected,
+.cycling #live-table .tabs--odds li:hover {
+  background: #181818;
+}
+.cycling .day.today {
+  background-color: rgba(44, 44, 44, 0.1);
+}
+.darts #live-table .subTabs li.selected,
+.darts #live-table .subTabs li:hover {
+  background: #423015;
+}
+@media screen and (min-width: 0) {
+  .darts .calendar__datepicker.active,
+  .darts .calendar__datepicker:hover {
+    background: #423015;
+  }
+}
+.darts #live-table .tabs--odds li.selected,
+.darts #live-table .tabs--odds li:hover {
+  background: #423015;
+}
+.darts .day.today {
+  background-color: rgba(97, 71, 31, 0.1);
+}
+.esports #live-table .subTabs li.selected,
+.esports #live-table .subTabs li:hover {
+  background: #251c43;
+}
+@media screen and (min-width: 0) {
+  .esports .calendar__datepicker.active,
+  .esports .calendar__datepicker:hover {
+    background: #251c43;
+  }
+}
+.esports #live-table .tabs--odds li.selected,
+.esports #live-table .tabs--odds li:hover {
+  background: #251c43;
+}
+.esports .day.today {
+  background-color: rgba(53, 40, 96, 0.1);
+}
+.field-hockey #live-table .subTabs li.selected,
+.field-hockey #live-table .subTabs li:hover {
+  background: #15522f;
+}
+@media screen and (min-width: 0) {
+  .field-hockey .calendar__datepicker.active,
+  .field-hockey .calendar__datepicker:hover {
+    background: #15522f;
+  }
+}
+.field-hockey #live-table .tabs--odds li.selected,
+.field-hockey #live-table .tabs--odds li:hover {
+  background: #15522f;
+}
+.field-hockey .day.today {
+  background-color: rgba(29, 115, 66, 0.1);
+}
+.floorball #live-table .subTabs li.selected,
+.floorball #live-table .subTabs li:hover {
+  background: #0b736e;
+}
+@media screen and (min-width: 0) {
+  .floorball .calendar__datepicker.active,
+  .floorball .calendar__datepicker:hover {
+    background: #0b736e;
+  }
+}
+.floorball #live-table .tabs--odds li.selected,
+.floorball #live-table .tabs--odds li:hover {
+  background: #0b736e;
+}
+.floorball .day.today {
+  background-color: rgba(14, 152, 146, 0.1);
+}
+.futsal #live-table .subTabs li.selected,
+.futsal #live-table .subTabs li:hover {
+  background: #2d5d8b;
+}
+@media screen and (min-width: 0) {
+  .futsal .calendar__datepicker.active,
+  .futsal .calendar__datepicker:hover {
+    background: #2d5d8b;
+  }
+}
+.futsal #live-table .tabs--odds li.selected,
+.futsal #live-table .tabs--odds li:hover {
+  background: #2d5d8b;
+}
+.futsal .day.today {
+  background-color: rgba(55, 114, 170, 0.1);
+}
+.golf #live-table .subTabs li.selected,
+.golf #live-table .subTabs li:hover {
+  background: #374f12;
+}
+@media screen and (min-width: 0) {
+  .golf .calendar__datepicker.active,
+  .golf .calendar__datepicker:hover {
+    background: #374f12;
+  }
+}
+.golf #live-table .tabs--odds li.selected,
+.golf #live-table .tabs--odds li:hover {
+  background: #374f12;
+}
+.golf .day.today {
+  background-color: rgba(78, 112, 25, 0.1);
+}
+.handball #live-table .subTabs li.selected,
+.handball #live-table .subTabs li:hover {
+  background: #984b1b;
+}
+@media screen and (min-width: 0) {
+  .handball .calendar__datepicker.active,
+  .handball .calendar__datepicker:hover {
+    background: #984b1b;
+  }
+}
+.handball #live-table .tabs--odds li.selected,
+.handball #live-table .tabs--odds li:hover {
+  background: #984b1b;
+}
+.handball .day.today {
+  background-color: rgba(187, 92, 33, 0.1);
+}
+.hockey #live-table .subTabs li.selected,
+.hockey #live-table .subTabs li:hover {
+  background: #002844;
+}
+@media screen and (min-width: 0) {
+  .hockey .calendar__datepicker.active,
+  .hockey .calendar__datepicker:hover {
+    background: #002844;
+  }
+}
+.hockey #live-table .tabs--odds li.selected,
+.hockey #live-table .tabs--odds li:hover {
+  background: #002844;
+}
+.hockey .day.today {
+  background-color: rgba(0, 64, 109, 0.1);
+}
+.horse-racing #live-table .subTabs li.selected,
+.horse-racing #live-table .subTabs li:hover {
+  background: #473027;
+}
+@media screen and (min-width: 0) {
+  .horse-racing .calendar__datepicker.active,
+  .horse-racing .calendar__datepicker:hover {
+    background: #473027;
+  }
+}
+.horse-racing #live-table .tabs--odds li.selected,
+.horse-racing #live-table .tabs--odds li:hover {
+  background: #473027;
+}
+.horse-racing #live-table .subTabs li.selected,
+.horse-racing #live-table .subTabs li:hover {
+  background: #895d4b;
+}
+@media screen and (min-width: 0) {
+  .horse-racing .calendar__datepicker.active,
+  .horse-racing .calendar__datepicker:hover {
+    background: #895d4b;
+  }
+}
+.horse-racing #live-table .tabs--odds li.selected,
+.horse-racing #live-table .tabs--odds li:hover {
+  background: #895d4b;
+}
+.horse-racing .day.today {
+  background-color: rgba(97, 66, 53, 0.1);
+}
+.kabaddi #live-table .subTabs li.selected,
+.kabaddi #live-table .subTabs li:hover {
+  background: #6f336e;
+}
+@media screen and (min-width: 0) {
+  .kabaddi .calendar__datepicker.active,
+  .kabaddi .calendar__datepicker:hover {
+    background: #6f336e;
+  }
+}
+.kabaddi #live-table .tabs--odds li.selected,
+.kabaddi #live-table .tabs--odds li:hover {
+  background: #6f336e;
+}
+.kabaddi .day.today {
+  background-color: rgba(139, 64, 138, 0.1);
+}
+.mma #live-table .subTabs li.selected,
+.mma #live-table .subTabs li:hover {
+  background: #171717;
+}
+@media screen and (min-width: 0) {
+  .mma .calendar__datepicker.active,
+  .mma .calendar__datepicker:hover {
+    background: #171717;
+  }
+}
+.mma #live-table .tabs--odds li.selected,
+.mma #live-table .tabs--odds li:hover {
+  background: #171717;
+}
+.mma #live-table .subTabs li.selected,
+.mma #live-table .subTabs li:hover {
+  background: #4a4a4a;
+}
+@media screen and (min-width: 0) {
+  .mma .calendar__datepicker.active,
+  .mma .calendar__datepicker:hover {
+    background: #4a4a4a;
+  }
+}
+.mma #live-table .tabs--odds li.selected,
+.mma #live-table .tabs--odds li:hover {
+  background: #4a4a4a;
+}
+.mma .day.today {
+  background-color: rgba(43, 43, 43, 0.1);
+}
+.motorsport #live-table .subTabs li.selected,
+.motorsport #live-table .subTabs li:hover {
+  background: #313131;
+}
+@media screen and (min-width: 0) {
+  .motorsport .calendar__datepicker.active,
+  .motorsport .calendar__datepicker:hover {
+    background: #313131;
+  }
+}
+.motorsport #live-table .tabs--odds li.selected,
+.motorsport #live-table .tabs--odds li:hover {
+  background: #313131;
+}
+.motorsport #live-table .subTabs li.selected,
+.motorsport #live-table .subTabs li:hover {
+  background: #646464;
+}
+@media screen and (min-width: 0) {
+  .motorsport .calendar__datepicker.active,
+  .motorsport .calendar__datepicker:hover {
+    background: #646464;
+  }
+}
+.motorsport #live-table .tabs--odds li.selected,
+.motorsport #live-table .tabs--odds li:hover {
+  background: #646464;
+}
+.motorsport .day.today {
+  background-color: rgba(69, 69, 69, 0.1);
+}
+.motorsport-auto-racing #live-table .subTabs li.selected,
+.motorsport-auto-racing #live-table .subTabs li:hover {
+  background: #313131;
+}
+@media screen and (min-width: 0) {
+  .motorsport-auto-racing .calendar__datepicker.active,
+  .motorsport-auto-racing .calendar__datepicker:hover {
+    background: #313131;
+  }
+}
+.motorsport-auto-racing #live-table .tabs--odds li.selected,
+.motorsport-auto-racing #live-table .tabs--odds li:hover {
+  background: #313131;
+}
+.motorsport-auto-racing .day.today {
+  background-color: rgba(69, 69, 69, 0.1);
+}
+.motorsport-moto-racing #live-table .subTabs li.selected,
+.motorsport-moto-racing #live-table .subTabs li:hover {
+  background: #313131;
+}
+@media screen and (min-width: 0) {
+  .motorsport-moto-racing .calendar__datepicker.active,
+  .motorsport-moto-racing .calendar__datepicker:hover {
+    background: #313131;
+  }
+}
+.motorsport-moto-racing #live-table .tabs--odds li.selected,
+.motorsport-moto-racing #live-table .tabs--odds li:hover {
+  background: #313131;
+}
+.motorsport-moto-racing .day.today {
+  background-color: rgba(69, 69, 69, 0.1);
+}
+.netball #live-table .subTabs li.selected,
+.netball #live-table .subTabs li:hover {
+  background: #775726;
+}
+@media screen and (min-width: 0) {
+  .netball .calendar__datepicker.active,
+  .netball .calendar__datepicker:hover {
+    background: #775726;
+  }
+}
+.netball #live-table .tabs--odds li.selected,
+.netball #live-table .tabs--odds li:hover {
+  background: #775726;
+}
+.netball .day.today {
+  background-color: rgba(150, 109, 48, 0.1);
+}
+.pesapallo #live-table .subTabs li.selected,
+.pesapallo #live-table .subTabs li:hover {
+  background: #6b7f0d;
+}
+@media screen and (min-width: 0) {
+  .pesapallo .calendar__datepicker.active,
+  .pesapallo .calendar__datepicker:hover {
+    background: #6b7f0d;
+  }
+}
+.pesapallo #live-table .tabs--odds li.selected,
+.pesapallo #live-table .tabs--odds li:hover {
+  background: #6b7f0d;
+}
+.pesapallo .day.today {
+  background-color: rgba(138, 164, 17, 0.1);
+}
+.rugby-league #live-table .subTabs li.selected,
+.rugby-league #live-table .subTabs li:hover {
+  background: #171717;
+}
+@media screen and (min-width: 0) {
+  .rugby-league .calendar__datepicker.active,
+  .rugby-league .calendar__datepicker:hover {
+    background: #171717;
+  }
+}
+.rugby-league #live-table .tabs--odds li.selected,
+.rugby-league #live-table .tabs--odds li:hover {
+  background: #171717;
+}
+.rugby-league #live-table .subTabs li.selected,
+.rugby-league #live-table .subTabs li:hover {
+  background: #4a4a4a;
+}
+@media screen and (min-width: 0) {
+  .rugby-league .calendar__datepicker.active,
+  .rugby-league .calendar__datepicker:hover {
+    background: #4a4a4a;
+  }
+}
+.rugby-league #live-table .tabs--odds li.selected,
+.rugby-league #live-table .tabs--odds li:hover {
+  background: #4a4a4a;
+}
+.rugby-league .day.today {
+  background-color: rgba(43, 43, 43, 0.1);
+}
+.rugby-union #live-table .subTabs li.selected,
+.rugby-union #live-table .subTabs li:hover {
+  background: #171717;
+}
+@media screen and (min-width: 0) {
+  .rugby-union .calendar__datepicker.active,
+  .rugby-union .calendar__datepicker:hover {
+    background: #171717;
+  }
+}
+.rugby-union #live-table .tabs--odds li.selected,
+.rugby-union #live-table .tabs--odds li:hover {
+  background: #171717;
+}
+.rugby-union #live-table .subTabs li.selected,
+.rugby-union #live-table .subTabs li:hover {
+  background: #4a4a4a;
+}
+@media screen and (min-width: 0) {
+  .rugby-union .calendar__datepicker.active,
+  .rugby-union .calendar__datepicker:hover {
+    background: #4a4a4a;
+  }
+}
+.rugby-union #live-table .tabs--odds li.selected,
+.rugby-union #live-table .tabs--odds li:hover {
+  background: #4a4a4a;
+}
+.rugby-union .day.today {
+  background-color: rgba(43, 43, 43, 0.1);
+}
+.snooker #live-table .subTabs li.selected,
+.snooker #live-table .subTabs li:hover {
+  background: #001700;
+}
+@media screen and (min-width: 0) {
+  .snooker .calendar__datepicker.active,
+  .snooker .calendar__datepicker:hover {
+    background: #001700;
+  }
+}
+.snooker #live-table .tabs--odds li.selected,
+.snooker #live-table .tabs--odds li:hover {
+  background: #001700;
+}
+.snooker .day.today {
+  background-color: rgba(0, 64, 0, 0.1);
+}
+.soccer #live-table .subTabs li.selected,
+.soccer #live-table .subTabs li:hover {
+  background: #053600;
+}
+@media screen and (min-width: 0) {
+  .soccer .calendar__datepicker.active,
+  .soccer .calendar__datepicker:hover {
+    background: #053600;
+  }
+}
+.soccer #live-table .tabs--odds li.selected,
+.soccer #live-table .tabs--odds li:hover {
+  background: #053600;
+}
+.soccer .day.today {
+  background-color: rgba(8, 95, 0, 0.1);
+}
+.table-tennis #live-table .subTabs li.selected,
+.table-tennis #live-table .subTabs li:hover {
+  background: #70261c;
+}
+@media screen and (min-width: 0) {
+  .table-tennis .calendar__datepicker.active,
+  .table-tennis .calendar__datepicker:hover {
+    background: #70261c;
+  }
+}
+.table-tennis #live-table .tabs--odds li.selected,
+.table-tennis #live-table .tabs--odds li:hover {
+  background: #70261c;
+}
+.table-tennis .day.today {
+  background-color: rgba(145, 49, 36, 0.1);
+}
+.tennis #live-table .subTabs li.selected,
+.tennis #live-table .subTabs li:hover {
+  background: #7a5e00;
+}
+@media screen and (min-width: 0) {
+  .tennis .calendar__datepicker.active,
+  .tennis .calendar__datepicker:hover {
+    background: #7a5e00;
+  }
+}
+.tennis #live-table .tabs--odds li.selected,
+.tennis #live-table .tabs--odds li:hover {
+  background: #7a5e00;
+}
+.tennis .day.today {
+  background-color: rgba(163, 126, 0, 0.1);
+}
+.volleyball #live-table .subTabs li.selected,
+.volleyball #live-table .subTabs li:hover {
+  background: #966330;
+}
+@media screen and (min-width: 0) {
+  .volleyball .calendar__datepicker.active,
+  .volleyball .calendar__datepicker:hover {
+    background: #966330;
+  }
+}
+.volleyball #live-table .tabs--odds li.selected,
+.volleyball #live-table .tabs--odds li:hover {
+  background: #966330;
+}
+.volleyball .day.today {
+  background-color: rgba(181, 119, 58, 0.1);
+}
+.water-polo #live-table .subTabs li.selected,
+.water-polo #live-table .subTabs li:hover {
+  background: #0c6f93;
+}
+@media screen and (min-width: 0) {
+  .water-polo .calendar__datepicker.active,
+  .water-polo .calendar__datepicker:hover {
+    background: #0c6f93;
+  }
+}
+.water-polo #live-table .tabs--odds li.selected,
+.water-polo #live-table .tabs--odds li:hover {
+  background: #0c6f93;
+}
+.water-polo .day.today {
+  background-color: rgba(15, 139, 185, 0.1);
+}
+.winter-sports #live-table .subTabs li.selected,
+.winter-sports #live-table .subTabs li:hover {
+  background: #0a2040;
+}
+@media screen and (min-width: 0) {
+  .winter-sports .calendar__datepicker.active,
+  .winter-sports .calendar__datepicker:hover {
+    background: #0a2040;
+  }
+}
+.winter-sports #live-table .tabs--odds li.selected,
+.winter-sports #live-table .tabs--odds li:hover {
+  background: #0a2040;
+}
+.winter-sports .day.today {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-biathlon #live-table .subTabs li.selected,
+.winter-sports-biathlon #live-table .subTabs li:hover {
+  background: #0a2040;
+}
+@media screen and (min-width: 0) {
+  .winter-sports-biathlon .calendar__datepicker.active,
+  .winter-sports-biathlon .calendar__datepicker:hover {
+    background: #0a2040;
+  }
+}
+.winter-sports-biathlon #live-table .tabs--odds li.selected,
+.winter-sports-biathlon #live-table .tabs--odds li:hover {
+  background: #0a2040;
+}
+.winter-sports-biathlon .day.today {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-cross-country #live-table .subTabs li.selected,
+.winter-sports-cross-country #live-table .subTabs li:hover {
+  background: #0a2040;
+}
+@media screen and (min-width: 0) {
+  .winter-sports-cross-country .calendar__datepicker.active,
+  .winter-sports-cross-country .calendar__datepicker:hover {
+    background: #0a2040;
+  }
+}
+.winter-sports-cross-country #live-table .tabs--odds li.selected,
+.winter-sports-cross-country #live-table .tabs--odds li:hover {
+  background: #0a2040;
+}
+.winter-sports-cross-country .day.today {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-alpine-skiing #live-table .subTabs li.selected,
+.winter-sports-alpine-skiing #live-table .subTabs li:hover {
+  background: #0a2040;
+}
+@media screen and (min-width: 0) {
+  .winter-sports-alpine-skiing .calendar__datepicker.active,
+  .winter-sports-alpine-skiing .calendar__datepicker:hover {
+    background: #0a2040;
+  }
+}
+.winter-sports-alpine-skiing #live-table .tabs--odds li.selected,
+.winter-sports-alpine-skiing #live-table .tabs--odds li:hover {
+  background: #0a2040;
+}
+.winter-sports-alpine-skiing .day.today {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.winter-sports-ski-jumping #live-table .subTabs li.selected,
+.winter-sports-ski-jumping #live-table .subTabs li:hover {
+  background: #0a2040;
+}
+@media screen and (min-width: 0) {
+  .winter-sports-ski-jumping .calendar__datepicker.active,
+  .winter-sports-ski-jumping .calendar__datepicker:hover {
+    background: #0a2040;
+  }
+}
+.winter-sports-ski-jumping #live-table .tabs--odds li.selected,
+.winter-sports-ski-jumping #live-table .tabs--odds li:hover {
+  background: #0a2040;
+}
+.winter-sports-ski-jumping .day.today {
+  background-color: rgba(15, 50, 99, 0.1);
+}
+.colorAd {
+  color: #b0b0b0;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+.fontNormal,
+.event__header--info {
+  font-weight: normal;
+}
+.fontBold,
+#live-table .tabs li.selected,
+.sections .section,
+.event .bold,
+.calendar__datepicker,
+.calendar__datepicker--dates .day.day.active,
+.event__match--oneLine .event__score,
+.event__match--twoLine .event__score,
+.event__match--twoLine .event__part--fontBold,
+.event__match--twoLine .event__part--2,
+.event__match--twoLine .event__rounds--result,
+.event__title {
+  font-weight: bold;
+}
+.no-border-left {
+  border-left: 0;
+}
+#live-table .icon--star {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  width: 16px;
+  height: 15px;
+}
+#live-table .icon--star.active {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: 0px -30px;
+}
+#live-table .icon--info {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -60px 0px;
+  width: 13px;
+  height: 14px;
+  cursor: default;
+}
+#live-table .icon--tv {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -90px 0px;
+  width: 13px;
+  height: 12px;
+}
+#live-table .icon--standing {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -30px 0px;
+  width: 15px;
+  height: 12px;
+}
+#live-table .icon--winner {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -90px 0px;
+  width: 13px;
+  height: 12px;
+  cursor: default;
+}
+#live-table .icon--calendar {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -120px -30px;
+  width: 16px;
+  height: 15px;
+  transform: scale(1.1);
+}
+#live-table .icon--redCard {
+  background-image: url(../../res/_fs/build/incidents.ae6eb66.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  width: 8px;
+  height: 12px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  color: #fff;
+  flex-shrink: 0;
+  vertical-align: text-top;
+}
+#live-table .icon--american-football::before,
+#live-table .icon--beach-volleyball::before,
+#live-table .icon--pesapallo::before,
+#live-table .icon--table-tennis::before,
+#live-table .icon--tennis::before,
+#live-table .icon--volleyball::before {
+  width: 14px;
+  height: 14px;
+}
+#live-table .icon--american-football::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+#live-table .icon--badminton::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -30px 0px;
+  width: 12px;
+  height: 14px;
+}
+#live-table .icon--beach-volleyball::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -90px 0px;
+}
+#live-table .icon--baseball::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -60px 0px;
+  width: 14px;
+  height: 14px;
+}
+#live-table .icon--baseball-bat::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -60px -30px;
+  width: 16px;
+  height: 16px;
+}
+#live-table .icon--cricket::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -120px 0px;
+  width: 14px;
+  height: 14px;
+}
+#live-table .icon--cricket-bat::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -120px -30px;
+  width: 17px;
+  height: 16px;
+}
+#live-table .icon--darts::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -150px 0px;
+  width: 19px;
+  height: 16px;
+}
+#live-table .icon--pesapallo::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -180px 0px;
+  width: 14px;
+  height: 14px;
+}
+#live-table .icon--pesapallo-bat::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -180px -30px;
+  width: 16px;
+  height: 16px;
+}
+#live-table .icon--table-tennis::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -210px 0px;
+}
+#live-table .icon--tennis::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -240px 0px;
+}
+#live-table .icon--volleyball::before {
+  background-image: url(../../res/_fs/build/serves.23f8196.svg);
+  background-repeat: no-repeat;
+  background-position: -270px 0px;
+}
+#live-table .icon--expander::after {
+  content: '';
+  border-style: solid;
+  border-width: 0.15625em 0.15625em 0 0;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  position: relative;
+}
+#live-table .icon--expander.expand::after {
+  transform: rotate(135deg);
+  bottom: 1px;
+}
+#live-table .icon--expander.collapse::after {
+  transform: rotate(-45deg);
+  top: 1px;
+}
+#live-table .icon--live,
+#live-table .icon--preview {
+  border: 1px solid #8F8F8F;
+  letter-spacing: 0.2ex;
+  font-size: 8px;
+  color: #656565;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+#live-table .icon--live:hover,
+#live-table .icon--preview:hover,
+#live-table .icon--live.active,
+#live-table .icon--preview.active {
+  color: #fff;
+}
+#live-table .icon--preview {
+  width: 44px;
+  height: 14px;
+  border: none;
+  background-image: url(../../res/_fs/build/icons.e138bfc.svg);
+  background-position: -60px -40px;
+  align-self: flex-end;
+}
+#live-table .icon--preview:hover {
+  background-position-y: 0;
+}
+#live-table .icon--live {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+#live-table .icon--live:hover,
+#live-table .icon--live.active {
+  background-color: #bc161c;
+  border-color: #bc161c;
+}
+#live-table .icon--live::after {
+  content: "LIVE";
+}
+#live-table .icon--live.active-bet::after {
+  animation: liveBet 1s linear infinite;
+}
+#live-table .icon--draw {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -150px 0px;
+  width: 11.1px;
+  height: 13px;
+  transform: scale(1.51);
+  transform-origin: right;
+  margin-right: 46px;
+  margin-left: 10px;
+}
+#live-table .icon--draw.active {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -150px -30px;
+}
+#live-table .icon--rating {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -180px 0px;
+  width: 12.2px;
+  height: 13px;
+  transform: scale(1.53);
+  transform-origin: right;
+  margin-right: 46px;
+  margin-left: 10px;
+}
+#live-table .icon--rating.active {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -180px -30px;
+}
+#live-table .icon--arrow {
+  display: flex;
+  align-items: center;
+}
+#live-table .icon--arrow.odds__odd:not(.ah_handicap):not(.ou_total) span {
+  position: relative;
+  padding-left: 12.942px;
+}
+#live-table .icon--arrow.odds__odd:not(.ah_handicap):not(.ou_total) span::before {
+  content: "";
+  display: inline-block;
+  width: 7.942px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+#live-table .icon .up::before {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -210px 0px;
+}
+#live-table .icon .down::before {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -210px -30px;
+}
+#live-table .icon--flag::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 12px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  display: flex;
+}
+#live-table .icon--winner {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -240px 0px;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+#live-table .icon--cycling-jersey {
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+}
+#live-table .icon--cycling-jersey:first-of-type {
+  margin-left: 8px;
+}
+#live-table .icon.icon--cycling-jersey-white {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 50%;
+}
+#live-table .icon.icon--cycling-jersey-silver {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -16px 50%;
+}
+#live-table .icon.icon--cycling-jersey-black {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -32px 50%;
+}
+#live-table .icon.icon--cycling-jersey-yellow {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -48px 50%;
+}
+#live-table .icon.icon--cycling-jersey-gold {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -64px 50%;
+}
+#live-table .icon.icon--cycling-jersey-ochre {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -80px 50%;
+}
+#live-table .icon.icon--cycling-jersey-red {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -96px 50%;
+}
+#live-table .icon.icon--cycling-jersey-pink {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -112px 50%;
+}
+#live-table .icon.icon--cycling-jersey-turquoise {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -128px 50%;
+}
+#live-table .icon.icon--cycling-jersey-blue {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -144px 50%;
+}
+#live-table .icon.icon--cycling-jersey-green {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -160px 50%;
+}
+#live-table .icon.icon--cycling-jersey-red-polka-dot {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -176px 50%;
+}
+#live-table .icon.icon--cycling-jersey-blue-polka-dot {
+  background-image: url(../../res/_fs/build/cycling-jersey-sprite.c8ccf3a.svg);
+  background-repeat: no-repeat;
+  background-position: -192px 50%;
+}
+@media screen and (min-width: 0) {
+  #live-table .icon--live {
+    width: 26px;
+    height: 14px;
+    background-position: 0 -40px;
+    background-image: url(../../res/_fs/build/icons.e138bfc.svg);
+    border: none;
+  }
+  #live-table .icon--live::after {
+    content: none;
+  }
+  #live-table .icon--live.active {
+    background-position-y: 0;
+  }
+  #live-table .icon--live:not(.active-bet):hover {
+    background-position-y: 0;
+  }
+  #live-table .icon--live.active-bet {
+    background-image: url(../../res/_fs/build/livebet.3c5da59.gif);
+    background-size: 26px 14px;
+    background-position: 0 0;
+  }
+  #live-table .icon--live.active-bet::after {
+    content: none;
+    animation: none;
+  }
+  #live-table .icon--preview {
+    align-self: center;
+  }
+  #live-table .icon--calendar {
+    background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+    background-repeat: no-repeat;
+    background-position: -120px 0px;
+  }
+}
+#live-table .info {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -60px 0px;
+  width: 13px;
+  height: 14px;
+}
+#live-table .tv {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -90px 0px;
+  width: 13px;
+  height: 12px;
+}
+#live-table .shirt {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -30px 0px;
+  width: 15px;
+  height: 12px;
+}
+.event__check.checked::after {
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -270px 0px;
+  width: 9px;
+  height: 8px;
+}
+.icon--flag::before {
+  background-repeat: no-repeat;
+  background-size: 18px 12px;
+  background-position: center;
+  filter: brightness(98%);
+}
+.fl_145::before {
+  background-image: url(../../res/_fs/build/no.16f0f7e.png);
+}
+.fl_51::before {
+  background-image: url(../../res/_fs/build/cl.2494cac.png);
+}
+.fl_201::before {
+  background-image: url(../../res/_fs/build/uy.6abff49.png);
+}
+.fl_17::before {
+  background-image: url(../../res/_fs/build/al.b6be285.png);
+}
+.fl_31::before {
+  background-image: url(../../res/_fs/build/by.4233470.png);
+}
+.fl_62::before {
+  background-image: url(../../res/_fs/build/cz.4a1252f.png);
+}
+.fl_77::before {
+  background-image: url(../../res/_fs/build/fr.69a4ea2.png);
+}
+.fl_78::before {
+  background-image: url(../../res/_fs/build/ga.c2cce4a.png);
+}
+.fl_98::before {
+  background-image: url(../../res/_fs/build/it.4a75ae3.png);
+}
+.fl_61::before {
+  background-image: url(../../res/_fs/build/cy.c8e21d5.png);
+}
+.fl_91::before {
+  background-image: url(../../res/_fs/build/hu.544f820.png);
+}
+/* prazdne misto ve spritemape */
+.fl_25::before {
+  background-image: url(../../res/_fs/build/at.f418805.png);
+}
+.fl_83::before {
+  background-image: url(../../res/_fs/build/gr.289aec2.png);
+}
+.fl_171::before {
+  background-image: url(../../res/_fs/build/sk.7b6102d.png);
+}
+.fl_181::before {
+  background-image: url(../../res/_fs/build/se.279668a.png);
+}
+.fl_195::before {
+  background-image: url(../../res/_fs/build/ua.468ee52.png);
+}
+.fl_225::before {
+  background-image: url(../../res/_fs/build/lc.318c594.png);
+}
+.x_17::before {
+  background-image: url(../../res/_fs/build/lc.318c594.png);
+}
+.fl_22::before {
+  background-image: url(../../res/_fs/build/ar.d383722.png);
+}
+.fl_128::before {
+  background-image: url(../../res/_fs/build/mx.bf5e39a.png);
+}
+.fl_200::before {
+  background-image: url(../../res/_fs/build/us.3577ab3.png);
+}
+.fl_198::before {
+  background-image: url(../../res/_fs/build/en.d0ceb7e.png);
+}
+.fl_41::before {
+  background-image: url(../../res/_fs/build/bg.a9b6e7d.png);
+}
+.fl_63::before {
+  background-image: url(../../res/_fs/build/dk.567b38f.png);
+}
+.fl_96::before {
+  background-image: url(../../res/_fs/build/ie.d6108f0.png);
+}
+.fl_97::before {
+  background-image: url(../../res/_fs/build/il.d1bf91f.png);
+}
+.fl_116::before {
+  background-image: url(../../res/_fs/build/lt.5c2f6ff.png);
+}
+.fl_81::before {
+  background-image: url(../../res/_fs/build/de.3fde014.png);
+}
+.fl_154::before {
+  background-image: url(../../res/_fs/build/pl.5f8a670.png);
+}
+.fl_157::before {
+  background-image: url(../../res/_fs/build/ro.e19b77c.png);
+}
+/* nenasel jsem, podobna anglii, ve sprite map -696px */
+.fl_172::before {
+  background-image: url(../../res/_fs/build/si.108a72f.png);
+}
+.fl_182::before {
+  background-image: url(../../res/_fs/build/ch.43e1ccd.png);
+}
+.fl_207::before {
+  background-image: url(../../res/_fs/build/wa.51d78e3.png);
+}
+.fl_170::before {
+  background-image: url(../../res/_fs/build/sg.e7da3f6.png);
+}
+.fl_39::before {
+  background-image: url(../../res/_fs/build/br.8a687bb.png);
+}
+.fl_152::before {
+  background-image: url(../../res/_fs/build/pe.c790a42.png);
+}
+.fl_153::before {
+  background-image: url(../../res/_fs/build/ph.7a9839a.png);
+}
+.fl_100::before {
+  background-image: url(../../res/_fs/build/jp.929319a.png);
+}
+.fl_32::before {
+  background-image: url(../../res/_fs/build/be.babd6a0.png);
+}
+.fl_59::before {
+  background-image: url(../../res/_fs/build/hr.83d8f17.png);
+}
+.fl_76::before {
+  background-image: url(../../res/_fs/build/fi.d09a924.png);
+}
+.fl_92::before {
+  background-image: url(../../res/_fs/build/is.0b2f48b.png);
+}
+/* nenasel jsem, obracene nizozemsko, ve sprite map -984px */
+.fl_110::before {
+  background-image: url(../../res/_fs/build/lv.723fe1c.png);
+}
+.fl_139::before {
+  background-image: url(../../res/_fs/build/nl.99be282.png);
+}
+.fl_155::before {
+  background-image: url(../../res/_fs/build/pt.2ecd11b.png);
+}
+.fl_158::before {
+  background-image: url(../../res/_fs/build/ru.2d46c66.png);
+}
+.fl_199::before {
+  background-image: url(../../res/_fs/build/sc.56eaa87.png);
+}
+.fl_176::before {
+  background-image: url(../../res/_fs/build/es.6d76c6a.png);
+}
+.fl_191::before {
+  background-image: url(../../res/_fs/build/tr.81aa6df.png);
+}
+.fl_24::before {
+  background-image: url(../../res/_fs/build/au.75a4898.png);
+}
+.fl_1::before,
+.fl_2::before,
+.fl_3::before,
+.fl_4::before,
+.fl_5::before,
+.fl_6::before,
+.fl_7::before,
+.fl_8::before,
+.fl_290::before,
+.fl_292::before,
+.fl_453::before,
+.fl_450::before,
+.fl_451::before {
+  background-image: url(../../res/_fs/build/world.518d2f8.png);
+}
+/* mapa sveta */
+.fl_02::before {
+  background-image: url(../../res/_fs/build/world.518d2f8.png);
+}
+/* mapa sveta druha */
+.fl_53::before {
+  background-image: url(../../res/_fs/build/co.93d0ebc.png);
+}
+.fl_47::before {
+  background-image: url(../../res/_fs/build/ca.17a1ba0.png);
+}
+.fl_52::before {
+  background-image: url(../../res/_fs/build/cn.6fd9016.png);
+}
+.fl_167::before {
+  background-image: url(../../res/_fs/build/rs.40ba921.png);
+}
+.fl_118::before {
+  background-image: url(../../res/_fs/build/mk.41f9846.png);
+}
+.fl_85::before {
+  background-image: url(../../res/_fs/build/gt.3889abe.png);
+}
+.fl_73::before {
+  background-image: url(../../res/_fs/build/ee.e20eb35.png);
+}
+.fl_68::before {
+  background-image: url(../../res/_fs/build/ec.916f92a.png);
+}
+.fl_57::before {
+  background-image: url(../../res/_fs/build/cr.f04c558.png);
+}
+/* nenasel jsem, jina australie, ve sprite map -1584px */
+.fl_37::before {
+  background-image: url(../../res/_fs/build/ba.43ae22a.png);
+}
+.fl_175::before {
+  background-image: url(../../res/_fs/build/za.35b073f.png);
+}
+.fl_23::before {
+  background-image: url(../../res/_fs/build/am.ddf8f92.png);
+}
+.fl_69::before {
+  background-image: url(../../res/_fs/build/eg.06d1522.png);
+}
+.fl_231::before {
+  background-image: url(../../res/_fs/build/fo.d8e50e0.png);
+}
+.fl_82::before {
+  background-image: url(../../res/_fs/build/gh.ff9a3ce.png);
+}
+.fl_95::before {
+  background-image: url(../../res/_fs/build/iq.8b71f92.png);
+}
+.fl_94::before {
+  background-image: url(../../res/_fs/build/ir.ac2ecbb.png);
+}
+.fl_101::before {
+  background-image: url(../../res/_fs/build/jo.c50f651.png);
+}
+.fl_102::before {
+  background-image: url(../../res/_fs/build/kz.d6c9d65.png);
+}
+.fl_103::before {
+  background-image: url(../../res/_fs/build/ke.c53f472.png);
+}
+.fl_119::before {
+  background-image: url(../../res/_fs/build/mg.8d19c2f.png);
+}
+.fl_121::before {
+  background-image: url(../../res/_fs/build/my.57613fb.png);
+}
+.fl_130::before {
+  background-image: url(../../res/_fs/build/md.5d0b021.png);
+}
+.fl_135::before {
+  background-image: url(../../res/_fs/build/mz.b4a6c32.png);
+}
+.fl_166::before {
+  background-image: url(../../res/_fs/build/sn.0b7831e.png);
+}
+.fl_144::before {
+  background-image: url(../../res/_fs/build/nirl.0f22084.png);
+}
+.fl_183::before {
+  background-image: url(../../res/_fs/build/sy.40e2715.png);
+}
+.x_87::before {
+  background-image: url(../../res/_fs/build/kp.418c501.png);
+}
+.fl_194::before {
+  background-image: url(../../res/_fs/build/ug.4f5884c.png);
+}
+.fl_185::before {
+  background-image: url(../../res/_fs/build/tz.c8200f6.png);
+}
+.fl_187::before {
+  background-image: url(../../res/_fs/build/tg.e847c6d.png);
+}
+.fl_18::before {
+  background-image: url(../../res/_fs/build/dz.a6f12ea.png);
+}
+.fl_70::before {
+  background-image: url(../../res/_fs/build/sv.ced07ff.png);
+}
+.fl_90::before {
+  background-image: url(../../res/_fs/build/hn.c6f4fda.png);
+}
+.fl_36::before {
+  background-image: url(../../res/_fs/build/bo.6b5d643.png);
+}
+.fl_222::before {
+  background-image: url(../../res/_fs/build/hk.fc3887b.png);
+}
+.fl_107::before {
+  background-image: url(../../res/_fs/build/gaza.0839668.png);
+}
+.fl_117::before {
+  background-image: url(../../res/_fs/build/lu.7585b94.png);
+}
+.fl_151::before {
+  background-image: url(../../res/_fs/build/py.9c5625d.png);
+}
+.fl_134::before {
+  background-image: url(../../res/_fs/build/ma.8f70c8d.png);
+}
+.fl_133::before {
+  background-image: url(../../res/_fs/build/me.391f083.png);
+}
+.fl_156::before {
+  background-image: url(../../res/_fs/build/qa.1ca4a3d.png);
+}
+.fl_124::before {
+  background-image: url(../../res/_fs/build/mt.d324e7b.png);
+}
+.fl_186::before {
+  background-image: url(../../res/_fs/build/th.28eca47.png);
+}
+.fl_190::before {
+  background-image: url(../../res/_fs/build/tn.f722281.png);
+}
+.fl_26::before {
+  background-image: url(../../res/_fs/build/az.e9d29fd.png);
+}
+.fl_205::before {
+  background-image: url(../../res/_fs/build/ve.0c44494.png);
+}
+.fl_28::before {
+  background-image: url(../../res/_fs/build/bh.eaa9be3.png);
+}
+.fl_80::before {
+  background-image: url(../../res/_fs/build/ge.e3fb7f2.png);
+}
+.fl_196::before {
+  background-image: url(../../res/_fs/build/ae.1d8d7d4.png);
+}
+/* prazdne misto ve spritemap */
+.fl_106::before {
+  background-image: url(../../res/_fs/build/kr.f0d9d3d.png);
+}
+.fl_111::before {
+  background-image: url(../../res/_fs/build/lb.fe5a0a1.png);
+}
+.fl_146::before {
+  background-image: url(../../res/_fs/build/om.a7aa39f.png);
+}
+.x_114::before {
+  background-image: url(../../res/_fs/build/bd.d77de50.png);
+}
+.fl_206::before {
+  background-image: url(../../res/_fs/build/vn.62ebafd.png);
+}
+.fl_19::before {
+  background-image: url(../../res/_fs/build/ad.75738f2.png);
+}
+.fl_46::before {
+  background-image: url(../../res/_fs/build/cm.3142dd1.png);
+}
+.fl_178::before {
+  background-image: url(../../res/_fs/build/sd.382ee54.png);
+}
+.fl_93::before {
+  background-image: url(../../res/_fs/build/in.ca6423e.png);
+}
+.fl_228::before {
+  background-image: url(../../res/_fs/build/id.6d19fa0.png);
+}
+.fl_114::before {
+  background-image: url(../../res/_fs/build/ly.7864ed5.png);
+}
+.fl_136::before {
+  background-image: url(../../res/_fs/build/na.5d8932a.png);
+}
+.fl_208::before {
+  background-image: url(../../res/_fs/build/ye.98f7310.png);
+}
+.fl_202::before {
+  background-image: url(../../res/_fs/build/uz.c05e6c7.png);
+}
+.fl_140::before {
+  background-image: url(../../res/_fs/build/nz.e6f6ea1.png);
+}
+.fl_189::before {
+  background-image: url(../../res/_fs/build/tt.3872fb4.png);
+}
+.fl_210::before {
+  background-image: url(../../res/_fs/build/zw.df703bd.png);
+}
+.fl_165::before {
+  background-image: url(../../res/_fs/build/sa.cee096d.png);
+}
+.fl_20::before {
+  background-image: url(../../res/_fs/build/ao.669a01e.png);
+}
+.fl_143::before {
+  background-image: url(../../res/_fs/build/ng.5348ab6.png);
+}
+.fl_197::before {
+  background-image: url(../../res/_fs/build/uk.2771161.png);
+}
+.fl_55::before {
+  background-image: url(../../res/_fs/build/cg.a0f9c89.png);
+}
+.x_132::before {
+  background-image: url(../../res/_fs/build/uk.2771161.png);
+}
+.x_133::before {
+  background-image: url(../../res/_fs/build/ph.7a9839a.png);
+}
+.fl_99::before {
+  background-image: url(../../res/_fs/build/jm.3aaa9f3.png);
+}
+.fl_131::before {
+  background-image: url(../../res/_fs/build/mc.ba80e36.png);
+}
+.fl_218::before {
+  background-image: url(../../res/_fs/build/tw.6923228.png);
+}
+/* nenasel jsem nikde, neexistuje, ve sprite map -3264px */
+.fl_64::before {
+  background-image: url(../../res/_fs/build/dj.afc2dd8.png);
+}
+.fl_149::before {
+  background-image: url(../../res/_fs/build/pa.bed0d5a.png);
+}
+.fl_109::before {
+  background-image: url(../../res/_fs/build/la.e329b13.png);
+}
+.fl_169::before {
+  background-image: url(../../res/_fs/build/sl.bb8b132.png);
+}
+.fl_237::before {
+  background-image: url(../../res/_fs/build/fr.69a4ea2.png);
+}
+.fl_89::before {
+  background-image: url(../../res/_fs/build/ht.861a7fe.png);
+}
+.fl_177::before {
+  background-image: url(../../res/_fs/build/lk.061e3ab.png);
+}
+.fl_163::before {
+  background-image: url(../../res/_fs/build/sm.74313b2.png);
+}
+.fl_66::before {
+  background-image: url(../../res/_fs/build/do.532303d.png);
+}
+.fl_29::before {
+  background-image: url(../../res/_fs/build/bd.d77de50.png);
+}
+.fl_147::before {
+  background-image: url(../../res/_fs/build/pk.7f5c9dd.png);
+}
+.fl_48::before {
+  background-image: url(../../res/_fs/build/cv.6f25bb5.png);
+}
+.fl_60::before {
+  background-image: url(../../res/_fs/build/cu.879145f.png);
+}
+.fl_58::before {
+  background-image: url(../../res/_fs/build/ci.5af725d.png);
+}
+.fl_209::before {
+  background-image: url(../../res/_fs/build/zm.fae752e.png);
+}
+.fl_123::before {
+  background-image: url(../../res/_fs/build/ml.ad50641.png);
+}
+.fl_79::before {
+  background-image: url(../../res/_fs/build/gm.9f808b9.png);
+}
+.fl_300::before {
+  background-image: url(../../res/_fs/build/cw.e16646a.png);
+}
+.fl_42::before {
+  background-image: url(../../res/_fs/build/bf.b626a90.png);
+}
+.fl_86::before {
+  background-image: url(../../res/_fs/build/gn.7a9949e.png);
+}
+.fl_71::before {
+  background-image: url(../../res/_fs/build/gq.a883f20.png);
+}
+.fl_174::before {
+  background-image: url(../../res/_fs/build/so.8e9c242.png);
+}
+.fl_74::before {
+  background-image: url(../../res/_fs/build/et.4e84330.png);
+}
+.fl_54::before {
+  background-image: url(../../res/_fs/build/km.3b0aab0.png);
+}
+.fl_21::before {
+  background-image: url(../../res/_fs/build/ag.2bab4ff.png);
+}
+.fl_34::before {
+  background-image: url(../../res/_fs/build/bj.2f48fb4.png);
+}
+.fl_56::before {
+  background-image: url(../../res/_fs/build/cd.9380f84.png);
+}
+.fl_159::before {
+  background-image: url(../../res/_fs/build/rw.a062bd0.png);
+}
+.fl_236::before {
+  background-image: url(../../res/_fs/build/pr.967a31d.png);
+}
+.fl_230::before {
+  background-image: url(../../res/_fs/build/bm.60bfad4.png);
+}
+.fl_30::before {
+  background-image: url(../../res/_fs/build/bb.db313fe.png);
+}
+.fl_50::before {
+  background-image: url(../../res/_fs/build/ro.e19b77c.png);
+}
+.fl_180::before {
+  background-image: url(../../res/_fs/build/sz.d4f3dbd.png);
+}
+.fl_44::before {
+  background-image: url(../../res/_fs/build/bi.95968cc.png);
+}
+.fl_164::before {
+  background-image: url(../../res/_fs/build/st.7d34df3.png);
+}
+.fl_112::before {
+  background-image: url(../../res/_fs/build/ls.731e958.png);
+}
+.fl_72::before {
+  background-image: url(../../res/_fs/build/er.3fb9303.png);
+}
+.fl_49::before {
+  background-image: url(../../res/_fs/build/cf.86fb105.png);
+}
+.fl_113::before {
+  background-image: url(../../res/_fs/build/lr.5745ba3.png);
+}
+.fl_120::before {
+  background-image: url(../../res/_fs/build/mw.9ce42eb.png);
+}
+.fl_45::before {
+  background-image: url(../../res/_fs/build/kh.418586e.png);
+}
+.fl_138::before {
+  background-image: url(../../res/_fs/build/np.df1f5db.png);
+}
+.fl_215::before {
+  background-image: url(../../res/_fs/build/ps.5472c36.png);
+}
+.fl_16::before {
+  background-image: url(../../res/_fs/build/af.491b655.png);
+}
+.fl_67::before {
+  background-image: url(../../res/_fs/build/tp.728e14e.png);
+}
+.fl_192::before {
+  background-image: url(../../res/_fs/build/tm.026673f.png);
+}
+.fl_233::before {
+  background-image: url(../../res/_fs/build/mo.0db0aa7.png);
+}
+.fl_43::before {
+  background-image: url(../../res/_fs/build/bar.972b738.png);
+}
+.fl_105::before {
+  background-image: url(../../res/_fs/build/kp.418c501.png);
+}
+.fl_184::before {
+  background-image: url(../../res/_fs/build/tj.bfd643a.png);
+}
+.fl_115::before {
+  background-image: url(../../res/_fs/build/li.6f22a25.png);
+}
+.fl_88::before {
+  background-image: url(../../res/_fs/build/gy.79cdd9d.png);
+}
+.fl_243::before {
+  background-image: url(../../res/_fs/build/ai.02955d3.png);
+}
+.fl_84::before {
+  background-image: url(../../res/_fs/build/gre.1da56a8.png);
+}
+.fl_160::before {
+  background-image: url(../../res/_fs/build/kn.07065e1.png);
+}
+.fl_38::before {
+  background-image: url(../../res/_fs/build/bw.30f2917.png);
+}
+.fl_27::before {
+  background-image: url(../../res/_fs/build/bs.030c280.png);
+}
+.fl_33::before {
+  background-image: url(../../res/_fs/build/bz.31870ec.png);
+}
+.fl_35::before {
+  background-image: url(../../res/_fs/build/bt.1a7913d.png);
+}
+.fl_40::before {
+  background-image: url(../../res/_fs/build/bn.7790110.png);
+}
+.fl_65::before {
+  background-image: url(../../res/_fs/build/dm.24bd732.png);
+}
+.fl_75::before {
+  background-image: url(../../res/_fs/build/fj.a19d8fd.png);
+}
+.fl_87::before {
+  background-image: url(../../res/_fs/build/gw.3aabfa3.png);
+}
+.fl_104::before {
+  background-image: url(../../res/_fs/build/ki.0c278c5.png);
+}
+.fl_108::before {
+  background-image: url(../../res/_fs/build/kg.ceef780.png);
+}
+.fl_122::before {
+  background-image: url(../../res/_fs/build/mv.6acdb64.png);
+}
+.fl_125::before {
+  background-image: url(../../res/_fs/build/mh.66c8fe5.png);
+}
+.fl_126::before {
+  background-image: url(../../res/_fs/build/mr.9a5ccd9.png);
+}
+.fl_127::before {
+  background-image: url(../../res/_fs/build/mu.9ebeb67.png);
+}
+.fl_129::before {
+  background-image: url(../../res/_fs/build/fm.6e138b3.png);
+}
+.fl_132::before {
+  background-image: url(../../res/_fs/build/mn.4b1a8d0.png);
+}
+.fl_137::before {
+  background-image: url(../../res/_fs/build/nr.f981f7d.png);
+}
+.fl_141::before {
+  background-image: url(../../res/_fs/build/ni.ed01595.png);
+}
+.fl_142::before {
+  background-image: url(../../res/_fs/build/ne.3e4e39a.png);
+}
+.fl_148::before {
+  background-image: url(../../res/_fs/build/pw.50192d4.png);
+}
+.fl_150::before {
+  background-image: url(../../res/_fs/build/pap.2c60e3b.png);
+}
+.fl_161::before {
+  background-image: url(../../res/_fs/build/vc.7db4d15.png);
+}
+.fl_162::before {
+  background-image: url(../../res/_fs/build/sam.d2abd05.png);
+}
+.fl_168::before {
+  background-image: url(../../res/_fs/build/sch.1dd30e3.png);
+}
+.fl_173::before {
+  background-image: url(../../res/_fs/build/sb.6f419ea.png);
+}
+.fl_179::before {
+  background-image: url(../../res/_fs/build/sur.918b52b.png);
+}
+.fl_188::before {
+  background-image: url(../../res/_fs/build/to.af7f4be.png);
+}
+/* nemuzu najit, neexistuje, ve sprite map -5280px */
+.fl_203::before {
+  background-image: url(../../res/_fs/build/vu.b8eb9f4.png);
+}
+.fl_204::before {
+  background-image: url(../../res/_fs/build/va.9c6235a.png);
+}
+.fl_211::before {
+  background-image: url(../../res/_fs/build/ge.e3fb7f2.png);
+}
+/* nemuzu najit, neexistuje, ve sprite map -5376px */
+.fl_223::before {
+  background-image: url(../../res/_fs/build/cay.f84946e.png);
+}
+.fl_229::before {
+  background-image: url(../../res/_fs/build/aw.7660b26.png);
+}
+.fl_232::before {
+  background-image: url(../../res/_fs/build/gu.306074c.png);
+}
+.fl_234::before {
+  background-image: url(../../res/_fs/build/ms.83127ca.png);
+}
+/* nemuzu najit, neexistuje, ve sprite map -5496px */
+.fl_238::before {
+  background-image: url(../../res/_fs/build/tur.9d1e4ff.png);
+}
+.fl_239::before {
+  background-image: url(../../res/_fs/build/an.e0464c0.png);
+}
+.fl_241::before {
+  background-image: url(../../res/_fs/build/an.e0464c0.png);
+}
+.fl_242::before {
+  background-image: url(../../res/_fs/build/as.9604c8a.png);
+}
+.fl_244::before {
+  background-image: url(../../res/_fs/build/ck.25c967a.png);
+}
+.fl_245::before {
+  background-image: url(../../res/_fs/build/nc.8235c15.png);
+}
+.fl_304::before {
+  background-image: url(../../res/_fs/build/gi.eb2476f.png);
+}
+.fl_212::before {
+  background-image: url(../../res/_fs/build/xk.b77155a.png);
+}
+.fl_226::before {
+  background-image: url(../../res/_fs/build/pf.46aba45.png);
+}
+.fl_305::before {
+  background-image: url(../../res/_fs/build/im.edfa115.png);
+}
+.fl_407::before {
+  background-image: url(../../res/_fs/build/ss.6108b0e.png);
+}
+.fl_240::before {
+  background-image: url(../../res/_fs/build/im.edfa115.png);
+}
+.fl_254::before {
+  background-image: url(../../res/_fs/build/zanz.6f9127d.png);
+}
+.fl_255::before {
+  background-image: url(../../res/_fs/build/fr.69a4ea2.png);
+}
+.fl_256::before {
+  background-image: url(../../res/_fs/build/fr.69a4ea2.png);
+}
+.fl_259::before {
+  background-image: url(../../res/_fs/build/nu.cd2c2b0.png);
+}
+.fl_287::before {
+  background-image: url(../../res/_fs/build/pf.46aba45.png);
+}
+.fl_452::before {
+  background-image: url(../../res/_fs/build/je.2431888.png);
+}
+.fl_483::before {
+  background-image: url(../../res/_fs/build/gl.cdf441a.png);
+}
+.fl_495::before {
+  background-image: url(../../res/_fs/build/gue.8347231.png);
+}
+.fl_496::before {
+  background-image: url(../../res/_fs/build/cat.ad60885.png);
+}
+/*
+.fl_::before { background-position:0		-5904px		!important ;}
+.fl_::before { background-position:0		-5928px		!important ;}
+.fl_::before { background-position:0		-5952px		!important ;}
+.fl_::before { background-position:0		-5976px		!important ;}
+.fl_::before { background-position:0		-6000px		!important ;}
+*/
+.fl_9011::before,
+.fl_3473162::before {
+  background: url(../../res/_fs/build/man.12c7b4b.png) no-repeat left / 18px 12px;
+}
+/* men singles */
+.fl_9021::before,
+.fl_3473163::before {
+  background: url(../../res/_fs/build/manDouble.88e35bf.png) no-repeat left / 18px 12px;
+}
+/* men doubles */
+.fl_9012::before,
+.fl_3473164::before {
+  background: url(../../res/_fs/build/woman.8159e09.png) no-repeat left / 18px 12px;
+}
+/* women singles */
+.fl_9022::before,
+.fl_3473165::before {
+  background: url(../../res/_fs/build/womanDouble.5b2dbb3.png) no-repeat left / 18px 12px;
+}
+/* women doubles */
+.fl_9030::before,
+.fl_3473166::before,
+.fl_3473167::before {
+  background: url(../../res/_fs/build/mixedDouble.3dcccad.png) no-repeat left / 18px 12px;
+}
+/* mixed */
+.fl_7400::before,
+.fl_4647020::before {
+  background-image: url(../../res/_fs/build/_wow.3a24216.png);
+}
+.fl_7400::before,
+.fl_4647020::before {
+  background-image: url(../../res/_fs/build/_wow.3a24216.png);
+}
+/* Warcraft III */
+.fl_7401::before,
+.fl_3473168::before {
+  background-image: url(../../res/_fs/build/_cs.6d1e9f7.png);
+}
+/* Counter Strike */
+.fl_7402::before,
+.fl_3473169::before {
+  background-image: url(../../res/_fs/build/_dota.c665cad.png);
+}
+/* Dota 2 */
+.fl_7403::before,
+.fl_3473171::before {
+  background-image: url(../../res/_fs/build/_star.ef1f781.png);
+}
+/* Starcraft 2 */
+.fl_7404::before,
+.fl_3473170::before {
+  background-image: url(../../res/_fs/build/_lol.bf5988c.png);
+}
+/* League of Legends */
+.fl_90270::before,
+.fl_7613333::before {
+  background-image: url(../../res/_fs/build/_heart.2686255.png);
+}
+/* HEARTHSTONE */
+.fl_90280::before,
+.fl_7613334::before {
+  background-image: url(../../res/_fs/build/_over.856ff9c.png);
+}
+/* OVERWATCH */
+@keyframes liveBet {
+  0% {
+    content: "LIVE";
+  }
+  100% {
+    content: "BET";
+  }
+}
+#live-table .tabs {
+  display: flex;
+  flex-direction: column;
+}
+#live-table .tabs.subTabs {
+  flex-direction: row;
+}
+#live-table .tabs.subTabs .tabs__list {
+  border-bottom: none;
+}
+#live-table .tabs__list {
+  display: flex;
+  margin: 0;
+  max-width: 100vw;
+  border-bottom: 4px solid var(--secondary-sport-color-body);
+  overflow: auto;
+}
+#live-table .tabs li {
+  height: 36px;
+  margin-right: 2px;
+  background-color: #e7e7e7;
+  list-style: none;
+  cursor: pointer;
+}
+#live-table .tabs li:hover {
+  background-color: #d9d9d9;
+}
+#live-table .tabs li.selected {
+  background-color: var(--secondary-sport-color-body);
+}
+#live-table .tabs li.selected a {
+  color: #fff;
+}
+#live-table .tabs li#sound-switch {
+  margin: 0 0 0 auto;
+  width: 28px;
+  height: 28px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#live-table .tabs li#sound-switch:hover {
+  background-color: #e7e7e7;
+}
+#live-table .tabs li#sound-switch > div {
+  height: 14px;
+  width: 18px;
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -300px 0px;
+}
+#live-table .tabs li#sound-switch.sound-off > div {
+  background-position-y: -30px;
+}
+#live-table .tabs a {
+  display: flex;
+  align-items: center;
+  color: #656565;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  text-align: center;
+  white-space: nowrap;
+}
+#live-table .tabs a:hover {
+  text-decoration: none;
+}
+@media screen and (min-width: 0) {
+  #live-table .tabs {
+    flex-direction: row;
+    border-bottom: 4px solid var(--secondary-sport-color-body);
+  }
+  #live-table .tabs__list {
+    border-bottom: 0;
+    overflow: initial;
+  }
+  #live-table .tabs li {
+    height: 28px;
+    margin-right: 1px;
+  }
+  #live-table .tabs li#sound-switch {
+    display: flex;
+  }
+}
+#live-table .tabs--odds {
+  height: 37px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 0;
+}
+#live-table .tabs--odds ul {
+  margin-left: 1ex;
+}
+#live-table .tabs--odds ul li {
+  height: auto;
+  background-color: transparent;
+  opacity: 0.6;
+}
+#live-table .tabs--odds ul li.selected {
+  opacity: 1;
+}
+#live-table .tabs--odds ul li a {
+  height: auto;
+  padding: 6px;
+  color: #fff;
+}
+#live-table .tabs--myTeams {
+  padding-top: 10px;
+}
+#live-table .tabs--myTeams .selected {
+  cursor: default;
+}
+#live-table .tabs--mgGroups {
+  padding-top: 10px;
+}
+#live-table .tabs--mgGroups li {
+  height: 24px;
+}
+#live-table .tabs--mgGroups li.selected {
+  font-weight: normal;
+}
+.sections {
+  display: flex;
+  border-bottom: 4px solid var(--secondary-sport-color);
+}
+.sections .section {
+  background-color: var(--secondary-sport-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 28px;
+  text-align: center;
+}
+#live-table .subTabs {
+  padding: 0 10px;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-sport-color);
+}
+#live-table .subTabs ul {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 4px 0;
+}
+#live-table .subTabs li {
+  background-color: transparent;
+  opacity: 0.7;
+  display: flex;
+  cursor: pointer;
+  margin: 0 1px 1px 0;
+}
+#live-table .subTabs li.selected {
+  opacity: 1;
+}
+#live-table .subTabs a {
+  height: auto;
+  padding: 6px 10px;
+  color: #fff;
+}
+#live-table .subTabs a:hover {
+  text-decoration: none;
+}
+#live-table .subTabs--odds {
+  justify-content: flex-end;
+}
+#live-table .subTabs--odds ul {
+  margin-left: 4px;
+}
+#live-table .subTabs--odds li {
+  margin: 0 0 1px 1px;
+}
+#live-table .subTabs--label {
+  height: 27px;
+  font-weight: bold;
+  text-transform: var(--text-transform);
+}
+#live-table .subTabs--participantPage {
+  border: none;
+  padding: 0;
+}
+#live-table .subTabs--participantPage .tabs__list {
+  padding-top: 0;
+  padding-left: 2px;
+}
+#live-table .subTabs--participantPage li {
+  margin: 0 0 0 2px;
+}
+#live-table .subTabs--participantPage li:hover {
+  opacity: 1;
+}
+#live-table {
+  position: relative;
+}
+.event {
+  box-sizing: border-box;
+  position: relative;
+}
+.event__match {
+  position: relative;
+  cursor: pointer;
+}
+.event__match:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.event__match--last:not(:last-of-type) {
+  border-bottom: none;
+}
+.event__match--disabledDetail {
+  cursor: inherit;
+}
+.event__match--disabledDetail .odds__odd {
+  cursor: pointer;
+}
+.event__match--disabledDetail .no-odds {
+  cursor: inherit;
+}
+.event__check {
+  display: flex;
+  flex-shrink: 0;
+  width: 13px;
+  height: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.event__check.checked {
+  background-color: var(--secondary-sport-color);
+  border-color: var(--secondary-sport-color);
+}
+.event__check.checked:hover {
+  opacity: .4;
+}
+.event__check.checked::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+.event__stage--block {
+  text-align: center;
+}
+.event__stage--pkv {
+  color: #b0b0b0;
+}
+.event__stage--pkv:hover {
+  color: #000;
+}
+.event__service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+}
+.event__service::before {
+  content: "";
+  display: flex;
+}
+.event .event__scores {
+  display: flex;
+  text-align: center;
+  line-height: 23px;
+  flex-wrap: wrap;
+}
+.event .event__scores .event__part {
+  color: #656565;
+  font-weight: normal;
+  width: 100%;
+}
+.event__participant {
+  flex: 1;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.event .highlightMsg {
+  display: flex;
+}
+.event__highScoringChance {
+  display: flex;
+}
+.event .age,
+.event .weight,
+.event .golf .player_cut_off,
+.event .hole_start_time {
+  color: #b0b0b0;
+}
+.event .current-distance {
+  font-weight: bold;
+}
+.event__runRate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b0b0b0;
+}
+.event__frames {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b0b0b0;
+}
+.event__frames--inner:hover {
+  cursor: default;
+  color: #000;
+}
+.event__match > .event__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.event .icon--winner {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+.event .icon--info {
+  right: 70px;
+}
+.event .icon--tv {
+  right: 55px;
+}
+.event .icon--standing {
+  right: 38px;
+}
+.event .event__icon:hover {
+  opacity: 0.6;
+}
+.event__icons {
+  position: relative;
+}
+.event__icons .event__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.event__icons .icon--info {
+  right: 38px;
+}
+.event__icons .icon--tv {
+  right: 23px;
+}
+.event__icons .icon--standing {
+  right: 6px;
+}
+.event__icon--slim.icon--tv {
+  right: 37px;
+}
+.event__icon--slim.icon--info {
+  right: 56px;
+}
+.event__more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  cursor: pointer;
+  height: 46px;
+}
+.event__more::after {
+  content: '';
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 0.15625em 0.15625em 0 0;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  position: relative;
+  transform: rotate(135deg) translateY(1px);
+}
+.event__more:hover {
+  text-decoration: none;
+}
+.event__spacer {
+  background: rgba(0, 0, 0, 0.1);
+  height: 15px;
+  align-self: center;
+}
+.event .extraInfo__text--center {
+  line-height: 36px;
+  text-align: center;
+  border-top: 1px solid #E5E5E5;
+}
+@media screen and (min-width: 0) {
+  .event .blinking-svg {
+    transform: scale(1.26);
+  }
+  .event__highScoringChance {
+    align-items: center;
+    justify-content: center;
+    height: 19px;
+    width: 19px;
+  }
+  .event .event__mgDropdown {
+    align-self: center;
+    background-color: #F0F0F0;
+  }
+  .event__more {
+    height: 23px;
+  }
+  .event .extraInfo__text--center {
+    line-height: 23px;
+  }
+  .event:not(.event--myGames) .extraInfo__text--center {
+    border-top: 1px solid #E5E5E5;
+  }
+  .event .extraInfo__text--center {
+    line-height: 23px;
+    text-align: center;
+  }
+}
+.event--myTeams .sportName .event__match--last {
+  border-bottom: none;
+}
+.event--myTeams .sportName:last-child:not(:only-child) .event__match--last {
+  border-bottom: 1px solid #E5E5E5;
+}
+.event--myTeams .sportName:only-child .event__match--last:last-of-type {
+  border-bottom: 1px solid #E5E5E5;
+}
+.event--myGames .sportName .sportName .event__match--last {
+  border-bottom: none;
+}
+.event--myGames .sportName .sportName:last-child:not(:only-child) .event__match--last {
+  border-bottom: 1px solid #E5E5E5;
+}
+.event--myGames .sportName .sportName:only-child .event__match--last:last-of-type {
+  border-bottom: 1px solid #E5E5E5;
+}
+.event .event__header--mgDropdown + .event__header--info {
+  padding: 0 0 0 60px;
+}
+.event__result--noLive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event__stageName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+@media screen and (min-width: 0) {
+  .event__stageName {
+    margin-left: 34px;
+  }
+  .event__stageName + .event__rating {
+    margin-left: 0;
+  }
+}
+.event .no-match {
+  line-height: 23px;
+  padding: 0 10px;
+}
+@media screen and (min-width: 0) {
+  .event .event__match__header--mgDropdown .event__rating {
+    margin-left: 60px;
+  }
+}
+#live-table .tabs--mgGroups li.selected {
+  font-weight: normal;
+}
+#live-table .tabs--mgGroups li {
+  height: 24px;
+}
+.tabs--mgGroups {
+  padding-top: 10px;
+}
+.event__match--inline .event__mgDropdown {
+  margin-left: 28px;
+  margin-right: 6px;
+}
+.event__match--inline .event__mgDropdown + .event__time,
+.event__match--inline .event__mgDropdown + .event__stage {
+  margin-left: 0;
+}
+.event__match--noDuel .event__mgDropdown {
+  margin-left: 28px;
+  margin-right: 6px;
+}
+.event__match--noDuel .event__mgDropdown + .event__rating {
+  margin-left: 0;
+}
+.event .win_lose_icon {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17px;
+  height: 17px;
+}
+.event--summary {
+  margin-bottom: 10px;
+}
+.event--summary:nth-of-type(1) {
+  margin-top: 10px;
+}
+.event--static .event__match--noDuel.event__match--last:last-child {
+  border-bottom: 1px solid #E5E5E5;
+}
+@media screen and (max-width: 0) {
+  #live-table .event--static .icon--preview {
+    align-self: flex-end;
+  }
+}
+.event .leagues--static .event__time--usFormat .icon--preview {
+  margin-top: 0;
+}
+.event__match + .event__round {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.event__round {
+  height: 23px;
+  background-color: #E9E9E9;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.calendar {
+  cursor: pointer;
+}
+.calendar,
+.calendar__nav,
+.calendar__direction,
+.calendar__datepicker {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.calendar__nav,
+.calendar__direction,
+.calendar__datepicker {
+  height: 36px;
+}
+.calendar__nav {
+  flex: 0 0 36px;
+}
+.calendar__direction {
+  background-color: #e7e7e7;
+  justify-content: center;
+  width: 100%;
+}
+.calendar__direction:hover {
+  background-color: #d9d9d9;
+}
+.calendar__direction::after {
+  content: '';
+  border-style: solid;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  transform: rotate(-45deg) translate(-1px, 1px);
+}
+.calendar__direction--yesterday {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.calendar__direction--yesterday::after {
+  margin-left: 2px;
+  border-width: 0.15625em 0 0 0.15625em;
+  top: -1px;
+}
+.calendar__direction--tomorrow {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.calendar__direction--tomorrow::after {
+  margin-right: 2px;
+  border-width: 0 0.15625em 0.15625em 0;
+  top: -1px;
+}
+.calendar__datepicker {
+  position: relative;
+  color: #656565;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  justify-content: center;
+  background-color: #e7e7e7;
+}
+.calendar__datepicker:hover {
+  background-color: #d9d9d9;
+}
+.calendar__datepicker:last-child {
+  margin-right: 21px;
+}
+.calendar__datepicker .icon {
+  margin-right: 10px;
+}
+.calendar__datepicker--dates {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: 2px 4px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.calendar__datepicker--dates .day {
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+  color: #656565;
+  font-weight: normal;
+}
+.calendar__datepicker--dates .day:hover {
+  background-color: #e7e7e7;
+}
+.calendar__datepicker--dates .day.day.active {
+  color: #fff;
+  background-color: var(--secondary-sport-color);
+}
+.calendar__datepicker--dates .day.day.active:hover {
+  color: #656565;
+}
+@media screen and (min-width: 0) {
+  .calendar {
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .calendar__datepicker {
+    width: auto;
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: var(--secondary-sport-color);
+  }
+  .calendar__nav {
+    flex: 0 0 20px;
+    width: 20px;
+  }
+  .calendar,
+  .calendar__nav,
+  .calendar__direction,
+  .calendar__datepicker {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 28px;
+  }
+  .calendar__direction::after {
+    width: 4px;
+    height: 4px;
+  }
+  .calendar__direction--yesterday {
+    border-right: none;
+  }
+  .calendar__direction--tomorrow {
+    border-left: none;
+  }
+}
+.odds {
+  box-sizing: border-box;
+}
+.odds__odd {
+  color: #b0b0b0;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+}
+.odds__odd.win {
+  background-color: #656565;
+  color: #fff;
+}
+.odds__odd.win:hover.no-odds {
+  background-color: #656565;
+}
+.odds__odd--spread,
+.odds__odd--total {
+  width: 110px;
+}
+.odds__odd--moneyline {
+  width: 57px;
+}
+.odds__odd.no-odds .not-published {
+  text-decoration: none;
+}
+.odds__odd .not-published {
+  text-decoration: line-through;
+}
+.odds .event__participant .icon {
+  margin: 0 1px;
+}
+.odds .event__participant .icon--winner,
+.odds .event__participant .icon--redCard:first-of-type {
+  margin-left: 6px;
+}
+.odds .event__participant .icon.redCard--last {
+  margin-right: 0;
+}
+.odds .event__header .odds__odd {
+  min-width: 53px;
+  justify-content: center;
+}
+.odds .event__header .last {
+  margin-right: 31px;
+}
+.odds__message {
+  margin-top: 10px;
+  background-color: #FFF4BD;
+  padding: 15px 25px;
+}
+.odds .event__match__header .odds__odd {
+  color: #b0b0b0;
+}
+.odds .event__match--oneLine .last,
+.odds .event__match__header--duel .last {
+  margin-right: 31px;
+}
+@media screen and (min-width: 0) {
+  .odds__odd {
+    color: #656565;
+  }
+  .odds__odd.ah_handicap,
+  .odds__odd.ou_total {
+    color: #67a8d8;
+  }
+  .odds__odd:hover {
+    text-decoration: underline;
+  }
+  .odds__odd:hover.odds__odd--betslip {
+    background-color: #98F83F;
+  }
+  .odds__odd:hover.ah_handicap,
+  .odds__odd:hover.ou_total,
+  .odds__odd:hover.no-odds {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .odds__odd:hover.odds__odd--notPublished {
+    text-decoration: none;
+  }
+  .odds__odd.win {
+    background-color: #fc9;
+    color: #656565;
+  }
+  .odds__odd.win:hover.no-odds {
+    background-color: #fc9;
+  }
+  .odds .event__rounds {
+    width: 143px;
+  }
+  .odds .netball .event__scores,
+  .odds .basketball .event__scores {
+    width: 67px;
+  }
+  .odds .mma .event__scores,
+  .odds .boxing .event__scores,
+  .odds .aussie-rules .event__scores {
+    width: 170px;
+  }
+  .odds .cycling .event__match--noDuel .event__rating {
+    width: 52px;
+  }
+  .odds .cycling .odds__odd {
+    width: 53px;
+  }
+  .odds .cycling .last {
+    margin: 0;
+  }
+  .odds .golf .event__match--noDuel .event__rating,
+  .odds .golf .event__match__header--noDuel .event__rating {
+    width: 47px;
+  }
+  .odds .golf .event__match--oneLine .event__result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+  }
+  .odds .golf .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .golf .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline) {
+    width: 67px;
+  }
+  .odds .golf .last {
+    margin-right: 0;
+  }
+  .odds .motorsport-moto-racing .event__match:not(.event__match--twoLine) .event__rating,
+  .odds .motorsport-auto-racing .event__match:not(.event__match--twoLine) .event__rating,
+  .odds .winter-sports .event__match:not(.event__match--twoLine) .event__rating,
+  .odds .winter-sports-biathlon .event__match:not(.event__match--twoLine) .event__rating,
+  .odds .winter-sports-ski-jumping .event__match:not(.event__match--twoLine) .event__rating,
+  .odds .winter-sports-alpine-skiing .event__match:not(.event__match--twoLine) .event__rating,
+  .odds .winter-sports-cross-country .event__match:not(.event__match--twoLine) .event__rating,
+  .odds .motorsport-moto-racing .event__header .event__rating,
+  .odds .motorsport-auto-racing .event__header .event__rating,
+  .odds .winter-sports .event__header .event__rating,
+  .odds .winter-sports-biathlon .event__header .event__rating,
+  .odds .winter-sports-ski-jumping .event__header .event__rating,
+  .odds .winter-sports-alpine-skiing .event__header .event__rating,
+  .odds .winter-sports-cross-country .event__header .event__rating {
+    width: 40px;
+  }
+  .odds .motorsport-moto-racing .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .motorsport-auto-racing .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-biathlon .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-ski-jumping .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-alpine-skiing .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-cross-country .event__match:not(.event__match--twoLine) .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .motorsport-moto-racing .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .motorsport-auto-racing .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-biathlon .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-ski-jumping .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-alpine-skiing .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline),
+  .odds .winter-sports-cross-country .event__header .odds__odd:not(.odds__odd--spread):not(.odds__odd--total):not(.odds__odd--moneyline) {
+    width: 70px;
+  }
+  .odds .motorsport-moto-racing .last,
+  .odds .motorsport-auto-racing .last,
+  .odds .winter-sports .last,
+  .odds .winter-sports-biathlon .last,
+  .odds .winter-sports-ski-jumping .last,
+  .odds .winter-sports-alpine-skiing .last,
+  .odds .winter-sports-cross-country .last {
+    margin-right: 0;
+  }
+}
+.project-bonus {
+  margin-right: 31px;
+  display: block;
+  width: 143px;
+  line-height: 25px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /* Winline */
+  /* bet365 */
+  /* bet365.it */
+  /* bwin */
+  /* bwin.it */
+  /* bwin.fr */
+  /* Superbahis */
+  /* Unibet */
+  /* William Hill */
+  /* William Hill IT */
+  /* 10Bet */
+  /* Europebet */
+}
+.project-bonus:hover {
+  text-decoration: underline;
+}
+.project-bonus.bookmaker454 {
+  background: #ff9032;
+  color: #222222;
+}
+.project-bonus.bookmaker16,
+.project-bonus.bookmaker419 {
+  background: #025A44;
+}
+.project-bonus.bookmaker2,
+.project-bonus.bookmaker53,
+.project-bonus.bookmaker129 {
+  background: #1e1e1e;
+}
+.project-bonus.bookmaker98 {
+  background: #63090b;
+}
+.project-bonus.bookmaker5 {
+  background: #3e7b01;
+}
+.project-bonus.bookmaker15,
+.project-bonus.bookmaker372 {
+  background: #004d88;
+}
+.project-bonus.bookmaker14 {
+  background: #06284d;
+}
+.project-bonus.bookmaker493 {
+  background: #e9592c;
+}
+.event__match--oneLine {
+  display: flex;
+  min-height: 23px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.event__match--oneLine .event__check {
+  left: 5px;
+  position: absolute;
+  align-self: center;
+}
+.event__match--oneLine .event__time,
+.event__match--oneLine .event__stage {
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+  width: 69px;
+  margin-left: 23px;
+  line-height: 15px;
+  text-align: center;
+}
+.event__match--oneLine .event__time--usFormat,
+.event__match--oneLine .event__stage--usFormat {
+  width: 84px;
+}
+.event__match--oneLine .event__time {
+  justify-content: space-around;
+}
+.event__match--oneLine .event__stage {
+  justify-content: center;
+}
+.event__match--oneLine .event__stage--pkv {
+  padding-left: 5px;
+}
+.event__match--oneLine .event__scores {
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.event__match--oneLine .event__score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event__match--oneLine .event__participant {
+  align-self: center;
+  padding-left: initial;
+  line-height: 19px;
+}
+.event__match--oneLine .event__participant .icon {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.event__match--oneLine .event__participant--home {
+  padding-right: 10px;
+  justify-content: flex-end;
+  text-align: right;
+}
+.event__match--oneLine .event__participant--home .redCard--last {
+  margin-right: 6px;
+}
+.event__match--oneLine .event__participant--home .redCard--first {
+  margin-left: 0;
+}
+.event__match--oneLine .event__participant--home .icon--winner {
+  margin-right: 6px;
+}
+.event__match--oneLine .event__participant--home .highlightMsg {
+  margin-right: auto;
+  margin-left: 12px;
+  float: left;
+}
+.event__match--oneLine .event__participant--away {
+  padding-left: 10px;
+  margin-right: 137px;
+}
+.event__match--oneLine .event__participant--away .redCard--first {
+  margin-left: 6px;
+}
+.event__match--oneLine .event__participant--away .redCard--last {
+  margin-right: 0;
+}
+.event__match--oneLine .event__participant--away .icon--winner {
+  margin-left: 6px;
+}
+.event__match--oneLine .event__participant--away .highlightMsg {
+  margin-left: auto;
+  margin-right: 12px;
+  float: right;
+}
+.event__match--oneLine .highlight-message {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 19px;
+}
+.event__match--oneLine > .event__part {
+  position: absolute;
+  color: #b0b0b0;
+  right: 83px;
+  width: 47px;
+  text-align: center;
+  align-self: center;
+  line-height: 14px;
+}
+.event__match--oneLine .event__live--icon {
+  right: 2px;
+  position: absolute;
+}
+.event__match--oneLine .win_lose_icon {
+  margin-right: 5px;
+}
+.event__match--oneLine .event__mgDropdown {
+  margin-left: 28px;
+  margin-right: 6px;
+}
+.event__match--oneLine .event__mgDropdown + .event__time,
+.event__match--oneLine .event__mgDropdown + .event__stage {
+  margin-left: 0;
+}
+.event__match--twoLine {
+  display: grid;
+  border-bottom: 1px solid #E5E5E5;
+}
+.event__match--twoLine .event__check {
+  justify-self: center;
+  align-self: center;
+  position: relative;
+}
+.event__match--twoLine .event__stage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 15px;
+  text-align: right;
+}
+.event__match--twoLine .event__time {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 15px;
+  text-align: right;
+}
+.event__match--twoLine .event__participant {
+  display: flex;
+  align-items: center;
+}
+.event__match--twoLine .event__participant--highlighted {
+  font-weight: bold;
+}
+.event__match--twoLine .event__participant--highlighted div {
+  font-weight: normal;
+}
+.event__match--twoLine .event__score {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.event__match--twoLine .highlightMsg {
+  margin-left: auto;
+  margin-right: 8px;
+}
+.event__match--twoLine .event__part {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #b0b0b0;
+}
+.event__match--twoLine .event__part--2 {
+  color: #656565;
+}
+.event__match--twoLine .event__result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event__match--twoLine .event__rounds {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 19px;
+  text-align: right;
+}
+.event__match--twoLine .event__sets,
+.event__match--twoLine .event__legs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event__match--twoLine .event__pitchers {
+  text-align: right;
+  padding: 0 5px;
+  line-height: 23px;
+}
+.event__match--twoLine .icon--winner {
+  margin-left: 6px;
+}
+.event__match--twoLine .icon--redCard {
+  text-align: center;
+  margin-left: 6px;
+}
+.event__match--twoLine .icon--preview {
+  margin-top: 2px;
+}
+.event__match--twoLine .extraInfo {
+  display: grid;
+  border-top: 1px solid #E5E5E5;
+}
+.event__match--twoLine .extraInfo__text {
+  line-height: 13px;
+}
+.event__match--twoLine .extraInfo__overs,
+.event__match--twoLine .extraInfo__batsmanAndBowler {
+  text-align: right;
+}
+@media screen and (min-width: 0) {
+  .event__match--twoLine .event__time,
+  .event__match--twoLine .event__stage {
+    text-align: center;
+  }
+  .event__match--twoLine .event__part,
+  .event__match--twoLine .event__stage,
+  .event__match--twoLine .event__score {
+    justify-content: center;
+  }
+  .event__match--twoLine .event__time {
+    align-items: center;
+  }
+  .event__match--twoLine .event__rounds {
+    text-align: center;
+    align-items: center;
+    line-height: 23px;
+  }
+  .event__match--twoLine .event__participant {
+    line-height: 19px;
+    padding-left: 10px;
+  }
+  .event__match--twoLine .event__part--2 {
+    font-weight: initial;
+    color: #b0b0b0;
+  }
+  .event__match--twoLine .extraInfo {
+    border-top: none;
+  }
+  .event__match--twoLine .extraInfo__text {
+    line-height: 23px;
+  }
+  .event__match--twoLine .highlightMsg {
+    margin-right: 12px;
+  }
+}
+.event > div > div > div:last-child .event__match--noDuel.event__match--last {
+  border-bottom: 1px solid #E5E5E5;
+}
+.event > div > div > div:last-child .event__match--noDuel.event__match--last + .extraInfo__text--center {
+  border-top: none;
+}
+.event__match--noDuel {
+  display: grid;
+  border-bottom: 1px solid #E5E5E5;
+}
+.event__match--noDuel.event__match--last {
+  border-bottom: none;
+}
+.event__match--noDuel .event__check {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+}
+.event__match--noDuel .event__participant {
+  display: flex;
+  align-items: center;
+}
+.event__match--noDuel .event__participant--team {
+  color: #b0b0b0;
+}
+.event__match--noDuel .highlightMsg {
+  margin-left: auto;
+  margin-right: 12px;
+}
+.event__match--noDuel .event__result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event__match--noDuel .event__result.finished {
+  font-weight: bold;
+}
+.event__match--noDuel .event__result--rank.playing {
+  font-weight: bold;
+}
+.event__match--noDuel .event__rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.event__match--noDuel .event__rating.highlighted,
+.event__match--noDuel .event__rating.highlighted-shift {
+  background-repeat: no-repeat;
+}
+.event__match--noDuel .event__rating.no-highlight {
+  background-color: transparent;
+}
+.event__match--noDuel .event__rating::before {
+  position: absolute;
+  display: flex;
+  width: 8px;
+  height: 10px;
+  top: calc(50% - 5px);
+  left: -2px;
+}
+.event__match--noDuel .event__rating.position-up::before {
+  content: '';
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -210px -30px;
+}
+.event__match--noDuel .event__rating.position-down::before {
+  content: '';
+  background-image: url(../../res/_fs/build/liveTable.a1acf29.svg);
+  background-repeat: no-repeat;
+  background-position: -210px 0px;
+}
+@media screen and (min-width: 0) {
+  .event__match--noDuel {
+    display: flex;
+    min-height: 23px;
+  }
+  .event__match--noDuel .event__check {
+    left: 5px;
+  }
+  .event__match--noDuel .event__rating {
+    width: 52px;
+    margin-left: 23px;
+  }
+  .event__match--noDuel .event__rating::before {
+    left: 4px;
+  }
+  .event__match--noDuel .event__participant {
+    padding-left: 10px;
+    line-height: 19px;
+  }
+  .event__match--noDuel .event__participant--team {
+    color: #656565;
+  }
+}
+.odds .event__match--oneLine .odds__odd {
+  min-width: 53px;
+  justify-content: center;
+}
+.odds .event__match--oneLine .event__participant--home {
+  padding-left: 10px;
+  padding-right: initial;
+  justify-content: initial;
+  text-align: initial;
+}
+.odds .event__match--oneLine .event__participant--away {
+  margin-right: initial;
+}
+.odds .event__match--oneLine .event__rounds {
+  line-height: 23px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.odds .event__match--oneLine .event__rounds--result {
+  font-weight: bold;
+}
+.odds .event__match--twoLine .odds__odd {
+  justify-content: center;
+}
+.odds .event__match--twoLine .event__scores {
+  align-items: center;
+  justify-content: center;
+}
+.odds .event__match--twoLine .icon--preview {
+  margin: inherit;
+}
+.odds .event__match--twoLine .event__rounds {
+  font-weight: bold;
+}
+.odds .event__match--twoLine .event__rounds--subResult {
+  font-weight: normal;
+}
+.odds .event__match--twoLine .event__result {
+  justify-content: flex-end;
+}
+.odds .event__match--twoLine .event__odds {
+  display: flex;
+  width: var(--odds-column-width, 36px);
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  font-size: 10px;
+  color: #b0b0b0;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.odds .event__match--twoLine .event__odds .odds__odd {
+  margin: 1px 0;
+  justify-content: space-around;
+}
+.odds .event__match--twoLine .event__odds .odds__odd .odds__odd {
+  padding: 0 1px;
+}
+@media screen and (min-width: 0) {
+  .odds .event__match--twoLine .event__result {
+    justify-content: center;
+  }
+}
+.odds .event__match--noDuel .odds__odd {
+  justify-content: center;
+  min-width: 53px;
+}
+.odds .event__match--noDuel .event__odds {
+  display: grid;
+  border-top: 1px solid #E5E5E5;
+}
+.event__match__header--duel {
+  display: grid;
+  justify-content: center;
+}
+.event__match__header--duel > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 0) {
+  .event__match__header--duel {
+    padding: 1px 0;
+  }
+}
+.event__match__header--noDuel {
+  display: grid;
+}
+.event__match__header--noDuel .event__rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event__match__header--noDuel .event__participant {
+  display: flex;
+  align-items: center;
+}
+.event__match__header--noDuel .event__result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 0) {
+  .event__match__header--noDuel {
+    display: flex;
+    height: 23px;
+  }
+  .event__match__header--noDuel .odds__odd {
+    justify-content: center;
+  }
+  .event__match__header--noDuel .event__rating {
+    width: 52px;
+    margin-left: 23px;
+  }
+  .event__match__header--noDuel .event__participant {
+    padding-left: 10px;
+  }
+}
+.event .sportName:not(.cricket) .event__match--live .event__stage,
+.event .sportName:not(.cricket) .event__match--live .event__scores,
+.event .sportName:not(.cricket) .event__match--live .event__score,
+.event .sportName:not(.cricket) .event__match--live .event__sets,
+.event .sportName:not(.cricket) .event__match--live .event__legs {
+  color: #cc0000;
+}
+.event .sportName:not(.cricket) .event__match--highlight {
+  background-color: #FFD8D8;
+}
+.highlighted {
+  background-color: #FFD8D8;
+}
+.event__part.highlighted,
+.event__result.highlighted {
+  color: #84705b;
+}
+.event__part.highlightedDistance,
+.event__result.highlightedDistance {
+  background-color: #FFD8D8;
+}
+.highlightMsg,
+.playing {
+  color: #cc0000;
+}
+.no-highlight {
+  background-color: transparent;
+}
+.event__match--oneLine .event__participant.highlighted {
+  background-color: transparent;
+}
+.event__match--noDuel .playing {
+  color: #cc0000;
+}
+.event .cricket .event__match--live .event__stage {
+  color: #cc0000;
+}
+.event .cricket .highlighted {
+  background-color: #FFD8D8;
+}
+@media screen and (max-width: 0) {
+  .event__participant--highlighted {
+    color: #cc0000;
+  }
+}
+.sportHeader {
+  height: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 4px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-sport-color);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sportHeader .sportIcon {
+  background-position-y: -30px;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+.event__match__header {
+  color: #b0b0b0;
+  cursor: inherit;
+  border-bottom: 1px solid #E5E5E5;
+}
+.event__match__header:hover {
+  background-color: initial;
+}
+.event__header {
+  height: 46px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #E9E9E9;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: grid;
+  grid-template-columns: 31px 1fr;
+  grid-auto-flow: column;
+  grid-template-areas: " check title ";
+}
+.event__header .event__check {
+  justify-self: center;
+  align-self: center;
+  position: relative;
+}
+.event__header:not(:only-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.event__header.top {
+  background-color: #ffe1af;
+}
+.event--myGames .event__header.top,
+.event--myTeams .event__header.top {
+  background-color: #E9E9E9;
+}
+.event__header--no-my-games {
+  padding-left: 31px;
+  grid-template-columns: 1fr;
+  grid-template-areas: " title ";
+}
+.event__header--info {
+  height: auto;
+  min-height: 28px;
+  padding: 6px 10px 6px 28px;
+  display: block;
+  box-sizing: border-box;
+}
+.event__header--info span + span::before {
+  content: "\A0|\A0";
+}
+.golf .event__header--info .no-odds {
+  width: 67px;
+}
+.event__header--info .no-odds:first-of-type {
+  margin-left: auto;
+}
+.event__header + .event__header {
+  border-top: none;
+}
+.event__header .toggleMyLeague {
+  flex-shrink: 0;
+}
+.event__info {
+  opacity: 0.6;
+  cursor: pointer;
+  margin-right: 41px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.event__info.active {
+  opacity: 1;
+  text-decoration: underline;
+}
+.event__info.active:hover {
+  text-decoration: none;
+}
+.event__titleBox {
+  display: grid;
+  grid-row-gap: 2px;
+  flex-flow: row nowrap;
+  line-height: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  grid-template-areas: " name " " type ";
+}
+.event__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.event__title--type {
+  opacity: 0.6;
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: var(--text-transform);
+}
+.event__title--name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: underline;
+}
+.event__title--name:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.event__title .icon--star {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.event__title .icon--star:hover {
+  opacity: 0.6;
+}
+.event__expander {
+  width: 35px;
+  margin-left: 10px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event__expander:not(.event__expander--disabled) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.3);
+}
+.event__expander:not(.event__expander--disabled):hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.event__startTime {
+  margin-right: 10px;
+}
+@media screen and (min-width: 0) {
+  .event__titleBox {
+    display: flex;
+  }
+  .event__header {
+    height: 25px;
+    grid-template-columns: 23px 1fr;
+  }
+  .event__header--no-my-games {
+    padding-left: 23px;
+    grid-template-columns: 1fr;
+  }
+  .event__header--mgDropdown {
+    grid-template-columns: 23px max-content 1fr;
+    grid-template-areas: " check dropdown title ";
+  }
+  .event__header .event__mgDropdown {
+    background-color: #FFFFFF;
+  }
+  .event__header--noExpand .event__info {
+    margin-right: 10px;
+  }
+  .event__header--info {
+    display: flex;
+    min-height: auto;
+    padding: 0 0 0 28px;
+    box-sizing: content-box;
+  }
+  .event__header--info span {
+    margin-right: 15px;
+  }
+  .event__header--info span + span::before {
+    content: none;
+  }
+  .event__title {
+    margin-left: 5px;
+  }
+  .event__title--name {
+    text-decoration: none;
+  }
+  .event__title--name:hover {
+    text-decoration: underline;
+  }
+  .event__title--type {
+    opacity: 1;
+    font-size: 11px;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  .event__title--type::after {
+    content: ':\A0';
+  }
+  .event__expander {
+    width: 30px;
+  }
+}
+.event .soccer .event__match,
+.event .hockey .event__match,
+.event .bandy .event__match,
+.event .esports .event__match,
+.event .floorball .event__match,
+.event .futsal .event__match,
+.event .netball .event__match,
+.event .beach-soccer .event__match,
+.event .field-hockey .event__match,
+.event .handball .event__match,
+.event .kabaddi .event__match,
+.event .rugby-union .event__match,
+.event .rugby-league .event__match,
+.event .snooker .event__match,
+.event .water-polo .event__match {
+  grid-template: " .     .               .     .                     .         . odds .        " 5px " check homeParticipant stage homeScoreInRegulation homeScore . odds liveIcon " minmax(19px, auto) " check awayParticipant stage awayScoreInRegulation awayScore . odds liveIcon " minmax(19px, auto) " .     .               .     .                     .         . odds .        " 5px / 31px 1fr 48px max-content 26px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .soccer .event__match--scheduled,
+.event .hockey .event__match--scheduled,
+.event .bandy .event__match--scheduled,
+.event .esports .event__match--scheduled,
+.event .floorball .event__match--scheduled,
+.event .futsal .event__match--scheduled,
+.event .netball .event__match--scheduled,
+.event .beach-soccer .event__match--scheduled,
+.event .field-hockey .event__match--scheduled,
+.event .handball .event__match--scheduled,
+.event .kabaddi .event__match--scheduled,
+.event .rugby-union .event__match--scheduled,
+.event .rugby-league .event__match--scheduled,
+.event .snooker .event__match--scheduled,
+.event .water-polo .event__match--scheduled {
+  grid-template-columns: 31px 1fr 34px max-content 40px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .basketball .event__match {
+  grid-template: " .     .               .     .                     .         . odds .        " 5px " check homeParticipant stage homeScoreInRegulation homeScore . odds liveIcon " minmax(19px, auto) " check awayParticipant stage awayScoreInRegulation awayScore . odds liveIcon " minmax(19px, auto) " .     .               .     .                     .         . odds .        " 5px / 31px 1fr 40px max-content 34px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .basketball .event__match--scheduled {
+  grid-template-columns: 31px 1fr 34px max-content 40px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .aussie-rules .event__match {
+  grid-template: " .     .               .     .         . odds .        " 5px " check homeParticipant stage homeScore . odds liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore . odds liveIcon " minmax(19px, auto) " .     .               .     .         . odds .        " 5px / 31px 1fr 34px 90px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .aussie-rules .event__match--scheduled {
+  grid-template-columns: 31px 1fr 90px 34px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .mma .event__match,
+.event .boxing .event__match {
+  grid-template: " .      .               .     .      . odds .        " 5px " check  homeParticipant stage rounds . odds liveIcon " minmax(19px, auto) " check  awayParticipant stage rounds . odds liveIcon " minmax(19px, auto) " .      .               .     .      . odds .        " 5px / 31px 1fr 34px 100px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .mma .event__match--scheduled,
+.event .boxing .event__match--scheduled {
+  grid-template: " .     .               .     .         . odds .        " 5px " check homeParticipant stage homeScore . odds liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore . odds liveIcon " minmax(19px, auto) " .     .               .     .         . odds .        " 5px / 31px 1fr 100px 34px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .tennis .event__match {
+  grid-template: " .     .               .           .         .         .         .        " 5px " check homeParticipant homeService homePart1 homePart2 homeScore liveIcon " minmax(19px, auto) " check awayParticipant awayService awayPart1 awayPart2 awayScore liveIcon " minmax(19px, auto) " .     .               .           .         .         .         .        " 5px / 31px 1fr 19px 20px 20px 20px 46px;
+}
+.event .tennis .event__match--scheduled {
+  grid-template-columns: 31px 1fr 19px 0 0 60px 46px;
+}
+.event .table-tennis .event__match,
+.event .beach-volleyball .event__match,
+.event .volleyball .event__match,
+.event .badminton .event__match {
+  grid-template: " .     .               .     .           .         .         .        " 5px " check homeParticipant stage homeService homePart1 homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage awayService awayPart1 awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .         .        " 5px / 31px 1fr 34px 19px 20px 20px 46px;
+}
+.event .table-tennis .event__match--scheduled,
+.event .beach-volleyball .event__match--scheduled,
+.event .volleyball .event__match--scheduled,
+.event .badminton .event__match--scheduled {
+  grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage awayService awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 34px 19px 40px 46px;
+}
+.event .american-football .event__match {
+  grid-template: " .     .               .     .         .        " 5px " check homeParticipant stage homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore liveIcon " minmax(19px, auto) " .     .               .     .         .        " 5px / 31px 1fr 63px 34px 46px;
+}
+.event .american-football .event__match--live,
+.event .american-football .event__match--scheduled {
+  grid-template: " .     .               .     .    .           .         .        " 5px " check homeParticipant stage .    homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage .    awayService awayScore liveIcon " minmax(19px, auto) " .     .               .     .    .           .         .        " 5px / 31px 1fr 34px 10px 19px 34px 46px;
+}
+.event .baseball .event__match,
+.event .darts .event__match,
+.event .pesapallo .event__match {
+  grid-template: " .     .               .     .         .        " 5px " check homeParticipant stage homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore liveIcon " minmax(19px, auto) " .     .               .     .         .        " 5px / 31px 1fr 67px 34px 46px;
+}
+.event .baseball .event__match--live,
+.event .darts .event__match--live,
+.event .pesapallo .event__match--live,
+.event .baseball .event__match--scheduled,
+.event .darts .event__match--scheduled,
+.event .pesapallo .event__match--scheduled {
+  grid-template: " .     .               .     .    .           .         .        " 5px " check homeParticipant stage .    homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage .    awayService awayScore liveIcon " minmax(19px, auto) " .     .               .     .    .           .         .        " 5px / 31px 1fr 34px 14px 19px 34px 46px;
+}
+.event .cricket .event__match {
+  grid-template: " .     .               .         .         .           .         .         " 5px " check homeParticipant stage     .         homeService homeScore liveIcon  " minmax(19px, auto) " check awayParticipant stage     .         awayService awayScore liveIcon  " minmax(19px, auto) " .     .               .         .         .           .         .         " 5px " .     extraInfo       extraInfo extraInfo extraInfo   extraInfo extraInfo " max-content / 31px 1fr 34px 6px 19px 110px 46px;
+}
+.event .cricket .event__match .extraInfo {
+  grid-template: " .        . " 8px " sentence . " max-content " .        . " 8px / 1fr 5px;
+}
+.event .cycling .event__match {
+  grid-template: " .     .      .           .      " 8px " check rating participant result " minmax(19px, auto) " check rating team        .      " max-content " .     .      .           .      " 8px / 31px 34px 1fr 100px;
+}
+.event .golf .event__match--noDuel,
+.event .golf .event__match__header--noDuel {
+  grid-template: " .     .      .           .      .      " 8px " check rating participant points result " minmax(19px, auto) " .     .      .           .      .      " 8px / 31px 34px 1fr 34px 60px;
+}
+.event .golf .event__match--twoLine {
+  grid-template: " .     .               .      .         .        " 5px " check homeParticipant result homeScore liveIcon " minmax(19px, auto) " check awayParticipant result awayScore liveIcon " minmax(19px, auto) " .     .               .      .         .        " 5px / 31px 1fr 50px 28px 46px;
+}
+.event .golf .event__match--twoLine.event__match--scheduled,
+.event .golf .event__match--twoLine.event__match--live {
+  grid-template: " .     .               .      .         .       " 5px " check homeParticipant stage homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore liveIcon " minmax(19px, auto) " .     .               .      .         .       " 5px / 31px 1fr 44px 34px 46px;
+}
+.event .motorsport-moto-racing .event__match--noDuel,
+.event .motorsport-auto-racing .event__match--noDuel,
+.event .motorsport-moto-racing .event__match__header--noDuel,
+.event .motorsport-auto-racing .event__match__header--noDuel {
+  grid-template: " .     .      .           .      " 8px " check rating participant result " minmax(19px, auto) " check rating team        .      " max-content " .     .      .           .      " 8px / 31px 34px 1fr 100px;
+}
+.event .motorsport-moto-racing .event__match--twoLine,
+.event .motorsport-auto-racing .event__match--twoLine {
+  grid-template: " .     .               .     .         . odds .        " 5px " check homeParticipant stage homeScore . odds liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore . odds liveIcon " minmax(19px, auto) " .     .               .     .         . odds .        " 5px / 31px 1fr 40px 34px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .motorsport-moto-racing .event__match--twoLine.event__match--scheduled,
+.event .motorsport-auto-racing .event__match--twoLine.event__match--scheduled {
+  grid-template-columns: 31px 1fr 34px 40px var(--odds-spacer-width, 0) max-content var(--odds-livebet-width, 46px);
+}
+.event .motorsport-moto-racing--speedway .event__match,
+.event .motorsport-moto-racing--speedway .event__match.event__match--scheduled {
+  grid-template: " .     .      .           .     .    .      " 8px " check rating participant rides wins points " minmax(19px, auto) " .     .      .           .     .    .      " 8px / 31px 34px 1fr 34px 34px 34px;
+}
+.event .winter-sports-alpine-skiing .event__match {
+  grid-template: " .     .      .           .      .   " 8px " check rating participant result gap " minmax(19px, auto) " .     .      .           .      .   " 8px / 31px 34px 1fr 60px 70px;
+}
+.event .winter-sports-biathlon .event__match {
+  grid-template: " .     .      .           .        .     " 8px " check rating participant shooting result" minmax(19px, auto) " .     .      .           .        .     " 8px / 31px 34px 1fr 34px 70px;
+}
+.event .winter-sports-cross-country .event__match {
+  grid-template: " .     .      .           .      .   " 8px " check rating participant result gap " minmax(19px, auto) " .     .      .           .      .   " 8px / 31px 34px 1fr 60px 70px;
+}
+.event .winter-sports-ski-jumping .event__match {
+  grid-template: " .     .      .           .     .     .      " 8px " check rating participant jump1 jump2 result " minmax(19px, auto) " .     .      .           .     .     .      " 8px / 31px 34px 1fr 50px 50px 50px;
+}
+.event .winter-sports-ski-jumping--team .event__match {
+  grid-template: " .     .      .           .      .      " 8px " check rating participant result points " minmax(19px, auto) " .     .      .           .      .      " 8px / 31px 34px 1fr 34px 70px;
+}
+.event .horse-racing .event__match {
+  grid-template: " .     .      .           .      " 8px " check rating participant result " minmax(19px, auto) " check rating team        .      " max-content " .     .      .           .      " 8px / 31px 34px 1fr 70px;
+}
+@media screen and (min-width: 0) {
+  .event .tennis .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeService homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 homePart6 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayService awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 awayPart6 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 19px 1fr 34px 34px 34px 34px 34px 34px 34px 45px 31px;
+  }
+  .event .table-tennis .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeService homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 homePart6 homePart7 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayService awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 awayPart6 awayPart7 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 19px 1fr 34px 34px 34px 34px 34px 34px 34px 34px 45px 31px;
+  }
+  .event .cricket .event__match--twoLine {
+    grid-template: " check     dropdown    stageOrTime  homeService homeParticipant homeScore homeRunRate icons     liveIcon  " minmax(23px, auto) " check     dropdown    stageOrTime  awayService awayParticipant awayScore awayRunRate icons     liveIcon  " minmax(23px, auto) " extraInfo extraInfo   extraInfo    extraInfo   extraInfo       extraInfo extraInfo   extraInfo extraInfo " max-content / 23px max-content 69px 19px 1fr 150px 70px 59px 31px;
+  }
+  .event .cricket .event__match--twoLine .extraInfo {
+    grid-template: " .   sentence .     batsmanAndBowler . " max-content " .   overs    overs overs            . " max-content / 5px auto 5px 1fr 5px;
+  }
+  .event .darts .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeService homeParticipant homeSets homeLegs homeCurrent frames .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayService awayParticipant awaySets awayLegs awayCurrent frames .    liveIcon " minmax(23px, auto) / 23px max-content 69px 19px 1fr 34px 34px 34px 34px 59px 31px;
+  }
+  .event .darts .event__match__header--duel {
+    grid-template: " .     .    .    .   sets legs points .    .    . " 23px / 23px 69px 19px 1fr 34px 34px 34px 34px 59px 31px;
+  }
+  .event .hockey .event__match--twoLine,
+  .event .floorball .event__match--twoLine,
+  .event .basketball .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 34px 34px 34px 34px 34px 59px 31px;
+  }
+  .event .futsal .event__match--twoLine,
+  .event .handball .event__match--twoLine,
+  .event .rugby-union .event__match--twoLine,
+  .event .rugby-league .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 34px 34px 34px 34px 59px 31px;
+  }
+  .event .netball .event__match--twoLine,
+  .event .beach-soccer .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 34px 34px 34px 34px 34px 45px 31px;
+  }
+  .event .bandy .event__match--twoLine,
+  .event .field-hockey .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 34px 34px 34px 34px 45px 31px;
+  }
+  .event .baseball .event__match--twoLine {
+    grid-template: " check    dropdown    stageOrTime homeService homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 homePart6 homePart7 homePart8 homePart9 homePart10 homeSpacer homePart11 homePart12 icons    liveIcon " minmax(23px, auto) " check    dropdown    stageOrTime awayService awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 awayPart6 awayPart7 awayPart8 awayPart9 awayPart10 awaySpacer awayPart11 awayPart12 icons    liveIcon " minmax(23px, auto) " pitchers pitchers    pitchers    pitchers    pitchers        pitchers  pitchers  pitchers  pitchers  pitchers  pitchers  pitchers  pitchers  pitchers  pitchers  pitchers   pitchers   pitchers   pitchers   pitchers pitchers " max-content / 23px max-content 69px 19px 1fr 19px 19px 19px 19px 19px 19px 19px 19px 19px 19px 19px 1px 19px 19px 59px 28px;
+  }
+  .event .baseball .event__match__header--duel {
+    grid-template: ".    .    .    .   score part1 part2 part3 part4 part5 part6 part7 part8 part9 part10 .   part11 part12 .    ." 23px / 23px 69px 19px 1fr 19px 19px 19px 19px 19px 19px 19px 19px 19px 19px 19px 1px 19px 19px 59px 28px;
+  }
+  .event .pesapallo .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeService homeParticipant homeScore homeSpacer1 homePart1 homePart2 homePart3 homePart4 homePart5 homeSpacer2 homePart6 homePart7 homePart8 homePart9 homePart10 homeSpacer3 homePart11 homePart12 icons liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayService awayParticipant awayScore awaySpacer1 awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 awaySpacer2 awayPart6 awayPart7 awayPart8 awayPart9 awayPart10 awaySpacer3 awayPart11 awayPart12 icons liveIcon " minmax(23px, auto) / 23px max-content 69px 19px 1fr 19px 1px 19px 19px 19px 19px 19px 1px 19px 19px 19px 19px 19px 1px 21px 19px 59px 31px;
+  }
+  .event .pesapallo .event__match__header--duel {
+    grid-template: " .    .    .    .   score .   part1 part2 part3 part4 part5 .   part6 part7 part8 part9 part10 .   part11 part12 .    . " 23px / 23px 69px 19px 1fr 19px 1px 19px 19px 19px 19px 19px 1px 19px 19px 19px 19px 19px 1px 21px 19px 59px 31px;
+  }
+  .event .volleyball .event__match--twoLine,
+  .event .american-football .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeService homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayService awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 19px 1fr 34px 34px 34px 34px 34px 34px 59px 31px;
+  }
+  .event .badminton .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeService homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayService awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 19px 1fr 34px 34px 34px 34px 34px 34px 45px 31px;
+  }
+  .event .snooker .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore frames .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore frames .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 42px 45px 31px;
+  }
+  .event .kabaddi .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore homePart1 homePart2 homePart3 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore awayPart1 awayPart2 awayPart3 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 34px 34px 34px 59px 31px;
+  }
+  .event .beach-volleyball .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeService homeParticipant homeScore homePart1 homePart2 homePart3 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayService awayParticipant awayScore awayPart1 awayPart2 awayPart3 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 19px 1fr 34px 34px 34px 34px 45px 31px;
+  }
+  .event .aussie-rules .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 100px 34px 34px 34px 34px 59px 31px;
+  }
+  .event .mma .event__match--twoLine,
+  .event .boxing .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant rounds .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant rounds .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 169px 45px 31px;
+  }
+  .event .esports .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 45px 31px;
+  }
+  .event .golf .event__match--twoLine,
+  .event .golf .event__match--twoLine.event__match--live,
+  .event .golf .event__match--twoLine.event__match--scheduled {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore result .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore result .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 80px 45px 31px;
+  }
+  .event .motorsport-moto-racing .event__match--twoLine,
+  .event .motorsport-auto-racing .event__match--twoLine,
+  .event .motorsport-moto-racing .event__match--twoLine.event__match--scheduled,
+  .event .motorsport-auto-racing .event__match--twoLine.event__match--scheduled {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore  .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore  .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 45px 31px;
+  }
+  .event .water-polo .event__match--twoLine {
+    grid-template: " check dropdown    stageOrTime homeParticipant homeScore homePart1 homePart2 homePart3 homePart4 homePart5 homePart6 .    liveIcon " minmax(23px, auto) " check dropdown    stageOrTime awayParticipant awayScore awayPart1 awayPart2 awayPart3 awayPart4 awayPart5 awayPart6 .    liveIcon " minmax(23px, auto) / 23px max-content 69px 1fr 34px 34px 34px 34px 34px 34px 34px 45px 31px;
+  }
+}
+@media screen and (max-width: 0) {
+  .event--myTeams .cycling .event__match--noDuel,
+  .event--myTeams .horse-racing .event__match--noDuel,
+  .event--myTeams .motorsport-auto-racing .event__match--noDuel,
+  .event--myTeams .motorsport-moto-racing .event__match--noDuel,
+  .event--myTeams .cycling .event__match__header--noDuel,
+  .event--myTeams .horse-racing .event__match__header--noDuel,
+  .event--myTeams .motorsport-auto-racing .event__match__header--noDuel,
+  .event--myTeams .motorsport-moto-racing .event__match__header--noDuel {
+    grid-template: " .     .         .             .      " 8px " check stageName resultMyTeams result " minmax(19px, auto) " .     .         .             .      " 8px / 31px 1fr 34px 100px;
+  }
+  .event--myTeams .golf .event__match--noDuel,
+  .event--myTeams .golf .event__match__header--noDuel {
+    grid-template: " .     .      .           .      .      " 8px " check rating participant points result " minmax(19px, auto) " .     .      .           .      .      " 8px / 31px 34px 1fr 34px 60px;
+  }
+  .event--myTeams .motorsport-moto-racing--speedway .event__match--noDuel,
+  .event--myTeams .motorsport-moto-racing--speedway .event__match__header--noDuel {
+    grid-template: " .     .         .             .     .    .      " 8px " check stageName resultMyTeams rides wins points " minmax(19px, auto) " .     .         .             .     .    .      " 8px / 31px 1fr 34px 34px 34px 34px;
+  }
+  .event--myTeams .winter-sports-alpine-skiing .event__match--noDuel,
+  .event--myTeams .winter-sports-alpine-skiing .event__match__header--noDuel {
+    grid-template: " .     .         .             .      .   " 8px " check stageName resultMyTeams result gap " minmax(19px, auto) " .     .         .             .      .   " 8px / 31px 1fr 34px 60px 70px;
+  }
+  .event--myTeams .winter-sports-biathlon .event__match--noDuel,
+  .event--myTeams .winter-sports-biathlon .event__match__header--noDuel {
+    grid-template: " .     .         .             .        .     " 8px " check stageName resultMyTeams shooting result" minmax(19px, auto) " .     .         .             .        .     " 8px / 31px 1fr 34px 34px 70px;
+  }
+  .event--myTeams .winter-sports-cross-country .event__match--noDuel,
+  .event--myTeams .winter-sports-cross-country .event__match__header--noDuel {
+    grid-template: " .     .         .             .      .   " 8px " check stageName resultMyTeams result gap " minmax(19px, auto) " .     .         .             .      .   " 8px / 31px 1fr 34px 60px 70px;
+  }
+  .event--myTeams .winter-sports-ski-jumping .event__match--noDuel,
+  .event--myTeams .winter-sports-ski-jumping .event__match__header--noDuel {
+    grid-template: " .     .         .             .     .     .      " 8px " check stageName resultMyTeams jump1 jump2 result " minmax(19px, auto) " .     .         .             .     .     .      " 8px / 31px 1fr 34px 50px 50px 50px;
+  }
+  .event--myTeams .winter-sports-ski-jumping--team.event__match--noDuel,
+  .event--myTeams .winter-sports-ski-jumping--team.event__match__header--noDuel {
+    grid-template: " .     .         .             .      .      " 8px " check stageName resultMyTeams result points " minmax(19px, auto) " .     .         .             .      .      " 8px / 31px 1fr 34px 34px 70px;
+  }
+}
+@media screen and (max-width: 0) {
+  .leagues--live__category_page .motorsport-moto-racing .event__match--twoLine,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match--twoLine {
+    grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 40px 46px 34px 46px;
+  }
+  .leagues--live__category_page .motorsport-moto-racing .event__match--twoLine.event__match--scheduled,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match--twoLine.event__match--scheduled {
+    grid-template-columns: 31px 1fr 40px 80px 0 46px;
+  }
+  .leagues--live__category_page .motorsport-moto-racing .event__match--noDuel,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match--noDuel,
+  .leagues--live__category_page .motorsport-moto-racing .event__match__header--noDuel,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match__header--noDuel {
+    grid-template: " .     .      .           .      " 8px " check rating participant result " minmax(19px, auto) " check rating team        .      " max-content " .     .      .           .      " 8px / 31px 34px 1fr 100px;
+  }
+  .leagues--live__category_page .motorsport-moto-racing .event__match .event__time,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match .event__time,
+  .leagues--live__category_page .motorsport-moto-racing .event__match .icon--preview,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match .icon--preview {
+    grid-area: resultsTime;
+  }
+  .leagues--live__category_page .motorsport-moto-racing .event__match--scheduled .event__time,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match--scheduled .event__time,
+  .leagues--live__category_page .motorsport-moto-racing .event__match--scheduled .icon--preview,
+  .leagues--live__tournament_page .motorsport-moto-racing .event__match--scheduled .icon--preview {
+    grid-area: homeScore / homeScore / awayScore / homeScore;
+  }
+  .leagues--live__category_page .golf .event__match--twoLine,
+  .leagues--live__tournament_page .golf .event__match--twoLine {
+    grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 40px 46px 70px 46px;
+  }
+  .leagues--live__category_page .golf .event__match--twoLine.event__match--scheduled,
+  .leagues--live__tournament_page .golf .event__match--twoLine.event__match--scheduled {
+    grid-template-columns: 31px 1fr 40px 80px 0 46px;
+  }
+  .leagues--live__category_page .golf .event__match--noDuel,
+  .leagues--live__tournament_page .golf .event__match--noDuel,
+  .leagues--live__category_page .golf .event__match__header--noDuel,
+  .leagues--live__tournament_page .golf .event__match__header--noDuel {
+    grid-template: " .     .      .           .      .      " 8px " check rating participant points result " minmax(19px, auto) " .     .      .           .      .      " 8px / 31px 34px 1fr 34px 60px;
+  }
+  .leagues--live__category_page .golf .event__match .event__time,
+  .leagues--live__tournament_page .golf .event__match .event__time,
+  .leagues--live__category_page .golf .event__match .icon--preview,
+  .leagues--live__tournament_page .golf .event__match .icon--preview {
+    grid-area: resultsTime;
+  }
+  .leagues--live__category_page .golf .event__match--scheduled .event__time,
+  .leagues--live__tournament_page .golf .event__match--scheduled .event__time,
+  .leagues--live__category_page .golf .event__match--scheduled .icon--preview,
+  .leagues--live__tournament_page .golf .event__match--scheduled .icon--preview {
+    grid-area: homeScore / homeScore / awayScore / homeScore;
+  }
+  .leagues--live__category_page .golf .event__match--twoLine .event__result,
+  .leagues--live__tournament_page .golf .event__match--twoLine .event__result {
+    grid-area: homeScore / homeScore / awayScore / homeScore;
+  }
+  .leagues--static.fixtures .event__match .event__time,
+  .leagues--static.fixtures .event__match .icon--preview {
+    grid-area: resultsTime;
+  }
+  .leagues--static.fixtures .event__match--scheduled .event__time,
+  .leagues--static.fixtures .event__match--scheduled .icon--preview {
+    grid-area: homeScore / homeScore / awayScore / homeScore;
+  }
+  .leagues--static .event__time {
+    color: #b0b0b0;
+  }
+  .leagues--static .soccer .event__match,
+  .leagues--static .hockey .event__match,
+  .leagues--static .bandy .event__match,
+  .leagues--static .esports .event__match,
+  .leagues--static .floorball .event__match,
+  .leagues--static .futsal .event__match,
+  .leagues--static .netball .event__match,
+  .leagues--static .beach-soccer .event__match,
+  .leagues--static .field-hockey .event__match,
+  .leagues--static .handball .event__match,
+  .leagues--static .kabaddi .event__match,
+  .leagues--static .rugby-union .event__match,
+  .leagues--static .rugby-league .event__match,
+  .leagues--static .snooker .event__match,
+  .leagues--static .water-polo .event__match {
+    grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 40px 46px 26px 46px;
+  }
+  .leagues--static .basketball .event__match {
+    grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 40px 46px 34px 46px;
+  }
+  .leagues--static .aussie-rules .event__match {
+    grid-template: " .     .               .           .         .        " 5px " check homeParticipant resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .           .         .        " 5px / 31px 1fr 46px 90px 46px;
+  }
+  .leagues--static .mma .event__match,
+  .leagues--static .boxing .event__match {
+    grid-template: " .     .               .           .      .        " 5px " check homeParticipant resultsTime rounds liveIcon " minmax(19px, auto) " check awayParticipant resultsTime rounds liveIcon " minmax(19px, auto) " .     .               .           .      .        " 5px / 31px 1fr 46px 100px 46px;
+  }
+  .leagues--static .tennis .event__match,
+  .leagues--static .table-tennis .event__match,
+  .leagues--static .beach-volleyball .event__match,
+  .leagues--static .volleyball .event__match,
+  .leagues--static .badminton .event__match {
+    grid-template: " .     .               .           .           .         .        " 5px " check homeParticipant resultsTime homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant resultsTime awayService awayScore liveIcon " minmax(19px, auto) " .     .               .           .           .         .        " 5px / 31px 1fr 46px 19px 26px 46px;
+  }
+  .leagues--static .american-football .event__match {
+    grid-template: " .     .               .     .           .           .         .        " 5px " check homeParticipant stage resultsTime homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayService awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .           .         .        " 5px / 31px 1fr 40px 46px 19px 34px 46px;
+  }
+  .leagues--static .baseball .event__match,
+  .leagues--static .darts .event__match,
+  .leagues--static .pesapallo .event__match {
+    grid-template: " .     .               .     .           .           .         .        " 5px " check homeParticipant stage resultsTime homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayService awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .           .         .        " 5px / 31px 1fr 40px 46px 19px 26px 46px;
+  }
+  .leagues--static .cricket .event__match {
+    grid-template: " .     .               .         .           .         .         " 5px " check homeParticipant stage     resultsTime homeScore .         " minmax(19px, auto) " check awayParticipant stage     resultsTime awayScore .         " minmax(19px, auto) " .     .               .         .           .         .         " 5px " .     extraInfo       extraInfo extraInfo   extraInfo extraInfo " max-content / 31px 1fr 34px 46px 110px 10px;
+  }
+  .leagues--static.fixtures .cricket .event__match {
+    grid-template: " .     .               .         .           .         .         " 5px " check homeParticipant stage     resultsTime homeScore liveIcon  " minmax(19px, auto) " check awayParticipant stage     resultsTime awayScore liveIcon  " minmax(19px, auto) " .     .               .         .           .         .         " 5px " .     extraInfo       extraInfo extraInfo   extraInfo extraInfo " max-content / 31px 1fr 34px 46px 110px 46px;
+  }
+  .leagues--static .golf .event__match--twoLine {
+    grid-template: " .     .               .     .           .      .        " 5px " check homeParticipant stage resultsTime result liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime result liveIcon " minmax(19px, auto) " .     .               .     .           .      .        " 5px / 31px 1fr 40px 46px 70px 46px;
+  }
+  .leagues--static .motorsport-moto-racing .event__match--twoLine,
+  .leagues--static .motorsport-auto-racing .event__match--twoLine {
+    grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 40px 46px 34px 46px;
+  }
+  .leagues--static .winter-sports-ski-jumping--team.event__match--noDuel,
+  .leagues--static .winter-sports-ski-jumping--team.event__match__header--noDuel {
+    grid-template: " .     .      .           .      .      " 8px " check rating participant result points " minmax(19px, auto) " .     .      .           .      .      " 8px / 31px 34px 1fr 34px 70px;
+  }
+  .leagues--static .soccer .event__match--twoline.event__match--scheduled,
+  .leagues--static .hockey .event__match--twoline.event__match--scheduled,
+  .leagues--static .bandy .event__match--twoline.event__match--scheduled,
+  .leagues--static .esports .event__match--twoline.event__match--scheduled,
+  .leagues--static .floorball .event__match--twoline.event__match--scheduled,
+  .leagues--static .futsal .event__match--twoline.event__match--scheduled,
+  .leagues--static .netball .event__match--twoline.event__match--scheduled,
+  .leagues--static .beach-soccer .event__match--twoline.event__match--scheduled,
+  .leagues--static .field-hockey .event__match--twoline.event__match--scheduled,
+  .leagues--static .handball .event__match--twoline.event__match--scheduled,
+  .leagues--static .kabaddi .event__match--twoline.event__match--scheduled,
+  .leagues--static .rugby-union .event__match--twoline.event__match--scheduled,
+  .leagues--static .rugby-league .event__match--twoline.event__match--scheduled,
+  .leagues--static .snooker .event__match--twoline.event__match--scheduled,
+  .leagues--static .water-polo .event__match--twoline.event__match--scheduled,
+  .leagues--static .basketball .event__match--twoline.event__match--scheduled,
+  .leagues--static .aussie-rules .event__match--twoline.event__match--scheduled,
+  .leagues--static .mma .event__match--twoline.event__match--scheduled,
+  .leagues--static .boxing .event__match--twoline.event__match--scheduled,
+  .leagues--static .golf .event__match--twoline.event__match--scheduled,
+  .leagues--static .motorsport-moto-racing .event__match--twoline.event__match--scheduled {
+    grid-template: " .     .               .     .         .        " 5px " check homeParticipant stage homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore liveIcon " minmax(19px, auto) " .     .               .     .         .        " 5px / 31px 1fr 46px 74px 46px;
+  }
+  .leagues--static .tennis .event__match--scheduled,
+  .leagues--static .table-tennis .event__match--scheduled,
+  .leagues--static .beach-volleyball .event__match--scheduled,
+  .leagues--static .volleyball .event__match--scheduled,
+  .leagues--static .badminton .event__match--scheduled {
+    grid-template: " .     .               .           .         .        " 5px " check homeParticipant homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant awayService awayScore liveIcon " minmax(19px, auto) " .     .               .           .         .        " 5px / 31px 1fr 19px 74px 46px;
+  }
+  .leagues--static .american-football .event__match--scheduled,
+  .leagues--static .baseball .event__match--scheduled,
+  .leagues--static .darts .event__match--scheduled,
+  .leagues--static .pesapallo .event__match--scheduled,
+  .leagues--static .cricket .event__match--scheduled {
+    grid-template: " .     .               .           .     .         .        " 5px " check homeParticipant homeService stage homeScore liveIcon " minmax(19px, auto) " check awayParticipant awayService stage awayScore liveIcon " minmax(19px, auto) " .     .               .           .     .         .        " 5px / 31px 1fr 19px 46px 74px 46px;
+  }
+  .leagues--live__category_page .soccer .event__match,
+  .leagues--live__category_page .hockey .event__match,
+  .leagues--live__category_page .bandy .event__match,
+  .leagues--live__category_page .esports .event__match,
+  .leagues--live__category_page .floorball .event__match,
+  .leagues--live__category_page .futsal .event__match,
+  .leagues--live__category_page .netball .event__match,
+  .leagues--live__category_page .beach-soccer .event__match,
+  .leagues--live__category_page .field-hockey .event__match,
+  .leagues--live__category_page .handball .event__match,
+  .leagues--live__category_page .kabaddi .event__match,
+  .leagues--live__category_page .rugby-union .event__match,
+  .leagues--live__category_page .rugby-league .event__match,
+  .leagues--live__category_page .snooker .event__match,
+  .leagues--live__category_page .water-polo .event__match {
+    grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 40px 46px 26px 46px;
+  }
+  .leagues--live__category_page .soccer .event__match--scheduled,
+  .leagues--live__category_page .hockey .event__match--scheduled,
+  .leagues--live__category_page .bandy .event__match--scheduled,
+  .leagues--live__category_page .esports .event__match--scheduled,
+  .leagues--live__category_page .floorball .event__match--scheduled,
+  .leagues--live__category_page .futsal .event__match--scheduled,
+  .leagues--live__category_page .netball .event__match--scheduled,
+  .leagues--live__category_page .beach-soccer .event__match--scheduled,
+  .leagues--live__category_page .field-hockey .event__match--scheduled,
+  .leagues--live__category_page .handball .event__match--scheduled,
+  .leagues--live__category_page .kabaddi .event__match--scheduled,
+  .leagues--live__category_page .rugby-union .event__match--scheduled,
+  .leagues--live__category_page .rugby-league .event__match--scheduled,
+  .leagues--live__category_page .snooker .event__match--scheduled,
+  .leagues--live__category_page .water-polo .event__match--scheduled {
+    grid-template: " .     .               .     .           .        " 5px " check homeParticipant stage resultsTime liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime liveIcon " minmax(19px, auto) " .     .               .     .           .        " 5px / 31px 1fr 40px 46px 46px;
+  }
+  .leagues--live__category_page .basketball .event__match {
+    grid-template: " .     .               .     .           .         .        " 5px " check homeParticipant stage resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .         .        " 5px / 31px 1fr 40px 46px 34px 46px;
+  }
+  .leagues--live__category_page .basketball .event__match--scheduled {
+    grid-template: " .     .               .     .           .        " 5px " check homeParticipant stage resultsTime liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime liveIcon " minmax(19px, auto) " .     .               .     .           .        " 5px / 31px 1fr 40px 46px 46px;
+  }
+  .leagues--live__category_page .aussie-rules .event__match {
+    grid-template: " .     .               .           .         .        " 5px " check homeParticipant resultsTime homeScore liveIcon " minmax(19px, auto) " check awayParticipant resultsTime awayScore liveIcon " minmax(19px, auto) " .     .               .           .         .        " 5px / 31px 1fr 46px 90px 46px;
+  }
+  .leagues--live__category_page .aussie-rules .event__match--scheduled {
+    grid-template: " .     .               .           .        " 5px " check homeParticipant resultsTime liveIcon " minmax(19px, auto) " check awayParticipant resultsTime liveIcon " minmax(19px, auto) " .     .               .           .        " 5px / 31px 1fr 46px 46px;
+  }
+  .leagues--live__category_page .mma .event__match,
+  .leagues--live__category_page .boxing .event__match {
+    grid-template: " .     .               .     .           .      .        " 5px " check homeParticipant stage resultsTime rounds liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime rounds liveIcon " minmax(19px, auto) " .     .               .     .           .      .        " 5px / 31px 1fr 40px 46px 100px 46px;
+  }
+  .leagues--live__category_page .mma .event__match--scheduled,
+  .leagues--live__category_page .boxing .event__match--scheduled {
+    grid-template: " .     .               .     .           .        " 5px " check homeParticipant stage resultsTime liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime liveIcon " minmax(19px, auto) " .     .               .     .           .        " 5px / 31px 1fr 40px 46px 46px;
+  }
+  .leagues--live__category_page .tennis .event__match {
+    grid-template: " .     .               .           .         .         .         .        " 5px " check homeParticipant homeService homePart1 homePart2 homeScore liveIcon " minmax(19px, auto) " check awayParticipant awayService awayPart1 awayPart2 awayScore liveIcon " minmax(19px, auto) " .     .               .           .         .         .         .        " 5px / 31px 1fr 19px 20px 20px 20px 46px;
+  }
+  .leagues--live__category_page .tennis .event__match--scheduled {
+    grid-template: " .     .               .           .           .        " 5px " check homeParticipant homeService resultsTime liveIcon " minmax(19px, auto) " check awayParticipant awayService resultsTime liveIcon " minmax(19px, auto) " .     .               .           .           .        " 5px / 31px 1fr 19px 60px 46px;
+  }
+  .leagues--live__category_page .table-tennis .event__match,
+  .leagues--live__category_page .beach-volleyball .event__match,
+  .leagues--live__category_page .volleyball .event__match,
+  .leagues--live__category_page .badminton .event__match {
+    grid-template: " .     .               .           .           .         .        " 5px " check homeParticipant resultsTime homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant resultsTime awayService awayScore liveIcon " minmax(19px, auto) " .     .               .           .           .         .        " 5px / 31px 1fr 46px 19px 26px 46px;
+  }
+  .leagues--live__category_page .table-tennis .event__match--scheduled,
+  .leagues--live__category_page .beach-volleyball .event__match--scheduled,
+  .leagues--live__category_page .volleyball .event__match--scheduled,
+  .leagues--live__category_page .badminton .event__match--scheduled {
+    grid-template: " .     .               .           .           .        " 5px " check homeParticipant homeService resultsTime liveIcon " minmax(19px, auto) " check awayParticipant awayService resultsTime liveIcon " minmax(19px, auto) " .     .               .           .           .        " 5px / 31px 1fr 19px 46px 46px;
+  }
+  .leagues--live__category_page .american-football .event__match {
+    grid-template: " .     .               .     .           .           .         .        " 5px " check homeParticipant stage resultsTime homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayService awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .           .         .        " 5px / 31px 1fr 40px 46px 19px 34px 46px;
+  }
+  .leagues--live__category_page .american-football .event__match--scheduled {
+    grid-template: " .     .               .           .     .           .        " 5px " check homeParticipant homeService stage resultsTime liveIcon " minmax(19px, auto) " check awayParticipant awayService stage resultsTime liveIcon " minmax(19px, auto) " .     .               .           .     .           .        " 5px / 31px 1fr 19px 40px 46px 46px;
+  }
+  .leagues--live__category_page .baseball .event__match,
+  .leagues--live__category_page .darts .event__match,
+  .leagues--live__category_page .pesapallo .event__match {
+    grid-template: " .     .               .     .           .           .         .        " 5px " check homeParticipant stage resultsTime homeService homeScore liveIcon " minmax(19px, auto) " check awayParticipant stage resultsTime awayService awayScore liveIcon " minmax(19px, auto) " .     .               .     .           .           .         .        " 5px / 31px 1fr 40px 46px 19px 26px 46px;
+  }
+  .leagues--live__category_page .baseball .event__match--scheduled,
+  .leagues--live__category_page .darts .event__match--scheduled,
+  .leagues--live__category_page .pesapallo .event__match--scheduled {
+    grid-template: " .     .               .           .     .           .        " 5px " check homeParticipant homeService stage resultsTime liveIcon " minmax(19px, auto) " check awayParticipant awayService stage resultsTime liveIcon " minmax(19px, auto) " .     .               .           .     .           .        " 5px / 31px 1fr 19px 40px 46px 46px;
+  }
+  .leagues--live__category_page .cricket .event__match {
+    grid-template: " .     .               .         .           .           .         .         " 5px " check homeParticipant stage     resultsTime homeService homeScore liveIcon  " minmax(19px, auto) " check awayParticipant stage     resultsTime awayService awayScore liveIcon  " minmax(19px, auto) " .     .               .         .           .           .         .         " 5px " .     extraInfo       extraInfo extraInfo   extraInfo   extraInfo extraInfo " max-content / 31px 1fr 34px 46px 19px 100px 46px;
+  }
+  .leagues--live__category_page .cricket .event__match--scheduled {
+    grid-template: " .     .               .           .         .           .         " 5px " check homeParticipant homeService stage     resultsTime liveIcon  " minmax(19px, auto) " check awayParticipant awayService stage     resultsTime liveIcon  " minmax(19px, auto) " .     .               .           .         .           .         " 5px " .     extraInfo       extraInfo   extraInfo extraInfo   extraInfo " max-content / 31px 1fr 19px 34px 46px 46px;
+  }
+}
+.odds .event__odds {
+  grid-template: " .         .         .         .         " 5px " oddTitle1 oddTitle2 oddTitle3 oddTitle4 " 13px " odd1      odd2      odd3      odd4      " 13px " .         .         .         .         " 5px / 1fr 1fr 1fr 1fr;
+}
+.odds .tennis .event__match,
+.odds .table-tennis .event__match,
+.odds .beach-volleyball .event__match,
+.odds .volleyball .event__match,
+.odds .badminton .event__match,
+.odds .american-football .event__match,
+.odds .baseball .event__match,
+.odds .darts .event__match,
+.odds .pesapallo .event__match,
+.odds .cricket .event__match {
+  grid-template: " .     .               .     .         .   odds .        " 5px " check homeParticipant stage homeScore .   odds liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore .   odds liveIcon " minmax(19px, auto) " .     .               .     .         .   odds .        " 5px / 31px 1fr 48px 26px 8px max-content 35px;
+}
+.odds .tennis .event__match--scheduled,
+.odds .table-tennis .event__match--scheduled,
+.odds .beach-volleyball .event__match--scheduled,
+.odds .volleyball .event__match--scheduled,
+.odds .badminton .event__match--scheduled,
+.odds .american-football .event__match--scheduled,
+.odds .baseball .event__match--scheduled,
+.odds .darts .event__match--scheduled,
+.odds .pesapallo .event__match--scheduled,
+.odds .cricket .event__match--scheduled {
+  grid-template-columns: 31px 1fr 34px 40px 8px max-content 35px;
+}
+.odds .cycling .event__match--noDuel {
+  grid-template: " .     .      .           .      " 8px " check rating participant result " minmax(19px, auto) " check rating team        .      " max-content " .     .      .           .      " 8px " .     odds   odds        odds   " max-content / 31px 34px 1fr 100px;
+}
+.odds .golf .event__match--twoLine {
+  grid-template: " .     .               .     .      .   odds .        " 5px " check homeParticipant stage result .   odds liveIcon " minmax(19px, auto) " check awayParticipant stage result .   odds liveIcon " minmax(19px, auto) " .     .               .     .      .   odds .        " 5px / 31px 1fr 34px 60px 8px max-content 35px;
+}
+.odds .golf .event__match--twoLine.event__match--scheduled {
+  grid-template: " .     .               .     .         .   odds .        " 5px " check homeParticipant stage homeScore .   odds liveIcon " minmax(19px, auto) " check awayParticipant stage awayScore .   odds liveIcon " minmax(19px, auto) " .     .               .     .         .   odds .        " 5px / 31px 1fr 34px 60px 8px max-content 35px;
+}
+.odds .golf .event__match--noDuel {
+  grid-template: " .     .      .           .      .      " 8px " check rating participant points result " minmax(19px, auto) " .     .      .           .      .      " 8px " .     odds   odds        odds   odds   " max-content / 31px 34px 1fr 34px 60px;
+}
+.odds .motorsport-moto-racing .event__match--noDuel,
+.odds .motorsport-auto-racing .event__match--noDuel {
+  grid-template: " .     .      .           .      " 8px " check rating participant result " minmax(19px, auto) " check rating team        .      " max-content " .     .      .           .      " 8px " .     odds   odds        odds   " max-content / 31px 34px 1fr 100px;
+}
+.odds .motorsport-moto-racing--speedway .event__match {
+  grid-template: " .     .      .           .     .    .      " 8px " check rating participant rides wins points " minmax(19px, auto) " .     .      .           .     .    .      " 8px " .     odds   odds        odds  odds odds   " max-content / 31px 34px 1fr 34px 34px 34px;
+}
+.odds .winter-sports-alpine-skiing .event__match {
+  grid-template: " .     .      .           .      .    " 8px " check rating participant result gap  " minmax(19px, auto) " .     .      .           .      .    " 8px " .     odds   odds        odds   odds " max-content / 31px 34px 1fr 60px 70px;
+}
+.odds .winter-sports-biathlon .event__match {
+  grid-template: " .     .      .           .        .      " 8px " check rating participant shooting result " minmax(19px, auto) " .     .      .           .        .      " 8px " .     odds   odds        odds     odds   " max-content / 31px 34px 1fr 34px 70px;
+}
+.odds .winter-sports-cross-country .event__match {
+  grid-template: " .     .      .           .      .    " 8px " check rating participant result gap  " minmax(19px, auto) " .     .      .           .      .    " 8px " .     odds   odds        odds   odds " max-content / 31px 34px 1fr 60px 70px;
+}
+.odds .winter-sports-ski-jumping .event__match {
+  grid-template: " .     .      .           .     .     .      " 8px " check rating participant jump1 jump2 result " minmax(19px, auto) " .     .      .           .     .     .      " 8px " .     odds   odds        odds  odds  odds   " max-content / 31px 34px 1fr 50px 50px 50px;
+}
+.odds .horse-racing .event__match {
+  grid-template: " .     .      .           .      " 8px " check rating participant result " minmax(19px, auto) " check rating team        .      " max-content " .     .      .           .      " 8px " .     odds   odds        odds   " max-content / 31px 34px 1fr 70px;
+}
+@media screen and (min-width: 0) {
+  .odds .soccer .event__match--twoLine,
+  .odds .hockey .event__match--twoLine,
+  .odds .basketball .event__match--twoLine,
+  .odds .bandy .event__match--twoLine,
+  .odds .esports .event__match--twoLine,
+  .odds .floorball .event__match--twoLine,
+  .odds .futsal .event__match--twoLine,
+  .odds .netball .event__match--twoLine,
+  .odds .beach-soccer .event__match--twoLine,
+  .odds .field-hockey .event__match--twoLine,
+  .odds .handball .event__match--twoLine,
+  .odds .kabaddi .event__match--twoLine,
+  .odds .rugby-union .event__match--twoLine,
+  .odds .rugby-league .event__match--twoLine,
+  .odds .snooker .event__match--twoLine,
+  .odds .tennis .event__match--twoLine,
+  .odds .water-polo .event__match--twoLine,
+  .odds .table-tennis .event__match--twoLine,
+  .odds .beach-volleyball .event__match--twoLine,
+  .odds .volleyball .event__match--twoLine,
+  .odds .badminton .event__match--twoLine,
+  .odds .american-football .event__match--twoLine,
+  .odds .baseball .event__match--twoLine,
+  .odds .darts .event__match--twoLine,
+  .odds .pesapallo .event__match--twoLine {
+    grid-template: " check stageOrTime homeParticipant homeScore homeSpread1 homeSpread2 homeMoneyline homeTotal1 homeTotal2 liveIcon " minmax(23px, auto) " check stageOrTime awayParticipant awayScore awaySpread1 awaySpread2 awayMoneyline awayTotal1 awayTotal2 liveIcon " minmax(23px, auto) / 23px 69px 1fr 49px 55px 55px 57px 55px 55px 31px;
+  }
+  .odds .soccer .event__match--twoLine {
+    grid-template: " check stageOrTime homeParticipant scores homeSpread1 homeSpread2 homeMoneyline homeTotal1 homeTotal2 liveIcon " minmax(23px, auto) " check stageOrTime awayParticipant scores awaySpread1 awaySpread2 awayMoneyline awayTotal1 awayTotal2 liveIcon " minmax(23px, auto) / 23px 69px 1fr 49px 55px 55px 57px 55px 55px 31px;
+  }
+  .odds .mma .event__match--twoLine,
+  .odds .boxing .event__match--twoLine {
+    grid-template: " check stageOrTime homeParticipant rounds homeSpread1 homeSpread2 homeMoneyline homeTotal1 homeTotal2 liveIcon " minmax(23px, auto) " check stageOrTime awayParticipant rounds awaySpread1 awaySpread2 awayMoneyline awayTotal1 awayTotal2 liveIcon " minmax(23px, auto) / 23px 69px 1fr 143px 55px 55px 57px 55px 55px 31px;
+  }
+  .odds .cricket .event__match--twoLine {
+    grid-template: " check stageOrTime homeParticipant homeSpread1 homeSpread2 homeMoneyline homeTotal1 homeTotal2 liveIcon " minmax(23px, auto) " check stageOrTime awayParticipant awaySpread1 awaySpread2 awayMoneyline awayTotal1 awayTotal2 liveIcon " minmax(23px, auto) / 23px 69px 1fr 55px 55px 57px 55px 55px 31px;
+  }
+  .odds .aussie-rules .event__match--twoLine {
+    grid-template: " check stageOrTime homeParticipant homeScore homeSpread1 homeSpread2 homeMoneyline homeTotal1 homeTotal2 liveIcon " minmax(23px, auto) " check stageOrTime awayParticipant awayScore awaySpread1 awaySpread2 awayMoneyline awayTotal1 awayTotal2 liveIcon " minmax(23px, auto) / 23px 69px 1fr 100px 55px 55px 57px 55px 55px 31px;
+  }
+  .odds .golf .event__match--twoLine,
+  .odds .golf .event__match--twoLine.event__match--live,
+  .odds .golf .event__match--twoLine.event__match--scheduled {
+    grid-template: " check stageOrTime homeParticipant result homeSpread1 homeSpread2 homeMoneyline homeTotal1 homeTotal2 " minmax(23px, auto) " check stageOrTime awayParticipant result awaySpread1 awaySpread2 awayMoneyline awayTotal1 awayTotal2 " minmax(23px, auto) / 23px 69px 1fr 80px 55px 55px 57px 55px 55px;
+  }
+  .odds .motorsport-moto-racing .event__match--twoLine,
+  .odds .motorsport-auto-racing .event__match--twoLine,
+  .odds .motorsport-moto-racing .event__match--twoLine.event__match--scheduled,
+  .odds .motorsport-auto-racing .event__match--twoLine.event__match--scheduled {
+    grid-template: " check stageOrTime homeParticipant homeScore homeSpread1 homeSpread2 homeMoneyline homeTotal1 homeTotal2 " minmax(23px, auto) " check stageOrTime awayParticipant awayScore awaySpread1 awaySpread2 awayMoneyline awayTotal1 awayTotal2 " minmax(23px, auto) / 23px 69px 1fr 34px 55px 55px 57px 55px 55px;
+  }
+}
+.event__match .event__mgDropdown {
+  grid-area: dropdown;
+  align-self: center;
+  background-color: #F0F0F0;
+}
+.event .event__check {
+  grid-area: check;
+}
+.event .event__stage {
+  grid-area: stage;
+}
+.event .event__time,
+.event .icon--preview {
+  grid-area: homeScore / homeScore / awayScore / homeScore;
+}
+.event .leagues--static.results .event__time,
+.event .leagues--static.summary-results .event__time,
+.event .leagues--live__category_page .event__time,
+.event .leagues--static.results .icon--preview,
+.event .leagues--static.summary-results .icon--preview,
+.event .leagues--live__category_page .icon--preview {
+  grid-area: resultsTime;
+}
+.event .event__score--home {
+  grid-area: homeScore;
+}
+.event .event__score--away {
+  grid-area: awayScore;
+}
+.event .event__service--home {
+  grid-area: homeService;
+}
+.event .event__service--away {
+  grid-area: awayService;
+}
+.event .event__participant {
+  grid-area: participant;
+}
+.event .event__participant--team {
+  grid-area: team;
+}
+.event .event__participant--home {
+  grid-area: homeParticipant;
+}
+.event .event__participant--away {
+  grid-area: awayParticipant;
+}
+.event .event__runRate--home {
+  grid-area: homeRunRate;
+}
+.event .event__runRate--away {
+  grid-area: awayRunRate;
+}
+.event .event__sets--home {
+  grid-area: homeSets;
+}
+.event .event__sets--away {
+  grid-area: awaySets;
+}
+.event .event__legs--home {
+  grid-area: homeLegs;
+}
+.event .event__legs--away {
+  grid-area: awayLegs;
+}
+.event .event__currentPoints--home {
+  grid-area: homeCurrent;
+}
+.event .event__currentPoints--away {
+  grid-area: awayCurrent;
+}
+.event .event__frames {
+  grid-area: frames;
+}
+.event .event__rounds {
+  grid-area: rounds;
+}
+.event .event__result {
+  grid-area: result;
+}
+.event .event__result--noLive {
+  grid-area: resultMyTeams;
+}
+.event .event__result--points {
+  grid-area: points;
+}
+.event .event__result--gap {
+  grid-area: gap;
+}
+.event .event__result--shooting {
+  grid-area: shooting;
+}
+.event .event__result--jump1 {
+  grid-area: jump1;
+}
+.event .event__result--jump2 {
+  grid-area: jump2;
+}
+.event .event__result--rides {
+  grid-area: rides;
+}
+.event .event__result--wins {
+  grid-area: wins;
+}
+.event .event__rating {
+  grid-area: rating;
+}
+.event .event__stageName {
+  grid-area: stageName;
+}
+.event .event__pitchers {
+  grid-area: pitchers;
+}
+.event .extraInfo {
+  grid-area: extraInfo;
+}
+.event .extraInfo__sentence {
+  grid-area: sentence;
+}
+.event .extraInfo__overs {
+  grid-area: overs;
+}
+.event .extraInfo__batsmanAndBowler {
+  grid-area: batsmanAndBowler;
+}
+.event .event__part--home.event__part--1 {
+  grid-area: homePart1;
+}
+.event .event__part--home.event__part--2 {
+  grid-area: homePart2;
+}
+.event .event__part--home.event__part--3 {
+  grid-area: homePart3;
+}
+.event .event__part--home.event__part--4 {
+  grid-area: homePart4;
+}
+.event .event__part--home.event__part--5 {
+  grid-area: homePart5;
+}
+.event .event__part--home.event__part--6 {
+  grid-area: homePart6;
+}
+.event .event__part--home.event__part--7 {
+  grid-area: homePart7;
+}
+.event .event__part--home.event__part--8 {
+  grid-area: homePart8;
+}
+.event .event__part--home.event__part--9 {
+  grid-area: homePart9;
+}
+.event .event__part--home.event__part--10 {
+  grid-area: homePart10;
+}
+.event .event__part--home.event__part--11 {
+  grid-area: homePart11;
+}
+.event .event__part--home.event__part--12 {
+  grid-area: homePart12;
+}
+.event .event__part--home.event__part--regulation {
+  grid-area: homeScoreInRegulation;
+}
+.event .event__part--away.event__part--1 {
+  grid-area: awayPart1;
+}
+.event .event__part--away.event__part--2 {
+  grid-area: awayPart2;
+}
+.event .event__part--away.event__part--3 {
+  grid-area: awayPart3;
+}
+.event .event__part--away.event__part--4 {
+  grid-area: awayPart4;
+}
+.event .event__part--away.event__part--5 {
+  grid-area: awayPart5;
+}
+.event .event__part--away.event__part--6 {
+  grid-area: awayPart6;
+}
+.event .event__part--away.event__part--7 {
+  grid-area: awayPart7;
+}
+.event .event__part--away.event__part--8 {
+  grid-area: awayPart8;
+}
+.event .event__part--away.event__part--9 {
+  grid-area: awayPart9;
+}
+.event .event__part--away.event__part--10 {
+  grid-area: awayPart10;
+}
+.event .event__part--away.event__part--11 {
+  grid-area: awayPart11;
+}
+.event .event__part--away.event__part--12 {
+  grid-area: awayPart12;
+}
+.event .event__part--away.event__part--regulation {
+  grid-area: awayScoreInRegulation;
+}
+.event .event__spacer--home.event__spacer--1 {
+  grid-area: homeSpacer1;
+}
+.event .event__spacer--home.event__spacer--2 {
+  grid-area: homeSpacer2;
+}
+.event .event__spacer--home.event__spacer--3 {
+  grid-area: homeSpacer3;
+}
+.event .event__spacer--away.event__spacer--1 {
+  grid-area: awaySpacer1;
+}
+.event .event__spacer--away.event__spacer--2 {
+  grid-area: awaySpacer2;
+}
+.event .event__spacer--away.event__spacer--3 {
+  grid-area: awaySpacer3;
+}
+.event .event__mgDropdown {
+  grid-area: dropdown;
+}
+.event .event__spacer--home {
+  grid-area: homeSpacer;
+}
+.event .event__spacer--away {
+  grid-area: awaySpacer;
+}
+.event .event__icons {
+  grid-area: icons;
+}
+.event .win_lose_icon,
+.event .event__live--icon {
+  grid-area: liveIcon;
+}
+.event .event__scores {
+  grid-area: scores;
+}
+.event .event__odds {
+  grid-area: odds;
+}
+.event .odds__odd__spread1--home {
+  grid-area: homeSpread1;
+}
+.event .odds__odd__spread2--home {
+  grid-area: homeSpread2;
+}
+.event .odds__odd__moneyline--home {
+  grid-area: homeMoneyline;
+}
+.event .odds__odd__total1--home {
+  grid-area: homeTotal1;
+}
+.event .odds__odd__total2--home {
+  grid-area: homeTotal2;
+}
+.event .odds__odd__spread1--away {
+  grid-area: awaySpread1;
+}
+.event .odds__odd__spread2--away {
+  grid-area: awaySpread2;
+}
+.event .odds__odd__moneyline--away {
+  grid-area: awayMoneyline;
+}
+.event .odds__odd__total1--away {
+  grid-area: awayTotal1;
+}
+.event .odds__odd__total2--away {
+  grid-area: awayTotal2;
+}
+.event .odds__odd--1 {
+  grid-area: odd1;
+}
+.event .odds__odd--2 {
+  grid-area: odd2;
+}
+.event .odds__odd--3 {
+  grid-area: odd3;
+}
+.event .odds__odd--4 {
+  grid-area: odd4;
+}
+.event .odds__odd--Title1 {
+  grid-area: oddTitle1;
+}
+.event .odds__odd--Title2 {
+  grid-area: oddTitle2;
+}
+.event .odds__odd--Title3 {
+  grid-area: oddTitle3;
+}
+.event .odds__odd--Title4 {
+  grid-area: oddTitle4;
+}
+@media screen and (min-width: 0) {
+  .event .event__time,
+  .event .event__stage {
+    grid-area: stageOrTime;
+  }
+  .event .leagues--static.results .event__time,
+  .event .leagues--static.summary-results .event__time,
+  .event .leagues--live__category_page .event__time {
+    grid-area: stageOrTime;
+  }
+}
+.event__header .event__title {
+  grid-area: title;
+}
+.event__header .event__title--type {
+  grid-area: type;
+}
+.event__header .event__title--name {
+  grid-area: name;
+}
+.event__match__header .event__sets {
+  grid-area: sets;
+}
+.event__match__header .event__legs {
+  grid-area: legs;
+}
+.event__match__header .event__currentPoints {
+  grid-area: points;
+}
+.event__match__header .event__score {
+  grid-area: score;
+}
+.event__match__header .event__part--1 {
+  grid-area: part1;
+}
+.event__match__header .event__part--2 {
+  grid-area: part2;
+}
+.event__match__header .event__part--3 {
+  grid-area: part3;
+}
+.event__match__header .event__part--4 {
+  grid-area: part4;
+}
+.event__match__header .event__part--5 {
+  grid-area: part5;
+}
+.event__match__header .event__part--6 {
+  grid-area: part6;
+}
+.event__match__header .event__part--7 {
+  grid-area: part7;
+}
+.event__match__header .event__part--8 {
+  grid-area: part8;
+}
+.event__match__header .event__part--9 {
+  grid-area: part9;
+}
+.event__match__header .event__part--10 {
+  grid-area: part10;
+}
+.event__match__header .event__part--11 {
+  grid-area: part11;
+}
+.event__match__header .event__part--12 {
+  grid-area: part12;
+}
+
